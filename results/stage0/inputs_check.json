@@ -1,0 +1,24 @@
+{
+ "deterministic_checks": [
+  {
+   "input": "zero_F50.csv",
+   "max_abs_diff_cpp_vs_python": 0.0
+  },
+  {
+   "input": "center30_F50.csv",
+   "max_abs_diff_cpp_vs_python": 0.0
+  },
+  {
+   "input": "center100_F50.csv",
+   "max_abs_diff_cpp_vs_python": 0.0
+  }
+ ],
+ "initial_field_option": {
+  "final_line_rng": "final: mean=199.99721599323604 variance=103.56131572647469 min=171.62959588981934 max=226.88957868502106 total_shots=26120",
+  "final_line_csv": "final: mean=199.99721599323604 variance=103.56131572647469 min=171.62959588981934 max=226.88957868502106 total_shots=26120",
+  "identical_final_metrics": true,
+  "identical_allocation": true,
+  "identical_field": true
+ },
+ "n_inputs": 16
+}

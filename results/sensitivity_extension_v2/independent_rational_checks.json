@@ -1,0 +1,12 @@
+{
+ "target_zero_T50": {
+  "L_matches": true,
+  "U_matches": true,
+  "reference_box_violation": 0.0
+ },
+ "dist_correlated_uniform_25": {
+  "L_matches": true,
+  "U_matches": true,
+  "reference_box_violation": 0.0
+ }
+}

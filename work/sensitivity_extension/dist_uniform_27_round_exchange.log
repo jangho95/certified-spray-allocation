@@ -1,0 +1,3 @@
+final: mean=199.99713936515207 variance=98.938661131959236 min=170.63454017475442 max=226.60881253499272 total_shots=26141
+exchange_moves=50 gram_ms=1 repair_ms=19 total_ms=23 peak_rss_kb=7252
+wrote /home/user/experiments/work/sensitivity_extension/dist_uniform_27_round_exchange_allocation.csv and /home/user/experiments/work/sensitivity_extension/dist_uniform_27_round_exchange_field.csv

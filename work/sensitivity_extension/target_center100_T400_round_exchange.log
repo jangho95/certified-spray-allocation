@@ -1,0 +1,3 @@
+final: mean=399.99794677251128 variance=243.93265112668993 min=350.7898701023729 max=458.95969621355385 total_shots=55244
+exchange_moves=69 gram_ms=1 repair_ms=28 total_ms=33 peak_rss_kb=7184
+wrote /home/user/experiments/work/sensitivity_extension/target_center100_T400_round_exchange_allocation.csv and /home/user/experiments/work/sensitivity_extension/target_center100_T400_round_exchange_field.csv

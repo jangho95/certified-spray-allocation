@@ -1,0 +1,27 @@
+{
+ "id": "N64_center-30_rho1.5",
+ "series": "N=64",
+ "field": "center-30",
+ "input": "center30_c5_F16.csv",
+ "F": 16,
+ "s": 2,
+ "rows": 8,
+ "cmax": 200,
+ "B": 96,
+ "rho": 1.5,
+ "N": 64,
+ "L": 68.52461604195406,
+ "V_QP": 68.52461604195409,
+ "cands": {
+  "\ubc18\uc62c\ub9bc(\uc6d0\uace0 \uaddc\uce59)": 68.5939505699074,
+  "greedy+repair": 68.58097539074085,
+  "\ubc18\uc62c\ub9bc\u2192repair": 68.58152543612218
+ },
+ "U_pipeline": 68.58097539074085,
+ "U_pipeline_method": "greedy+repair",
+ "warm_alloc": "/home/user/experiments/work/stage6/N64_center-30_rho1.5_greedy_allocation.csv",
+ "input_path": "/home/user/experiments/inputs/center30_c5_F16.csv",
+ "time_limit": 300,
+ "mem_limit": 3000,
+ "qp_status": "solved"
+}

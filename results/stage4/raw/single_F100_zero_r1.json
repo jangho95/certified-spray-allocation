@@ -1,0 +1,101 @@
+{
+ "mode": "single",
+ "F": 100,
+ "field": "zero",
+ "rep": 1,
+ "input": "zero_F100.csv",
+ "t_import": 0.12488575297174975,
+ "threads": {
+  "env_before": {
+   "OMP_NUM_THREADS": null,
+   "OPENBLAS_NUM_THREADS": null,
+   "MKL_NUM_THREADS": null,
+   "BLIS_NUM_THREADS": null,
+   "VECLIB_MAXIMUM_THREADS": null,
+   "NUMEXPR_NUM_THREADS": null
+  },
+  "env_forced": {
+   "OMP_NUM_THREADS": "1",
+   "OPENBLAS_NUM_THREADS": "1",
+   "MKL_NUM_THREADS": "1",
+   "BLIS_NUM_THREADS": "1",
+   "VECLIB_MAXIMUM_THREADS": "1",
+   "NUMEXPR_NUM_THREADS": "1"
+  },
+  "threadpools": [
+   {
+    "user_api": "blas",
+    "internal_api": "openblas",
+    "num_threads": 1,
+    "version": "0.3.31.dev"
+   },
+   {
+    "user_api": "blas",
+    "internal_api": "openblas",
+    "num_threads": 1,
+    "version": "0.3.31.188.0"
+   }
+  ]
+ },
+ "pid": 3377083,
+ "N": 2500,
+ "M": 10000,
+ "B_target": 113391,
+ "A_bytes": 200000000,
+ "gram_bytes": 50000000,
+ "budget": {
+  "B": 113391,
+  "L": 58.51759272317618,
+  "primal": 58.51759283559659,
+  "iters": 125,
+  "status": "solved",
+  "cpp_greedy": {
+   "moves": 173,
+   "gram_ms": 15,
+   "repair_ms": 2960,
+   "total_ms": 3904,
+   "rss_mb": 55.32421875,
+   "wall": 3.9071376789943315,
+   "wait4_maxrss_mb": 466.76171875
+  },
+  "cpp_round_repair": {
+   "moves": 275,
+   "gram_ms": 16,
+   "repair_ms": 4997,
+   "total_ms": 5034,
+   "rss_mb": 55.37109375,
+   "wall": 5.036908360023517,
+   "wait4_maxrss_mb": 466.76171875
+  },
+  "V_greedy": 58.62731409235187,
+  "V_round": 58.73226130952922,
+  "V_round_repair": 58.554724691190906
+ },
+ "times": {
+  "waypoints": 0.00020497699733823538,
+  "stamps": 0.03559054300421849,
+  "dense_A": 0.05685775098390877,
+  "load_input": 0.008898238011170179,
+  "qp_total": 1.2385669409995899,
+  "gram": 0.915320280008018,
+  "setup": 0.039375049993395805,
+  "solve": 0.07475319202058017,
+  "dual": 0.20634343998972327,
+  "round": 0.0008047510054893792,
+  "greedy_repair_cpp": 3.9071376789943315,
+  "round_repair_cpp": 5.036908360023517,
+  "eval": 0.019031453994102776
+ },
+ "rss_python_after": {
+  "import": 62.44140625,
+  "waypoints": 62.44140625,
+  "stamps": 72.19140625,
+  "dense_A": 260.8515625,
+  "load_input": 261.2265625,
+  "qp_total": 466.76171875,
+  "round": 466.76171875,
+  "eval": 466.76171875
+ },
+ "rss_python_peak": 466.76171875,
+ "t_wall_main": 10.433912776003126
+}

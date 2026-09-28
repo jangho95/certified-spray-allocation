@@ -1,0 +1,7 @@
+{
+ "verify_wall_s": 6.91701545601245,
+ "workers": 8,
+ "eps_s": 0.1624502739869058,
+ "verified_fields": 59,
+ "witness_self_contained": true
+}

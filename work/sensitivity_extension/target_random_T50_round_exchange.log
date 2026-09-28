@@ -1,0 +1,3 @@
+final: mean=50.00348005116912 variance=60.11990769076651 min=29.949772810857596 max=69.412323957335559 total_shots=4860
+exchange_moves=44 gram_ms=1 repair_ms=12 total_ms=16 peak_rss_kb=7324
+wrote /home/user/experiments/work/sensitivity_extension/target_random_T50_round_exchange_allocation.csv and /home/user/experiments/work/sensitivity_extension/target_random_T50_round_exchange_field.csv

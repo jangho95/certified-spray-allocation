@@ -1,0 +1,27 @@
+{
+ "id": "N16_random",
+ "series": "N16 (Table 6)",
+ "field": "random",
+ "input": "small_random_pcg64_seed7_F12.csv",
+ "F": 12,
+ "s": 3,
+ "rows": 4,
+ "cmax": 8,
+ "B": 64,
+ "rho": null,
+ "N": 16,
+ "L": 64.35902853093125,
+ "V_QP": 64.35902853093127,
+ "cands": {
+  "\ubc18\uc62c\ub9bc(\uc6d0\uace0 \uaddc\uce59)": 64.44997267329876,
+  "greedy+repair": 64.43374006586504,
+  "\ubc18\uc62c\ub9bc\u2192repair": 64.44768187926628
+ },
+ "U_pipeline": 64.43374006586504,
+ "U_pipeline_method": "greedy+repair",
+ "warm_alloc": "/home/user/experiments/work/stage6/N16_random_greedy_allocation.csv",
+ "input_path": "/home/user/experiments/inputs/small_random_pcg64_seed7_F12.csv",
+ "time_limit": 300,
+ "mem_limit": 3000,
+ "qp_status": "solved"
+}

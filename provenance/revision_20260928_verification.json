@@ -1,0 +1,89 @@
+{
+  "pilot": {
+    "instances": 6,
+    "exact_bounds": true,
+    "feasible_continuous_upper_bounds": true,
+    "gaussian_error_bounds": true
+  },
+  "stage5": {
+    "instances": 40,
+    "pso_allocations": 104,
+    "exact_bounds": true,
+    "float_bound_violation_budgets": [
+      28338,
+      28341,
+      28344,
+      28347,
+      28349
+    ]
+  },
+  "stage9": {
+    "fields": 59,
+    "instances": 1239,
+    "exact_bounds": true,
+    "feasible_integer_allocations": true,
+    "gaussian_error_bound": true,
+    "T2_max_pct": 0.05144377935685342,
+    "two_candidate_T2_max_pct": 0.27791023119151836
+  },
+  "benchmark": {
+    "fields": [
+      {
+        "field": "zero",
+        "instances": 21,
+        "candidates": 63,
+        "T1_pct": 0.06654477238873405,
+        "T2_pct": 0.10868866966488258,
+        "float_bound_violation_budgets": [
+          24096,
+          24379,
+          24946,
+          25797,
+          26080,
+          27498,
+          28065,
+          28915,
+          29482,
+          29765
+        ]
+      },
+      {
+        "field": "random s7",
+        "instances": 21,
+        "candidates": 63,
+        "T1_pct": 0.039375746927295785,
+        "T2_pct": 0.045443828341176475,
+        "float_bound_violation_budgets": []
+      },
+      {
+        "field": "center-30",
+        "instances": 21,
+        "candidates": 63,
+        "T1_pct": 0.0730570036105654,
+        "T2_pct": 0.10007512578728987,
+        "float_bound_violation_budgets": []
+      },
+      {
+        "field": "center-100",
+        "instances": 21,
+        "candidates": 63,
+        "T1_pct": 0.04480178834882197,
+        "T2_pct": 0.051176733270915764,
+        "float_bound_violation_budgets": []
+      }
+    ],
+    "instances": 84,
+    "candidates": 252,
+    "exact_bounds": true
+  },
+  "stage5_long25": {
+    "status": "passed",
+    "implementation": "standard-library exact-integer checker; no imports from analysis/solver modules",
+    "instances": 40,
+    "pso_allocations": 200,
+    "checks": "input fields; supporting-plane L; integer/box/budget constraints; exact U/P; outward-rounded per-run endpoints",
+    "elapsed_s": 4.6426378899486735
+  },
+  "passed": true,
+  "elapsed_s": 23.85727816889994
+}

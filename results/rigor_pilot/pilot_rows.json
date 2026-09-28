@@ -1,0 +1,1607 @@
+{
+ "version": 2,
+ "threads": {
+  "env_before": {
+   "OMP_NUM_THREADS": null,
+   "OPENBLAS_NUM_THREADS": null,
+   "MKL_NUM_THREADS": null,
+   "BLIS_NUM_THREADS": null,
+   "VECLIB_MAXIMUM_THREADS": null,
+   "NUMEXPR_NUM_THREADS": null
+  },
+  "env_forced": {
+   "OMP_NUM_THREADS": "1",
+   "OPENBLAS_NUM_THREADS": "1",
+   "MKL_NUM_THREADS": "1",
+   "BLIS_NUM_THREADS": "1",
+   "VECLIB_MAXIMUM_THREADS": "1",
+   "NUMEXPR_NUM_THREADS": "1"
+  },
+  "threadpools": [
+   {
+    "user_api": "blas",
+    "internal_api": "openblas",
+    "num_threads": 1,
+    "version": "0.3.31.dev"
+   },
+   {
+    "user_api": "blas",
+    "internal_api": "openblas",
+    "num_threads": 1,
+    "version": "0.3.31.188.0"
+   }
+  ]
+ },
+ "environment": {
+  "python": "3.12.14",
+  "numpy": "2.4.6",
+  "scipy": "1.18.0",
+  "osqp": "1.1.3",
+  "clarabel": "0.11.1"
+ },
+ "rows": [
+  {
+   "case": "목표 · zero",
+   "id": "T-zero",
+   "N": 625,
+   "B": 28348,
+   "BN": 45.3568,
+   "Cmax": 200,
+   "spacing": 2,
+   "input": "zero_F50.csv",
+   "input_sha256": "867e0a1eea3449b3b212a056783eaec0c0896d11ccabc2b40962953f9ef0a400",
+   "L_float_1e8": 53.89446803390608,
+   "L_float_1e10": 53.89446803392612,
+   "V_QP_float": 53.894468346828944,
+   "float_fallback": false,
+   "float_clip_high": false,
+   "clarabel_status": "Solved",
+   "L_rig": 53.894468033962106,
+   "L_rig_source": "정제(OSQP 1e-8 출발)",
+   "L_rig_by_point": {
+    "OSQP 1e-8": 53.89413421225814,
+    "OSQP 1e-10": 53.894464383306996,
+    "Clarabel 1e-10": 53.894463764530975,
+    "정제(OSQP 1e-8 출발)": 53.894468033962106,
+    "정제(OSQP 1e-10 출발)": 53.89446803396209
+   },
+   "fw_gap_by_point": {
+    "OSQP 1e-8": 0.0003341346487516047,
+    "OSQP 1e-10": 3.6521291267281507e-06,
+    "Clarabel 1e-10": 4.272347382348892e-06,
+    "정제(OSQP 1e-8 출발)": 1.2322821049206419e-12,
+    "정제(OSQP 1e-10 출발)": 1.250073513360902e-12
+   },
+   "L_lean": 53.894468033962106,
+   "lean_equals_full": true,
+   "W_lean_pct_up": 0.06654477238873405,
+   "V_feas_up": 53.89446803396335,
+   "QP_enclosure_width_up": 1.2322280703181878e-12,
+   "U_rig": 53.93035586652193,
+   "U_float": 53.93035586652192,
+   "U_source": "registry best (반올림→repair)",
+   "U_checks": {
+    "stage-1 greedy+repair": {
+     "integral": true,
+     "budget": true,
+     "box": true
+    },
+    "registry best (반올림→repair)": {
+     "integral": true,
+     "budget": true,
+     "box": true
+    }
+   },
+   "U_float_minus_exact": -2.4467095239290842e-15,
+   "W_samefloat_pct": 0.0665447724926283,
+   "W_rig_pct_up": 0.06654477238873405,
+   "W_ideal_pct_up": 0.06654477239150779,
+   "eps_ideal": 4.995148205389731e-14,
+   "delta_A_max": 1.7329041570859702e-16,
+   "L_ideal": 53.89446803396137,
+   "U_ideal": 53.930355866522675,
+   "L8_minus_Lrig": -5.603299038288448e-11,
+   "L8_above_Vfeas": false,
+   "times": {
+    "setup": 0.04956591100199148,
+    "osqp_1e-8_float_cert": 0.03757079102797434,
+    "osqp_1e-10": 0.08329403901007026,
+    "clarabel": 0.01831816596677527,
+    "exact_bound[OSQP 1e-8]": 0.003604141005780548,
+    "exact_bound[OSQP 1e-10]": 0.0035695689730346203,
+    "exact_bound[Clarabel 1e-10]": 0.0035260539734736085,
+    "refine_from_1e-8": 0.25870381295681,
+    "refine_from_best": 0.25944040302420035,
+    "feasible_point": 0.004266243020538241,
+    "U_check_and_exact": 0.01934437401359901,
+    "ideal_eps(operator, once)": 0.15965999802574515,
+    "total_run_case": 0.9154315260238945,
+    "lean_total": 0.36878903000615537
+   },
+   "refine_log_lean": [
+    {
+     "tau": 1e-09,
+     "round": 0,
+     "free": 625,
+     "L": 53.89446803396211
+    },
+    {
+     "tau": 1e-07,
+     "round": 0,
+     "free": 625,
+     "L": 53.89446803396211
+    },
+    {
+     "tau": 1e-06,
+     "round": 0,
+     "free": 625,
+     "L": 53.89446803396211
+    },
+    {
+     "tau": 1e-05,
+     "round": 0,
+     "free": 625,
+     "L": 53.89446803396211
+    },
+    {
+     "tau": 0.0001,
+     "round": 0,
+     "free": 625,
+     "L": 53.89446803396211
+    },
+    {
+     "tau": 0.001,
+     "round": 0,
+     "free": 625,
+     "L": 53.89446803396211
+    }
+   ],
+   "refine_log_full": [
+    {
+     "tau": 1e-09,
+     "round": 0,
+     "free": 625,
+     "L": 53.89446803396209
+    },
+    {
+     "tau": 1e-07,
+     "round": 0,
+     "free": 625,
+     "L": 53.89446803396209
+    },
+    {
+     "tau": 1e-06,
+     "round": 0,
+     "free": 625,
+     "L": 53.89446803396209
+    },
+    {
+     "tau": 1e-05,
+     "round": 0,
+     "free": 625,
+     "L": 53.89446803396209
+    },
+    {
+     "tau": 0.0001,
+     "round": 0,
+     "free": 625,
+     "L": 53.89446803396209
+    },
+    {
+     "tau": 0.001,
+     "round": 0,
+     "free": 625,
+     "L": 53.89446803396209
+    }
+   ],
+   "witness": "results/rigor_pilot/witness/T-zero",
+   "witness_verified": {
+    "L": true,
+    "U": true,
+    "V_feas": true,
+    "x_feas_feasible": true,
+    "alloc": true
+   },
+   "dW_pp": -1.0389425431078791e-10,
+   "flag": "ok"
+  },
+  {
+   "case": "목표 · random s7",
+   "id": "T-random",
+   "N": 625,
+   "B": 26120,
+   "BN": 41.792,
+   "Cmax": 200,
+   "spacing": 2,
+   "input": "random_u1_30_seed7_F50.csv",
+   "input_sha256": "1792bb7935f9ad036a49c3a178582ef3eace1b0028c16d6e3b4de36997910a88",
+   "L_float_1e8": 102.77212541173198,
+   "L_float_1e10": 102.77212559837187,
+   "V_QP_float": 102.77212562032219,
+   "float_fallback": false,
+   "float_clip_high": false,
+   "clarabel_status": "InsufficientProgress",
+   "L_rig": 102.77212559838668,
+   "L_rig_source": "정제(OSQP 1e-10 출발)",
+   "L_rig_by_point": {
+    "OSQP 1e-8": 102.77205942192253,
+    "OSQP 1e-10": 102.77212486727619,
+    "Clarabel 1e-10": 95.35178099893064,
+    "정제(OSQP 1e-8 출발)": 102.77212559838667,
+    "정제(OSQP 1e-10 출발)": 102.77212559838668
+   },
+   "fw_gap_by_point": {
+    "OSQP 1e-8": 6.61984566827142e-05,
+    "OSQP 1e-10": 7.312712973601367e-07,
+    "Clarabel 1e-10": 9.571840149786341,
+    "정제(OSQP 1e-8 출발)": 1.2652706653586785e-12,
+    "정제(OSQP 1e-10 출발)": 1.252804035403448e-12
+   },
+   "L_lean": 102.77212559838667,
+   "lean_equals_full": false,
+   "W_lean_pct_up": 0.039375746927295785,
+   "V_feas_up": 102.77212559838794,
+   "QP_enclosure_width_up": 1.252457354262713e-12,
+   "U_rig": 102.81260883104935,
+   "U_float": 102.81260883104933,
+   "U_source": "registry best (반올림→repair)",
+   "U_checks": {
+    "stage-1 greedy+repair": {
+     "integral": true,
+     "budget": true,
+     "box": true
+    },
+    "registry best (반올림→repair)": {
+     "integral": true,
+     "budget": true,
+     "box": true
+    }
+   },
+   "U_float_minus_exact": -2.940488301860232e-15,
+   "W_samefloat_pct": 0.03937592847573795,
+   "W_rig_pct_up": 0.03937574692728323,
+   "W_ideal_pct_up": 0.03937574692927344,
+   "eps_ideal": 4.995148205389731e-14,
+   "delta_A_max": 1.7329041570859702e-16,
+   "L_ideal": 102.77212559838566,
+   "U_ideal": 102.81260883105035,
+   "L8_minus_Lrig": -1.866547055267073e-07,
+   "L8_above_Vfeas": false,
+   "times": {
+    "setup": 0.03976519999559969,
+    "osqp_1e-8_float_cert": 0.056798029982019216,
+    "osqp_1e-10": 0.06977036199532449,
+    "clarabel": 0.01553184597287327,
+    "exact_bound[OSQP 1e-8]": 0.004277997009921819,
+    "exact_bound[OSQP 1e-10]": 0.0038808700046502054,
+    "exact_bound[Clarabel 1e-10]": 0.0037434590049088,
+    "refine_from_1e-8": 0.7584137759986334,
+    "refine_from_best": 0.4264636380248703,
+    "feasible_point": 0.004440616990905255,
+    "U_check_and_exact": 0.010556149994954467,
+    "total_run_case": 1.4085805750219151,
+    "lean_total": 0.8698111529811285
+   },
+   "refine_log_lean": [
+    {
+     "tau": 1e-09,
+     "round": 0,
+     "free": 574,
+     "L": 102.77185100656746
+    },
+    {
+     "tau": 1e-09,
+     "round": 1,
+     "free": 434,
+     "L": -377.292653067888
+    },
+    {
+     "tau": 1e-09,
+     "round": 2,
+     "free": 287,
+     "L": -3149.2994295612566
+    },
+    {
+     "tau": 1e-09,
+     "round": 3,
+     "free": 224,
+     "L": -5272.0772095101265
+    },
+    {
+     "tau": 1e-09,
+     "round": 4,
+     "free": 206,
+     "L": -6088.79854619819
+    },
+    {
+     "tau": 1e-09,
+     "round": 5,
+     "free": 202,
+     "L": -6095.154097550984
+    },
+    {
+     "tau": 1e-07,
+     "round": 0,
+     "free": 566,
+     "L": 102.77184958868848
+    },
+    {
+     "tau": 1e-07,
+     "round": 1,
+     "free": 447,
+     "L": -300.96716046140386
+    },
+    {
+     "tau": 1e-07,
+     "round": 2,
+     "free": 347,
+     "L": -1943.974408101978
+    },
+    {
+     "tau": 1e-07,
+     "round": 3,
+     "free": 289,
+     "L": -3693.061339586462
+    },
+    {
+     "tau": 1e-07,
+     "round": 4,
+     "free": 274,
+     "L": -3900.5432006073875
+    },
+    {
+     "tau": 1e-07,
+     "round": 5,
+     "free": 272,
+     "L": -3902.5516622637892
+    },
+    {
+     "tau": 1e-06,
+     "round": 0,
+     "free": 535,
+     "L": 102.77183278346683
+    },
+    {
+     "tau": 1e-06,
+     "round": 1,
+     "free": 484,
+     "L": 60.469150576107715
+    },
+    {
+     "tau": 1e-06,
+     "round": 2,
+     "free": 455,
+     "L": -92.39003670587529
+    },
+    {
+     "tau": 1e-06,
+     "round": 3,
+     "free": 434,
+     "L": -430.0763040564963
+    },
+    {
+     "tau": 1e-06,
+     "round": 4,
+     "free": 423,
+     "L": -548.3857390191043
+    },
+    {
+     "tau": 1e-06,
+     "round": 5,
+     "free": 421,
+     "L": -550.0053952003237
+    },
+    {
+     "tau": 1e-05,
+     "round": 0,
+     "free": 515,
+     "L": 102.77174237991676
+    },
+    {
+     "tau": 1e-05,
+     "round": 1,
+     "free": 498,
+     "L": 100.17112184008641
+    },
+    {
+     "tau": 1e-05,
+     "round": 2,
+     "free": 494,
+     "L": 99.97103887495011
+    },
+    {
+     "tau": 0.0001,
+     "round": 0,
+     "free": 510,
+     "L": 102.77212559838667
+    },
+    {
+     "tau": 0.001,
+     "round": 0,
+     "free": 510,
+     "L": 102.77212559838667
+    }
+   ],
+   "refine_log_full": [
+    {
+     "tau": 1e-09,
+     "round": 0,
+     "free": 568,
+     "L": 102.77212263374535
+    },
+    {
+     "tau": 1e-09,
+     "round": 1,
+     "free": 447,
+     "L": -771.6310694460623
+    },
+    {
+     "tau": 1e-09,
+     "round": 2,
+     "free": 319,
+     "L": -3139.4721243212784
+    },
+    {
+     "tau": 1e-09,
+     "round": 3,
+     "free": 274,
+     "L": -4933.359461465354
+    },
+    {
+     "tau": 1e-09,
+     "round": 4,
+     "free": 266,
+     "L": -4947.290822194407
+    },
+    {
+     "tau": 1e-07,
+     "round": 0,
+     "free": 515,
+     "L": 102.77212138536605
+    },
+    {
+     "tau": 1e-07,
+     "round": 1,
+     "free": 498,
+     "L": 100.17112184008651
+    },
+    {
+     "tau": 1e-07,
+     "round": 2,
+     "free": 494,
+     "L": 99.97103887495
+    },
+    {
+     "tau": 1e-06,
+     "round": 0,
+     "free": 510,
+     "L": 102.77212559838668
+    },
+    {
+     "tau": 1e-05,
+     "round": 0,
+     "free": 510,
+     "L": 102.77212559838668
+    },
+    {
+     "tau": 0.0001,
+     "round": 0,
+     "free": 510,
+     "L": 102.77212559838668
+    },
+    {
+     "tau": 0.001,
+     "round": 0,
+     "free": 510,
+     "L": 102.77212559838668
+    }
+   ],
+   "witness": "results/rigor_pilot/witness/T-random",
+   "witness_verified": {
+    "L": true,
+    "U": true,
+    "V_feas": true,
+    "x_feas_feasible": true,
+    "alloc": true
+   },
+   "dW_pp": -1.8154845471407555e-07,
+   "flag": "ok"
+  },
+  {
+   "case": "목표 · center-30",
+   "id": "T-c30",
+   "N": 625,
+   "B": 27912,
+   "BN": 44.6592,
+   "Cmax": 200,
+   "spacing": 2,
+   "input": "center30_F50.csv",
+   "input_sha256": "e68973706c296b5b926586c237f789285f7735157dffe53f03821b1e7d67ce66",
+   "L_float_1e8": 55.66437664832962,
+   "L_float_1e10": 55.66438020042885,
+   "V_QP_float": 55.66438354888669,
+   "float_fallback": false,
+   "float_clip_high": false,
+   "clarabel_status": "AlmostSolved",
+   "L_rig": 55.66438020071755,
+   "L_rig_source": "정제(OSQP 1e-10 출발)",
+   "L_rig_by_point": {
+    "OSQP 1e-8": 55.664054351354814,
+    "OSQP 1e-10": 55.66437775487418,
+    "Clarabel 1e-10": 55.66393161328881,
+    "정제(OSQP 1e-8 출발)": 55.664380200717545,
+    "정제(OSQP 1e-10 출발)": 55.66438020071755
+   },
+   "fw_gap_by_point": {
+    "OSQP 1e-8": 0.00032919746526636904,
+    "OSQP 1e-10": 2.4461279487235655e-06,
+    "Clarabel 1e-10": 0.00045488846163436634,
+    "정제(OSQP 1e-8 출발)": 1.4067919230806385e-12,
+    "정제(OSQP 1e-10 출발)": 1.395250005991521e-12
+   },
+   "L_lean": 55.664380200717545,
+   "lean_equals_full": false,
+   "W_lean_pct_up": 0.0730570036105654,
+   "V_feas_up": 55.66438020071896,
+   "QP_enclosure_width_up": 1.3953911164473374e-12,
+   "U_rig": 55.705076660584744,
+   "U_float": 55.70507666058474,
+   "U_source": "registry best (반올림→repair)",
+   "U_checks": {
+    "stage-1 greedy+repair": {
+     "integral": true,
+     "budget": true,
+     "box": true
+    },
+    "registry best (반올림→repair)": {
+     "integral": true,
+     "budget": true,
+     "box": true
+    }
+   },
+   "U_float_minus_exact": -1.5416758566823924e-15,
+   "W_samefloat_pct": 0.07306338074553526,
+   "W_rig_pct_up": 0.07305700361054426,
+   "W_ideal_pct_up": 0.07305700361325641,
+   "eps_ideal": 4.995148205389731e-14,
+   "delta_A_max": 1.7329041570859702e-16,
+   "L_ideal": 55.6643802007168,
+   "U_ideal": 55.70507666058549,
+   "L8_minus_Lrig": -3.5523879370322388e-06,
+   "L8_above_Vfeas": false,
+   "times": {
+    "setup": 0.03787060099421069,
+    "osqp_1e-8_float_cert": 0.13065063703106716,
+    "osqp_1e-10": 0.4261692830477841,
+    "clarabel": 0.03967960400041193,
+    "exact_bound[OSQP 1e-8]": 0.004344565037172288,
+    "exact_bound[OSQP 1e-10]": 0.0038965620333328843,
+    "exact_bound[Clarabel 1e-10]": 0.003972009988501668,
+    "refine_from_1e-8": 0.6008706290158443,
+    "refine_from_best": 0.40837194700725377,
+    "feasible_point": 0.0044946359703317285,
+    "U_check_and_exact": 0.017926363972947,
+    "total_run_case": 1.6929982529836707,
+    "lean_total": 0.7916627960512415
+   },
+   "refine_log_lean": [
+    {
+     "tau": 1e-09,
+     "round": 0,
+     "free": 613,
+     "L": 55.66376351040741
+    },
+    {
+     "tau": 1e-09,
+     "round": 1,
+     "free": 577,
+     "L": 55.29754688264002
+    },
+    {
+     "tau": 1e-09,
+     "round": 2,
+     "free": 567,
+     "L": 55.18164232118088
+    },
+    {
+     "tau": 1e-09,
+     "round": 3,
+     "free": 565,
+     "L": 55.178449484604364
+    },
+    {
+     "tau": 1e-07,
+     "round": 0,
+     "free": 613,
+     "L": 55.66376351040741
+    },
+    {
+     "tau": 1e-07,
+     "round": 1,
+     "free": 577,
+     "L": 55.29754688264002
+    },
+    {
+     "tau": 1e-07,
+     "round": 2,
+     "free": 567,
+     "L": 55.18164232118088
+    },
+    {
+     "tau": 1e-07,
+     "round": 3,
+     "free": 565,
+     "L": 55.178449484604364
+    },
+    {
+     "tau": 1e-06,
+     "round": 0,
+     "free": 612,
+     "L": 55.66376413795538
+    },
+    {
+     "tau": 1e-06,
+     "round": 1,
+     "free": 588,
+     "L": 55.39507915627673
+    },
+    {
+     "tau": 1e-06,
+     "round": 2,
+     "free": 573,
+     "L": 55.2935123879569
+    },
+    {
+     "tau": 1e-06,
+     "round": 3,
+     "free": 571,
+     "L": 55.29324803060164
+    },
+    {
+     "tau": 1e-05,
+     "round": 0,
+     "free": 605,
+     "L": 55.664380200717545
+    },
+    {
+     "tau": 0.0001,
+     "round": 0,
+     "free": 605,
+     "L": 55.664380200717545
+    },
+    {
+     "tau": 0.001,
+     "round": 0,
+     "free": 605,
+     "L": 55.664380200717545
+    }
+   ],
+   "refine_log_full": [
+    {
+     "tau": 1e-09,
+     "round": 0,
+     "free": 613,
+     "L": 55.664375454434115
+    },
+    {
+     "tau": 1e-09,
+     "round": 1,
+     "free": 540,
+     "L": -6986.816342485928
+    },
+    {
+     "tau": 1e-09,
+     "round": 2,
+     "free": 398,
+     "L": -16625.15302818071
+    },
+    {
+     "tau": 1e-09,
+     "round": 3,
+     "free": 282,
+     "L": -21619.52012455756
+    },
+    {
+     "tau": 1e-09,
+     "round": 4,
+     "free": 232,
+     "L": -23475.352990395837
+    },
+    {
+     "tau": 1e-09,
+     "round": 5,
+     "free": 224,
+     "L": -23857.18940391775
+    },
+    {
+     "tau": 1e-07,
+     "round": 0,
+     "free": 605,
+     "L": 55.66438020071756
+    },
+    {
+     "tau": 1e-06,
+     "round": 0,
+     "free": 605,
+     "L": 55.66438020071756
+    },
+    {
+     "tau": 1e-05,
+     "round": 0,
+     "free": 605,
+     "L": 55.66438020071756
+    },
+    {
+     "tau": 0.0001,
+     "round": 0,
+     "free": 605,
+     "L": 55.66438020071756
+    },
+    {
+     "tau": 0.001,
+     "round": 0,
+     "free": 605,
+     "L": 55.66438020071756
+    }
+   ],
+   "witness": "results/rigor_pilot/witness/T-c30",
+   "witness_verified": {
+    "L": true,
+    "U": true,
+    "V_feas": true,
+    "x_feas_feasible": true,
+    "alloc": true
+   },
+   "dW_pp": -6.377134990992461e-06,
+   "flag": "ok"
+  },
+  {
+   "case": "목표 · center-100",
+   "id": "T-c100",
+   "N": 625,
+   "B": 26896,
+   "BN": 43.0336,
+   "Cmax": 200,
+   "spacing": 2,
+   "input": "center100_F50.csv",
+   "input_sha256": "a7bf89ed5d12b54c87203f6c7cd5e9e3a8b18385e154f9cd3ba937b9dc4d6313",
+   "L_float_1e8": 93.59201013387637,
+   "L_float_1e10": 93.59201346665279,
+   "V_QP_float": 93.59201756311086,
+   "float_fallback": false,
+   "float_clip_high": false,
+   "clarabel_status": "InsufficientProgress",
+   "L_rig": 93.59201346696346,
+   "L_rig_source": "정제(OSQP 1e-10 출발)",
+   "L_rig_by_point": {
+    "OSQP 1e-8": 93.59170581689729,
+    "OSQP 1e-10": 93.59201068425132,
+    "Clarabel 1e-10": 90.98752750556315,
+    "정제(OSQP 1e-8 출발)": 93.59201346696328,
+    "정제(OSQP 1e-10 출발)": 93.59201346696346
+   },
+   "fw_gap_by_point": {
+    "OSQP 1e-8": 0.00031174633221444026,
+    "OSQP 1e-10": 2.802295275399016e-06,
+    "Clarabel 1e-10": 3.7004318289426963,
+    "정제(OSQP 1e-8 출발)": 1.4681856904162228e-12,
+    "정제(OSQP 1e-10 출발)": 1.2872654281583967e-12
+   },
+   "L_lean": 93.59201346696328,
+   "lean_equals_full": false,
+   "W_lean_pct_up": 0.04480178834882197,
+   "V_feas_up": 93.59201346696476,
+   "QP_enclosure_width_up": 1.2870792986469203e-12,
+   "U_rig": 93.63396315695948,
+   "U_float": 93.63396315695948,
+   "U_source": "registry best (반올림→repair)",
+   "U_checks": {
+    "stage-1 greedy+repair": {
+     "integral": true,
+     "budget": true,
+     "box": true
+    },
+    "registry best (반올림→repair)": {
+     "integral": true,
+     "budget": true,
+     "box": true
+    }
+   },
+   "U_float_minus_exact": 1.220832331802462e-15,
+   "W_samefloat_pct": 0.0448053480474641,
+   "W_rig_pct_up": 0.04480178834862855,
+   "W_ideal_pct_up": 0.044801788350755795,
+   "eps_ideal": 4.995148205389731e-14,
+   "delta_A_max": 1.7329041570859702e-16,
+   "L_ideal": 93.59201346696246,
+   "U_ideal": 93.63396315696046,
+   "L8_minus_Lrig": -3.3330870949542736e-06,
+   "L8_above_Vfeas": false,
+   "times": {
+    "setup": 0.04103023500647396,
+    "osqp_1e-8_float_cert": 0.08096822304651141,
+    "osqp_1e-10": 0.1425019489834085,
+    "clarabel": 0.017274997022468597,
+    "exact_bound[OSQP 1e-8]": 0.004538473964203149,
+    "exact_bound[OSQP 1e-10]": 0.004008389951195568,
+    "exact_bound[Clarabel 1e-10]": 0.00383514299755916,
+    "refine_from_1e-8": 0.7599515830515884,
+    "refine_from_best": 0.5132449200027622,
+    "feasible_point": 0.004165373044088483,
+    "U_check_and_exact": 0.019041489984374493,
+    "total_run_case": 1.6056308489642106,
+    "lean_total": 0.9055300050531514
+   },
+   "refine_log_lean": [
+    {
+     "tau": 1e-09,
+     "round": 0,
+     "free": 587,
+     "L": 93.58976565606719
+    },
+    {
+     "tau": 1e-09,
+     "round": 1,
+     "free": 404,
+     "L": -5298.289434185325
+    },
+    {
+     "tau": 1e-09,
+     "round": 2,
+     "free": 172,
+     "L": -39569.94168374945
+    },
+    {
+     "tau": 1e-09,
+     "round": 3,
+     "free": 56,
+     "L": -51471.29808176969
+    },
+    {
+     "tau": 1e-09,
+     "round": 4,
+     "free": 12,
+     "L": -62271.32336603439
+    },
+    {
+     "tau": 1e-09,
+     "round": 5,
+     "free": 0,
+     "L": null,
+     "error": "Factor is exactly singular"
+    },
+    {
+     "tau": 1e-07,
+     "round": 0,
+     "free": 587,
+     "L": 93.58976565606719
+    },
+    {
+     "tau": 1e-07,
+     "round": 1,
+     "free": 404,
+     "L": -5298.289434185325
+    },
+    {
+     "tau": 1e-07,
+     "round": 2,
+     "free": 172,
+     "L": -39569.94168374945
+    },
+    {
+     "tau": 1e-07,
+     "round": 3,
+     "free": 56,
+     "L": -51471.29808176969
+    },
+    {
+     "tau": 1e-07,
+     "round": 4,
+     "free": 12,
+     "L": -62271.32336603439
+    },
+    {
+     "tau": 1e-07,
+     "round": 5,
+     "free": 0,
+     "L": null,
+     "error": "Factor is exactly singular"
+    },
+    {
+     "tau": 1e-06,
+     "round": 0,
+     "free": 580,
+     "L": 93.58977282536848
+    },
+    {
+     "tau": 1e-06,
+     "round": 1,
+     "free": 426,
+     "L": -1158.8077658543912
+    },
+    {
+     "tau": 1e-06,
+     "round": 2,
+     "free": 209,
+     "L": -15920.011202862072
+    },
+    {
+     "tau": 1e-06,
+     "round": 3,
+     "free": 147,
+     "L": -22759.136539347077
+    },
+    {
+     "tau": 1e-06,
+     "round": 4,
+     "free": 114,
+     "L": -25669.749592618224
+    },
+    {
+     "tau": 1e-06,
+     "round": 5,
+     "free": 109,
+     "L": -25776.925488571327
+    },
+    {
+     "tau": 1e-05,
+     "round": 0,
+     "free": 570,
+     "L": 93.58968407769314
+    },
+    {
+     "tau": 1e-05,
+     "round": 1,
+     "free": 425,
+     "L": -4490.00828950831
+    },
+    {
+     "tau": 1e-05,
+     "round": 2,
+     "free": 245,
+     "L": -27152.1558060221
+    },
+    {
+     "tau": 1e-05,
+     "round": 3,
+     "free": 139,
+     "L": -41951.57395426054
+    },
+    {
+     "tau": 1e-05,
+     "round": 4,
+     "free": 93,
+     "L": -46666.99732397143
+    },
+    {
+     "tau": 1e-05,
+     "round": 5,
+     "free": 81,
+     "L": -49452.324936826095
+    },
+    {
+     "tau": 0.0001,
+     "round": 0,
+     "free": 532,
+     "L": 93.59201346696328
+    },
+    {
+     "tau": 0.001,
+     "round": 0,
+     "free": 532,
+     "L": 93.59201346696328
+    }
+   ],
+   "refine_log_full": [
+    {
+     "tau": 1e-09,
+     "round": 0,
+     "free": 585,
+     "L": 93.59199524301714
+    },
+    {
+     "tau": 1e-09,
+     "round": 1,
+     "free": 411,
+     "L": -2222.6526075032125
+    },
+    {
+     "tau": 1e-09,
+     "round": 2,
+     "free": 235,
+     "L": -8779.385502402281
+    },
+    {
+     "tau": 1e-09,
+     "round": 3,
+     "free": 158,
+     "L": -13711.715667072589
+    },
+    {
+     "tau": 1e-09,
+     "round": 4,
+     "free": 133,
+     "L": -15301.711128007337
+    },
+    {
+     "tau": 1e-09,
+     "round": 5,
+     "free": 128,
+     "L": -15495.578947358754
+    },
+    {
+     "tau": 1e-07,
+     "round": 0,
+     "free": 565,
+     "L": 93.591994411115
+    },
+    {
+     "tau": 1e-07,
+     "round": 1,
+     "free": 424,
+     "L": -7708.623737033306
+    },
+    {
+     "tau": 1e-07,
+     "round": 2,
+     "free": 207,
+     "L": -38968.09157321766
+    },
+    {
+     "tau": 1e-07,
+     "round": 3,
+     "free": 103,
+     "L": -48880.81983553888
+    },
+    {
+     "tau": 1e-07,
+     "round": 4,
+     "free": 57,
+     "L": -61441.044682500404
+    },
+    {
+     "tau": 1e-07,
+     "round": 5,
+     "free": 23,
+     "L": -78758.4749565921
+    },
+    {
+     "tau": 1e-06,
+     "round": 0,
+     "free": 532,
+     "L": 93.59201346696346
+    },
+    {
+     "tau": 1e-05,
+     "round": 0,
+     "free": 532,
+     "L": 93.59201346696346
+    },
+    {
+     "tau": 0.0001,
+     "round": 0,
+     "free": 532,
+     "L": 93.59201346696346
+    },
+    {
+     "tau": 0.001,
+     "round": 0,
+     "free": 532,
+     "L": 93.59201346696346
+    }
+   ],
+   "witness": "results/rigor_pilot/witness/T-c100",
+   "witness_verified": {
+    "L": true,
+    "U": true,
+    "V_feas": true,
+    "x_feas_feasible": true,
+    "alloc": true
+   },
+   "dW_pp": -3.5596988355451886e-06,
+   "flag": "ok"
+  },
+  {
+   "case": "어려운 사례 · s=1 center-30 (cond ≈ 4.2e11)",
+   "id": "V-s1c30",
+   "N": 2500,
+   "B": 27912,
+   "BN": 11.1648,
+   "Cmax": 200,
+   "spacing": 1,
+   "input": "center30_F50.csv",
+   "input_sha256": "e68973706c296b5b926586c237f789285f7735157dffe53f03821b1e7d67ce66",
+   "L_float_1e8": 0.8711161704380549,
+   "L_float_1e10": 0.872287831772541,
+   "V_QP_float": 0.8722961157545797,
+   "float_fallback": false,
+   "float_clip_high": false,
+   "clarabel_status": "AlmostSolved",
+   "L_rig": 0.8722881083670204,
+   "L_rig_source": "정제(OSQP 1e-10 출발)",
+   "L_rig_by_point": {
+    "OSQP 1e-8": 0.871892239251919,
+    "OSQP 1e-10": 0.8722836795803649,
+    "Clarabel 1e-10": 0.8721104719824574,
+    "정제(OSQP 1e-8 출발)": 0.8722601108898637,
+    "정제(OSQP 1e-10 출발)": 0.8722881083670204
+   },
+   "fw_gap_by_point": {
+    "OSQP 1e-8": 0.0004038764149707362,
+    "OSQP 1e-10": 4.437541493501526e-06,
+    "Clarabel 1e-10": 0.00017931823537264713,
+    "정제(OSQP 1e-8 출발)": 1.7207707614188324e-05,
+    "정제(OSQP 1e-10 출발)": 1.0133607108617418e-12
+   },
+   "L_lean": 0.8722601108898637,
+   "lean_equals_full": false,
+   "W_lean_pct_up": 33.81987927343561,
+   "V_feas_up": 0.8722881083680339,
+   "QP_enclosure_width_up": 1.0133579258418789e-12,
+   "U_rig": 1.318009247057391,
+   "U_float": 1.3180092470573908,
+   "U_source": "stage-1 greedy+repair",
+   "U_checks": {
+    "stage-1 greedy+repair": {
+     "integral": true,
+     "budget": true,
+     "box": true
+    }
+   },
+   "U_float_minus_exact": -2.1517206400951687e-16,
+   "W_samefloat_pct": 33.906672325484564,
+   "W_rig_pct_up": 33.817755048797636,
+   "W_ideal_pct_up": 33.81775504884702,
+   "eps_ideal": 1.92008667390587e-13,
+   "delta_A_max": 2.679059008713688e-16,
+   "L_ideal": 0.8722881083666617,
+   "U_ideal": 1.3180092470578324,
+   "L8_minus_Lrig": -0.001171937928965593,
+   "L8_above_Vfeas": false,
+   "times": {
+    "setup": 0.16580040100961924,
+    "osqp_1e-8_float_cert": 1.3562748449621722,
+    "osqp_1e-10": 5.131252844992559,
+    "clarabel": 3.8841423469712026,
+    "exact_bound[OSQP 1e-8]": 0.014403086039237678,
+    "exact_bound[OSQP 1e-10]": 0.014205095008946955,
+    "exact_bound[Clarabel 1e-10]": 0.013338270015083253,
+    "refine_from_1e-8": 4.458345297025517,
+    "refine_from_best": 2.48840355098946,
+    "feasible_point": 0.016347897995729,
+    "U_check_and_exact": 0.012455463001970202,
+    "ideal_eps(operator, once)": 0.6241222679964267,
+    "total_run_case": 18.23759658099152,
+    "lean_total": 6.007279092038516
+   },
+   "refine_log_lean": [
+    {
+     "tau": 1e-09,
+     "round": 0,
+     "free": 2104,
+     "L": 0.8468696396862915
+    },
+    {
+     "tau": 1e-09,
+     "round": 1,
+     "free": 1084,
+     "L": -177.88243583427717
+    },
+    {
+     "tau": 1e-09,
+     "round": 2,
+     "free": 368,
+     "L": -28464.56507731478
+    },
+    {
+     "tau": 1e-09,
+     "round": 3,
+     "free": 64,
+     "L": -130455.78386379297
+    },
+    {
+     "tau": 1e-09,
+     "round": 4,
+     "free": 0,
+     "L": null,
+     "error": "Factor is exactly singular"
+    },
+    {
+     "tau": 1e-07,
+     "round": 0,
+     "free": 2104,
+     "L": 0.8468696396862915
+    },
+    {
+     "tau": 1e-07,
+     "round": 1,
+     "free": 1084,
+     "L": -177.88243583427717
+    },
+    {
+     "tau": 1e-07,
+     "round": 2,
+     "free": 368,
+     "L": -28464.56507731478
+    },
+    {
+     "tau": 1e-07,
+     "round": 3,
+     "free": 64,
+     "L": -130455.78386379297
+    },
+    {
+     "tau": 1e-07,
+     "round": 4,
+     "free": 0,
+     "L": null,
+     "error": "Factor is exactly singular"
+    },
+    {
+     "tau": 1e-06,
+     "round": 0,
+     "free": 2096,
+     "L": 0.8468866549360796
+    },
+    {
+     "tau": 1e-06,
+     "round": 1,
+     "free": 1020,
+     "L": -308.0968976607848
+    },
+    {
+     "tau": 1e-06,
+     "round": 2,
+     "free": 344,
+     "L": -42243.817385561066
+    },
+    {
+     "tau": 1e-06,
+     "round": 3,
+     "free": 36,
+     "L": -128692.34591048608
+    },
+    {
+     "tau": 1e-06,
+     "round": 4,
+     "free": 0,
+     "L": null,
+     "error": "Factor is exactly singular"
+    },
+    {
+     "tau": 1e-05,
+     "round": 0,
+     "free": 2008,
+     "L": 0.8473792722685233
+    },
+    {
+     "tau": 1e-05,
+     "round": 1,
+     "free": 1048,
+     "L": -180.1216191492319
+    },
+    {
+     "tau": 1e-05,
+     "round": 2,
+     "free": 412,
+     "L": -28076.444356167558
+    },
+    {
+     "tau": 1e-05,
+     "round": 3,
+     "free": 88,
+     "L": -156365.79869754738
+    },
+    {
+     "tau": 1e-05,
+     "round": 4,
+     "free": 8,
+     "L": -165272.12885831587
+    },
+    {
+     "tau": 1e-05,
+     "round": 5,
+     "free": 0,
+     "L": null,
+     "error": "Factor is exactly singular"
+    },
+    {
+     "tau": 0.0001,
+     "round": 0,
+     "free": 1700,
+     "L": 0.8722249673184587
+    },
+    {
+     "tau": 0.0001,
+     "round": 1,
+     "free": 1476,
+     "L": 0.7775344609133752
+    },
+    {
+     "tau": 0.0001,
+     "round": 2,
+     "free": 1444,
+     "L": 0.7531415344803206
+    },
+    {
+     "tau": 0.0001,
+     "round": 3,
+     "free": 1436,
+     "L": 0.7531263254188884
+    },
+    {
+     "tau": 0.001,
+     "round": 0,
+     "free": 1692,
+     "L": 0.8722601108898637
+    },
+    {
+     "tau": 0.001,
+     "round": 1,
+     "free": 1572,
+     "L": 0.8644040808231689
+    },
+    {
+     "tau": 0.001,
+     "round": 2,
+     "free": 1556,
+     "L": 0.8643269616083957
+    }
+   ],
+   "refine_log_full": [
+    {
+     "tau": 1e-09,
+     "round": 0,
+     "free": 2144,
+     "L": 0.8722438360889349
+    },
+    {
+     "tau": 1e-09,
+     "round": 1,
+     "free": 1104,
+     "L": -168.98230914275098
+    },
+    {
+     "tau": 1e-09,
+     "round": 2,
+     "free": 508,
+     "L": -14098.966194294577
+    },
+    {
+     "tau": 1e-09,
+     "round": 3,
+     "free": 144,
+     "L": -127994.71402378955
+    },
+    {
+     "tau": 1e-09,
+     "round": 4,
+     "free": 24,
+     "L": -109863.0092040761
+    },
+    {
+     "tau": 1e-09,
+     "round": 5,
+     "free": 0,
+     "L": null,
+     "error": "Factor is exactly singular"
+    },
+    {
+     "tau": 1e-07,
+     "round": 0,
+     "free": 1796,
+     "L": 0.8722281857053931
+    },
+    {
+     "tau": 1e-07,
+     "round": 1,
+     "free": 1232,
+     "L": -5.898779271664653
+    },
+    {
+     "tau": 1e-07,
+     "round": 2,
+     "free": 1132,
+     "L": -6.142516870910745
+    },
+    {
+     "tau": 1e-07,
+     "round": 3,
+     "free": 1124,
+     "L": -6.165914342280175
+    },
+    {
+     "tau": 1e-06,
+     "round": 0,
+     "free": 1628,
+     "L": 0.8722881083670205
+    },
+    {
+     "tau": 1e-05,
+     "round": 0,
+     "free": 1628,
+     "L": 0.8722881083670205
+    },
+    {
+     "tau": 0.0001,
+     "round": 0,
+     "free": 1628,
+     "L": 0.8722881083670205
+    },
+    {
+     "tau": 0.001,
+     "round": 0,
+     "free": 1628,
+     "L": 0.8722881083670205
+    }
+   ],
+   "witness": "results/rigor_pilot/witness/V-s1c30",
+   "witness_verified": {
+    "L": true,
+    "U": true,
+    "V_feas": true,
+    "x_feas_feasible": true,
+    "alloc": true
+   },
+   "dW_pp": -0.08891727668692795,
+   "flag": "warn"
+  },
+  {
+   "case": "어려운 사례 · s=1 zero (원고 L = 0 fallback)",
+   "id": "V-s1zero",
+   "N": 2500,
+   "B": 28348,
+   "BN": 11.3392,
+   "Cmax": 200,
+   "spacing": 1,
+   "input": "zero_F50.csv",
+   "input_sha256": "867e0a1eea3449b3b212a056783eaec0c0896d11ccabc2b40962953f9ef0a400",
+   "L_float_1e8": 0.0,
+   "L_float_1e10": 0.0,
+   "V_QP_float": -7.275957614183426e-11,
+   "float_fallback": false,
+   "float_clip_high": true,
+   "clarabel_status": "Solved",
+   "L_rig": 0.0,
+   "L_rig_source": "정제(OSQP 1e-8 출발)",
+   "L_rig_by_point": {
+    "OSQP 1e-8": 0.0,
+    "OSQP 1e-10": 0.0,
+    "Clarabel 1e-10": 0.0,
+    "정제(OSQP 1e-8 출발)": 0.0
+   },
+   "fw_gap_by_point": {
+    "OSQP 1e-8": 2.933387926728924e-11,
+    "OSQP 1e-10": 2.933387926728924e-11,
+    "Clarabel 1e-10": 5.0336419261658326e-11,
+    "정제(OSQP 1e-8 출발)": 8.791533699252331e-13
+   },
+   "L_lean": 0.0,
+   "lean_equals_full": true,
+   "W_lean_pct_up": 100.0,
+   "V_feas_up": 2.9839103903875306e-30,
+   "QP_enclosure_width_up": 2.9839103903875306e-30,
+   "U_rig": 0.222006273198139,
+   "U_float": 0.2220062731981384,
+   "U_source": "stage-1 greedy+repair",
+   "U_checks": {
+    "stage-1 greedy+repair": {
+     "integral": true,
+     "budget": true,
+     "box": true
+    }
+   },
+   "U_float_minus_exact": -5.908748611560907e-16,
+   "W_samefloat_pct": 100.0,
+   "W_rig_pct_up": 100.0,
+   "W_ideal_pct_up": 100.0,
+   "eps_ideal": 1.92008667390587e-13,
+   "delta_A_max": 2.679059008713688e-16,
+   "L_ideal": 0.0,
+   "U_ideal": 0.22200627319831998,
+   "L8_minus_Lrig": 0.0,
+   "L8_above_Vfeas": false,
+   "times": {
+    "setup": 0.16627387196058407,
+    "osqp_1e-8_float_cert": 0.6954156089923345,
+    "osqp_1e-10": 0.6835663039819337,
+    "clarabel": 0.6523821429582313,
+    "exact_bound[OSQP 1e-8]": 0.014422731997910887,
+    "exact_bound[OSQP 1e-10]": 0.01386798796011135,
+    "exact_bound[Clarabel 1e-10]": 0.013549876981414855,
+    "refine_from_1e-8": 3.7555421300348826,
+    "refine_from_best": 3.7289647689904086,
+    "feasible_point": 0.018215982941910625,
+    "U_check_and_exact": 0.012453848030418158,
+    "total_run_case": 9.81239972799085,
+    "lean_total": 4.64410819101613
+   },
+   "refine_log_lean": [
+    {
+     "tau": 1e-09,
+     "round": 0,
+     "free": 2500,
+     "L": -8.791533699252331e-13
+    },
+    {
+     "tau": 1e-07,
+     "round": 0,
+     "free": 2500,
+     "L": -8.791533699252331e-13
+    },
+    {
+     "tau": 1e-06,
+     "round": 0,
+     "free": 2500,
+     "L": -8.791533699252331e-13
+    },
+    {
+     "tau": 1e-05,
+     "round": 0,
+     "free": 2500,
+     "L": -8.791533699252331e-13
+    },
+    {
+     "tau": 0.0001,
+     "round": 0,
+     "free": 2500,
+     "L": -8.791533699252331e-13
+    },
+    {
+     "tau": 0.001,
+     "round": 0,
+     "free": 2500,
+     "L": -8.791533699252331e-13
+    }
+   ],
+   "refine_log_full": [
+    {
+     "tau": 1e-09,
+     "round": 0,
+     "free": 2500,
+     "L": -8.791533699252331e-13
+    },
+    {
+     "tau": 1e-07,
+     "round": 0,
+     "free": 2500,
+     "L": -8.791533699252331e-13
+    },
+    {
+     "tau": 1e-06,
+     "round": 0,
+     "free": 2500,
+     "L": -8.791533699252331e-13
+    },
+    {
+     "tau": 1e-05,
+     "round": 0,
+     "free": 2500,
+     "L": -8.791533699252331e-13
+    },
+    {
+     "tau": 0.0001,
+     "round": 0,
+     "free": 2500,
+     "L": -8.791533699252331e-13
+    },
+    {
+     "tau": 0.001,
+     "round": 0,
+     "free": 2500,
+     "L": -8.791533699252331e-13
+    }
+   ],
+   "witness": "results/rigor_pilot/witness/V-s1zero",
+   "witness_verified": {
+    "L": true,
+    "U": true,
+    "V_feas": true,
+    "x_feas_feasible": true,
+    "alloc": true
+   },
+   "dW_pp": 0.0,
+   "flag": "ok"
+  }
+ ]
+}

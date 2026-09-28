@@ -1,0 +1,15 @@
+Case,$B$,Status,$V_{\mathrm{QP}}$,$\underline V_{\mathrm{dual}}$,\shortstack{Primal
+residual},\shortstack{Dual
+residual},$Hz=v$,"\shortstack{Zero bound,"
+bound adjustment},\shortstack{Constraint
+violation}
+Zero,28348,solved,53.894468,53.894468,$5.8{\times}10^{-10}$,$3.0{\times}10^{-8}$,$1.9{\times}10^{-16}$,"no, no",0
+Random,26120,solved,102.772126,102.772125,$1.6{\times}10^{-5}$,$3.0{\times}10^{-8}$,$2.1{\times}10^{-16}$,"no, no",0
+Center-30,27912,solved,55.664384,55.664377,$2.5{\times}10^{-5}$,$3.8{\times}10^{-8}$,$2.1{\times}10^{-16}$,"no, no",0
+Center-100,26896,solved,93.592018,93.592010,$1.5{\times}10^{-4}$,$3.8{\times}10^{-8}$,$2.1{\times}10^{-16}$,"no, no",0
+$C_{\max}=3$,938,solved,0.059039,0.059039,$9.3{\times}10^{-6}$,$7.5{\times}10^{-9}$,$1.4{\times}10^{-16}$,"no, no",0
+$C_{\max}=5$,1250,solved,0.104790,0.104790,$0.0$,$3.5{\times}10^{-10}$,$1.5{\times}10^{-16}$,"no, no",0
+$C_{\max}=8$,1875,solved,0.235777,0.235777,$2.3{\times}10^{-13}$,$8.6{\times}10^{-10}$,$1.6{\times}10^{-16}$,"no, no",0
+$C_{\max}=20$,5000,solved,1.676638,1.676638,$7.8{\times}10^{-11}$,$7.1{\times}10^{-10}$,$1.7{\times}10^{-16}$,"no, no",0
+$C_{\max}=50$,12500,solved,10.478989,10.478989,$2.3{\times}10^{-10}$,$5.4{\times}10^{-9}$,$2.0{\times}10^{-16}$,"no, no",0
+$C_{\max}=200$,28348,solved,53.894468,53.894468,$5.8{\times}10^{-10}$,$3.0{\times}10^{-8}$,$1.9{\times}10^{-16}$,"no, no",0

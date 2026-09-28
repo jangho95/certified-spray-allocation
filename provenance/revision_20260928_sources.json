@@ -1,0 +1,61 @@
+{
+  "files": [
+    {
+      "path": "pipeline/stage5_long_runs.py",
+      "source": "experiments/pipeline/stage5_long_runs.py",
+      "source_sha256": "da3c06401de5f07adc6afcc34f8b4d7b1f2ba9f8f9b6b47405fae6f834a007e3",
+      "public_sha256": "c7e2d86284a2c5edaada73b6a547dc6f81cc576769195b57e32998fb36501a4c",
+      "bytes_identical": false
+    },
+    {
+      "path": "pipeline/stage5_long_analyze.py",
+      "source": "experiments/pipeline/stage5_long_analyze.py",
+      "source_sha256": "4aee2263015c203601ad4d440aca131011e47cb5787e0b2114fe3e6e2d54bae9",
+      "public_sha256": "83e9bb4b9ec440dfbcde4b501d2d33b60a9a70a3155b0dfc53086cb19a749379",
+      "bytes_identical": false
+    },
+    {
+      "path": "pipeline/verify_stage5_long25.py",
+      "source": "experiments/pipeline/verify_stage5_long25.py",
+      "source_sha256": "3c07f99bb89ced9e5064440f647fce14db1a2052f10e1ae58f9d24d4576c7f6c",
+      "public_sha256": "63831b7fd9ecc946a8bb5a7cd139a9d3e50b60eb7d089152f1de2166d35a85df",
+      "bytes_identical": false
+    },
+    {
+      "path": "pipeline/figures_revised.py",
+      "source": "experiments/pipeline/figures_revised.py",
+      "source_sha256": "802419ddd9ea1d5f98c9517c0b22be36c78230375638fe07cf011fa8b77a425f",
+      "public_sha256": "226a2de50e519a510558f6af728e49ed9880825b46abdc71af4967eefdaeeb3b",
+      "bytes_identical": false
+    },
+    {
+      "path": "pipeline/initial_fields_3d.py",
+      "source": "paper_work/review_evidence/initial_fields_3d.py",
+      "source_sha256": "d5547ed3e7cbbe44de8d1eebfaa2bd9ff67ad87d48f96f5052084392507418c8",
+      "public_sha256": "a6571ede6760563c5e3c1caabfd9cea59cc46e6b9829d1edbcf4621d4b34f501",
+      "bytes_identical": false
+    },
+    {
+      "path": "pipeline/legacy_v5_figures.py",
+      "source": "paper_work/review_evidence/legacy_v5_figures.py",
+      "source_sha256": "db13176804fe2c4817f289c59528776801db733c7502e9c29214b8ee72496f00",
+      "public_sha256": "be3821472b3123779d8510a1f43d878b9127d83c5bfdd932cdd26117bf3dd221",
+      "bytes_identical": false
+    },
+    {
+      "path": "pipeline/range_figures.py",
+      "source": "paper_work/review_evidence/english_v5_figures.py",
+      "source_sha256": "eb97965e14ddfcd04897317b39107fbb2cebc2507962051bfd8a4098d3d5a5b7",
+      "public_sha256": "e39c874a9c87a0fccef14a92d6b99c9beef1d7f6c2a89eab70e18100c900aebb",
+      "bytes_identical": false
+    },
+    {
+      "path": "pipeline/stage5_long_report.py",
+      "source": "experiments/pipeline/stage5_long_report.py",
+      "source_sha256": "6f8666c819e2b18b9965dd0108dcf4d26e5e1cb966c89842c8327fdfa1b79c9a",
+      "public_sha256": "ea7cc849d65fa138bbe6cc98db22d48da873a5a5c4054bfea66209757f4e9da9",
+      "bytes_identical": false
+    }
+  ],
+  "adaptations": "Relative public paths; explanatory comments and docstrings removed; figure outputs detached from the private manuscript and dashboard."
+}

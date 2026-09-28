@@ -1,0 +1,117 @@
+$ /home/user/experiments/.venv/bin/python pso_repeated_runs.py
+=== zero ===
+run=01 mean=199.972834 var=106.226972 time=1.407s
+run=02 mean=200.001055 var=104.561877 time=1.080s
+run=03 mean=199.979889 var=97.101458 time=1.029s
+run=04 mean=200.001055 var=109.691760 time=1.097s
+run=05 mean=200.015165 var=110.827073 time=1.088s
+run=06 mean=200.008110 var=105.022859 time=1.171s
+run=07 mean=199.994000 var=106.551752 time=1.003s
+run=08 mean=199.994000 var=111.381149 time=1.103s
+run=09 mean=200.008110 var=112.073462 time=1.046s
+run=10 mean=199.979889 var=109.256790 time=1.074s
+run=11 mean=200.008110 var=106.909065 time=1.003s
+run=12 mean=200.015165 var=102.428102 time=1.044s
+run=13 mean=200.008110 var=111.104031 time=1.011s
+run=14 mean=200.001055 var=107.572300 time=1.097s
+run=15 mean=199.994000 var=109.876744 time=1.036s
+run=16 mean=199.994000 var=108.400120 time=1.097s
+run=17 mean=200.008110 var=106.407849 time=1.125s
+run=18 mean=199.986944 var=116.739934 time=1.134s
+run=19 mean=200.001055 var=112.727795 time=1.142s
+run=20 mean=199.979889 var=108.082923 time=1.030s
+run=21 mean=199.930503 var=116.260585 time=1.091s
+run=22 mean=199.994000 var=106.096411 time=1.145s
+run=23 mean=200.001055 var=115.709529 time=1.116s
+run=24 mean=200.043386 var=120.647149 time=1.098s
+run=25 mean=199.951668 var=118.638648 time=1.200s
+=== random_1_30_seed7 ===
+run=01 mean=199.997216 var=177.022832 time=1.124s
+run=02 mean=200.004271 var=164.038512 time=1.292s
+run=03 mean=200.018382 var=164.150357 time=1.231s
+run=04 mean=200.004271 var=163.667699 time=1.079s
+run=05 mean=199.997216 var=171.782873 time=1.333s
+run=06 mean=200.004271 var=163.123915 time=1.045s
+run=07 mean=200.060713 var=176.734314 time=1.169s
+run=08 mean=200.025437 var=166.692491 time=1.231s
+run=09 mean=199.990161 var=174.275852 time=1.081s
+run=10 mean=200.004271 var=166.084240 time=1.199s
+run=11 mean=199.976050 var=159.966821 time=1.189s
+run=12 mean=199.990161 var=173.922331 time=1.064s
+run=13 mean=199.997216 var=161.619296 time=1.138s
+run=14 mean=199.983106 var=171.834298 time=1.088s
+run=15 mean=199.990161 var=170.122021 time=1.092s
+run=16 mean=200.025437 var=165.583597 time=1.148s
+run=17 mean=199.990161 var=164.465993 time=1.080s
+run=18 mean=200.011326 var=158.622809 time=1.094s
+run=19 mean=199.990161 var=162.216768 time=1.075s
+run=20 mean=200.011326 var=164.750997 time=1.037s
+run=21 mean=199.997216 var=164.035829 time=1.137s
+run=22 mean=199.976050 var=159.322500 time=1.143s
+run=23 mean=199.997216 var=168.499781 time=1.096s
+run=24 mean=199.997216 var=154.661020 time=1.058s
+run=25 mean=200.004271 var=162.400849 time=1.012s
+=== center30 ===
+run=01 mean=199.989929 var=124.148385 time=0.979s
+run=02 mean=199.947597 var=130.375837 time=1.104s
+run=03 mean=199.989929 var=124.714748 time=1.105s
+run=04 mean=199.996984 var=115.726039 time=1.108s
+run=05 mean=200.011094 var=122.184479 time=0.978s
+run=06 mean=200.004039 var=129.828946 time=1.000s
+run=07 mean=200.011094 var=114.548315 time=0.975s
+run=08 mean=200.004039 var=120.746140 time=1.063s
+run=09 mean=200.004039 var=121.510759 time=1.088s
+run=10 mean=200.004039 var=123.382605 time=1.049s
+run=11 mean=199.996984 var=123.473353 time=1.117s
+run=12 mean=200.018150 var=121.980656 time=1.125s
+run=13 mean=200.011094 var=123.999693 time=0.982s
+run=14 mean=199.989929 var=114.395294 time=1.004s
+run=15 mean=200.004039 var=120.287163 time=1.006s
+run=16 mean=200.039315 var=114.246100 time=1.076s
+run=17 mean=200.018150 var=125.128798 time=1.043s
+run=18 mean=199.954653 var=130.636469 time=0.999s
+run=19 mean=199.982873 var=128.838921 time=1.116s
+run=20 mean=199.996984 var=110.543216 time=1.075s
+run=21 mean=199.996984 var=123.709914 time=1.050s
+run=22 mean=200.004039 var=130.039112 time=1.126s
+run=23 mean=199.996984 var=114.073483 time=0.996s
+run=24 mean=200.011094 var=123.800721 time=1.033s
+run=25 mean=199.996984 var=112.217595 time=0.996s
+=== center100 ===
+run=01 mean=199.940450 var=209.596936 time=1.010s
+run=02 mean=200.011002 var=230.820527 time=1.006s
+run=03 mean=199.982781 var=251.820263 time=0.979s
+run=04 mean=200.025113 var=225.048692 time=1.000s
+run=05 mean=200.053334 var=234.863987 time=0.962s
+run=06 mean=200.011002 var=260.475860 time=1.019s
+run=07 mean=200.003947 var=239.686403 time=0.992s
+run=08 mean=199.961616 var=240.085028 time=0.990s
+run=09 mean=199.996892 var=208.968096 time=1.019s
+run=10 mean=199.989837 var=219.114213 time=1.049s
+run=11 mean=199.961616 var=232.466056 time=1.007s
+run=12 mean=199.947505 var=208.957982 time=0.975s
+run=13 mean=200.018058 var=229.627608 time=0.979s
+run=14 mean=199.961616 var=244.878773 time=0.970s
+run=15 mean=200.025113 var=234.629629 time=1.045s
+run=16 mean=199.996892 var=235.129148 time=1.012s
+run=17 mean=199.996892 var=207.129431 time=1.027s
+run=18 mean=199.982781 var=204.505093 time=0.971s
+run=19 mean=200.018058 var=215.658670 time=0.975s
+run=20 mean=199.996892 var=239.500677 time=1.049s
+run=21 mean=200.018058 var=236.912399 time=1.051s
+run=22 mean=200.032168 var=237.237344 time=0.977s
+run=23 mean=199.940450 var=242.725201 time=0.977s
+run=24 mean=199.996892 var=204.400077 time=0.981s
+run=25 mean=199.989837 var=229.545083 time=1.012s
+wrote /home/user/experiments/work/stage1/pso_repeat_runs.csv
+wrote /home/user/experiments/work/stage1/pso_repeat_summary.csv
+updated /home/user/experiments/work/stage1/pso_points.csv with mean PSO points
+
+Summary:
+zero                 mu=199.995±0.022 V=109.612±5.290 t=1.099±0.082s V/JoCS=0.660 V/IQP=2.027
+random_1_30_seed7    mu=200.002±0.018 V=165.984±5.768 t=1.130±0.080s V/JoCS=0.829 V/IQP=1.613
+center30             mu=199.999±0.019 V=121.781±5.985 t=1.048±0.053s V/JoCS=0.715 V/IQP=2.180
+center100            mu=199.994±0.029 V=228.951±15.416 t=1.001±0.028s V/JoCS=0.898 V/IQP=2.441
+
+# compare
+{"ok": 676, "warn": 0, "fail": 0}

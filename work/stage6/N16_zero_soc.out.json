@@ -1,0 +1,21 @@
+{
+ "instance": "N16_zero",
+ "form": "soc",
+ "time_limit": 300,
+ "mem_limit": 3000,
+ "build_s": 0.00516802299534902,
+ "warm_checksol": true,
+ "warm_accepted": true,
+ "status": "optimal",
+ "solve_wall_s": 2.9645700589753687,
+ "scip_time_s": 2.964484,
+ "primal_bound": 1.5080747499199287,
+ "dual_bound": 1.5080747499199287,
+ "gap": 0.0,
+ "nodes": 125,
+ "nsols": 3,
+ "V_eval": 1.5080748103244292,
+ "feasible": true,
+ "same_as_warm": true,
+ "alloc": "/home/user/experiments/work/stage6/N16_zero_soc.out.alloc.csv"
+}

@@ -1,0 +1,134 @@
+{
+ "random_u1_30_seed1_F50.csv": {
+  "description": "Uniform[1,30], std::mt19937 seed 1 (C++ path); rounds to archived 10-digit CSV",
+  "field_size": 50,
+  "sha256": "bd4bb936405c30527d39a65976f5f30d8200307203b0c113ac113cdc3931c80d",
+  "mean": 15.539822006396058
+ },
+ "random_u1_30_seed2_F50.csv": {
+  "description": "Uniform[1,30], std::mt19937 seed 2 (C++ path); rounds to archived 10-digit CSV",
+  "field_size": 50,
+  "sha256": "1609e3440102fc383e98bfd4abe88563ec76da057fc7e5cc845419614e2a7e74",
+  "mean": 15.34092487244532
+ },
+ "random_u1_30_seed3_F50.csv": {
+  "description": "Uniform[1,30], std::mt19937 seed 3 (C++ path); rounds to archived 10-digit CSV",
+  "field_size": 50,
+  "sha256": "0b39c9c03d313e5d2d03e5e963537cd8e6db6058c40954007bc7bd29ecd88206",
+  "mean": 15.464168030387018
+ },
+ "random_u1_30_seed4_F50.csv": {
+  "description": "Uniform[1,30], std::mt19937 seed 4 (C++ path); rounds to archived 10-digit CSV",
+  "field_size": 50,
+  "sha256": "62f833143a509628c41890d9e23ed6ec7168dd2c15ebf68498b418ad8e840380",
+  "mean": 15.45723171273761
+ },
+ "random_u1_30_seed5_F50.csv": {
+  "description": "Uniform[1,30], std::mt19937 seed 5 (C++ path); rounds to archived 10-digit CSV",
+  "field_size": 50,
+  "sha256": "8195377301857a5cca10bc2991faa6aa12b4fa54ee774550503c253cc12817cd",
+  "mean": 15.628335109350205
+ },
+ "random_u1_30_seed6_F50.csv": {
+  "description": "Uniform[1,30], std::mt19937 seed 6 (C++ path); rounds to archived 10-digit CSV",
+  "field_size": 50,
+  "sha256": "3533144c87b58d3b4ed05f82e58b3ef3b96c602ef6bd1c62aef603323e42cdcc",
+  "mean": 15.733797071478888
+ },
+ "random_u1_30_seed7_F50.csv": {
+  "description": "Uniform[1,30], std::mt19937 seed 7 (C++ path); rounds to archived 10-digit CSV",
+  "field_size": 50,
+  "sha256": "1792bb7935f9ad036a49c3a178582ef3eace1b0028c16d6e3b4de36997910a88",
+  "mean": 15.715166002323935
+ },
+ "random_u1_30_seed8_F50.csv": {
+  "description": "Uniform[1,30], std::mt19937 seed 8 (C++ path); rounds to archived 10-digit CSV",
+  "field_size": 50,
+  "sha256": "6468e8461135f2e8caf8dd976f16947bb49045e29deb73530a09ddab3fe7bb2b",
+  "mean": 15.385828756141441
+ },
+ "random_u1_30_seed9_F50.csv": {
+  "description": "Uniform[1,30], std::mt19937 seed 9 (C++ path); rounds to archived 10-digit CSV",
+  "field_size": 50,
+  "sha256": "844103028561fa944c2badbb2a6cae7840b8dadf1a729b0049469cedaf75e47f",
+  "mean": 15.335388287060487
+ },
+ "random_u1_30_seed10_F50.csv": {
+  "description": "Uniform[1,30], std::mt19937 seed 10 (C++ path); rounds to archived 10-digit CSV",
+  "field_size": 50,
+  "sha256": "0e68be4a36b74e7b045e635fdd617cfcb32a6870ec59d8217a0d768e5cbd2cf8",
+  "mean": 15.388060866495263
+ },
+ "zero_F50.csv": {
+  "description": "deterministic zero field (C++ writer, equals Python generator)",
+  "field_size": 50,
+  "sha256": "867e0a1eea3449b3b212a056783eaec0c0896d11ccabc2b40962953f9ef0a400",
+  "mean": 0.0
+ },
+ "center30_F50.csv": {
+  "description": "deterministic center30 field (C++ writer, equals Python generator)",
+  "field_size": 50,
+  "sha256": "e68973706c296b5b926586c237f789285f7735157dffe53f03821b1e7d67ce66",
+  "mean": 3.072
+ },
+ "center100_F50.csv": {
+  "description": "deterministic center100 field (C++ writer, equals Python generator)",
+  "field_size": 50,
+  "sha256": "a7bf89ed5d12b54c87203f6c7cd5e9e3a8b18385e154f9cd3ba937b9dc4d6313",
+  "mean": 10.24
+ },
+ "small_zero_F12.csv": {
+  "description": "reduced zero field",
+  "field_size": 12,
+  "sha256": "0b4e56f6d08089f9a2546a5a000318feca9d6ba709e8f7fffea36b7068148b37",
+  "mean": 0.0
+ },
+ "small_random_pcg64_seed7_F12.csv": {
+  "description": "reduced Uniform[1,30] field, NumPy PCG64 default_rng(7) — the only PCG64 path in the paper",
+  "field_size": 12,
+  "sha256": "126014325601de93d5cdcc4da25ebe7a1f250a7b2ef9c9a1293f666702ac2531",
+  "mean": 15.719237605248834
+ },
+ "small_center30_c4_F12.csv": {
+  "description": "reduced center field, height 30, 4x4",
+  "field_size": 12,
+  "sha256": "78c0946c62645030637eeda803e1925947c7daf7f900b21a3ed6bd465f7b5f64",
+  "mean": 3.3333333333333335
+ },
+ "zero_F25.csv": {
+  "description": "deterministic zero field, F=25 (Stage 4 scaling)",
+  "field_size": 25,
+  "sha256": "1a8a9caad4d53a37b4fbb40d46ea9eb4a3e67665c5d42dbba3e87d31d111ede1",
+  "mean": 0.0
+ },
+ "center100_F25.csv": {
+  "description": "deterministic center100 field, F=25 (Stage 4 scaling)",
+  "field_size": 25,
+  "sha256": "19a5c6ce5fdbd6460798250b26ff410d5fee6e001d8fa8111908f0bee59d6a1b",
+  "mean": 40.96
+ },
+ "zero_F100.csv": {
+  "description": "deterministic zero field, F=100 (Stage 4 scaling)",
+  "field_size": 100,
+  "sha256": "98ba6ee5b6d0a6bfc7141d18b68f5d4eeba22abaabd2976c2714fe45c7d4edfd",
+  "mean": 0.0
+ },
+ "center100_F100.csv": {
+  "description": "deterministic center100 field, F=100 (Stage 4 scaling)",
+  "field_size": 100,
+  "sha256": "1d65a5a8b696292e2b82af213231b0bfb52d8406eac8102cdbf9fb79d35ceb28",
+  "mean": 2.56
+ },
+ "zero_F16.csv": {
+  "description": "zero field F=16 (Stage 6 series)",
+  "field_size": 16,
+  "sha256": "73efcba66f347e94c286883184340153306077481ecf538237f1d93a8274109f",
+  "mean": 0.0
+ },
+ "center30_c5_F16.csv": {
+  "description": "center field F=16, height 30.0, side 5 (Stage 6 series)",
+  "field_size": 16,
+  "sha256": "2fed25fca3edfca60866da6015064fc56aee4235b8f263756f824184a4bf7651",
+  "mean": 2.9296875
+ }
+}

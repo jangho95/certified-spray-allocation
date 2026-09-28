@@ -1,0 +1,24 @@
+\begin{table}[!tbp]\centering\footnotesize\setlength{\tabcolsep}{4pt}
+\caption{Twenty-five independent PSO runs of $5000$ iterations for each fixed
+initial field. All values are percentages of excess over the integer optimum
+at each run's final budget. The sample median, quartile envelope and range
+include the uncertainty in that optimum through exact lower and upper bounds.
+The quartile envelope extends from the lower bound on sample Q1 to the upper
+bound on sample Q3. The last column instead quantifies sampling uncertainty
+in the population median: under independent runs, the eighth ordered lower
+endpoint and eighteenth ordered upper endpoint give marginal coverage of at
+least $1-2\sum_{j=0}^{7}\binom{25}{j}2^{-25}=0.9567147\ldots$.
+No simultaneous coverage across fields is claimed. All endpoints are rounded
+outward to one decimal place.}
+\label{tab:pso-long25-si}
+\begin{tabular}{lrrrr}
+\toprule
+Instance & Sample median & Q1--Q3 envelope & Range & Median confidence interval\\
+\midrule
+Zero & $[38.9, 39.1]$ & $[36.1, 42.3]$ & $[30.2, 45.2]$ & $[36.8, 41.5]$\\
+Random & $[26.6, 26.8]$ & $[25.8, 28.1]$ & $[23.4, 32.6]$ & $[25.9, 28.0]$\\
+Center-30 & $[46.2, 46.4]$ & $[44.2, 49.7]$ & $[38.3, 56.8]$ & $[44.8, 49.1]$\\
+Center-100 & $[66.8, 67.0]$ & $[62.4, 74.2]$ & $[51.1, 82.8]$ & $[62.6, 73.3]$\\
+\bottomrule
+\end{tabular}
+\end{table}

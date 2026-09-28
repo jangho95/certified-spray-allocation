@@ -1,0 +1,58 @@
+{
+ "Table S5|seed 10|Gap (%)": {
+  "cause": "원고 표기 오류: 전체 정밀도 gap 0.187490%(아카이브·재현 동일)를 0.188로 표기. 이중 반올림(0.18749→0.1875→0.188)으로 추정",
+  "action": "원고 수정 필요: Table S5 seed 10 Gap 0.188 → 0.187"
+ },
+ "Table 6 (CSV)|instance=random|relax_gap": {
+  "cause": "SCIP epigraph 변수 t의 허용오차: 정수해 x*와 V(x*)(v_z_eval)는 동일. 아카이브의 SCIP 목적값 t가 V(x*)보다 6.4e-7 낮았음",
+  "action": "원고 표시값(소수 5자리) 영향 없음. 수정본에서 V_Z*는 솔버 목적값 대신 V(x*) 평가값으로 보고 권장"
+ },
+ "Table 6 (CSV)|instance=random|incumbent_subopt": {
+  "cause": "위와 동일(V_Z*에 SCIP 목적값 t 사용)",
+  "action": "위와 동일"
+ },
+ "Table 6 (CSV)|instance=random|v_z": {
+  "cause": "SCIP 목적값 t의 허용오차(6.4e-7). 같은 정수해",
+  "action": "V(x*) 평가값 보고 권장"
+ },
+ "Table S4|y7 norm random|V_UB": {
+  "cause": "원고 표기 오류: 아카이브·재현 모두 212.3846(→212.38)인데 212.39로 표기. 이중 반올림 추정",
+  "action": "원고 수정 필요: Table S4 y7 norm, Random V_UB 212.39 → 212.38"
+ },
+ "Table S4 (CSV)|instance=center30, kernel=y-long-7-norm|var_round": {
+  "cause": "largest-remainder 반올림의 동점 근처 민감도: OSQP 연속해 마지막 자리 차이(BLAS)로 반올림 순서가 바뀜",
+  "action": "V_UB=repair(186.99874)로 결과 영향 없음. 수정 불필요"
+ },
+ "Table 7|Center-100 s=3|V_dual": {
+  "cause": "원고 표기 오류: 하한 119.98748391(아카이브·재현 동일, →119.987)을 119.988로 표기. 이중 반올림 추정",
+  "action": "원고 수정 필요: Table 7 Center-100 s=3 V_dual 119.988 → 119.987"
+ },
+ "Table 7": {
+  "cause": "s=3 세 초기장: 1-exchange repair 재실행 경로가 빌드에 따라 갈림(FMA 허용 -march=native 빌드는 zero s=3 아카이브 값 68.084873을 정확히 재현). 아카이브 할당 12개는 현재 모델에서 모두 원고 값으로 검증됨. s=1 zero V_round 차이는 조건수 약 4e11 연속해의 반올림 민감도(V_UB 무관)",
+  "action": "원고 값 유지 가능(할당 파일로 검증됨). 수정본: incumbent 할당 파일을 공개하고, 휴리스틱 재실행 값이 빌드에 따라 상대 1e-5 수준으로 달라질 수 있음을 명시"
+ },
+ "Table 7 (CSV)": {
+  "cause": "위 Table 7과 동일: repair 휴리스틱의 빌드 의존 경로(s=3), s=1 반올림 incumbent 민감도",
+  "action": "위와 동일"
+ },
+ "Table S4 (CSV)": {
+  "cause": "center-30 y7-norm V_round: 반올림 동점 민감도(V_UB는 repair로 무관)",
+  "action": "수정 불필요"
+ },
+ "Table S4": {
+  "cause": "y7 norm Random V_UB: 원고 표기 오류(212.3846→212.38을 212.39로 표기)",
+  "action": "원고 수정 필요: S4 212.39 → 212.38"
+ },
+ "Table S5": {
+  "cause": "seed 10 gap: 원고 표기 오류(0.187490→0.187을 0.188로 표기)",
+  "action": "원고 수정 필요: S5 seed 10 0.188 → 0.187"
+ },
+ "Table 6 (CSV)": {
+  "cause": "random 축소 사례: SCIP 목적값 t 허용오차(6.4e-7). 같은 정수해·같은 V(x*)",
+  "action": "원고 표시값 영향 없음. V_Z*는 V(x*) 평가값으로 보고 권장"
+ },
+ "Table S9 Center-30 (CSV)": {
+  "cause": "OSQP primal−dual 차이(1.565e-5)의 1.3e-9 변화: 1차 solver 수치 잔차(BLAS·CPU 의존), 하한·상한 값은 일치",
+  "action": "수정 불필요"
+ }
+}

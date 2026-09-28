@@ -1,0 +1,88 @@
+[
+ {
+  "table": "§6.1 audit",
+  "row": "$ /home/user/experiments/.venv/bin/pyt",
+  "column": "support mismatches",
+  "manuscript": "0",
+  "reproduced": 0,
+  "flag": "ok",
+  "basis": "원고"
+ },
+ {
+  "table": "§6.1 audit",
+  "row": "/home/user/experiments/.venv/bin/pytho",
+  "column": "support mismatches",
+  "manuscript": "0",
+  "reproduced": 0,
+  "flag": "ok",
+  "basis": "원고"
+ },
+ {
+  "table": "§6.1 audit",
+  "row": "/home/user/experiments/.venv/bin/pytho",
+  "column": "support mismatches",
+  "manuscript": "0",
+  "reproduced": 0,
+  "flag": "ok",
+  "basis": "원고"
+ },
+ {
+  "table": "§6.1 audit",
+  "row": "/home/user/experiments/.venv/bin/pytho",
+  "column": "support mismatches",
+  "manuscript": "0",
+  "reproduced": 0,
+  "flag": "ok",
+  "basis": "원고"
+ },
+ {
+  "table": "§6.1 audit",
+  "row": "reflect 3개 초기장",
+  "column": "max |col discrepancy|",
+  "manuscript": "1.8{\\times}10^{-14}",
+  "reproduced": 1.81e-14,
+  "basis": "원고",
+  "reproduced_display": "1.8e-14",
+  "flag": "ok"
+ },
+ {
+  "table": "§6.1 audit",
+  "row": "reflect 3개 초기장",
+  "column": "max rel l2",
+  "manuscript": "3.2{\\times}10^{-15}",
+  "reproduced": 3.203e-15,
+  "basis": "원고",
+  "reproduced_display": "3.2e-15",
+  "flag": "ok"
+ },
+ {
+  "table": "§6.1 audit",
+  "row": "reflect 3개 초기장",
+  "column": "worst measured/allowed",
+  "manuscript": "0.082",
+  "reproduced": 0.0815,
+  "basis": "원고",
+  "reproduced_display": "0.082",
+  "flag": "ok"
+ },
+ {
+  "table": "§6.1 audit",
+  "row": "truncate",
+  "column": "max |col discrepancy|",
+  "manuscript": "1.3{\\times}10^{-15}",
+  "reproduced": 1.332e-15,
+  "basis": "원고",
+  "reproduced_display": "1.3e-15",
+  "flag": "ok"
+ },
+ {
+  "table": "§6.1 audit",
+  "row": "truncate",
+  "column": "worst measured/allowed",
+  "manuscript": "0.051",
+  "reproduced": 0.0505,
+  "basis": "원고",
+  "reproduced_display": "0.051",
+  "flag": "ok"
+ }
+]

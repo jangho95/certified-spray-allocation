@@ -1,0 +1,101 @@
+{
+ "mode": "single",
+ "F": 50,
+ "field": "zero",
+ "rep": 2,
+ "input": "zero_F50.csv",
+ "t_import": 0.12538022396620363,
+ "threads": {
+  "env_before": {
+   "OMP_NUM_THREADS": null,
+   "OPENBLAS_NUM_THREADS": null,
+   "MKL_NUM_THREADS": null,
+   "BLIS_NUM_THREADS": null,
+   "VECLIB_MAXIMUM_THREADS": null,
+   "NUMEXPR_NUM_THREADS": null
+  },
+  "env_forced": {
+   "OMP_NUM_THREADS": "1",
+   "OPENBLAS_NUM_THREADS": "1",
+   "MKL_NUM_THREADS": "1",
+   "BLIS_NUM_THREADS": "1",
+   "VECLIB_MAXIMUM_THREADS": "1",
+   "NUMEXPR_NUM_THREADS": "1"
+  },
+  "threadpools": [
+   {
+    "user_api": "blas",
+    "internal_api": "openblas",
+    "num_threads": 1,
+    "version": "0.3.31.dev"
+   },
+   {
+    "user_api": "blas",
+    "internal_api": "openblas",
+    "num_threads": 1,
+    "version": "0.3.31.188.0"
+   }
+  ]
+ },
+ "pid": 3377033,
+ "N": 625,
+ "M": 2500,
+ "B_target": 28348,
+ "A_bytes": 12500000,
+ "gram_bytes": 3125000,
+ "budget": {
+  "B": 28348,
+  "L": 53.89446803390608,
+  "primal": 53.894468346828944,
+  "iters": 125,
+  "status": "solved",
+  "cpp_greedy": {
+   "moves": 42,
+   "gram_ms": 1,
+   "repair_ms": 17,
+   "total_ms": 42,
+   "rss_mb": 7.13671875,
+   "wall": 0.04372133105061948,
+   "wait4_maxrss_mb": 93.16015625
+  },
+  "cpp_round_repair": {
+   "moves": 68,
+   "gram_ms": 1,
+   "repair_ms": 30,
+   "total_ms": 34,
+   "rss_mb": 7.13671875,
+   "wall": 0.03546162898419425,
+   "wait4_maxrss_mb": 93.16015625
+  },
+  "V_greedy": 54.07769475815948,
+  "V_round": 54.16827721497826,
+  "V_round_repair": 53.93035586652192
+ },
+ "times": {
+  "waypoints": 5.044398130849004e-05,
+  "stamps": 0.008568271005060524,
+  "dense_A": 0.006852081976830959,
+  "load_input": 0.00021428801119327545,
+  "qp_total": 0.03752742399228737,
+  "gram": 0.01824032299919054,
+  "setup": 0.004093839030247182,
+  "solve": 0.008825472963508219,
+  "dual": 0.0060110780177637935,
+  "round": 0.00023065099958330393,
+  "greedy_repair_cpp": 0.04372133105061948,
+  "round_repair_cpp": 0.03546162898419425,
+  "eval": 0.0010999939986504614
+ },
+ "rss_python_after": {
+  "import": 62.46484375,
+  "waypoints": 62.46484375,
+  "stamps": 64.71484375,
+  "dense_A": 76.36328125,
+  "load_input": 76.55078125,
+  "qp_total": 93.16015625,
+  "round": 93.16015625,
+  "eval": 93.16015625
+ },
+ "rss_python_peak": 93.16015625,
+ "t_wall_main": 0.2626652710023336
+}

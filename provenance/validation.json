@@ -1,0 +1,216 @@
+{
+  "created_utc": "2026-09-27T22:58:19.297645+00:00",
+  "purpose": "validation of the public package in a separate working copy",
+  "python": "3.12.14",
+  "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+  "machine": "x86_64",
+  "fresh_environment": true,
+  "packages": {
+    "cffi": "2.1.1",
+    "clarabel": "0.11.1",
+    "cloudpickle": "3.1.2",
+    "cmake": "4.4.3",
+    "contourpy": "1.4.0",
+    "cycler": "0.12.1",
+    "fonttools": "4.66.0",
+    "jinja2": "3.1.6",
+    "joblib": "1.6.0",
+    "kiwisolver": "1.5.1",
+    "markupsafe": "3.0.3",
+    "matplotlib": "3.11.0",
+    "ninja": "1.13.2",
+    "numpy": "2.4.6",
+    "osqp": "1.1.3",
+    "packaging": "26.3",
+    "pillow": "12.3.0",
+    "pycparser": "3.0",
+    "pyparsing": "3.3.3",
+    "pyscipopt": "6.2.1",
+    "python-dateutil": "2.9.0.post0",
+    "scipy": "1.18.0",
+    "setuptools": "84.0.0",
+    "six": "1.17.0",
+    "threadpoolctl": "3.7.0",
+    "ziglang": "0.16.0"
+  },
+  "build": {
+    "passed": true,
+    "compiler": "Clang 21.1.0 via ziglang 0.16.0",
+    "cmake": true,
+    "portable_flags": [
+      "-O3",
+      "-ffp-contract=off"
+    ],
+    "march_native": false
+  },
+  "source_audit": {
+    "python_files": 86,
+    "python_comments": 0,
+    "python_docstrings": 0,
+    "cpp_comments": 0,
+    "cmake_comments": 0,
+    "external_symlinks": [],
+    "shell_explanatory_comments": 0
+  },
+  "provenance": {
+    "copied_files": 17756,
+    "byte_identical_files": 17677,
+    "all_original_source_hashes_unchanged": true
+  },
+  "model_consistency": {
+    "cases": 7,
+    "passed": true,
+    "max_relative_variance_difference": 5.2425783465098215e-14
+  },
+  "submitted_table_comparison": {
+    "values": 3184,
+    "ok": 3159,
+    "warn": 25,
+    "fail": 0
+  },
+  "stage3_rerun": {
+    "cases": 10,
+    "passed": true,
+    "rows": [
+      {
+        "B": 938,
+        "C_max": 3,
+        "field": "zero",
+        "gap_new_pct": 36.337220823878326,
+        "gap_difference_pp": 0.0,
+        "U_difference": 0.0
+      },
+      {
+        "B": 1250,
+        "C_max": 5,
+        "field": "zero",
+        "gap_new_pct": 17.97924639290235,
+        "gap_difference_pp": 0.0,
+        "U_difference": 0.0
+      },
+      {
+        "B": 1875,
+        "C_max": 8,
+        "field": "zero",
+        "gap_new_pct": 13.170307899644845,
+        "gap_difference_pp": 0.0,
+        "U_difference": 0.0
+      },
+      {
+        "B": 5000,
+        "C_max": 20,
+        "field": "zero",
+        "gap_new_pct": 2.2955412223405744,
+        "gap_difference_pp": 0.0,
+        "U_difference": 0.0
+      },
+      {
+        "B": 12500,
+        "C_max": 50,
+        "field": "zero",
+        "gap_new_pct": 0.3694347895694636,
+        "gap_difference_pp": 0.0,
+        "U_difference": 0.0
+      },
+      {
+        "B": 28348,
+        "C_max": 200,
+        "field": "zero",
+        "gap_new_pct": 0.0665447724926283,
+        "gap_difference_pp": 0.0,
+        "U_difference": 0.0
+      },
+      {
+        "B": 28348,
+        "C_max": 200,
+        "field": "zero",
+        "gap_new_pct": 0.0665447724926283,
+        "gap_difference_pp": 0.0,
+        "U_difference": 0.0
+      },
+      {
+        "B": 26120,
+        "C_max": 200,
+        "field": "random s7",
+        "gap_new_pct": 0.03937592847573795,
+        "gap_difference_pp": 0.0,
+        "U_difference": 0.0
+      },
+      {
+        "B": 27912,
+        "C_max": 200,
+        "field": "center-30",
+        "gap_new_pct": 0.07306338074553526,
+        "gap_difference_pp": 0.0,
+        "U_difference": 0.0
+      },
+      {
+        "B": 26896,
+        "C_max": 200,
+        "field": "center-100",
+        "gap_new_pct": 0.0448053480474641,
+        "gap_difference_pp": 0.0,
+        "U_difference": 0.0
+      }
+    ]
+  },
+  "table_figure_regeneration": [
+    {
+      "script": "stage4_aggregate.py",
+      "returncode": 0,
+      "elapsed_s": 0.5489104900043458
+    },
+    {
+      "script": "stage5_figure.py",
+      "returncode": 0,
+      "elapsed_s": 0.7501222580322064
+    },
+    {
+      "script": "stage6_decompose.py",
+      "returncode": 0,
+      "elapsed_s": 0.01923132099909708
+    },
+    {
+      "script": "stage7_report.py",
+      "returncode": 0,
+      "elapsed_s": 0.7688864400261082
+    },
+    {
+      "script": "stage9_report.py",
+      "returncode": 0,
+      "elapsed_s": 0.5840912829735316
+    }
+  ],
+  "exact_certificate_verification": {
+    "pilot": {
+      "instances": 6,
+      "exact_bounds": true,
+      "feasible_continuous_upper_bounds": true,
+      "gaussian_error_bounds": true
+    },
+    "stage5": {
+      "instances": 40,
+      "pso_allocations": 104,
+      "exact_bounds": true,
+      "float_bound_violation_budgets": [
+        28338,
+        28341,
+        28344,
+        28347,
+        28349
+      ]
+    },
+    "stage9": {
+      "fields": 59,
+      "instances": 1239,
+      "exact_bounds": true,
+      "feasible_integer_allocations": true,
+      "gaussian_error_bound": true,
+      "T2_max_pct": 0.05144377935685342
+    },
+    "passed": true,
+    "elapsed_s": 10.127970364992507
+  },
+  "full_stage_0_to_9_optimization_rerun": false,
+  "timing_note": "Packaging-machine measurements; not paper benchmark timings."
+}

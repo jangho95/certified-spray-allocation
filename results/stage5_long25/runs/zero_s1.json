@@ -1,0 +1,14 @@
+{
+  "field": "zero",
+  "input": "zero_F50.csv",
+  "seed": 1,
+  "iters": 5000,
+  "B": 28348,
+  "P": 74.1792985611882,
+  "alloc": "alloc/pso_zero_s1_it5000.csv",
+  "history": "history/pso_zero_s1_it5000.csv",
+  "alloc_sha256": "2c3fd36c80d8389a7573d7ca186fede2dfbc54dbcd7152c260a242b9f7476a74",
+  "history_sha256": "8723cc738c2470f0d5edd0a782e509fb8376a1ffc60a4edbd8eb83218eed22ee",
+  "source": "preserved Stage 5 seed-1 run",
+  "elapsed_s": null
+}

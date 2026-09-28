@@ -1,0 +1,123 @@
+$ /home/user/experiments/.venv/bin/python audit_equivalence.py --field zero
+instance=zero  M=2500  N=625  budget=28348  kappa[0]=17.638022  kappa spread=7.105e-15
+
+Step A: baseline allocation x0 = 1
+  baseline_ones          mode=pershot   linf=8.882e-16 tol=3.519e-14 ratio=0.025 rel_l2=1.059e-16 dmean=+0.000e+00 dvar=+0.000e+00
+  baseline_ones          mode=scaled    linf=8.882e-16 tol=3.519e-14 ratio=0.025 rel_l2=1.059e-16 dmean=+0.000e+00 dvar=+0.000e+00
+  baseline_ones          mode=shuffled  linf=1.776e-15 tol=3.519e-14 ratio=0.050 rel_l2=1.267e-16 dmean=+0.000e+00 dvar=-2.776e-17
+
+Step B: operator columns, sim(x0+e_j) - sim(x0) for all 625 waypoints
+  columns compared      : 625
+  support mismatches    : 0
+  max |emp - A|         : 1.776e-15  (tol 3.519e-14)
+  worst column          : j=0 err=1.776e-15
+  relative l2 over A    : 9.102e-16
+
+Step C: budget-preserving allocations at B=28348
+  alloc_random           mode=pershot   linf=2.018e-12 tol=8.461e-11 ratio=0.024 rel_l2=3.278e-15 dmean=-1.705e-13 dvar=-2.956e-12
+  alloc_boundary         mode=pershot   linf=4.138e-11 tol=8.967e-10 ratio=0.046 rel_l2=1.009e-14 dmean=+5.116e-13 dvar=+5.966e-10
+  alloc_dense            mode=pershot   linf=3.593e-11 tol=1.325e-09 ratio=0.027 rel_l2=1.942e-14 dmean=+1.137e-12 dvar=+1.353e-09
+
+Step D: accumulation-order spread on the random allocation
+  order_random           mode=pershot   linf=2.018e-12 tol=8.461e-11 ratio=0.024 rel_l2=3.278e-15 dmean=-1.705e-13 dvar=-2.956e-12
+  order_random           mode=scaled    linf=1.137e-13 tol=8.461e-11 ratio=0.001 rel_l2=1.240e-16 dmean=+0.000e+00 dvar=+0.000e+00
+  order_random           mode=shuffled  linf=1.563e-12 tol=8.461e-11 ratio=0.018 rel_l2=3.817e-15 dmean=-3.411e-13 dvar=-4.377e-12
+  mean spread across orders     : 4.832e-13
+  variance spread across orders : 3.809e-12
+
+==============================================================================
+worst measured/tolerated ratio: 0.0505   ->   PASS
+==============================================================================
+$ /home/user/experiments/.venv/bin/python audit_equivalence.py --field random --seed 7
+instance=random  M=2500  N=625  budget=26120  kappa[0]=17.638022  kappa spread=7.105e-15
+
+Step A: baseline allocation x0 = 1
+  baseline_ones          mode=pershot   linf=1.421e-14 tol=2.614e-13 ratio=0.054 rel_l2=2.281e-16 dmean=+3.553e-15 dvar=+4.263e-14
+  baseline_ones          mode=scaled    linf=1.421e-14 tol=2.614e-13 ratio=0.054 rel_l2=2.281e-16 dmean=+3.553e-15 dvar=+4.263e-14
+  baseline_ones          mode=shuffled  linf=2.132e-14 tol=2.614e-13 ratio=0.082 rel_l2=2.325e-16 dmean=+0.000e+00 dvar=+4.263e-14
+
+Step B: operator columns, sim(x0+e_j) - sim(x0) for all 625 waypoints
+  columns compared      : 625
+  support mismatches    : 0
+  max |emp - A|         : 1.810e-14  (tol 2.614e-13)
+  worst column          : j=261 err=1.810e-14
+  relative l2 over A    : 3.044e-15
+
+Step C: budget-preserving allocations at B=26120
+  alloc_random           mode=pershot   linf=2.046e-12 tol=7.359e-11 ratio=0.028 rel_l2=3.824e-15 dmean=-3.411e-13 dvar=-6.082e-12
+  alloc_boundary         mode=pershot   linf=3.820e-11 tol=9.061e-10 ratio=0.042 rel_l2=1.008e-14 dmean=+2.558e-13 dvar=+3.492e-10
+  alloc_dense            mode=pershot   linf=3.388e-11 tol=1.367e-09 ratio=0.025 rel_l2=1.801e-14 dmean=+9.379e-13 dvar=+1.266e-09
+
+Step D: accumulation-order spread on the random allocation
+  order_random           mode=pershot   linf=2.046e-12 tol=7.359e-11 ratio=0.028 rel_l2=3.824e-15 dmean=-3.411e-13 dvar=-6.082e-12
+  order_random           mode=scaled    linf=8.527e-14 tol=7.359e-11 ratio=0.001 rel_l2=1.318e-16 dmean=+0.000e+00 dvar=+5.684e-14
+  order_random           mode=shuffled  linf=1.535e-12 tol=7.359e-11 ratio=0.021 rel_l2=3.833e-15 dmean=-3.411e-13 dvar=-4.604e-12
+  mean spread across orders     : 4.263e-13
+  variance spread across orders : 5.969e-12
+
+==============================================================================
+worst measured/tolerated ratio: 0.0815   ->   PASS
+==============================================================================
+$ /home/user/experiments/.venv/bin/python audit_equivalence.py --field center --center-height 100
+instance=center  M=2500  N=625  budget=26896  kappa[0]=17.638022  kappa spread=7.105e-15
+
+Step A: baseline allocation x0 = 1
+  baseline_ones          mode=pershot   linf=2.842e-14 tol=7.901e-13 ratio=0.036 rel_l2=2.030e-16 dmean=+0.000e+00 dvar=-2.274e-13
+  baseline_ones          mode=scaled    linf=2.842e-14 tol=7.901e-13 ratio=0.036 rel_l2=2.030e-16 dmean=+0.000e+00 dvar=-2.274e-13
+  baseline_ones          mode=shuffled  linf=2.842e-14 tol=7.901e-13 ratio=0.036 rel_l2=2.032e-16 dmean=+0.000e+00 dvar=-2.274e-13
+
+Step B: operator columns, sim(x0+e_j) - sim(x0) for all 625 waypoints
+  columns compared      : 625
+  support mismatches    : 0
+  max |emp - A|         : 6.994e-15  (tol 7.901e-13)
+  worst column          : j=208 err=6.994e-15
+  relative l2 over A    : 3.203e-15
+
+Step C: budget-preserving allocations at B=26896
+  alloc_random           mode=pershot   linf=4.377e-12 tol=1.071e-10 ratio=0.041 rel_l2=4.160e-15 dmean=-8.527e-14 dvar=+1.114e-11
+  alloc_boundary         mode=pershot   linf=4.138e-11 tol=8.967e-10 ratio=0.046 rel_l2=1.007e-14 dmean=+3.979e-13 dvar=+4.948e-10
+  alloc_dense            mode=pershot   linf=3.593e-11 tol=1.325e-09 ratio=0.027 rel_l2=1.917e-14 dmean=+1.052e-12 dvar=+1.266e-09
+
+Step D: accumulation-order spread on the random allocation
+  order_random           mode=pershot   linf=4.377e-12 tol=1.071e-10 ratio=0.041 rel_l2=4.160e-15 dmean=-8.527e-14 dvar=+1.114e-11
+  order_random           mode=scaled    linf=1.137e-13 tol=1.071e-10 ratio=0.001 rel_l2=1.275e-16 dmean=+0.000e+00 dvar=+0.000e+00
+  order_random           mode=shuffled  linf=3.752e-12 tol=1.071e-10 ratio=0.035 rel_l2=4.145e-15 dmean=-2.558e-13 dvar=+3.411e-12
+  mean spread across orders     : 1.705e-13
+  variance spread across orders : 1.160e-11
+
+==============================================================================
+worst measured/tolerated ratio: 0.0461   ->   PASS
+==============================================================================
+$ /home/user/experiments/.venv/bin/python audit_equivalence.py --field zero --boundary truncate
+instance=zero  M=2500  N=625  budget=73971  kappa[0]=6.759388  kappa spread=1.088e+01
+
+Step A: baseline allocation x0 = 1
+  baseline_ones          mode=pershot   linf=8.882e-16 tol=3.519e-14 ratio=0.025 rel_l2=9.903e-17 dmean=+0.000e+00 dvar=+0.000e+00
+  baseline_ones          mode=scaled    linf=8.882e-16 tol=3.519e-14 ratio=0.025 rel_l2=9.903e-17 dmean=+0.000e+00 dvar=+0.000e+00
+  baseline_ones          mode=shuffled  linf=1.776e-15 tol=3.519e-14 ratio=0.050 rel_l2=1.312e-16 dmean=+0.000e+00 dvar=+0.000e+00
+
+Step B: operator columns, sim(x0+e_j) - sim(x0) for all 625 waypoints
+  columns compared      : 625
+  support mismatches    : 0
+  max |emp - A|         : 1.332e-15  (tol 3.519e-14)
+  worst column          : j=1 err=1.332e-15
+  relative l2 over A    : 9.183e-16
+
+Step C: budget-preserving allocations at B=73971
+  alloc_random           mode=pershot   linf=2.058e-11 tol=5.491e-10 ratio=0.037 rel_l2=8.598e-15 dmean=-1.251e-12 dvar=-4.093e-11
+  alloc_boundary         mode=pershot   linf=3.411e-11 tol=1.325e-09 ratio=0.026 rel_l2=2.016e-14 dmean=+2.842e-12 dvar=+1.426e-09
+  alloc_dense            mode=pershot   linf=3.149e-11 tol=1.325e-09 ratio=0.024 rel_l2=2.174e-14 dmean=+3.070e-12 dvar=+1.717e-09
+
+Step D: accumulation-order spread on the random allocation
+  order_random           mode=pershot   linf=2.058e-11 tol=5.491e-10 ratio=0.037 rel_l2=8.598e-15 dmean=-1.251e-12 dvar=-4.093e-11
+  order_random           mode=scaled    linf=2.274e-13 tol=5.491e-10 ratio=0.000 rel_l2=1.322e-16 dmean=+0.000e+00 dvar=+0.000e+00
+  order_random           mode=shuffled  linf=1.381e-11 tol=5.491e-10 ratio=0.025 rel_l2=9.821e-15 dmean=+9.663e-13 dvar=+2.174e-10
+  mean spread across orders     : 1.990e-12
+  variance spread across orders : 2.619e-10
+
+==============================================================================
+worst measured/tolerated ratio: 0.0505   ->   PASS
+==============================================================================
+
+# compare
+{"ok": 9, "warn": 0, "fail": 0}

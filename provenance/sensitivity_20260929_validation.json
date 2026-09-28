@@ -1,0 +1,44 @@
+{
+  "tested_python": "3.12.14",
+  "tested_platform": "Linux x86-64",
+  "separate_directory": true,
+  "build_targets": [
+    "pufoam_solver",
+    "matrix_exchange"
+  ],
+  "compiler": "pinned Zig/Clang with -O3 -ffp-contract=off, without -march=native",
+  "exact_certificates": "sensitivity_20260929_verification.json",
+  "all_six_suites_passed": true,
+  "sensitivity_cases": 156,
+  "archived_v1_cases": 156,
+  "selected_replay_cases": [
+    {
+      "id": "target_zero_T50",
+      "verified": true,
+      "width_pct": 1.1446615306353711
+    },
+    {
+      "id": "dist_correlated_uniform_03",
+      "verified": true,
+      "width_pct": 0.08000324337536487
+    },
+    {
+      "id": "mesh_center100_F50",
+      "verified": true,
+      "width_pct": 0.037924092489128425
+    }
+  ],
+  "full_optimization_replay": false,
+  "tables_match_manuscript": {
+    "tableS15_mesh.tex": true,
+    "tableS14_distribution.tex": true,
+    "tableS13_target.tex": true,
+    "table_sensitivity_main.tex": true,
+    "sensitivity_tables_check.json": true
+  },
+  "python_files_checked": 110,
+  "python_comments": 0,
+  "python_docstrings": 0,
+  "copied_source_files": 1971,
+  "bytes_identical_copies": 1956
+}

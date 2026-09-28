@@ -1,0 +1,13 @@
+{
+ "mass_error_50": 0.0,
+ "mass_error_100": 1.4210854715202004e-14,
+ "mass_error_200": 0.0,
+ "nested_average_error": 1.1102230246251565e-16,
+ "gram_800_relative_error": 4.228684841457768e-05,
+ "exchange_min_direct_change": 0.01679956720599396,
+ "generic_vs_original_cpp_U_diff": -5.006467836984712e-07,
+ "generic_vs_original_alloc_equal": false,
+ "same_allocation_cpp_evaluation_error": -6.110667527536862e-13,
+ "generic_min_exchange_change": 1.6085138388535758e-05,
+ "original_cpp_min_exchange_change": 2.5609143086317322e-05
+}

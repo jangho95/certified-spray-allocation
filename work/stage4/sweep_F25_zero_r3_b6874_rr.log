@@ -1,0 +1,3 @@
+final: mean=193.99001709609917 variance=39.740030369044128 min=181.43479258755747 max=205.94263761344271 total_shots=6874
+exchange_moves=12 gram_ms=0 repair_ms=0 total_ms=1 peak_rss_kb=3560
+wrote /home/user/experiments/work/stage4/sweep_F25_zero_r3_b6874_rr_allocation.csv and /home/user/experiments/work/stage4/sweep_F25_zero_r3_b6874_rr_field.csv

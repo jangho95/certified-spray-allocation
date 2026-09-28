@@ -1,0 +1,19 @@
+$ build/pufoam_solver --initial-field inputs/zero_F50.csv --quiet --out-prefix zero
+final: mean=200.001055 variance=54.077695 min=185.893066 max=213.582741 total_shots=28348
+exchange_moves=42 gram_ms=1 repair_ms=19 total_ms=46
+wrote zero_allocation.csv and zero_field.csv
+$ build/pufoam_solver --initial-field inputs/random_u1_30_seed7_F50.csv --quiet --out-prefix random_1_30_seed7_sync
+final: mean=199.997216 variance=103.561316 min=171.629596 max=226.889579 total_shots=26120
+exchange_moves=70 gram_ms=1 repair_ms=31 total_ms=59
+wrote random_1_30_seed7_sync_allocation.csv and random_1_30_seed7_sync_field.csv
+$ build/pufoam_solver --initial-field inputs/center30_F50.csv --quiet --out-prefix center30
+final: mean=199.996984 variance=55.864830 min=180.315455 max=223.488738 total_shots=27912
+exchange_moves=49 gram_ms=1 repair_ms=21 total_ms=47
+wrote center30_allocation.csv and center30_field.csv
+$ build/pufoam_solver --initial-field inputs/center100_F50.csv --quiet --out-prefix center100
+final: mean=199.996892 variance=94.261981 min=159.830048 max=254.711543 total_shots=26896
+exchange_moves=1791 gram_ms=1 repair_ms=740 total_ms=764
+wrote center100_allocation.csv and center100_field.csv
+
+# compare
+{"ok": 4, "warn": 0, "fail": 0}

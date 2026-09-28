@@ -1,0 +1,17 @@
+{
+ "status": "post hoc additional analysis of the Stage 5 same-budget PSO evaluation; Stage 5 results unchanged",
+ "procedure": "as stage9_rigor.py: OSQP 1e-8 point + active-set refinement; extra points if (V(xb) - L)/U > 1e-9; U = Stage 5 reported allocation (records.jsonl sha256) after integrality/budget/box checks; P = every PSO allocation of the budget, checked and evaluated exactly; intervals rounded outward",
+ "pso": "same-simulator PSO-style reimplementation from the published algorithm description (work/stage1/paper_pso.py), not the original code of the prior paper",
+ "code_sha256": {
+  "stage5_rigor": "2a7971c0741f547fcf2b391307fdccb2d136fd5cbc2f4b1aaabcdd45dcf6ae42",
+  "rigor_pilot": "0e1b82e3cebeb69a447203cfd09123af957d1a001a52d5513bc8dcb98f20599c",
+  "stage9_rigor": "40ef46f5fb10f1e064d0a12391322a3c7e91205c8dbd41ffeaa92ff9a23076a9"
+ },
+ "environment": {
+  "python": "3.12.14",
+  "numpy": "2.4.6",
+  "scipy": "1.18.0",
+  "osqp": "1.1.3",
+  "clarabel": "0.11.1"
+ }
+}

@@ -1,0 +1,6 @@
+Instance,$\underline V_{\mathrm{dual}}$,$V_{\mathrm{QP}}^{\star}$,$V_{\Z}^\star$,$V_{\mathrm{UB}}$,\shortstack{Integrality
+gap},\shortstack{Incumbent
+suboptimality}
+Zero,1.39094,1.39094,1.50807,1.50807,0.11713,0.00000
+Random,64.35903,64.35903,64.43374,64.44997,0.07471,0.01623
+Center,70.12710,70.12710,70.20558,70.20558,0.07848,0.00000

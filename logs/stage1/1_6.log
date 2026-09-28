@@ -1,0 +1,15 @@
+$ /home/user/experiments/.venv/bin/python small_exact_miqp.py
+instance     N    B    dual_LB      V_QP*  V_Z*(SCIP)       V_UB    status     gap    relax  inc.sub     cert
+zero        16   64    1.39094    1.39094     1.50807    1.50807   optimal 0.0e+00  0.11713  0.00000  0.11713
+random      16   64   64.35903   64.35903    64.43374   64.44997   optimal 0.0e+00  0.07471  0.01623  0.09094
+center      16   64   70.12710   70.12710    70.20558   70.20558   optimal 0.0e+00  0.07848  0.00000  0.07848
+
+checks:
+  zero       chain_ok=True scip==evaluate=True (V_Z*=1.50807, evaluate=1.50807, status=optimal)
+  random     chain_ok=True scip==evaluate=True (V_Z*=64.43374, evaluate=64.43374, status=optimal)
+  center     chain_ok=True scip==evaluate=True (V_Z*=70.20558, evaluate=70.20558, status=optimal)
+
+wrote small_exact_miqp.csv
+
+# compare
+{"ok": 49, "warn": 2, "fail": 0}

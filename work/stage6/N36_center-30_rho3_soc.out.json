@@ -1,0 +1,21 @@
+{
+ "instance": "N36_center-30_rho3",
+ "form": "soc",
+ "time_limit": 300,
+ "mem_limit": 3000,
+ "build_s": 0.0064087979844771326,
+ "warm_checksol": true,
+ "warm_accepted": true,
+ "status": "optimal",
+ "solve_wall_s": 7.510402677988168,
+ "scip_time_s": 7.510302,
+ "primal_bound": 53.04919345501962,
+ "dual_bound": 53.04919345501962,
+ "gap": 0.0,
+ "nodes": 393,
+ "nsols": 5,
+ "V_eval": 53.04919349398314,
+ "feasible": true,
+ "same_as_warm": false,
+ "alloc": "/home/user/experiments/work/stage6/N36_center-30_rho3_soc.out.alloc.csv"
+}

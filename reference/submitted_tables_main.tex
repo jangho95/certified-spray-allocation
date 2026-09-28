@@ -1,0 +1,169 @@
+\begin{table}[t]\centering\small\setlength{\tabcolsep}{4pt}
+\caption{Three layers of exploitability.  A lower layer can survive after a
+higher one loses its simplifying assumption.}
+\label{tab:layers}
+\begin{tabular}{>{\raggedright\arraybackslash}p{0.12\linewidth}
+                >{\raggedright\arraybackslash}p{0.23\linewidth}
+                >{\raggedright\arraybackslash}p{0.31\linewidth}
+                >{\raggedright\arraybackslash}p{0.25\linewidth}}
+\toprule
+Layer & Structural property & Consequence & Boundary of the reduction\\
+\midrule
+1: operator & Fixed-kernel additive field and quadratic dispersion
+& Exact affine map and globally convex least-squares variance
+& Shot-dependent kernels, clipping, or nonlinear interaction break the affine model\\
+2: index & Common column mass
+& Mean fixed by budget; contiguous, trivially feasible budget slices
+& Nonuniform mass preserves Layer~1 but replaces the budget index by a weighted sumset\\
+3: certificate & Convex relaxation plus favorable integer-rounding geometry
+& Dual lower envelope and a narrow incumbent certificate band
+& The bound remains valid but can be loose at low counts or small attainable variance\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[t]\centering\small\setlength{\tabcolsep}{5pt}
+\caption{Notation used throughout.}
+\label{tab:notation}
+\begin{tabular}{ll}
+\toprule
+Symbol & Meaning\\
+\midrule
+$M=F^2$ & Number of thickness-field cells ($F\times F$ grid)\\
+$N$ & Number of spray waypoints\\
+$\xv\in\Z^N$ & Integer shot-count vector; $1\le x_j\le C_{\max}$\\
+$\bm s_0\in\R^M$ & Initial thickness field; $T$ target mean\\
+$\bm a_j\in\R^M$ & Folded one-shot stamp of waypoint $j$; $A=[\bm a_1\cdots\bm a_N]$\\
+$\kappa$ & Common per-shot mass $\one_M^\top\bm a_j$ (mass conservation)\\
+$\bm f(\xv)=A\xv+\bm s_0$ & Deposited field; $\mu(\xv),V(\xv)$ its mean and variance\\
+$L=I_M-\tfrac1M\one_M\one_M^\top$ & Centering projector\\
+$B=\one_N^\top\xv$ & Total shot budget; $\mu_B$ the induced fixed mean\\
+$Q=\tfrac1M A^\top A,\ \bm d,\ c_0$ & Quadratic, linear, constant terms of $V$ on a slice\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[t]\centering\small
+\caption{Low-count stress test for the zero field. Budgets are artificial except
+for the final paper-scale target row. $V_{\mathrm{UB}}=\min\{V_{\mathrm{round}},
+V_{\mathrm{repair}}\}$ and the upper-bound relative gap is
+$(V_{\mathrm{UB}}-\underline V_{\mathrm{dual}})/V_{\mathrm{UB}}$, computed at full
+precision. At low $B/N$ the rounding incumbent $V_{\mathrm{round}}$ is markedly
+worse than the repair incumbent, so $V_{\mathrm{UB}}=V_{\mathrm{repair}}$ on every
+row here.}
+\label{tab:cmax-ablation}
+\begin{tabular}{rrrrrrrr}
+\toprule
+$C_{\max}$ & $B$ & $B/N$ & $\underline V_{\mathrm{dual}}$ & $V_{\mathrm{round}}$ &
+$V_{\mathrm{repair}}$ & $V_{\mathrm{UB}}$ & Gap (\%)\\
+\midrule
+  3 &   938 &  1.50 &  0.0590 &  0.3622 &  0.0927 &  0.0927 & 36.34\\
+  5 &  1250 &  2.00 &  0.1048 &  0.1653 &  0.1606 &  0.1606 & 34.75\\
+  8 &  1875 &  3.00 &  0.2358 &  0.3658 &  0.2895 &  0.2895 & 18.55\\
+ 20 &  5000 &  8.00 &  1.6766 &  1.8815 &  1.7512 &  1.7512 &  4.26\\
+ 50 & 12500 & 20.00 & 10.4790 & 10.6641 & 10.5934 & 10.5934 &  1.08\\
+200 & 28348 & 45.36 & 53.8945 & 54.1683 & 54.0777 & 54.0777 &  0.34\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[t]\centering\footnotesize\setlength{\tabcolsep}{4pt}
+\caption{Controlled violation of common column mass on the zero-field
+benchmark. Only the boundary rule differs between the two columns. Layer~1
+quantities are unchanged. The mass reparameterization recovers the destroyed
+Layer~2 index. N/A denotes a value that was not evaluated.}
+\label{tab:kappa-violation}
+\begin{tabular}{lrr}
+\toprule
+Quantity & Reflective fold & Truncation\\
+\midrule
+Distinct column masses & $1$ & $10$\\
+Column-mass range & $17.638022$ & $6.759388$--$17.638022$\\
+Relative column-mass spread & $4.0\times10^{-16}$ & $6.48\times10^{-1}$\\
+\midrule
+Equivalence audit, supports matched & $625/625$ & $625/625$\\
+Largest absolute column discrepancy & $1.8\times10^{-15}$ & $1.3\times10^{-15}$\\
+Worst measured-to-allowed ratio & $0.050$ & $0.051$\\
+$\lambda_{\min}(2A^\top LA/M)$ & $+9.7\times10^{-10}$ & $+1.5\times10^{-9}$\\
+\midrule
+$\Delta\mu$, $k=100$ interior$\to$corner at fixed $B$ & $-1.8\times10^{-15}$ &
+$-4.351454\times10^{-1}$\\
+Predicted $k(\kappa_{\mathrm{edge}}-\kappa_{\mathrm{interior}})/M$ & $0$ &
+$-4.351454\times10^{-1}$\\
+\midrule
+Attainable-mean envelope at $B=28348$ & $200.001055$ &
+$157.314239$--$199.786971$\\
+Envelope width & $0$ & $4.247\times10^{1}$\\
+$|\mu_0+\bm\kappa^\top\xv/M-\text{simulated mean}|$ & N/A &
+$\le4.4\times10^{-14}$\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[t]\centering\footnotesize\setlength{\tabcolsep}{3pt}
+\caption{Target-budget and budget-sweep certificates. $\underline V_{\mathrm{dual}}$ is the
+residual-checked numerical lower bound from the continuous QP relaxation.
+$V_{\mathrm{round}}$ denotes largest-remainder rounding of the relaxed solution,
+and $V_{\mathrm{repair}}$ denotes the greedy-plus-exchange integer-feasible
+incumbent. $V_{\mathrm{UB}}=\min\{V_{\mathrm{round}},V_{\mathrm{repair}}\}$. The gap is
+$(V_{\mathrm{UB}}-\underline V_{\mathrm{dual}})/V_{\mathrm{UB}}$, computed from
+full-precision values before display rounding.}
+\label{tab:target-gaps}
+\begin{tabular}{lrrrrrrr}
+\toprule
+Instance & $B^\star$ & $\underline V_{\mathrm{dual}}$ & $V_{\mathrm{round}}$ &
+$V_{\mathrm{repair}}$ & $V_{\mathrm{UB}}$ & \shortstack{Gap at\\$B^\star$ (\%)} &
+\shortstack{Max swept\\gap (\%)}\\
+\midrule
+Zero               & 28348 &  53.8945 &  54.1683 &  54.0777 &  54.0777 & 0.339 & 0.415\\
+Random $[1,30]$ s7 & 26120 & 102.7721 & 102.9337 & 103.5613 & 102.9337 & 0.157 & 0.237\\
+Center-30          & 27912 &  55.6644 &  55.9182 &  55.8648 &  55.8648 & 0.359 & 0.553\\
+Center-100         & 26896 &  93.5920 &  93.7808 &  94.2620 &  93.7808 & 0.201 & 0.272\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[t]\centering\small\setlength{\tabcolsep}{4pt}
+\caption{Exact integer optimum on reduced instances ($12\times12$ field, $N=16$
+waypoints, $C_{\max}=8$, budget $B=64$). $V_{\Z}^\star$ was solved to certified
+optimality by SCIP (status \emph{optimal}, optimality gap $0$). ``relax.\ gap'' is
+the integrality gap $V_{\Z}^\star-V_{\mathrm{QP}}^{\star}$ and ``inc.\ subopt.'' is
+$V_{\mathrm{UB}}-V_{\Z}^\star$. Both are nonnegative, consistent with the chain
+\eqref{eq:full-chain}.}
+\label{tab:exact-miqp}
+\begin{tabular}{lrrrrrr}
+\toprule
+Instance & $\underline V_{\mathrm{dual}}$ & $V_{\mathrm{QP}}^{\star}$ &
+$V_{\Z}^\star$ & $V_{\mathrm{UB}}$ & Relax.\ gap & Inc.\ subopt.\\
+\midrule
+Zero   &  1.39094 &  1.39094 &  1.50807 &  1.50807 & 0.11713 & 0.00000\\
+Random & 64.35903 & 64.35903 & 64.43374 & 64.44997 & 0.07471 & 0.01623\\
+Center & 70.12710 & 70.12710 & 70.20558 & 70.20558 & 0.07848 & 0.00000\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[t]\centering\footnotesize\setlength{\tabcolsep}{4pt}
+\caption{Waypoint-spacing ablation at the target budget. Absolute gap is
+$V_{\mathrm{UB}}-\underline V_{\mathrm{dual}}$ in variance units. Gaps are computed
+from full-precision values before display rounding.}
+\label{tab:interval-ablation}
+\begin{tabular}{llrrrr}
+\toprule
+Instance & $s$ & $N_s$ & $V_{\mathrm{UB}}$ & $\underline V_{\mathrm{dual}}$ & Abs. gap\\
+\midrule
+Zero       & 1 & 2500 &   0.222 &   0.000 & 0.222\\
+Zero       & 2 &  625 &  54.078 &  53.894 & 0.183\\
+Zero       & 3 &  289 &  68.085 &  68.036 & 0.049\\
+Random     & 1 & 2500 &  41.945 &  41.690 & 0.255\\
+Random     & 2 &  625 & 102.934 & 102.772 & 0.162\\
+Random     & 3 &  289 & 118.150 & 118.080 & 0.070\\
+Center-30  & 1 & 2500 &   1.318 &   0.871 & 0.447\\
+Center-30  & 2 &  625 &  55.865 &  55.664 & 0.200\\
+Center-30  & 3 &  289 &  68.801 &  68.743 & 0.058\\
+Center-100 & 1 & 2500 &  35.569 &  35.329 & 0.240\\
+Center-100 & 2 &  625 &  93.781 &  93.592 & 0.189\\
+Center-100 & 3 &  289 & 120.053 & 119.988 & 0.066\\
+\bottomrule
+\end{tabular}
+\end{table}

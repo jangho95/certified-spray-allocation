@@ -1,0 +1,4 @@
+Layer,Structural property,Consequence,Boundary of the reduction
+1: operator,Fixed-kernel additive field and quadratic dispersion,Exact affine map and globally convex least-squares variance,"Shot-dependent kernels, clipping, or nonlinear interaction break the affine model"
+2: index,Common column mass,"Mean fixed by budget; contiguous, trivially feasible budget slices",Nonuniform mass preserves Layer~1 but replaces the budget index by a weighted sumset
+3: certificate,Convex relaxation plus favorable integer-rounding geometry,Validated lower and upper values bound the integer optimum,Exact bounds remain valid but can be loose; numerical evaluations require verification

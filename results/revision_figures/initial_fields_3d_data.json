@@ -1,0 +1,59 @@
+{
+  "fields": {
+    "zero_F50.csv": {
+      "sha256": "867e0a1eea3449b3b212a056783eaec0c0896d11ccabc2b40962953f9ef0a400",
+      "minimum": 0.0,
+      "maximum": 0.0,
+      "mean": 0.0,
+      "shape": [
+        50,
+        50
+      ]
+    },
+    "random_u1_30_seed7_F50.csv": {
+      "sha256": "1792bb7935f9ad036a49c3a178582ef3eace1b0028c16d6e3b4de36997910a88",
+      "minimum": 1.0001890592724174,
+      "maximum": 29.983217031338118,
+      "mean": 15.715166002323935,
+      "shape": [
+        50,
+        50
+      ]
+    },
+    "center30_F50.csv": {
+      "sha256": "e68973706c296b5b926586c237f789285f7735157dffe53f03821b1e7d67ce66",
+      "minimum": 0.0,
+      "maximum": 30.0,
+      "mean": 3.072,
+      "shape": [
+        50,
+        50
+      ]
+    },
+    "center100_F50.csv": {
+      "sha256": "a7bf89ed5d12b54c87203f6c7cd5e9e3a8b18385e154f9cd3ba937b9dc4d6313",
+      "minimum": 0.0,
+      "maximum": 100.0,
+      "mean": 10.24,
+      "shape": [
+        50,
+        50
+      ]
+    }
+  },
+  "z_limits": [
+    0,
+    100
+  ],
+  "color_limits": [
+    0,
+    100
+  ],
+  "representation": "piecewise constant cell tops with vertical jumps",
+  "camera": {
+    "projection": "orthographic",
+    "elevation": 25,
+    "azimuth": -55
+  },
+  "optimization_rerun": false
+}

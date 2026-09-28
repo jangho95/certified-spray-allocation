@@ -1,0 +1,3 @@
+final: mean=200.01262385126765 variance=231.69879644015725 min=156.74702140953679 max=260.05308426969123 total_shots=5636
+exchange_moves=152 gram_ms=0 repair_ms=3 total_ms=5 peak_rss_kb=3548
+wrote /home/user/experiments/work/stage4/single_F25_center100_r3_greedy_allocation.csv and /home/user/experiments/work/stage4/single_F25_center100_r3_greedy_field.csv

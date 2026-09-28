@@ -1,0 +1,27 @@
+{
+ "id": "N36_center-30_rho3",
+ "series": "N=36",
+ "field": "center-30",
+ "input": "small_center30_c4_F12.csv",
+ "F": 12,
+ "s": 2,
+ "rows": 6,
+ "cmax": 200,
+ "B": 108,
+ "rho": 3,
+ "N": 36,
+ "L": 53.015485627331884,
+ "V_QP": 53.015485627331884,
+ "cands": {
+  "\ubc18\uc62c\ub9bc(\uc6d0\uace0 \uaddc\uce59)": 53.11881391849909,
+  "greedy+repair": 53.18840937172874,
+  "\ubc18\uc62c\ub9bc\u2192repair": 53.07194789406747
+ },
+ "U_pipeline": 53.07194789406747,
+ "U_pipeline_method": "\ubc18\uc62c\ub9bc\u2192repair",
+ "warm_alloc": "/home/user/experiments/work/stage6/N36_center-30_rho3_rr_allocation.csv",
+ "input_path": "/home/user/experiments/inputs/small_center30_c4_F12.csv",
+ "time_limit": 300,
+ "mem_limit": 3000,
+ "qp_status": "solved"
+}

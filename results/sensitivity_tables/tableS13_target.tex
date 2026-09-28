@@ -1,0 +1,45 @@
+\begin{table}[!tbp]\centering\footnotesize\setlength{\tabcolsep}{4pt}
+\caption{Target-thickness series: the four benchmark fields at $T\in\{50,100,150,200,300,400\}$
+with the benchmark kernel and $C_{\max}=200$, three-candidate rule, exact-arithmetic verification.
+$B^\star$ is the target budget, $\overline V$ the exact variance of the selected allocation
+(rounded up), $\underline V$ the verified lower bound (rounded down), and the absolute and
+relative widths are computed from the exact values and rounded up. The footnote gives the number
+of waypoints at $C_{\max}$ in the selected integer allocation and at the reference point of the
+relaxation for the two cases in which the cap was active; no budget was clipped.}
+\label{tab:target-series-si}
+\begin{tabular}{lrrrrrrr}
+\toprule
+Field & $T$ & $B^\star$ & $B/N$ & $\overline V$ & $\underline V$ & $\overline V-\underline V$ & Width (\%) \\
+\midrule
+Zero & 50 & 7087 & 11.3 & 3.4075 & 3.3684 & 0.0391 & 1.1447\\
+Zero & 100 & 14174 & 22.7 & 13.5125 & 13.4736 & 0.0389 & 0.2877\\
+Zero & 150 & 21261 & 34.0 & 30.3545 & 30.3156 & 0.0389 & 0.1279\\
+Zero & 200 & 28348 & 45.4 & 53.9304 & 53.8944 & 0.0359 & 0.0666\\
+Zero & 300 & 42522 & 68.0 & 121.3013 & 121.2625 & 0.0388 & 0.0320\\
+Zero & 400 & 56696 & 90.7 & 215.6190 & 215.5778 & 0.0411 & 0.0191\\
+\addlinespace[2pt]
+Random & 50 & 4860 & 7.8 & 60.1200 & 60.0764 & 0.0435 & 0.0723\\
+Random & 100 & 11946 & 19.1 & 66.8352 & 66.7934 & 0.0418 & 0.0625\\
+Random & 150 & 19033 & 30.5 & 81.2836 & 81.2440 & 0.0395 & 0.0486\\
+Random & 200 & 26120 & 41.8 & 102.8127 & 102.7721 & 0.0405 & 0.0394\\
+Random & 300 & 40294 & 64.5 & 166.6435 & 166.6036 & 0.0398 & 0.0239\\
+Random & 400 & 54468 & 87.1 & 257.7098 & 257.6715 & 0.0383 & 0.0149 $^{c}$\\
+\addlinespace[2pt]
+Center-30 & 50 & 6652 & 10.6 & 7.3866 & 7.3447 & 0.0419 & 0.5661\\
+Center-30 & 100 & 13739 & 22.0 & 16.3227 & 16.2835 & 0.0391 & 0.2395\\
+Center-30 & 150 & 20825 & 33.3 & 32.5845 & 32.5456 & 0.0389 & 0.1193\\
+Center-30 & 200 & 27912 & 44.7 & 55.7051 & 55.6643 & 0.0407 & 0.0731\\
+Center-30 & 300 & 42086 & 67.3 & 122.1661 & 122.1265 & 0.0395 & 0.0323\\
+Center-30 & 400 & 56260 & 90.0 & 215.5777 & 215.5376 & 0.0401 & 0.0186\\
+\addlinespace[2pt]
+Center-100 & 50 & 5636 & 9.0 & 374.6949 & 374.6611 & 0.0337 & 0.0090\\
+Center-100 & 100 & 12723 & 20.4 & 80.3450 & 80.3083 & 0.0366 & 0.0456\\
+Center-100 & 150 & 19809 & 31.7 & 75.8212 & 75.7823 & 0.0388 & 0.0511\\
+Center-100 & 200 & 26896 & 43.0 & 93.6340 & 93.5920 & 0.0420 & 0.0449\\
+Center-100 & 300 & 41070 & 65.7 & 154.0683 & 154.0288 & 0.0395 & 0.0257\\
+Center-100 & 400 & 55244 & 88.4 & 243.9327 & 243.8909 & 0.0418 & 0.0172 $^{c}$\\
+\bottomrule
+\end{tabular}
+
+\smallskip\footnotesize $^{c}$ Cap contacts: Random $T=400$: $3$ waypoints in the integer allocation, $0$ at the relaxation reference; Center-100 $T=400$: $11$ and $5$.
+\end{table}

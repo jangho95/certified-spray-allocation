@@ -1,0 +1,15 @@
+{
+ "instance": "N64_center-30_rho3",
+ "form": "soc_cont",
+ "time_limit": 300,
+ "mem_limit": 3000,
+ "build_s": 0.00818470399826765,
+ "status": "optimal",
+ "solve_wall_s": 0.6018065980169922,
+ "scip_time_s": 0.601649,
+ "primal_bound": 45.370192129651834,
+ "dual_bound": 45.370192129651834,
+ "gap": 0.0,
+ "nodes": 1,
+ "nsols": 5
+}

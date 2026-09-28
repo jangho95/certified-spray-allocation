@@ -1,0 +1,28 @@
+$ /home/user/experiments/.venv/bin/python budget_direction_diagnostics.py
+lambda_max(Q) = 3.55123e-02
+gamma         = 6.70655e-08
+
+case            cmax     B      phi       V_QP     cert%   round%   apriori%
+target:zero      200  28348   53.8945   53.8945      
+target:center30  200  27912   55.6589   55.6644      
+target:center100  200  26896   87.5482   93.5920      
+lowcount:zero      3    938    0.0590    0.0590    57.11   513.74    4047.7
+lowcount:zero     20   5000    1.6766    1.6766     4.45    12.22     115.0
+lowcount:zero     50  12500   10.4790   10.4790     1.09     1.77      17.3
+lowcount:zero    200  28348   53.8945   53.8945     0.34     0.51       3.4
+
+wrote budget_direction_diagnostics.csv
+$ /home/user/experiments/.venv/bin/python /home/user/experiments/pipeline/s1_certificates.py s6
+lambda_max(Q)=3.551234e-02 gamma=6.706553e-08
+{'case': 'Target zero', 'B': 28348, 'phi': 53.8945, 'V_QP': 53.8945}
+{'case': 'Target center-30', 'B': 27912, 'phi': 55.6589, 'V_QP': 55.6644}
+{'case': 'Target center-100', 'B': 26896, 'phi': 87.5482, 'V_QP': 93.592}
+{'case': 'Cmax=3', 'B': 938, 'phi': 0.059, 'V_QP': 0.059, 'cert_over_phi': 57.108, 'first_over_phi': 0.0018, 'curv_over_phi': 57.1058, 'round_over_phi': 513.7413, 'spect_over_phi': 4047.7128, 'split_check': 0.0}
+{'case': 'Cmax=5', 'B': 1250, 'phi': 0.1048, 'V_QP': 0.1048, 'cert_over_phi': 53.2555, 'first_over_phi': -0.0, 'curv_over_phi': 53.2555, 'round_over_phi': 57.7239, 'spect_over_phi': 1360.5589, 'split_check': -0.0}
+{'case': 'Cmax=8', 'B': 1875, 'phi': 0.2358, 'V_QP': 0.2358, 'cert_over_phi': 22.7715, 'first_over_phi': -0.0, 'curv_over_phi': 22.7715, 'round_over_phi': 55.16, 'spect_over_phi': 741.6315, 'split_check': -0.0}
+{'case': 'Cmax=20', 'B': 5000, 'phi': 1.6766, 'V_QP': 1.6766, 'cert_over_phi': 4.4488, 'first_over_phi': -0.0, 'curv_over_phi': 4.4488, 'round_over_phi': 12.2206, 'spect_over_phi': 114.9722, 'split_check': -0.0}
+{'case': 'Cmax=50', 'B': 12500, 'phi': 10.479, 'V_QP': 10.479, 'cert_over_phi': 1.0917, 'first_over_phi': 0.0, 'curv_over_phi': 1.0917, 'round_over_phi': 1.7664, 'spect_over_phi': 17.3321, 'split_check': -0.0}
+{'case': 'Cmax=200', 'B': 28348, 'phi': 53.8945, 'V_QP': 53.8945, 'cert_over_phi': 0.34, 'first_over_phi': 0.0, 'curv_over_phi': 0.34, 'round_over_phi': 0.508, 'spect_over_phi': 3.4255, 'split_check': 0.0}
+
+# compare
+{"ok": 108, "warn": 0, "fail": 0}

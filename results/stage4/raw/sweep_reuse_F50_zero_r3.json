@@ -1,0 +1,220 @@
+{
+ "mode": "sweep_reuse",
+ "F": 50,
+ "field": "zero",
+ "rep": 3,
+ "input": "zero_F50.csv",
+ "t_import": 0.12240046099759638,
+ "threads": {
+  "env_before": {
+   "OMP_NUM_THREADS": null,
+   "OPENBLAS_NUM_THREADS": null,
+   "MKL_NUM_THREADS": null,
+   "BLIS_NUM_THREADS": null,
+   "VECLIB_MAXIMUM_THREADS": null,
+   "NUMEXPR_NUM_THREADS": null
+  },
+  "env_forced": {
+   "OMP_NUM_THREADS": "1",
+   "OPENBLAS_NUM_THREADS": "1",
+   "MKL_NUM_THREADS": "1",
+   "BLIS_NUM_THREADS": "1",
+   "VECLIB_MAXIMUM_THREADS": "1",
+   "NUMEXPR_NUM_THREADS": "1"
+  },
+  "threadpools": [
+   {
+    "user_api": "blas",
+    "internal_api": "openblas",
+    "num_threads": 1,
+    "version": "0.3.31.dev"
+   },
+   {
+    "user_api": "blas",
+    "internal_api": "openblas",
+    "num_threads": 1,
+    "version": "0.3.31.188.0"
+   }
+  ]
+ },
+ "pid": 3378504,
+ "N": 625,
+ "M": 2500,
+ "B_target": 28348,
+ "A_bytes": 12500000,
+ "gram_bytes": 3125000,
+ "budgets": [
+  {
+   "B": 24096,
+   "L": 38.93939955623591,
+   "primal": 38.939399740058434,
+   "iters": 125,
+   "status": "solved"
+  },
+  {
+   "B": 24379,
+   "L": 39.859432958022154,
+   "primal": 39.859433070378145,
+   "iters": 50,
+   "status": "solved"
+  },
+  {
+   "B": 24663,
+   "L": 40.7935167888276,
+   "primal": 40.79351690385374,
+   "iters": 50,
+   "status": "solved"
+  },
+  {
+   "B": 24946,
+   "L": 41.73507299369547,
+   "primal": 41.735073111369275,
+   "iters": 50,
+   "status": "solved"
+  },
+  {
+   "B": 25230,
+   "L": 42.690755679839214,
+   "primal": 42.69075580013305,
+   "iters": 50,
+   "status": "solved"
+  },
+  {
+   "B": 25513,
+   "L": 43.653834687698065,
+   "primal": 43.653834810680564,
+   "iters": 50,
+   "status": "solved"
+  },
+  {
+   "B": 25797,
+   "L": 44.631116229365404,
+   "primal": 44.631116354961705,
+   "iters": 50,
+   "status": "solved"
+  },
+  {
+   "B": 26080,
+   "L": 45.61571804024253,
+   "primal": 45.61571816813375,
+   "iters": 50,
+   "status": "solved"
+  },
+  {
+   "B": 26364,
+   "L": 46.61459843700814,
+   "primal": 46.61459856745205,
+   "iters": 50,
+   "status": "solved"
+  },
+  {
+   "B": 26647,
+   "L": 47.620723051012405,
+   "primal": 47.62072318386345,
+   "iters": 50,
+   "status": "solved"
+  },
+  {
+   "B": 26931,
+   "L": 48.64120230319122,
+   "primal": 48.64120243872458,
+   "iters": 50,
+   "status": "solved"
+  },
+  {
+   "B": 27214,
+   "L": 49.66884972019777,
+   "primal": 49.66884985831712,
+   "iters": 50,
+   "status": "solved"
+  },
+  {
+   "B": 27498,
+   "L": 50.71092782794362,
+   "primal": 50.71092796885205,
+   "iters": 50,
+   "status": "solved"
+  },
+  {
+   "B": 27781,
+   "L": 51.760098047841865,
+   "primal": 51.76009819189494,
+   "iters": 50,
+   "status": "solved"
+  },
+  {
+   "B": 28065,
+   "L": 52.82377501101038,
+   "primal": 52.82377516233828,
+   "iters": 50,
+   "status": "solved"
+  },
+  {
+   "B": 28348,
+   "L": 53.8944680339163,
+   "primal": 53.89446819943987,
+   "iters": 50,
+   "status": "solved"
+  },
+  {
+   "B": 28631,
+   "L": 54.97590347887713,
+   "primal": 54.97590366237273,
+   "iters": 50,
+   "status": "solved"
+  },
+  {
+   "B": 28915,
+   "L": 56.071959678506744,
+   "primal": 56.07195988130843,
+   "iters": 50,
+   "status": "solved"
+  },
+  {
+   "B": 29198,
+   "L": 57.17491792634942,
+   "primal": 57.17491815147514,
+   "iters": 50,
+   "status": "solved"
+  },
+  {
+   "B": 29482,
+   "L": 58.29257298134864,
+   "primal": 58.29257323105412,
+   "iters": 50,
+   "status": "solved"
+  },
+  {
+   "B": 29765,
+   "L": 59.41705403253472,
+   "primal": 59.41705430928414,
+   "iters": 50,
+   "status": "solved"
+  }
+ ],
+ "times": {
+  "waypoints": 4.8922025598585606e-05,
+  "stamps": 0.008237963018473238,
+  "dense_A": 0.005236589990090579,
+  "load_input": 0.00020763801876455545,
+  "gram": 0.017101035977248102,
+  "setup": 0.002606158028356731,
+  "dual": 0.016349021869245917,
+  "update": 0.00041708583012223244,
+  "solve": 0.08198461210122332
+ },
+ "rss_python_after": {
+  "import": 62.4609375,
+  "waypoints": 62.4609375,
+  "stamps": 64.7109375,
+  "dense_A": 76.375,
+  "load_input": 76.5625,
+  "gram": 84.625,
+  "setup": 89.875,
+  "dual": 98.59375,
+  "update": 98.59375,
+  "solve": 98.59375
+ },
+ "rss_python_peak": 98.59375,
+ "t_wall_main": 0.26264461094979197
+}

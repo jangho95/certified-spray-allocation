@@ -1,0 +1,48 @@
+{
+ "case": "V-s1zero",
+ "M": 2500,
+ "N": 2500,
+ "B": 28348,
+ "Cmax": 200,
+ "guarantee": "fixed float64 data (A from build_stamps, s0 as stored); ideal Gaussian via eps",
+ "xbar_source": "정제(OSQP 1e-8 출발)",
+ "sha256": {
+  "col_ptr": "bc30c0521fa9072283ecc305373d633b66ae18480a21fdbc98c1b26e9659a7f1",
+  "cells": "ff8134231b2f803d61c4ba71aa1882ed2c84bb81e990509cdbe3871ebf7a8fc5",
+  "weights": "f0135711e1607469e51ff09cd712460b5b04187cdd2a7cf3417b9100ede3ebe9",
+  "s0": "28b4f41a7f3ee6d8cc87272db6e09c6d3566551fd4d18702b041a21658272a85",
+  "xbar": "82b455f4f729ff8d5cab5e1c200629bf584bf1a63b8fb32bf880d90a9433e4e0",
+  "alloc": "e2f64b0d6a404d6f45d1ab38f6eef21fe263086ee101333013b37d00b7fc5456",
+  "code": "46344593a6d9341b4f6e16474270de29deb91d643b455465ef5f0a1939eb425a"
+ },
+ "x_feas": {
+  "base": "clip(xbar) to [1, C] (points.npz x_feas_base)",
+  "adjusted": {
+   "2076": "797925263979473/70368744177664"
+  }
+ },
+ "L_exact": "0/1",
+ "U_exact": "1801128867033940273207246745203709504609/8112963841460668169578900514406400000000",
+ "V_feas_exact": "3835967301578734638756564910382114873163/1285550435407192220433569673872930082017762395026234268241100800000000",
+ "eps_ideal": {
+  "value": 1.92008667390587e-13,
+  "hex": "0x1.b05d75fa72399p-43"
+ },
+ "alloc_checks": {
+  "integral": true,
+  "budget": true,
+  "box": true
+ },
+ "solver_status": {
+  "osqp_1e8": "solved",
+  "osqp_1e10": "solved",
+  "clarabel": "Solved"
+ },
+ "environment": {
+  "python": "3.12.14",
+  "numpy": "2.4.6",
+  "scipy": "1.18.0",
+  "osqp": "1.1.3",
+  "clarabel": "0.11.1"
+ }
+}

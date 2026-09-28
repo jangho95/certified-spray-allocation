@@ -1,0 +1,258 @@
+[
+  {
+    "document": "main",
+    "table": "1",
+    "label": "tab:layers",
+    "file": "table_1.csv",
+    "rows": 4,
+    "cells": "Reported table cells in TeX notation; these are publication snapshots, not unrounded raw outputs."
+  },
+  {
+    "document": "main",
+    "table": "2",
+    "label": "tab:notation",
+    "file": "table_2.csv",
+    "rows": 12,
+    "cells": "Reported table cells in TeX notation; these are publication snapshots, not unrounded raw outputs."
+  },
+  {
+    "document": "main",
+    "table": "3",
+    "label": "tab:cmax-ablation",
+    "file": "table_3.csv",
+    "rows": 7,
+    "cells": "Reported table cells in TeX notation; these are publication snapshots, not unrounded raw outputs."
+  },
+  {
+    "document": "main",
+    "table": "4",
+    "label": "tab:kappa-violation",
+    "file": "table_4.csv",
+    "rows": 13,
+    "cells": "Reported table cells in TeX notation; these are publication snapshots, not unrounded raw outputs."
+  },
+  {
+    "document": "main",
+    "table": "5",
+    "label": "tab:mass-scenarios",
+    "file": "table_5.csv",
+    "rows": 7,
+    "cells": "Reported table cells in TeX notation; these are publication snapshots, not unrounded raw outputs."
+  },
+  {
+    "document": "main",
+    "table": "6",
+    "label": "tab:target-gaps",
+    "file": "table_6.csv",
+    "rows": 5,
+    "cells": "Reported table cells in TeX notation; these are publication snapshots, not unrounded raw outputs."
+  },
+  {
+    "document": "main",
+    "table": "7",
+    "label": "tab:cost",
+    "file": "table_7.csv",
+    "rows": 9,
+    "cells": "Reported table cells in TeX notation; these are publication snapshots, not unrounded raw outputs."
+  },
+  {
+    "document": "main",
+    "table": "8",
+    "label": "tab:exact-miqp",
+    "file": "table_8.csv",
+    "rows": 6,
+    "cells": "Reported table cells in TeX notation; these are publication snapshots, not unrounded raw outputs."
+  },
+  {
+    "document": "main",
+    "table": "9",
+    "label": "tab:exact-miqp-pilot",
+    "file": "table_9.csv",
+    "rows": 13,
+    "cells": "Reported table cells in TeX notation; these are publication snapshots, not unrounded raw outputs."
+  },
+  {
+    "document": "main",
+    "table": "10",
+    "label": "tab:exact-miqp-decomp",
+    "file": "table_10.csv",
+    "rows": 15,
+    "cells": "Reported table cells in TeX notation; these are publication snapshots, not unrounded raw outputs."
+  },
+  {
+    "document": "main",
+    "table": "11",
+    "label": "tab:random-summary",
+    "file": "table_11.csv",
+    "rows": 5,
+    "cells": "Reported table cells in TeX notation; these are publication snapshots, not unrounded raw outputs."
+  },
+  {
+    "document": "main",
+    "table": "12",
+    "label": "tab:sweep-max",
+    "file": "table_12.csv",
+    "rows": 5,
+    "cells": "Reported table cells in TeX notation; these are publication snapshots, not unrounded raw outputs."
+  },
+  {
+    "document": "main",
+    "table": "13",
+    "label": "tab:interval-ablation",
+    "file": "table_13.csv",
+    "rows": 13,
+    "cells": "Reported table cells in TeX notation; these are publication snapshots, not unrounded raw outputs."
+  },
+  {
+    "document": "main",
+    "table": "14",
+    "label": "tab:range",
+    "file": "table_14.csv",
+    "rows": 13,
+    "cells": "Reported table cells in TeX notation; these are publication snapshots, not unrounded raw outputs."
+  },
+  {
+    "document": "supplementary_material",
+    "table": "S1",
+    "label": "tab:prior-relation-si",
+    "file": "table_S1.csv",
+    "rows": 4,
+    "cells": "Reported table cells in TeX notation; these are publication snapshots, not unrounded raw outputs."
+  },
+  {
+    "document": "supplementary_material",
+    "table": "S2",
+    "label": "tab:software-si",
+    "file": "table_S2.csv",
+    "rows": 13,
+    "cells": "Reported table cells in TeX notation; these are publication snapshots, not unrounded raw outputs."
+  },
+  {
+    "document": "supplementary_material",
+    "table": "S3",
+    "label": "tab:audit-si",
+    "file": "table_S3.csv",
+    "rows": 13,
+    "cells": "Reported table cells in TeX notation; these are publication snapshots, not unrounded raw outputs."
+  },
+  {
+    "document": "supplementary_material",
+    "table": "S4",
+    "label": "tab:kernel-ablation-si",
+    "file": "table_S4.csv",
+    "rows": 9,
+    "cells": "Reported table cells in TeX notation; these are publication snapshots, not unrounded raw outputs."
+  },
+  {
+    "document": "supplementary_material",
+    "table": "S5",
+    "label": "tab:random-seeds-si",
+    "file": "table_S5.csv",
+    "rows": 12,
+    "cells": "Reported table cells in TeX notation; these are publication snapshots, not unrounded raw outputs."
+  },
+  {
+    "document": "supplementary_material",
+    "table": "S6",
+    "label": "tab:budget-direction-si",
+    "file": "table_S6.csv",
+    "rows": 10,
+    "cells": "Reported table cells in TeX notation; these are publication snapshots, not unrounded raw outputs."
+  },
+  {
+    "document": "supplementary_material",
+    "table": "S7",
+    "label": "tab:pso-summary-si",
+    "file": "table_S7_1.csv",
+    "rows": 5,
+    "cells": "Reported table cells in TeX notation; these are publication snapshots, not unrounded raw outputs."
+  },
+  {
+    "document": "supplementary_material",
+    "table": "S7",
+    "label": "tab:pso-summary-si",
+    "file": "table_S7_2.csv",
+    "rows": 5,
+    "cells": "Reported table cells in TeX notation; these are publication snapshots, not unrounded raw outputs."
+  },
+  {
+    "document": "supplementary_material",
+    "table": "S8",
+    "label": "tab:residual-audit-si",
+    "file": "table_S8.csv",
+    "rows": 15,
+    "cells": "Reported table cells in TeX notation; these are publication snapshots, not unrounded raw outputs."
+  },
+  {
+    "document": "supplementary_material",
+    "table": "S10",
+    "label": "tab:tolerance-si",
+    "file": "table_S10_1.csv",
+    "rows": 11,
+    "cells": "Reported table cells in TeX notation; these are publication snapshots, not unrounded raw outputs."
+  },
+  {
+    "document": "supplementary_material",
+    "table": "S10",
+    "label": "tab:tolerance-si",
+    "file": "table_S10_2.csv",
+    "rows": 13,
+    "cells": "Reported table cells in TeX notation; these are publication snapshots, not unrounded raw outputs."
+  },
+  {
+    "document": "supplementary_material",
+    "table": "S12",
+    "label": "tab:pso-long25-si",
+    "file": "table_S12.csv",
+    "rows": 5,
+    "cells": "Reported table cells in TeX notation; these are publication snapshots, not unrounded raw outputs."
+  },
+  {
+    "document": "supplementary_material",
+    "table": "S9",
+    "label": "tab:sweep-full-si",
+    "file": "table_S9.csv",
+    "rows": 85,
+    "cells": "Reported table cells in TeX notation; these are publication snapshots, not unrounded raw outputs."
+  },
+  {
+    "document": "supplementary_material",
+    "table": "S11",
+    "label": "tab:prereg-si",
+    "file": "table_S11.csv",
+    "rows": 60,
+    "cells": "Reported table cells in TeX notation; these are publication snapshots, not unrounded raw outputs."
+  },
+  {
+    "document": "main",
+    "table": "15",
+    "label": "tab:sensitivity-ext",
+    "file": "table_15.csv",
+    "rows": 16,
+    "cells": "Reported table cells in TeX notation; these are publication snapshots, not unrounded raw outputs."
+  },
+  {
+    "document": "supplementary",
+    "table": "S13",
+    "label": "tab:target-series-si",
+    "file": "table_S13.csv",
+    "rows": 25,
+    "cells": "Reported table cells in TeX notation; these are publication snapshots, not unrounded raw outputs."
+  },
+  {
+    "document": "supplementary",
+    "table": "S14",
+    "label": "tab:distribution-series-si",
+    "file": "table_S14.csv",
+    "rows": 25,
+    "cells": "Reported table cells in TeX notation; these are publication snapshots, not unrounded raw outputs."
+  },
+  {
+    "document": "supplementary",
+    "table": "S15",
+    "label": "tab:mesh-series-si",
+    "file": "table_S15.csv",
+    "rows": 13,
+    "cells": "Reported table cells in TeX notation; these are publication snapshots, not unrounded raw outputs."
+  }
+]

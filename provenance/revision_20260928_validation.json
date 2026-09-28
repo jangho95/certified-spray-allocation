@@ -1,0 +1,19 @@
+{
+  "exact_certificates": "revision_20260928_verification.json",
+  "figures_regenerated_in_separate_copy": true,
+  "png_matches_manuscript": {
+    "problem_overview_rev.png": true,
+    "initial_fields_3d.png": true,
+    "pareto_fronts_rev.png": true,
+    "stage7_seriesA.png": true,
+    "stage7_seriesB.png": true,
+    "solution_maps_rev.png": true,
+    "gaussian_kernel_shapes_rev.png": true,
+    "cmax_count_ablation_rev.png": true,
+    "pso_long25_convergence.png": true
+  },
+  "new_python_comments_and_docstrings": 0,
+  "optimization_rerun": false,
+  "long_pso_archive_manifest_files": 637,
+  "long_pso_archive_manifest_errors": 0
+}

@@ -1,0 +1,43 @@
+{
+  "field": "center30",
+  "input": "center30_F50.csv",
+  "seed": 22,
+  "iters": 5000,
+  "B": 27912,
+  "P": 87.22858123623223,
+  "P_reported": 87.22858123623223,
+  "mean": 199.9969838953422,
+  "alloc": "alloc/pso_center30_s22_it5000.csv",
+  "history": "history/pso_center30_s22_it5000.csv",
+  "alloc_sha256": "2c7812f09ca9bbc639edf9be6f2bbbb1dcd27c93d2210d0acaad81c3d5c2235e",
+  "history_sha256": "7a9d4eb14c29b0d29b98053210d51d373017718fdfd4d9d0a51f3a8f8cfa1356",
+  "elapsed_s": 20.15892477601301,
+  "optimizer_s": 20.11704444885254,
+  "source": "new execution",
+  "threads": {
+    "env_before": {
+      "OMP_NUM_THREADS": null,
+      "OPENBLAS_NUM_THREADS": null,
+      "MKL_NUM_THREADS": null,
+      "BLIS_NUM_THREADS": null,
+      "VECLIB_MAXIMUM_THREADS": null,
+      "NUMEXPR_NUM_THREADS": null
+    },
+    "env_forced": {
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "BLIS_NUM_THREADS": "1",
+      "VECLIB_MAXIMUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": "1"
+    },
+    "threadpools": [
+      {
+        "user_api": "blas",
+        "internal_api": "openblas",
+        "num_threads": 1,
+        "version": "0.3.31.188.0"
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+Category,Scope
+Reused benchmark components,"The stop-and-spray deposition simulator, the four
+initial-field families, integer shot-count decision variables, and the
+mean and variance quality metrics."
+Analysis and computational additions,"The separation of affine-operator, mass-index, and
+certificate layers, including convex integer quadratic programming (IQP) and mass-slice reformulations, bounded
+weighted-sumset analysis, dual-feasible lower-bound certificates, a
+relaxation-to-integer decomposition, a controlled common-mass violation, a
+count-regime stress test, and reduced mixed-integer quadratic programming (MIQP) validation. Standard convexity,
+duality and exact-evaluation tools are identified and attributed in the main
+text; their application here is not a claim of new general optimization theory."
+Scope not addressed in this article,"No new physical simulator, PSO variant or hardware experiment was evaluated. The PSO method from the prior study provides the comparison baseline.
+Table~\ref{tab:pso-summary-si} distinguishes the PSO results obtained in this
+study from aggregate variances reported in the prior article. Certificates
+are computed for the allocations evaluated here."

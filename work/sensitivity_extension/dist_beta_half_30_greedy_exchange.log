@@ -1,0 +1,3 @@
+final: mean=199.99885285511232 variance=123.44709538967058 min=166.4892337960668 max=229.65281962940787 total_shots=26108
+exchange_moves=80 gram_ms=1 repair_ms=37 total_ms=62 peak_rss_kb=7312
+wrote /home/user/experiments/work/sensitivity_extension/dist_beta_half_30_greedy_exchange_allocation.csv and /home/user/experiments/work/sensitivity_extension/dist_beta_half_30_greedy_exchange_field.csv

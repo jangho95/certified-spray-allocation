@@ -1,0 +1,4789 @@
+{
+ "run_id": "bench_sweep-20260928T093414-3538108",
+ "threads": {
+  "env_before": {
+   "OMP_NUM_THREADS": null,
+   "OPENBLAS_NUM_THREADS": null,
+   "MKL_NUM_THREADS": null,
+   "BLIS_NUM_THREADS": null,
+   "VECLIB_MAXIMUM_THREADS": null,
+   "NUMEXPR_NUM_THREADS": null
+  },
+  "env_forced": {
+   "OMP_NUM_THREADS": "1",
+   "OPENBLAS_NUM_THREADS": "1",
+   "MKL_NUM_THREADS": "1",
+   "BLIS_NUM_THREADS": "1",
+   "VECLIB_MAXIMUM_THREADS": "1",
+   "NUMEXPR_NUM_THREADS": "1"
+  },
+  "threadpools": [
+   {
+    "user_api": "blas",
+    "internal_api": "openblas",
+    "num_threads": 1,
+    "version": "0.3.31.188.0"
+   },
+   {
+    "user_api": "blas",
+    "internal_api": "openblas",
+    "num_threads": 1,
+    "version": "0.3.31.dev"
+   }
+  ]
+ },
+ "results": [
+  {
+   "name": "zero",
+   "input": "zero_F50.csv",
+   "input_sha256": "867e0a1eea3449b3b212a056783eaec0c0896d11ccabc2b40962953f9ef0a400",
+   "bstar": 28348,
+   "cpp_bstar": 28348,
+   "mean_s0": 0.0,
+   "rows": [
+    {
+     "B": 24096,
+     "BN": 38.5536,
+     "is_target": false,
+     "L_osqp": 38.93939955624262,
+     "L_c": 38.93939947435648,
+     "L_best": 38.93939955624262,
+     "V_QP": 38.939399740054796,
+     "P_c": 38.93939958619012,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 2.2027382976608312e-16,
+     "prim_res": 5.165929906070232e-10,
+     "dual_res": 2.1717450559403322e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 39.13318354718988,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/zero/B24096_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 39.09766795633113,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/zero/B24096_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 38.976241954386815,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/zero/B24096_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 38.976241954386815,
+     "U_paper": 39.09766795633113,
+     "U_method": "반올림→repair",
+     "W_rev": 0.09452527051558991,
+     "W_paper": 0.4048026605200143,
+     "W_best": 0.09452527051558991,
+     "abs_rev": 0.03684239814419499,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    },
+    {
+     "B": 24379,
+     "BN": 39.0064,
+     "is_target": false,
+     "L_osqp": 39.85943295801846,
+     "L_c": 39.85943287466341,
+     "L_best": 39.85943295801846,
+     "V_QP": 39.85943314904944,
+     "P_c": 39.85943298881466,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 2.128344574373649e-16,
+     "prim_res": 5.384208634495735e-10,
+     "dual_res": 2.223886941039031e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 40.11489780758105,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/zero/B24379_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 40.02573434196519,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/zero/B24379_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 39.902802783494835,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/zero/B24379_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 39.902802783494835,
+     "U_paper": 40.02573434196519,
+     "U_method": "반올림→repair",
+     "W_rev": 0.10868866959469502,
+     "W_paper": 0.41548615329805844,
+     "W_best": 0.10868866959469502,
+     "abs_rev": 0.04336982547637547,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    },
+    {
+     "B": 24663,
+     "BN": 39.4608,
+     "is_target": false,
+     "L_osqp": 40.793516788809896,
+     "L_c": 40.79351670398873,
+     "L_best": 40.793516788809896,
+     "V_QP": 40.79351698723258,
+     "P_c": 40.793516820478544,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 2.1669491304757834e-16,
+     "prim_res": 4.4019543565809727e-10,
+     "dual_res": 2.2767810974888195e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 41.00576720496361,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/zero/B24663_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 40.95941535768556,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/zero/B24663_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 40.83507555365891,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/zero/B24663_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 40.83507555365891,
+     "U_paper": 40.95941535768556,
+     "U_method": "반올림→repair",
+     "W_rev": 0.10177222470031844,
+     "W_paper": 0.4050315841349836,
+     "W_best": 0.10177222470031844,
+     "abs_rev": 0.04155876484901455,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    },
+    {
+     "B": 24946,
+     "BN": 39.9136,
+     "is_target": false,
+     "L_osqp": 41.73507299368251,
+     "L_c": 41.73507290739324,
+     "L_best": 41.73507299368251,
+     "V_QP": 41.735073199670296,
+     "P_c": 41.73507302622238,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 2.1508129908979293e-16,
+     "prim_res": 4.984030965715647e-10,
+     "dual_res": 2.3300498747031758e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 41.94826764823628,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/zero/B24946_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 41.899259804335536,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/zero/B24946_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 41.77558198003309,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/zero/B24946_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 41.77558198003309,
+     "U_paper": 41.899259804335536,
+     "U_method": "반올림→repair",
+     "W_rev": 0.09696809578844956,
+     "W_paper": 0.391860885895743,
+     "W_best": 0.09696809578844956,
+     "abs_rev": 0.040508986350580756,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    },
+    {
+     "B": 25230,
+     "BN": 40.368,
+     "is_target": false,
+     "L_osqp": 42.690755679831184,
+     "L_c": 42.690755592075774,
+     "L_best": 42.690755679831184,
+     "V_QP": 42.690755893607275,
+     "P_c": 42.69075571325811,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 2.1630346112111662e-16,
+     "prim_res": 4.511093720793724e-10,
+     "dual_res": 2.3840631310842652e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 42.9268102602423,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/zero/B25230_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 42.85800390366543,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/zero/B25230_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 42.73167209828571,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/zero/B25230_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 42.73167209828571,
+     "U_paper": 42.85800390366543,
+     "U_method": "반올림→repair",
+     "W_rev": 0.09575197141927531,
+     "W_paper": 0.3902380153078913,
+     "W_best": 0.09575197141927531,
+     "abs_rev": 0.04091641845452898,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    },
+    {
+     "B": 25513,
+     "BN": 40.8208,
+     "is_target": false,
+     "L_osqp": 43.6538346876967,
+     "L_c": 43.653834598477076,
+     "L_best": 43.6538346876967,
+     "V_QP": 43.653834909404395,
+     "P_c": 43.65383472201211,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 2.1238856062668952e-16,
+     "prim_res": 4.69299266114831e-10,
+     "dual_res": 2.438445000927157e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 43.89965271595057,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/zero/B25513_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 43.81783244407958,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/zero/B25513_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 43.69238202498243,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/zero/B25513_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 43.69238202498243,
+     "U_paper": 43.81783244407958,
+     "U_method": "반올림→repair",
+     "W_rev": 0.08822438946836793,
+     "W_paper": 0.3742717228018315,
+     "W_best": 0.08822438946836793,
+     "abs_rev": 0.03854733728572768,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    },
+    {
+     "B": 25797,
+     "BN": 41.2752,
+     "is_target": false,
+     "L_osqp": 44.631116229371955,
+     "L_c": 44.63111613869147,
+     "L_best": 44.631116229371955,
+     "V_QP": 44.6311164591898,
+     "P_c": 44.631116264587035,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 2.03826884567616e-16,
+     "prim_res": 5.529727786779404e-10,
+     "dual_res": 2.4935726915006376e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 44.88073166165518,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/zero/B25797_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 44.797654147599076,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/zero/B25797_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 44.66935563991738,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/zero/B25797_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 44.66935563991738,
+     "U_paper": 44.797654147599076,
+     "U_method": "반올림→repair",
+     "W_rev": 0.08560546709845754,
+     "W_paper": 0.37175589078484483,
+     "W_best": 0.08560546709845754,
+     "abs_rev": 0.03823941054542246,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    },
+    {
+     "B": 26080,
+     "BN": 41.728,
+     "is_target": false,
+     "L_osqp": 45.615718040246975,
+     "L_c": 45.61571794808674,
+     "L_best": 45.615718040246975,
+     "V_QP": 45.615718278393615,
+     "P_c": 45.6157180763621,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 2.045469867974651e-16,
+     "prim_res": 5.602487362921238e-10,
+     "dual_res": 2.5490516722257048e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 45.92636805474516,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/zero/B26080_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 45.77525481866862,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/zero/B26080_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 45.65737175509673,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/zero/B26080_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 45.65737175509673,
+     "U_paper": 45.77525481866862,
+     "U_method": "반올림→repair",
+     "W_rev": 0.0912310832808908,
+     "W_paper": 0.34852187946003993,
+     "W_best": 0.0912310832808908,
+     "abs_rev": 0.04165371484975822,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    },
+    {
+     "B": 26364,
+     "BN": 42.1824,
+     "is_target": false,
+     "L_osqp": 46.61459843700531,
+     "L_c": 46.6145983434073,
+     "L_best": 46.61459843700531,
+     "V_QP": 46.61459868380189,
+     "P_c": 46.61459847402875,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 2.0335979774947475e-16,
+     "prim_res": 6.002665031701326e-10,
+     "dual_res": 2.6052782551260363e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 46.96666773284186,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/zero/B26364_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 46.78325292878571,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/zero/B26364_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 46.650679235437906,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/zero/B26364_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 46.650679235437906,
+     "U_paper": 46.78325292878571,
+     "U_method": "반올림→repair",
+     "W_rev": 0.07734249323680689,
+     "W_paper": 0.36050184889264353,
+     "W_best": 0.07734249323680689,
+     "abs_rev": 0.03608079843259304,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    },
+    {
+     "B": 26647,
+     "BN": 42.6352,
+     "is_target": false,
+     "L_osqp": 47.62072305100328,
+     "L_c": 47.62072295598488,
+     "L_best": 47.62072305100328,
+     "V_QP": 47.62072330661613,
+     "P_c": 47.620723088955856,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 2.0433555863519177e-16,
+     "prim_res": 5.784386303275824e-10,
+     "dual_res": 2.6618521323549415e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 48.01975503420499,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/zero/B26647_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 47.799761997577136,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/zero/B26647_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 47.662820726463615,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/zero/B26647_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 47.662820726463615,
+     "U_paper": 47.799761997577136,
+     "U_method": "반올림→repair",
+     "W_rev": 0.08832392799815841,
+     "W_paper": 0.37456033062032673,
+     "W_best": 0.08832392799815841,
+     "abs_rev": 0.04209767546033305,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    },
+    {
+     "B": 26931,
+     "BN": 43.0896,
+     "is_target": false,
+     "L_osqp": 48.64120230321517,
+     "L_c": 48.64120220674043,
+     "L_best": 48.64120230321517,
+     "V_QP": 48.64120256790193,
+     "P_c": 48.64120234208531,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 2.144538428512863e-16,
+     "prim_res": 5.311449058353901e-10,
+     "dual_res": 2.7191659917462337e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 48.93056566220093,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/zero/B26931_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 48.82082462809078,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/zero/B26931_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 48.68101627684811,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/zero/B26931_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 48.68101627684811,
+     "U_paper": 48.82082462809078,
+     "U_method": "반올림→repair",
+     "W_rev": 0.08178542002189125,
+     "W_paper": 0.36792152988801485,
+     "W_best": 0.08178542002189125,
+     "abs_rev": 0.039813973632945476,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    },
+    {
+     "B": 27214,
+     "BN": 43.5424,
+     "is_target": false,
+     "L_osqp": 49.668849720196576,
+     "L_c": 49.66884962231689,
+     "L_best": 49.668849720196576,
+     "V_QP": 49.66884999402828,
+     "P_c": 49.668849759968,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 2.0988888629468064e-16,
+     "prim_res": 5.784386303275824e-10,
+     "dual_res": 2.7768164007576104e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 49.93583624972681,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/zero/B27214_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 49.846479856822754,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/zero/B27214_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 49.70718322705248,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/zero/B27214_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 49.70718322705248,
+     "U_paper": 49.846479856822754,
+     "U_method": "반올림→repair",
+     "W_rev": 0.07711864637512551,
+     "W_paper": 0.3563544248990021,
+     "W_best": 0.07711864637512551,
+     "abs_rev": 0.03833350685590631,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    },
+    {
+     "B": 27498,
+     "BN": 43.9968,
+     "is_target": false,
+     "L_osqp": 50.71092782791314,
+     "L_c": 50.710927728626835,
+     "L_best": 50.71092782791314,
+     "V_QP": 50.710928111140674,
+     "P_c": 50.71092786864756,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 1.9841144416097983e-16,
+     "prim_res": 5.784386303275824e-10,
+     "dual_res": 2.835206904581305e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 50.97016712615035,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/zero/B27498_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 50.885225157687955,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/zero/B27498_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 50.75071257764901,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/zero/B27498_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 50.75071257764901,
+     "U_paper": 50.885225157687955,
+     "U_method": "반올림→repair",
+     "W_rev": 0.07839249483443517,
+     "W_paper": 0.3425303302376818,
+     "W_best": 0.07839249483443517,
+     "abs_rev": 0.03978474973587254,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    },
+    {
+     "B": 27781,
+     "BN": 44.4496,
+     "is_target": false,
+     "L_osqp": 51.76009804784353,
+     "L_c": 51.76009794714577,
+     "L_best": 51.76009804784353,
+     "V_QP": 51.76009834076831,
+     "P_c": 51.76009808950039,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 2.0702239145190093e-16,
+     "prim_res": 6.075424607843161e-10,
+     "dual_res": 2.8939236653237508e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 51.94539360178473,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/zero/B27781_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 51.94316657623765,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/zero/B27781_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 51.80690699064935,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/zero/B27781_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 51.80690699064935,
+     "U_paper": 51.94316657623765,
+     "U_method": "반올림→repair",
+     "W_rev": 0.09035270685870803,
+     "W_paper": 0.35244006182301485,
+     "W_best": 0.09035270685870803,
+     "abs_rev": 0.04680894280582493,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    },
+    {
+     "B": 28065,
+     "BN": 44.904,
+     "is_target": false,
+     "L_osqp": 52.82377501101337,
+     "L_c": 52.823774908926005,
+     "L_best": 52.82377501101337,
+     "V_QP": 52.823775313809165,
+     "P_c": 52.8237750536282,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 1.9606489339849022e-16,
+     "prim_res": 6.184563972055912e-10,
+     "dual_res": 2.9533769069220268e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 53.04178773182488,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/zero/B28065_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 53.00447383768707,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/zero/B28065_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 52.861715061698526,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/zero/B28065_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 52.861715061698526,
+     "U_paper": 53.00447383768707,
+     "U_method": "반올림→repair",
+     "W_rev": 0.07177226588444156,
+     "W_paper": 0.34091240529440964,
+     "W_best": 0.07177226588444156,
+     "abs_rev": 0.037940050685158155,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    },
+    {
+     "B": 28348,
+     "BN": 45.3568,
+     "is_target": true,
+     "L_osqp": 53.89446803390608,
+     "L_c": 53.89446793046307,
+     "L_best": 53.89446803390608,
+     "V_QP": 53.894468346828944,
+     "P_c": 53.89446807747299,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 2.069695754129513e-16,
+     "prim_res": 5.929905455559492e-10,
+     "dual_res": 3.0131477462674135e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 54.16827721497826,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/zero/B28348_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 54.07769475815948,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/zero/B28348_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 53.93035586652192,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/zero/B28348_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 53.93035586652192,
+     "U_paper": 54.07769475815948,
+     "U_method": "반올림→repair",
+     "W_rev": 0.0665447724926283,
+     "W_paper": 0.33882125536750163,
+     "W_best": 0.0665447724926283,
+     "abs_rev": 0.03588783261584183,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    },
+    {
+     "B": 28631,
+     "BN": 45.8096,
+     "is_target": false,
+     "L_osqp": 54.97590347888027,
+     "L_c": 54.97590337406894,
+     "L_best": 54.97590347888027,
+     "V_QP": 54.975903802092944,
+     "P_c": 54.975903523372835,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 1.9679382104735974e-16,
+     "prim_res": 6.002665031701326e-10,
+     "dual_res": 3.0734394675751036e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 55.22477615870105,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/zero/B28631_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 55.16171021291341,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/zero/B28631_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 55.01721063567493,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/zero/B28631_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 55.01721063567493,
+     "U_paper": 55.16171021291341,
+     "U_method": "반올림→repair",
+     "W_rev": 0.07508042722884592,
+     "W_paper": 0.33684005321076055,
+     "W_best": 0.07508042722884592,
+     "abs_rev": 0.041307156794658795,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    },
+    {
+     "B": 28915,
+     "BN": 46.264,
+     "is_target": false,
+     "L_osqp": 56.07195967851152,
+     "L_c": 56.071959572358956,
+     "L_best": 56.07195967851152,
+     "V_QP": 56.071960012333875,
+     "P_c": 56.07195972396585,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 1.8675540416696347e-16,
+     "prim_res": 6.075424607843161e-10,
+     "dual_res": 3.134466852070448e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 56.27204473509423,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/zero/B28915_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 56.24989558870576,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/zero/B28915_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 56.109149114483074,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/zero/B28915_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 56.109149114483074,
+     "U_paper": 56.24989558870576,
+     "U_method": "반올림→repair",
+     "W_rev": 0.06628052030458609,
+     "W_paper": 0.31633109418601385,
+     "W_best": 0.06628052030458609,
+     "abs_rev": 0.03718943597155544,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    },
+    {
+     "B": 29198,
+     "BN": 46.7168,
+     "is_target": false,
+     "L_osqp": 57.17491792634685,
+     "L_c": 57.17491781887834,
+     "L_best": 57.17491792634685,
+     "V_QP": 57.174918271070055,
+     "P_c": 57.17491797274124,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 2.0246324549281205e-16,
+     "prim_res": 6.402842700481415e-10,
+     "dual_res": 3.195792994000874e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 57.413463043904656,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/zero/B29198_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 57.35714716349237,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/zero/B29198_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 57.21686022608485,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/zero/B29198_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 57.21686022608485,
+     "U_paper": 57.35714716349237,
+     "U_method": "반올림→repair",
+     "W_rev": 0.07330409178739859,
+     "W_paper": 0.31770972957579174,
+     "W_best": 0.07330409178739859,
+     "abs_rev": 0.04194229973799679,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    },
+    {
+     "B": 29482,
+     "BN": 47.1712,
+     "is_target": false,
+     "L_osqp": 58.29257298134762,
+     "L_c": 58.29257287257486,
+     "L_best": 58.29257298134762,
+     "V_QP": 58.29257333706482,
+     "P_c": 58.29257302870974,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 1.8894466263982537e-16,
+     "prim_res": 6.511982064694166e-10,
+     "dual_res": 3.257855221663378e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 58.53786914751155,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/zero/B29482_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 58.47461375827258,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/zero/B29482_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 58.333061075628756,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/zero/B29482_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 58.333061075628756,
+     "U_paper": 58.47461375827258,
+     "U_method": "반올림→repair",
+     "W_rev": 0.06940848557329204,
+     "W_paper": 0.3113159116834872,
+     "W_best": 0.06940848557329204,
+     "abs_rev": 0.04048809428113742,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    },
+    {
+     "B": 29765,
+     "BN": 47.624,
+     "is_target": false,
+     "L_osqp": 59.417054032543135,
+     "L_c": 59.41705392249609,
+     "L_best": 59.417054032543135,
+     "V_QP": 59.417054399578774,
+     "P_c": 59.41705408086273,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 1.8586254206899577e-16,
+     "prim_res": 6.257323548197746e-10,
+     "dual_res": 3.320204010164032e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 59.61870506022125,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/zero/B29765_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 59.59924842182582,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/zero/B29765_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 59.45400153994146,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/zero/B29765_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 59.45400153994146,
+     "U_paper": 59.59924842182582,
+     "U_method": "반올림→repair",
+     "W_rev": 0.0621446941187001,
+     "W_paper": 0.30569913901122925,
+     "W_best": 0.0621446941187001,
+     "abs_rev": 0.036947507398323864,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    }
+   ],
+   "elapsed_s": 3.7724681100226007,
+   "attempts": 1
+  },
+  {
+   "name": "random s7",
+   "input": "random_u1_30_seed7_F50.csv",
+   "input_sha256": "1792bb7935f9ad036a49c3a178582ef3eace1b0028c16d6e3b4de36997910a88",
+   "bstar": 26120,
+   "cpp_bstar": 26120,
+   "mean_s0": 15.715166002323935,
+   "rows": [
+    {
+     "B": 22202,
+     "BN": 35.5232,
+     "is_target": false,
+     "L_osqp": 90.00445219239181,
+     "L_c": 90.00445201761457,
+     "L_best": 90.00445219239181,
+     "V_QP": 90.0044524896075,
+     "P_c": 90.00445280767599,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 2.37427577982398e-16,
+     "prim_res": 2.6209770063512217e-05,
+     "dual_res": 3.192398805033679e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 90.20232487139809,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/random s7/B22202_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 90.70977849183734,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/random s7/B22202_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 90.0453725767951,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/random s7/B22202_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 90.0453725767951,
+     "U_paper": 90.20232487139809,
+     "U_method": "반올림→repair",
+     "W_rev": 0.045444183562452514,
+     "W_paper": 0.21936538696578928,
+     "W_best": 0.045444183562452514,
+     "abs_rev": 0.04092038440329304,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    },
+    {
+     "B": 22463,
+     "BN": 35.9408,
+     "is_target": false,
+     "L_osqp": 90.78840447708406,
+     "L_c": 90.7884045868823,
+     "L_best": 90.7884045868823,
+     "V_QP": 90.78840463882443,
+     "P_c": 90.78840470453724,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 2.2908599507705457e-16,
+     "prim_res": 1.963236221935727e-05,
+     "dual_res": 2.3666649113394038e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 91.0041438477003,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/random s7/B22463_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 91.50002028461189,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/random s7/B22463_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 90.82944405071068,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/random s7/B22463_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 90.82944405071068,
+     "U_paper": 91.0041438477003,
+     "U_method": "반올림→repair",
+     "W_rev": 0.0451831166154743,
+     "W_paper": 0.23706543624793391,
+     "W_best": 0.045182995731506075,
+     "abs_rev": 0.041039573626619585,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    },
+    {
+     "B": 22724,
+     "BN": 36.3584,
+     "is_target": false,
+     "L_osqp": 91.58185054892049,
+     "L_c": 91.58185023803321,
+     "L_best": 91.58185054892049,
+     "V_QP": 91.581850786024,
+     "P_c": 91.58185110490376,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 2.361267554254503e-16,
+     "prim_res": 1.2429110215927963e-05,
+     "dual_res": 2.7143523417936947e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 91.724476366044,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/random s7/B22724_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 92.28892658308973,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/random s7/B22724_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 91.623084299176,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/random s7/B22724_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 91.623084299176,
+     "U_paper": 91.724476366044,
+     "U_method": "반올림→repair",
+     "W_rev": 0.04500366973117222,
+     "W_paper": 0.15549373817555598,
+     "W_best": 0.04500366973117222,
+     "abs_rev": 0.04123375025551468,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    },
+    {
+     "B": 22986,
+     "BN": 36.7776,
+     "is_target": false,
+     "L_osqp": 92.38787476186054,
+     "L_c": 92.38787431422354,
+     "L_best": 92.38787476186054,
+     "V_QP": 92.3878749821015,
+     "P_c": 92.38787527581371,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 2.1456381268856994e-16,
+     "prim_res": 1.1865573858571565e-05,
+     "dual_res": 2.6183366901333332e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 92.57105149095298,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/random s7/B22986_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 93.10523538531913,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/random s7/B22986_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 92.42834070395317,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/random s7/B22986_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 92.42834070395317,
+     "U_paper": 92.57105149095298,
+     "U_method": "반올림→repair",
+     "W_rev": 0.043780881258309694,
+     "W_paper": 0.19787690227364382,
+     "W_best": 0.043780881258309694,
+     "abs_rev": 0.040465942092623663,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    },
+    {
+     "B": 23247,
+     "BN": 37.1952,
+     "is_target": false,
+     "L_osqp": 93.2003266221391,
+     "L_c": 93.20032653068917,
+     "L_best": 93.2003266221391,
+     "V_QP": 93.20032690298467,
+     "P_c": 93.200327085764,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 2.1695891116168276e-16,
+     "prim_res": 1.4561243866229034e-05,
+     "dual_res": 2.927319854022974e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 93.36841296231589,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/random s7/B23247_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 93.92332798020705,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/random s7/B23247_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 93.2406131834568,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/random s7/B23247_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 93.2406131834568,
+     "U_paper": 93.36841296231589,
+     "U_method": "반올림→repair",
+     "W_rev": 0.04320709607350347,
+     "W_paper": 0.1800248444242336,
+     "W_best": 0.04320709607350347,
+     "abs_rev": 0.04028656131769992,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    },
+    {
+     "B": 23508,
+     "BN": 37.6128,
+     "is_target": false,
+     "L_osqp": 94.02227228359561,
+     "L_c": 94.02227205780724,
+     "L_best": 94.02227228359561,
+     "V_QP": 94.02227256730475,
+     "P_c": 94.02227284036417,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 2.2971812860377127e-16,
+     "prim_res": 1.4448258568222627e-05,
+     "dual_res": 2.925724801774154e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 94.20779621074091,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/random s7/B23508_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 94.75641126394306,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/random s7/B23508_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 94.06260729073568,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/random s7/B23508_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 94.06260729073568,
+     "U_paper": 94.20779621074091,
+     "U_method": "반올림→repair",
+     "W_rev": 0.04288102180221508,
+     "W_paper": 0.1969305456740375,
+     "W_best": 0.04288102180221508,
+     "abs_rev": 0.04033500714007232,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    },
+    {
+     "B": 23769,
+     "BN": 38.0304,
+     "is_target": false,
+     "L_osqp": 94.85371628864844,
+     "L_c": 94.85371588894458,
+     "L_best": 94.85371628864844,
+     "V_QP": 94.85371656766438,
+     "P_c": 94.85371680756725,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 2.189539314667485e-16,
+     "prim_res": 1.4204036128950825e-05,
+     "dual_res": 2.9023548704649595e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 95.0172489266609,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/random s7/B23769_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 95.57432111672202,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/random s7/B23769_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 94.89295846375471,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/random s7/B23769_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 94.89295846375471,
+     "U_paper": 95.0172489266609,
+     "U_method": "반올림→repair",
+     "W_rev": 0.041354148655040585,
+     "W_paper": 0.1721083696484183,
+     "W_best": 0.041354148655040585,
+     "abs_rev": 0.03924217510626704,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    },
+    {
+     "B": 24030,
+     "BN": 38.448,
+     "is_target": false,
+     "L_osqp": 95.69466521615566,
+     "L_c": 95.69466470481623,
+     "L_best": 95.69466521615566,
+     "V_QP": 95.69466549462595,
+     "P_c": 95.69466607636059,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 2.2386156243260137e-16,
+     "prim_res": 1.4847022288377865e-05,
+     "dual_res": 2.9419290509634287e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 95.86174826097862,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/random s7/B24030_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 96.44886592979488,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/random s7/B24030_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 95.73523153127385,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/random s7/B24030_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 95.73523153127385,
+     "U_paper": 95.86174826097862,
+     "U_method": "반올림→repair",
+     "W_rev": 0.04237344441471006,
+     "W_paper": 0.17429584568819312,
+     "W_best": 0.04237344441471006,
+     "abs_rev": 0.040566315118198304,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    },
+    {
+     "B": 24292,
+     "BN": 38.8672,
+     "is_target": false,
+     "L_osqp": 96.54841123669998,
+     "L_c": 96.54841095593115,
+     "L_best": 96.54841123669998,
+     "V_QP": 96.54841161922741,
+     "P_c": 96.54841195527843,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 2.1983440607885996e-16,
+     "prim_res": 1.7253070136336035e-05,
+     "dual_res": 3.4530637618093845e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 96.72143390707784,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/random s7/B24292_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 97.28541584865538,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/random s7/B24292_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 96.58790468117805,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/random s7/B24292_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 96.58790468117805,
+     "U_paper": 96.72143390707784,
+     "U_method": "반올림→repair",
+     "W_rev": 0.04088860257237243,
+     "W_paper": 0.17888761920557078,
+     "W_best": 0.04088860257237243,
+     "abs_rev": 0.039493444478068795,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    },
+    {
+     "B": 24553,
+     "BN": 39.2848,
+     "is_target": false,
+     "L_osqp": 97.40843830826952,
+     "L_c": 97.40843825184035,
+     "L_best": 97.40843830826952,
+     "V_QP": 97.408438613209,
+     "P_c": 97.40843886904258,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 2.2727951072721893e-16,
+     "prim_res": 1.5373138829266608e-05,
+     "dual_res": 3.0967660157778634e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 97.55774312636571,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/random s7/B24553_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 98.16011310770989,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/random s7/B24553_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 97.44941525998397,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/random s7/B24553_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 97.44941525998397,
+     "U_paper": 97.55774312636571,
+     "U_method": "반올림→repair",
+     "W_rev": 0.04204945879369241,
+     "W_paper": 0.15304250929912383,
+     "W_best": 0.04204945879369241,
+     "abs_rev": 0.04097695171444116,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    },
+    {
+     "B": 24814,
+     "BN": 39.7024,
+     "is_target": false,
+     "L_osqp": 98.27798995120304,
+     "L_c": 98.27798978499332,
+     "L_best": 98.27798995120304,
+     "V_QP": 98.27799019023223,
+     "P_c": 98.27799039034653,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 2.175910976681466e-16,
+     "prim_res": 1.353121112412925e-05,
+     "dual_res": 2.7516854507916736e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 98.43121808900692,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/random s7/B24814_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 99.05150480140941,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/random s7/B24814_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 98.31828139783349,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/random s7/B24814_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 98.31828139783349,
+     "U_paper": 98.43121808900692,
+     "U_method": "반올림→repair",
+     "W_rev": 0.040980625431615694,
+     "W_paper": 0.1556702647582006,
+     "W_best": 0.040980625431615694,
+     "abs_rev": 0.040291446630448036,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    },
+    {
+     "B": 25075,
+     "BN": 40.12,
+     "is_target": false,
+     "L_osqp": 99.15706816912493,
+     "L_c": 99.15706749160299,
+     "L_best": 99.15706816912493,
+     "V_QP": 99.15706848346963,
+     "P_c": 99.15706915614646,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 2.314578593063952e-16,
+     "prim_res": 1.546731991353134e-05,
+     "dual_res": 3.150785885137402e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 99.35314584707832,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/random s7/B25075_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 99.9251598148344,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/random s7/B25075_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 99.1955620928836,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/random s7/B25075_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 99.1955620928836,
+     "U_paper": 99.35314584707832,
+     "U_method": "반올림→repair",
+     "W_rev": 0.038806094694674664,
+     "W_paper": 0.19735427225947602,
+     "W_best": 0.038806094694674664,
+     "abs_rev": 0.038493923758679216,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    },
+    {
+     "B": 25336,
+     "BN": 40.5376,
+     "is_target": false,
+     "L_osqp": 100.04567038775565,
+     "L_c": 100.04566949816488,
+     "L_best": 100.04567038775565,
+     "V_QP": 100.04567059784677,
+     "P_c": 100.04567117459374,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 2.114848158711799e-16,
+     "prim_res": 1.5169631630396196e-05,
+     "dual_res": 2.7941494236392086e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 100.20280109916966,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/random s7/B25336_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 100.80877682632534,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/random s7/B25336_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 100.0867475275844,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/random s7/B25336_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 100.0867475275844,
+     "U_paper": 100.20280109916966,
+     "U_method": "반올림→repair",
+     "W_rev": 0.041041537309844806,
+     "W_paper": 0.15681269354785995,
+     "W_best": 0.041041537309844806,
+     "abs_rev": 0.041077139828743725,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    },
+    {
+     "B": 25598,
+     "BN": 40.9568,
+     "is_target": false,
+     "L_osqp": 100.94725194200682,
+     "L_c": 100.94725134544424,
+     "L_best": 100.94725194200682,
+     "V_QP": 100.94725213939091,
+     "P_c": 100.94725256672245,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 2.151086806578544e-16,
+     "prim_res": 1.500482360650146e-05,
+     "dual_res": 2.7870333306465468e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 101.14206110766008,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/random s7/B25598_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 101.72571864723317,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/random s7/B25598_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 100.98423972716134,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/random s7/B25598_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 100.98423972716134,
+     "U_paper": 101.14206110766008,
+     "U_method": "반올림→repair",
+     "W_rev": 0.03662728486589195,
+     "W_paper": 0.19260944805732674,
+     "W_best": 0.03662728486589195,
+     "abs_rev": 0.03698778515452261,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    },
+    {
+     "B": 25859,
+     "BN": 41.3744,
+     "is_target": false,
+     "L_osqp": 101.85492942797036,
+     "L_c": 101.85492884540508,
+     "L_best": 101.85492942797036,
+     "V_QP": 101.8549296219062,
+     "P_c": 101.85493022160517,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 2.1210416251977558e-16,
+     "prim_res": 1.512541562709302e-05,
+     "dual_res": 2.832338683562098e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 102.0420304325421,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/random s7/B25859_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 102.63140415832333,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/random s7/B25859_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 101.89518825739822,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/random s7/B25859_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 101.89518825739822,
+     "U_paper": 102.0420304325421,
+     "U_method": "반올림→repair",
+     "W_rev": 0.03951003979320174,
+     "W_paper": 0.18335680285726252,
+     "W_best": 0.03951003979320174,
+     "abs_rev": 0.04025882942785586,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    },
+    {
+     "B": 26120,
+     "BN": 41.792,
+     "is_target": true,
+     "L_osqp": 102.77212541173198,
+     "L_c": 102.77212550347178,
+     "L_best": 102.77212550347178,
+     "V_QP": 102.77212562032219,
+     "P_c": 102.7721256793593,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 2.0807322516854219e-16,
+     "prim_res": 1.5816377552546612e-05,
+     "dual_res": 2.985521514568107e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 102.93372028976047,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/random s7/B26120_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 103.56131572647779,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/random s7/B26120_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 102.81260883104933,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/random s7/B26120_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 102.81260883104933,
+     "U_paper": 102.93372028976047,
+     "U_method": "반올림→repair",
+     "W_rev": 0.03937592847573795,
+     "W_paper": 0.15698925247586745,
+     "W_best": 0.03937583924562511,
+     "abs_rev": 0.04048341931735422,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    },
+    {
+     "B": 26381,
+     "BN": 42.2096,
+     "is_target": false,
+     "L_osqp": 103.69882475651264,
+     "L_c": 103.69882483036541,
+     "L_best": 103.69882483036541,
+     "V_QP": 103.69882502569817,
+     "P_c": 103.69882520016108,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 2.055077114440622e-16,
+     "prim_res": 1.8713015833227153e-05,
+     "dual_res": 3.494399489757843e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 103.86971803986877,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/random s7/B26381_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 104.47686606737918,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/random s7/B26381_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 103.74196519882318,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/random s7/B26381_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 103.74196519882318,
+     "U_paper": 103.86971803986877,
+     "U_method": "반올림→repair",
+     "W_rev": 0.04158436966936711,
+     "W_paper": 0.164526569033856,
+     "W_best": 0.0415842984804568,
+     "abs_rev": 0.04314044231054481,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    },
+    {
+     "B": 26642,
+     "BN": 42.6272,
+     "is_target": false,
+     "L_osqp": 104.63499839615088,
+     "L_c": 104.63499861012242,
+     "L_best": 104.63499861012242,
+     "V_QP": 104.63499866332859,
+     "P_c": 104.63499866864004,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 2.0596313225183812e-16,
+     "prim_res": 1.842338756974371e-05,
+     "dual_res": 3.464155074153749e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 104.7825951562955,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/random s7/B26642_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 105.4134419954149,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/random s7/B26642_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 104.67295935972163,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/random s7/B26642_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 104.67295935972163,
+     "U_paper": 104.7825951562955,
+     "U_method": "반올림→repair",
+     "W_rev": 0.036266256159144486,
+     "W_paper": 0.1408599967623106,
+     "W_best": 0.036266051740020795,
+     "abs_rev": 0.03796096357075385,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    },
+    {
+     "B": 26904,
+     "BN": 43.0464,
+     "is_target": false,
+     "L_osqp": 105.5842412179242,
+     "L_c": 105.58424081969076,
+     "L_best": 105.5842412179242,
+     "V_QP": 105.58424148119957,
+     "P_c": 105.58424224862392,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 2.0760856954502915e-16,
+     "prim_res": 1.8045138899136504e-05,
+     "dual_res": 3.424077743668238e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 105.75728545316234,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/random s7/B26904_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 106.38571717545224,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/random s7/B26904_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 105.62700326594226,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/random s7/B26904_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 105.62700326594226,
+     "U_paper": 105.75728545316234,
+     "U_method": "반올림→repair",
+     "W_rev": 0.04048401137576351,
+     "W_paper": 0.163623938054627,
+     "W_best": 0.04048401137576351,
+     "abs_rev": 0.04276204801806216,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    },
+    {
+     "B": 27165,
+     "BN": 43.464,
+     "is_target": false,
+     "L_osqp": 106.53929942967869,
+     "L_c": 106.53929852640927,
+     "L_best": 106.53929942967869,
+     "V_QP": 106.53929974186758,
+     "P_c": 106.53930038999533,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 1.999767652162322e-16,
+     "prim_res": 1.7668344796661906e-05,
+     "dual_res": 3.471158547226894e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 106.72829187739845,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/random s7/B27165_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 107.33956359712826,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/random s7/B27165_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 106.58002535738088,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/random s7/B27165_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 106.58002535738088,
+     "U_paper": 106.72829187739845,
+     "U_method": "반올림→repair",
+     "W_rev": 0.03821159505791325,
+     "W_paper": 0.1770781152731797,
+     "W_best": 0.03821159505791325,
+     "abs_rev": 0.04072592770218364,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    },
+    {
+     "B": 27426,
+     "BN": 43.8816,
+     "is_target": false,
+     "L_osqp": 107.50377113211854,
+     "L_c": 107.50377041249682,
+     "L_best": 107.50377113211854,
+     "V_QP": 107.50377143696096,
+     "P_c": 107.50377216285415,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 1.9654251181776425e-16,
+     "prim_res": 1.7314874368068445e-05,
+     "dual_res": 3.44725624083656e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 107.66239589693079,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/random s7/B27426_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 108.30579576514234,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/random s7/B27426_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 107.54212126676491,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/random s7/B27426_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 107.54212126676491,
+     "U_paper": 107.66239589693079,
+     "U_method": "반올림→repair",
+     "W_rev": 0.03566057112750707,
+     "W_paper": 0.1473353472126912,
+     "W_best": 0.03566057112750707,
+     "abs_rev": 0.03835013464636461,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    }
+   ],
+   "elapsed_s": 4.312052438035607,
+   "attempts": 1
+  },
+  {
+   "name": "center-30",
+   "input": "center30_F50.csv",
+   "input_sha256": "e68973706c296b5b926586c237f789285f7735157dffe53f03821b1e7d67ce66",
+   "bstar": 27912,
+   "cpp_bstar": 27912,
+   "mean_s0": 3.072,
+   "rows": [
+    {
+     "B": 23725,
+     "BN": 37.96,
+     "is_target": false,
+     "L_osqp": 41.18910153646645,
+     "L_c": 41.18910666800724,
+     "L_best": 41.18910666800724,
+     "V_QP": 41.189109236998775,
+     "P_c": 41.189106745627214,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 2.1582204345773488e-16,
+     "prim_res": 5.913264890766712e-05,
+     "dual_res": 3.348940877433542e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 41.46249102513764,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-30/B23725_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 41.418090589977254,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-30/B23725_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 41.23036807972446,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-30/B23725_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 41.23036807972446,
+     "U_paper": 41.418090589977254,
+     "U_method": "반올림→repair",
+     "W_rev": 0.10008773915917936,
+     "W_paper": 0.5528720668890864,
+     "W_best": 0.1000752931369202,
+     "abs_rev": 0.04126654325800416,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    },
+    {
+     "B": 24004,
+     "BN": 38.4064,
+     "is_target": false,
+     "L_osqp": 42.0804100942853,
+     "L_c": 42.08041380570148,
+     "L_best": 42.08041380570148,
+     "V_QP": 42.08041800237697,
+     "P_c": 42.08041565246094,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 2.223042914061287e-16,
+     "prim_res": 5.38174918205403e-05,
+     "dual_res": 3.4313137365845585e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 42.31921560026972,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-30/B24004_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 42.29475330152954,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-30/B24004_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 42.11921971949112,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-30/B24004_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 42.11921971949112,
+     "U_paper": 42.29475330152954,
+     "U_method": "반올림→repair",
+     "W_rev": 0.09214231760295954,
+     "W_paper": 0.5067843893452604,
+     "W_best": 0.09213350591031928,
+     "abs_rev": 0.038809625205821874,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    },
+    {
+     "B": 24283,
+     "BN": 38.8528,
+     "is_target": false,
+     "L_osqp": 42.982185070249216,
+     "L_c": 42.98218879778827,
+     "L_best": 42.98218879778827,
+     "V_QP": 42.98219254493597,
+     "P_c": 42.98219038633761,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 2.1597836021580728e-16,
+     "prim_res": 8.755616902567098e-05,
+     "dual_res": 3.359653419671968e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 43.21042161121678,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-30/B24283_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 43.208526813570465,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-30/B24283_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 43.022254157530654,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-30/B24283_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 43.022254157530654,
+     "U_paper": 43.208526813570465,
+     "U_method": "반올림→repair",
+     "W_rev": 0.0931357225837602,
+     "W_paper": 0.5238358259651718,
+     "W_best": 0.09312705837235258,
+     "abs_rev": 0.04006908728143799,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    },
+    {
+     "B": 24563,
+     "BN": 39.3008,
+     "is_target": false,
+     "L_osqp": 43.89771694073592,
+     "L_c": 43.8977209269911,
+     "L_best": 43.8977209269911,
+     "V_QP": 43.897724748829205,
+     "P_c": 43.89772253915726,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 2.1943242440675508e-16,
+     "prim_res": 9.746231678153805e-05,
+     "dual_res": 3.444414472194183e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 44.07048925627998,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-30/B24563_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 44.107200945326674,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-30/B24563_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 43.9388003036812,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-30/B24563_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 43.9388003036812,
+     "U_paper": 44.07048925627998,
+     "U_method": "반올림→repair",
+     "W_rev": 0.0935013306265388,
+     "W_paper": 0.39203630016301394,
+     "W_best": 0.09349225833700742,
+     "abs_rev": 0.04108336294527959,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    },
+    {
+     "B": 24842,
+     "BN": 39.7472,
+     "is_target": false,
+     "L_osqp": 44.82047063780054,
+     "L_c": 44.82047610428076,
+     "L_best": 44.82047610428076,
+     "V_QP": 44.82047849059745,
+     "P_c": 44.820476147964655,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 2.1108776960873162e-16,
+     "prim_res": 0.00010892399238926487,
+     "dual_res": 3.421417421890182e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 45.055714789263845,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-30/B24842_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 45.04584708386625,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-30/B24842_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 44.85689256189475,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-30/B24842_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 44.85689256189475,
+     "U_paper": 45.04584708386625,
+     "U_method": "반올림→repair",
+     "W_rev": 0.08119582524348394,
+     "W_paper": 0.5003268018161678,
+     "W_best": 0.08118363875461765,
+     "abs_rev": 0.03642192409421341,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    },
+    {
+     "B": 25121,
+     "BN": 40.1936,
+     "is_target": false,
+     "L_osqp": 45.753692451175894,
+     "L_c": 45.753698217637336,
+     "L_best": 45.753698217637336,
+     "V_QP": 45.75370079807544,
+     "P_c": 45.75369836331447,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 2.1156263209096983e-16,
+     "prim_res": 0.0001133980224539144,
+     "dual_res": 3.4800861953003486e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 46.03268767122679,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-30/B25121_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 45.96867387036235,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-30/B25121_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 45.794979409754674,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-30/B25121_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 45.794979409754674,
+     "U_paper": 45.96867387036235,
+     "U_method": "반올림→repair",
+     "W_rev": 0.09015608066849759,
+     "W_paper": 0.4676693954512011,
+     "W_best": 0.09014348876100903,
+     "abs_rev": 0.041286958578780286,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    },
+    {
+     "B": 25400,
+     "BN": 40.64,
+     "is_target": false,
+     "L_osqp": 46.697369033182085,
+     "L_c": 46.697374260287106,
+     "L_best": 46.697374260287106,
+     "V_QP": 46.697377778102236,
+     "P_c": 46.69737553557934,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 2.194941113720495e-16,
+     "prim_res": 0.00010432780967883915,
+     "dual_res": 3.508753406140327e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 46.93443889671349,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-30/B25400_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 46.90953917445359,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-30/B25400_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 46.7363001134318,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-30/B25400_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 46.7363001134318,
+     "U_paper": 46.90953917445359,
+     "U_method": "반올림→repair",
+     "W_rev": 0.08329944851267589,
+     "W_paper": 0.4522963665928579,
+     "W_best": 0.08328826426187269,
+     "abs_rev": 0.03893108024971781,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    },
+    {
+     "B": 25679,
+     "BN": 41.0864,
+     "is_target": false,
+     "L_osqp": 47.651494604441254,
+     "L_c": 47.651500681261254,
+     "L_best": 47.651500681261254,
+     "V_QP": 47.65150431529037,
+     "P_c": 47.65150169700064,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 2.2213584849195946e-16,
+     "prim_res": 0.00010978467027067396,
+     "dual_res": 3.547554775723216e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 47.91843094184101,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-30/B25679_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 47.858497302425405,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-30/B25679_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 47.691267830209576,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-30/B25679_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 47.691267830209576,
+     "U_paper": 47.858497302425405,
+     "U_method": "반올림→repair",
+     "W_rev": 0.08339729174305507,
+     "W_paper": 0.4325307095959757,
+     "W_best": 0.08338454974587915,
+     "abs_rev": 0.03977322576832165,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    },
+    {
+     "B": 25958,
+     "BN": 41.5328,
+     "is_target": false,
+     "L_osqp": 48.6160681108348,
+     "L_c": 48.616075008222296,
+     "L_best": 48.616075008222296,
+     "V_QP": 48.61607888668368,
+     "P_c": 48.61607588335028,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 1.9293153539880432e-16,
+     "prim_res": 0.0001145899681067597,
+     "dual_res": 3.5561379334497065e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 48.84725310384687,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-30/B25958_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 48.82542819142054,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-30/B25958_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 48.65832059661969,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-30/B25958_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 48.65832059661969,
+     "U_paper": 48.82542819142054,
+     "U_method": "반올림→repair",
+     "W_rev": 0.08683506801470026,
+     "W_paper": 0.428793127558331,
+     "W_best": 0.08682089286971255,
+     "abs_rev": 0.04225248578488561,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    },
+    {
+     "B": 26237,
+     "BN": 41.9792,
+     "is_target": false,
+     "L_osqp": 49.591089112616785,
+     "L_c": 49.59109712060172,
+     "L_best": 49.59109712060172,
+     "V_QP": 49.59110167232575,
+     "P_c": 49.59109806850029,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 2.2256648453231467e-16,
+     "prim_res": 8.307930527395868e-05,
+     "dual_res": 3.59237365074043e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 49.80954716825878,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-30/B26237_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 49.79893489634441,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-30/B26237_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 49.63073422848138,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-30/B26237_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 49.63073422848138,
+     "U_paper": 49.79893489634441,
+     "U_method": "반올림→repair",
+     "W_rev": 0.07988017199601198,
+     "W_paper": 0.4173699380523997,
+     "W_best": 0.0798640368631036,
+     "abs_rev": 0.039645115864594516,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    },
+    {
+     "B": 26516,
+     "BN": 42.4256,
+     "is_target": false,
+     "L_osqp": 50.57655804117917,
+     "L_c": 50.57656704743434,
+     "L_best": 50.57656704743434,
+     "V_QP": 50.57657252987701,
+     "P_c": 50.57656824045989,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 2.0978586095009812e-16,
+     "prim_res": 5.782471803694733e-05,
+     "dual_res": 3.578997035855433e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 50.784302370261265,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-30/B26516_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 50.78077839531817,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-30/B26516_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 50.616158563429096,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-30/B26516_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 50.616158563429096,
+     "U_paper": 50.78077839531817,
+     "U_method": "반올림→repair",
+     "W_rev": 0.07823691756517233,
+     "W_paper": 0.4021607399342902,
+     "W_best": 0.07821912432399242,
+     "abs_rev": 0.03960052224992694,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    },
+    {
+     "B": 26796,
+     "BN": 42.8736,
+     "is_target": false,
+     "L_osqp": 51.57606590073472,
+     "L_c": 51.576073234752,
+     "L_best": 51.576073234752,
+     "V_QP": 51.57607877234841,
+     "P_c": 51.57607477518468,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 2.1100789058354786e-16,
+     "prim_res": 0.00025620026486206093,
+     "dual_res": 3.062919094309725e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 51.84399175281905,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-30/B26796_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 51.779227625122026,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-30/B26796_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 51.614829039340975,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-30/B26796_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 51.614829039340975,
+     "U_paper": 51.779227625122026,
+     "U_method": "반올림→repair",
+     "W_rev": 0.0751007788415054,
+     "W_paper": 0.39236144242664994,
+     "W_best": 0.07508656971319914,
+     "abs_rev": 0.038763138606256575,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    },
+    {
+     "B": 27075,
+     "BN": 43.32,
+     "is_target": false,
+     "L_osqp": 52.58246775368471,
+     "L_c": 52.582476256672834,
+     "L_best": 52.582476256672834,
+     "V_QP": 52.58248340283171,
+     "P_c": 52.582478360272944,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 2.0987172461213598e-16,
+     "prim_res": 7.044428456004503e-05,
+     "dual_res": 3.711651080907775e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 52.74889275305327,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-30/B27075_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 52.78778374445641,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-30/B27075_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 52.62183828881752,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-30/B27075_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 52.62183828881752,
+     "U_paper": 52.74889275305327,
+     "U_method": "반올림→repair",
+     "W_rev": 0.07481786348231272,
+     "W_paper": 0.3155042517151708,
+     "W_best": 0.07480170481435301,
+     "abs_rev": 0.03937053513281086,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    },
+    {
+     "B": 27354,
+     "BN": 43.7664,
+     "is_target": false,
+     "L_osqp": 53.59932315722554,
+     "L_c": 53.59932874775792,
+     "L_best": 53.59932874775792,
+     "V_QP": 53.59933325884049,
+     "P_c": 53.59932920787105,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 2.0457213466944209e-16,
+     "prim_res": 6.257963903411046e-05,
+     "dual_res": 3.761175294984752e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 53.75779564432515,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-30/B27354_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 53.80215247165726,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-30/B27354_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 53.635959058248716,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-30/B27354_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 53.635959058248716,
+     "U_paper": 53.75779564432515,
+     "U_method": "반올림→repair",
+     "W_rev": 0.06830473746798874,
+     "W_paper": 0.29478977923146527,
+     "W_best": 0.06829431436289268,
+     "abs_rev": 0.03663590102317471,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    },
+    {
+     "B": 27633,
+     "BN": 44.2128,
+     "is_target": false,
+     "L_osqp": 54.62662525708599,
+     "L_c": 54.626629194426414,
+     "L_best": 54.626629194426414,
+     "V_QP": 54.62663308993797,
+     "P_c": 54.62662971329701,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 2.0852534855168008e-16,
+     "prim_res": 3.5768139384551034e-05,
+     "dual_res": 3.7437668310543766e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 54.88630977803088,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-30/B27633_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 54.834952542927276,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-30/B27633_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 54.66690727975735,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-30/B27633_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 54.66690727975735,
+     "U_paper": 54.834952542927276,
+     "U_method": "반올림→repair",
+     "W_rev": 0.07368630251062144,
+     "W_paper": 0.37991696204751424,
+     "W_best": 0.07367910009032844,
+     "abs_rev": 0.04028202267136294,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    },
+    {
+     "B": 27912,
+     "BN": 44.6592,
+     "is_target": true,
+     "L_osqp": 55.66437664832962,
+     "L_c": 55.66437981254282,
+     "L_best": 55.66437981254282,
+     "V_QP": 55.66438354888669,
+     "P_c": 55.66438051530713,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 2.0172672548043567e-16,
+     "prim_res": 2.4623073843099696e-05,
+     "dual_res": 3.7956206946880045e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 55.91816654155619,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-30/B27912_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 55.86483043888765,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-30/B27912_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 55.70507666058474,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-30/B27912_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 55.70507666058474,
+     "U_paper": 55.86483043888765,
+     "U_method": "반올림→repair",
+     "W_rev": 0.07306338074553526,
+     "W_paper": 0.3588192946854321,
+     "W_best": 0.07305770044961445,
+     "abs_rev": 0.040700012255115325,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    },
+    {
+     "B": 28191,
+     "BN": 45.1056,
+     "is_target": false,
+     "L_osqp": 56.71257778367168,
+     "L_c": 56.712580287804656,
+     "L_best": 56.712580287804656,
+     "V_QP": 56.712584460947255,
+     "P_c": 56.712581157669774,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 2.055028900201542e-16,
+     "prim_res": 0.00019157773751798945,
+     "dual_res": 3.788200438596362e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 56.91571555375608,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-30/B28191_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 56.915576635664365,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-30/B28191_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 56.74852762938223,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-30/B28191_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 56.74852762938223,
+     "U_paper": 56.915576635664365,
+     "U_method": "반올림→repair",
+     "W_rev": 0.06334938933629887,
+     "W_paper": 0.356666599887325,
+     "W_best": 0.06334497665268608,
+     "abs_rev": 0.035949845710554484,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    },
+    {
+     "B": 28470,
+     "BN": 45.552,
+     "is_target": false,
+     "L_osqp": 57.7712237265809,
+     "L_c": 57.77122618024701,
+     "L_best": 57.77122618024701,
+     "V_QP": 57.77123037959973,
+     "P_c": 57.771227012031886,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 1.9424472226049916e-16,
+     "prim_res": 0.0001926871651695139,
+     "dual_res": 3.81448468292342e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 58.05730172553472,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-30/B28470_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 57.97145835633711,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-30/B28470_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 57.810734141032285,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-30/B28470_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 57.810734141032285,
+     "U_paper": 57.97145835633711,
+     "U_method": "반올림→repair",
+     "W_rev": 0.06834442606280944,
+     "W_paper": 0.34540209170763664,
+     "W_best": 0.06834018175394636,
+     "abs_rev": 0.039510414451385145,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    },
+    {
+     "B": 28749,
+     "BN": 45.9984,
+     "is_target": false,
+     "L_osqp": 58.84031347081087,
+     "L_c": 58.840316021338744,
+     "L_best": 58.840316021338744,
+     "V_QP": 58.84032032266987,
+     "P_c": 58.84031680659973,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 1.920001768060405e-16,
+     "prim_res": 2.068699952040287e-05,
+     "dual_res": 3.881501100667048e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 59.07884529464715,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-30/B28749_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 59.04225519049506,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-30/B28749_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 58.87499975063776,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-30/B28749_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 58.87499975063776,
+     "U_paper": 59.04225519049506,
+     "U_method": "반올림→repair",
+     "W_rev": 0.05891512522090031,
+     "W_paper": 0.3420291434204947,
+     "W_best": 0.05891079311408921,
+     "abs_rev": 0.034686279826892985,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    },
+    {
+     "B": 29028,
+     "BN": 46.4448,
+     "is_target": false,
+     "L_osqp": 59.919848806172055,
+     "L_c": 59.919849763146104,
+     "L_best": 59.919849763146104,
+     "V_QP": 59.919852020691906,
+     "P_c": 59.91985051584197,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 1.9162095021554194e-16,
+     "prim_res": 0.0002854841887225401,
+     "dual_res": 2.745930877787888e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 60.18347663418743,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-30/B29028_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 60.12549646322526,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-30/B29028_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 59.95549241191533,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-30/B29028_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 59.95549241191533,
+     "U_paper": 60.12549646322526,
+     "U_method": "반올림→repair",
+     "W_rev": 0.059450109255029394,
+     "W_paper": 0.34203070103377264,
+     "W_best": 0.05944851311427572,
+     "abs_rev": 0.03564360574327452,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    },
+    {
+     "B": 29308,
+     "BN": 46.8928,
+     "is_target": false,
+     "L_osqp": 61.01375196098296,
+     "L_c": 61.013752886027724,
+     "L_best": 61.013752886027724,
+     "V_QP": 61.01375514940446,
+     "P_c": 61.013753686514974,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 1.9977593869705474e-16,
+     "prim_res": 0.00028390115429755003,
+     "dual_res": 2.7257465551955163e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 61.30016254821685,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-30/B29308_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 61.2135862953505,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-30/B29308_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 61.05039410192339,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-30/B29308_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 61.05039410192339,
+     "U_paper": 61.2135862953505,
+     "U_method": "반올림→repair",
+     "W_rev": 0.06001949943067641,
+     "W_paper": 0.32645421786490375,
+     "W_best": 0.06001798421561559,
+     "abs_rev": 0.03664214094042961,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    }
+   ],
+   "elapsed_s": 5.265579416998662,
+   "attempts": 1
+  },
+  {
+   "name": "center-100",
+   "input": "center100_F50.csv",
+   "input_sha256": "a7bf89ed5d12b54c87203f6c7cd5e9e3a8b18385e154f9cd3ba937b9dc4d6313",
+   "bstar": 26896,
+   "cpp_bstar": 26896,
+   "mean_s0": 10.24,
+   "rows": [
+    {
+     "B": 22862,
+     "BN": 36.5792,
+     "is_target": false,
+     "L_osqp": 82.18242456993539,
+     "L_c": 82.18242529140815,
+     "L_best": 82.18242529140815,
+     "V_QP": 82.18242456993539,
+     "P_c": 82.18242757065309,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": true,
+     "range_rel": 2.114154451289771e-16,
+     "prim_res": 0.00022620219400171226,
+     "dual_res": 2.3805384001840983e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 82.34852029115572,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-100/B22862_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 82.85382029920522,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-100/B22862_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 82.22051351142338,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-100/B22862_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 82.22051351142338,
+     "U_paper": 82.34852029115572,
+     "U_method": "반올림→repair",
+     "W_rev": 0.04632535101193775,
+     "W_paper": 0.20169848909618937,
+     "W_best": 0.0463244735268333,
+     "abs_rev": 0.038088941487984584,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    },
+    {
+     "B": 23131,
+     "BN": 37.0096,
+     "is_target": false,
+     "L_osqp": 82.84358066816986,
+     "L_c": 82.84358337322038,
+     "L_best": 82.84358337322038,
+     "V_QP": 82.84358408837215,
+     "P_c": 82.84358340937251,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 2.25521926901636e-16,
+     "prim_res": 1.570996845035033e-05,
+     "dual_res": 3.3629007689368135e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 82.97837518228448,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-100/B23131_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 83.54906593462934,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-100/B23131_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 82.88403350821056,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-100/B23131_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 82.88403350821056,
+     "U_paper": 82.97837518228448,
+     "U_method": "반올림→repair",
+     "W_rev": 0.048806553359511604,
+     "W_paper": 0.1624453525614406,
+     "W_best": 0.04880328970256215,
+     "abs_rev": 0.040452840040700266,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    },
+    {
+     "B": 23400,
+     "BN": 37.44,
+     "is_target": false,
+     "L_osqp": 83.52069327447212,
+     "L_c": 83.52069554705649,
+     "L_best": 83.52069554705649,
+     "V_QP": 83.5207001170711,
+     "P_c": 83.5206958299932,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 2.144459534484654e-16,
+     "prim_res": 0.00015285412938403908,
+     "dual_res": 3.215848040402633e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 83.73021455589677,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-100/B23400_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 84.15836649600665,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-100/B23400_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 83.56010814795931,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-100/B23400_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 83.56010814795931,
+     "U_paper": 83.73021455589677,
+     "U_method": "반올림→repair",
+     "W_rev": 0.0471694859673918,
+     "W_paper": 0.25023378064410634,
+     "W_best": 0.04716676626726435,
+     "abs_rev": 0.039414873487189084,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    },
+    {
+     "B": 23668,
+     "BN": 37.8688,
+     "is_target": false,
+     "L_osqp": 84.21071562032195,
+     "L_c": 84.21071839933212,
+     "L_best": 84.21071839933212,
+     "V_QP": 84.21071981800196,
+     "P_c": 84.210718512717,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 2.2158126613901458e-16,
+     "prim_res": 7.187419956311558e-05,
+     "dual_res": 3.426865036175008e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 84.42093064432032,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-100/B23668_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 84.88750234554564,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-100/B23668_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 84.25237343982845,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-100/B23668_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 84.25237343982845,
+     "U_paper": 84.42093064432032,
+     "U_method": "반올림→repair",
+     "W_rev": 0.04944409018488772,
+     "W_paper": 0.24900818125784988,
+     "W_best": 0.04944079174941282,
+     "abs_rev": 0.04165781950649716,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    },
+    {
+     "B": 23937,
+     "BN": 38.2992,
+     "is_target": false,
+     "L_osqp": 84.9184448710166,
+     "L_c": 84.9184473919085,
+     "L_best": 84.9184473919085,
+     "V_QP": 84.9184489107065,
+     "P_c": 84.91844761980974,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 2.1246146965177603e-16,
+     "prim_res": 7.842964645732309e-05,
+     "dual_res": 3.332455625061218e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 85.10029778838918,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-100/B23937_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 85.50495892310373,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-100/B23937_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 84.96192831264197,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-100/B23937_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 84.96192831264197,
+     "U_paper": 85.10029778838918,
+     "U_method": "반올림→repair",
+     "W_rev": 0.051179913743670494,
+     "W_paper": 0.21369245713425944,
+     "W_best": 0.051176946659534026,
+     "abs_rev": 0.04348344162536932,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    },
+    {
+     "B": 24206,
+     "BN": 38.7296,
+     "is_target": false,
+     "L_osqp": 85.64133418175628,
+     "L_c": 85.6413367885362,
+     "L_best": 85.6413367885362,
+     "V_QP": 85.64133830748324,
+     "P_c": 85.641337073248,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 2.1652534872962058e-16,
+     "prim_res": 8.051642870832154e-05,
+     "dual_res": 3.3252648769204e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 85.84735819243137,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-100/B24206_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 86.2263256429704,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-100/B24206_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 85.68235822702201,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-100/B24206_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 85.68235822702201,
+     "U_paper": 85.84735819243137,
+     "U_method": "반올림→repair",
+     "W_rev": 0.0478792205473999,
+     "W_paper": 0.2399887602985758,
+     "W_best": 0.04787617817091842,
+     "abs_rev": 0.041024045265729114,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    },
+    {
+     "B": 24475,
+     "BN": 39.16,
+     "is_target": false,
+     "L_osqp": 86.37917538070269,
+     "L_c": 86.37917798329167,
+     "L_best": 86.37917798329167,
+     "V_QP": 86.37917910312171,
+     "P_c": 86.37917830172228,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 2.086942657428975e-16,
+     "prim_res": 6.491685999621133e-05,
+     "dual_res": 3.47986428948418e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 86.55049405586074,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-100/B24475_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 87.02531072056145,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-100/B24475_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 86.41729072992634,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-100/B24475_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 86.41729072992634,
+     "U_paper": 86.55049405586074,
+     "U_method": "반올림→repair",
+     "W_rev": 0.044106160817705034,
+     "W_paper": 0.1979407246912731,
+     "W_best": 0.044103149164647956,
+     "abs_rev": 0.03811534922364501,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    },
+    {
+     "B": 24744,
+     "BN": 39.5904,
+     "is_target": false,
+     "L_osqp": 87.13135657367309,
+     "L_c": 87.13135907599762,
+     "L_best": 87.13135907599762,
+     "V_QP": 87.13135988638169,
+     "P_c": 87.13135931394936,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 2.1863905733527698e-16,
+     "prim_res": 6.357192776895726e-05,
+     "dual_res": 3.397276110157974e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 87.29921314355144,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-100/B24744_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 87.81920007988464,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-100/B24744_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 87.16916021223983,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-100/B24744_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 87.16916021223983,
+     "U_paper": 87.29921314355144,
+     "U_method": "반올림→repair",
+     "W_rev": 0.043368134412099864,
+     "W_paper": 0.1922772999137302,
+     "W_best": 0.043365263758616275,
+     "abs_rev": 0.03780363856674285,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    },
+    {
+     "B": 25013,
+     "BN": 40.0208,
+     "is_target": false,
+     "L_osqp": 87.89706446819778,
+     "L_c": 87.89706730889338,
+     "L_best": 87.89706730889338,
+     "V_QP": 87.89706810863208,
+     "P_c": 87.89706760012268,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 2.133539957272976e-16,
+     "prim_res": 9.178889286087788e-05,
+     "dual_res": 3.610898643775052e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 88.13397667264739,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-100/B25013_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 88.48727163800015,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-100/B25013_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 87.93855970272111,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-100/B25013_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 87.93855970272111,
+     "U_paper": 88.13397667264739,
+     "U_method": "반올림→repair",
+     "W_rev": 0.04718662059465206,
+     "W_paper": 0.26880916236148433,
+     "W_best": 0.04718339027610906,
+     "abs_rev": 0.0414952345233246,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    },
+    {
+     "B": 25282,
+     "BN": 40.4512,
+     "is_target": false,
+     "L_osqp": 88.6754588202135,
+     "L_c": 88.67546121085249,
+     "L_best": 88.67546121085249,
+     "V_QP": 88.67546181446232,
+     "P_c": 88.675461730596,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 2.2076592125424893e-16,
+     "prim_res": 8.928256090257047e-05,
+     "dual_res": 3.420367773902216e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 88.87785368032134,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-100/B25282_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 89.28101392934799,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-100/B25282_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 88.71169681219031,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-100/B25282_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 88.71169681219031,
+     "U_paper": 88.87785368032134,
+     "U_method": "반올림→repair",
+     "W_rev": 0.04084917015342774,
+     "W_paper": 0.2277224884793128,
+     "W_best": 0.040846475312647235,
+     "abs_rev": 0.03623799197680455,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    },
+    {
+     "B": 25551,
+     "BN": 40.8816,
+     "is_target": false,
+     "L_osqp": 89.4656421791451,
+     "L_c": 89.46564456239446,
+     "L_best": 89.46564456239446,
+     "V_QP": 89.46564695754205,
+     "P_c": 89.46564517795923,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 2.077234449331418e-16,
+     "prim_res": 9.494244345376046e-05,
+     "dual_res": 3.434691570887402e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 89.63334149484793,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-100/B25551_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 90.18117930696194,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-100/B25551_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 89.50106077133817,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-100/B25551_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 89.50106077133817,
+     "U_paper": 89.63334149484793,
+     "U_method": "반올림→repair",
+     "W_rev": 0.03957337699444376,
+     "W_paper": 0.18709479408670548,
+     "W_best": 0.03957071417756539,
+     "abs_rev": 0.035418592193067866,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    },
+    {
+     "B": 25820,
+     "BN": 41.312,
+     "is_target": false,
+     "L_osqp": 90.26741250041769,
+     "L_c": 90.26741547865352,
+     "L_best": 90.26741547865352,
+     "V_QP": 90.26741780433804,
+     "P_c": 90.26741563715768,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 2.0339691441811113e-16,
+     "prim_res": 9.982466046487559e-05,
+     "dual_res": 3.6813051089981706e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 90.46581103629994,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-100/B25820_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 90.95335536352714,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-100/B25820_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 90.30798912545892,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-100/B25820_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 90.30798912545892,
+     "U_paper": 90.46581103629994,
+     "U_method": "반올림→repair",
+     "W_rev": 0.04493137919930339,
+     "W_paper": 0.2193077513035719,
+     "W_best": 0.044928081334014075,
+     "abs_rev": 0.04057662504122561,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    },
+    {
+     "B": 26089,
+     "BN": 41.7424,
+     "is_target": false,
+     "L_osqp": 91.08105168914008,
+     "L_c": 91.08105447422196,
+     "L_best": 91.08105447422196,
+     "V_QP": 91.08105670817895,
+     "P_c": 91.08105461372179,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 2.105502709408961e-16,
+     "prim_res": 0.00010389705469693311,
+     "dual_res": 3.578688484219694e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 91.23981521399888,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-100/B26089_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 91.75543498320815,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-100/B26089_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 91.12363619499354,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-100/B26089_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 91.12363619499354,
+     "U_paper": 91.23981521399888,
+     "U_method": "반올림→repair",
+     "W_rev": 0.046732667430357124,
+     "W_paper": 0.17400684611912676,
+     "W_best": 0.04672961105333834,
+     "abs_rev": 0.04258450585345486,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    },
+    {
+     "B": 26358,
+     "BN": 42.1728,
+     "is_target": false,
+     "L_osqp": 91.90658523470248,
+     "L_c": 91.90658789615487,
+     "L_best": 91.90658789615487,
+     "V_QP": 91.90659226942807,
+     "P_c": 91.90658807713044,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 1.9525835999219005e-16,
+     "prim_res": 0.0001205115845454019,
+     "dual_res": 3.512573135455362e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 92.08282060322401,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-100/B26358_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 92.54637383579481,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-100/B26358_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 91.94607500488067,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-100/B26358_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 91.94607500488067,
+     "U_paper": 92.08282060322401,
+     "U_method": "반올림→repair",
+     "W_rev": 0.0429488373224161,
+     "W_paper": 0.1913878912125345,
+     "W_best": 0.042945942742741244,
+     "abs_rev": 0.039489770178192884,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    },
+    {
+     "B": 26627,
+     "BN": 42.6032,
+     "is_target": false,
+     "L_osqp": 92.74359665366087,
+     "L_c": 92.74359942261098,
+     "L_best": 92.74359942261098,
+     "V_QP": 92.74360333089862,
+     "P_c": 92.7435996240747,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 1.9779401225360814e-16,
+     "prim_res": 0.00011353699477822943,
+     "dual_res": 3.584907598557412e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 92.94107214169115,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-100/B26627_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 93.34720702190972,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-100/B26627_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 92.7840763713362,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-100/B26627_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 92.7840763713362,
+     "U_paper": 92.94107214169115,
+     "U_method": "반올림→repair",
+     "W_rev": 0.043627871568520875,
+     "W_paper": 0.21247386486915235,
+     "W_best": 0.04362488727399614,
+     "abs_rev": 0.04047971767532488,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    },
+    {
+     "B": 26896,
+     "BN": 43.0336,
+     "is_target": true,
+     "L_osqp": 93.59201013387637,
+     "L_c": 93.59201316512281,
+     "L_best": 93.59201316512281,
+     "V_QP": 93.59201756311086,
+     "P_c": 93.59201372022653,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 2.0388270083260093e-16,
+     "prim_res": 0.0001538488183920883,
+     "dual_res": 3.807573220559312e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 93.78075563984258,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-100/B26896_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 94.26198071839524,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-100/B26896_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 93.63396315695948,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-100/B26896_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 93.63396315695948,
+     "U_paper": 93.78075563984258,
+     "U_method": "반올림→repair",
+     "W_rev": 0.0448053480474641,
+     "W_paper": 0.20126251348525284,
+     "W_best": 0.044802110710995706,
+     "abs_rev": 0.04195302308311,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    },
+    {
+     "B": 27165,
+     "BN": 43.464,
+     "is_target": false,
+     "L_osqp": 94.4519209353815,
+     "L_c": 94.451923683814,
+     "L_best": 94.451923683814,
+     "V_QP": 94.45192797771597,
+     "P_c": 94.45192404963018,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 1.9542815939924208e-16,
+     "prim_res": 0.0001723176771707413,
+     "dual_res": 3.644453210332429e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 94.69298560563847,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-100/B27165_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 95.05621381460382,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-100/B27165_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 94.49073104043005,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-100/B27165_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 94.49073104043005,
+     "U_paper": 94.69298560563847,
+     "U_method": "반올림→repair",
+     "W_rev": 0.04107292283721324,
+     "W_paper": 0.254575002271996,
+     "W_best": 0.04107001415772998,
+     "abs_rev": 0.03881010504855453,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    },
+    {
+     "B": 27434,
+     "BN": 43.8944,
+     "is_target": false,
+     "L_osqp": 95.32337564179667,
+     "L_c": 95.32337859475312,
+     "L_best": 95.32337859475312,
+     "V_QP": 95.32338225586136,
+     "P_c": 95.32337887653557,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 1.874492789249042e-16,
+     "prim_res": 0.00016776223077019647,
+     "dual_res": 3.78480139425632e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 95.52956131029624,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-100/B27434_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 95.96670680050086,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-100/B27434_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 95.36425501782539,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-100/B27434_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 95.36425501782539,
+     "U_paper": 95.52956131029624,
+     "U_method": "반올림→repair",
+     "W_rev": 0.04286656045398915,
+     "W_paper": 0.21583441363228464,
+     "W_best": 0.04286346395158426,
+     "abs_rev": 0.0408793760287125,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    },
+    {
+     "B": 27703,
+     "BN": 44.3248,
+     "is_target": false,
+     "L_osqp": 96.20637115781714,
+     "L_c": 96.20637401251703,
+     "L_best": 96.20637401251703,
+     "V_QP": 96.20637698106293,
+     "P_c": 96.20637430444913,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 1.9072255332554092e-16,
+     "prim_res": 0.00014005356083057752,
+     "dual_res": 3.7757579331446846e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 96.45381143895615,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-100/B27703_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 96.87135586899105,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-100/B27703_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 96.24705080915368,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-100/B27703_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 96.24705080915368,
+     "U_paper": 96.45381143895615,
+     "U_method": "반올림→repair",
+     "W_rev": 0.0422658678832612,
+     "W_paper": 0.2565375877298605,
+     "W_best": 0.04226290187042002,
+     "abs_rev": 0.040679651336532174,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    },
+    {
+     "B": 27972,
+     "BN": 44.7552,
+     "is_target": false,
+     "L_osqp": 97.10090788347561,
+     "L_c": 97.10091092565465,
+     "L_best": 97.10091092565465,
+     "V_QP": 97.10091340071813,
+     "P_c": 97.10091130824003,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 1.8026080959082965e-16,
+     "prim_res": 0.00012003328568410687,
+     "dual_res": 3.875819999445738e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 97.36595718177321,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-100/B27972_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 97.7296443964572,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-100/B27972_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 97.14059719466637,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-100/B27972_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 97.14059719466637,
+     "U_paper": 97.36595718177321,
+     "U_method": "반올림→repair",
+     "W_rev": 0.04085759439096295,
+     "W_paper": 0.2722196812616705,
+     "W_best": 0.040854462663220674,
+     "abs_rev": 0.039689311190755916,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    },
+    {
+     "B": 28241,
+     "BN": 45.1856,
+     "is_target": false,
+     "L_osqp": 98.00698943881177,
+     "L_c": 98.00699235893268,
+     "L_best": 98.00699235893268,
+     "V_QP": 98.00699423448532,
+     "P_c": 98.0069926583601,
+     "osqp_status": "solved",
+     "fallback": false,
+     "clip_low": false,
+     "clip_high": false,
+     "range_rel": 1.9236403166313299e-16,
+     "prim_res": 9.609683098776856e-05,
+     "dual_res": 3.761808301702243e-08,
+     "clar_status": "Solved",
+     "clar_fallback": false,
+     "valid_flag_osqp": false,
+     "valid_flag_clar": false,
+     "cands": {
+      "반올림(원고 규칙)": {
+       "V": 98.18089536507996,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-100/B28241_round_paper.csv"
+      },
+      "greedy+repair": {
+       "V": 98.60121851360822,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-100/B28241_greedy_allocation.csv"
+      },
+      "반올림→repair": {
+       "V": 98.04856712514096,
+       "feasible": true,
+       "path": "/home/user/experiments/work/stage9/bench/center-100/B28241_rr_allocation.csv"
+      }
+     },
+     "cpp_attempts": {
+      "greedy": 1,
+      "rr": 1
+     },
+     "U_rev": 98.04856712514096,
+     "U_paper": 98.18089536507996,
+     "U_method": "반올림→repair",
+     "W_rev": 0.04240519524994663,
+     "W_paper": 0.17712807122152582,
+     "W_best": 0.04240221701070093,
+     "abs_rev": 0.04157768632919101,
+     "settings": {
+      "eps_abs": 1e-08,
+      "eps_rel": 1e-08,
+      "polish": true,
+      "max_iter": 400000,
+      "range_tol": 1e-10
+     }
+    }
+   ],
+   "elapsed_s": 19.633484602964018,
+   "attempts": 1
+  }
+ ]
+}

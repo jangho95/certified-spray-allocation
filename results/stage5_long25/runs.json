@@ -1,0 +1,4190 @@
+{
+  "rows": [
+    {
+      "field": "center100",
+      "input": "center100_F50.csv",
+      "seed": 1,
+      "iters": 5000,
+      "B": 26896,
+      "P": 144.71077131260108,
+      "alloc": "alloc/pso_center100_s1_it5000.csv",
+      "history": "history/pso_center100_s1_it5000.csv",
+      "alloc_sha256": "27e9c2d60bd396d7ef2d6efd46b3211e0cd4ed10a7321346538f587142cff6ec",
+      "history_sha256": "14280213cca1dcf7659f887ebf35431d5a0918ffce8c82143ba2979f5f8c72c4",
+      "source": "preserved Stage 5 seed-1 run",
+      "elapsed_s": null
+    },
+    {
+      "field": "center100",
+      "input": "center100_F50.csv",
+      "seed": 10,
+      "iters": 5000,
+      "B": 26896,
+      "P": 155.40004829556014,
+      "P_reported": 155.40004829556014,
+      "mean": 199.99689190488405,
+      "alloc": "alloc/pso_center100_s10_it5000.csv",
+      "history": "history/pso_center100_s10_it5000.csv",
+      "alloc_sha256": "16e1d1e94a113ccb489dabebf071dc2e73ba677fc5257e8deac2d327b535ea98",
+      "history_sha256": "bc80b96d72ed97a91c69615690098f2ab52f58136f3f43b177c53c165a0d86e9",
+      "elapsed_s": 18.402759379008785,
+      "optimizer_s": 18.363089084625244,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "center100",
+      "input": "center100_F50.csv",
+      "seed": 11,
+      "iters": 5000,
+      "B": 26897,
+      "P": 162.1699459106401,
+      "P_reported": 162.1699459106401,
+      "mean": 200.00394711353607,
+      "alloc": "alloc/pso_center100_s11_it5000.csv",
+      "history": "history/pso_center100_s11_it5000.csv",
+      "alloc_sha256": "4a887858c66203ca2078ff3ac31f4b13561d7ec563d41d1d0985860f5741f50d",
+      "history_sha256": "8c3aa37b824c317f4b52a6aeba61d18b4aae7c5ceda7605d05c8e3e1538e71fe",
+      "elapsed_s": 18.55577438697219,
+      "optimizer_s": 18.515366315841675,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "center100",
+      "input": "center100_F50.csv",
+      "seed": 12,
+      "iters": 5000,
+      "B": 26896,
+      "P": 151.41365591990788,
+      "P_reported": 151.41365591990788,
+      "mean": 199.99689190488405,
+      "alloc": "alloc/pso_center100_s12_it5000.csv",
+      "history": "history/pso_center100_s12_it5000.csv",
+      "alloc_sha256": "5aed2ec0d5234ed8e67e909a390867d877f4427e56bfc6087e5d399e138e1bd0",
+      "history_sha256": "b608bb1840a04673addb641ccfbc5f48c906b521d16c166a83fc682b19afd726",
+      "elapsed_s": 18.744982917967718,
+      "optimizer_s": 18.704193830490112,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "center100",
+      "input": "center100_F50.csv",
+      "seed": 13,
+      "iters": 5000,
+      "B": 26896,
+      "P": 165.0690444698247,
+      "P_reported": 165.0690444698247,
+      "mean": 199.99689190488405,
+      "alloc": "alloc/pso_center100_s13_it5000.csv",
+      "history": "history/pso_center100_s13_it5000.csv",
+      "alloc_sha256": "659de1a3333fcadf4e7537c7bb7e5a66e1ca5919d1418756238d8c39f8f423bb",
+      "history_sha256": "e45fa4f01e3ed5c4e9907385c43999e30d31a1634146eb9669989c77cd9709f6",
+      "elapsed_s": 19.095872386009432,
+      "optimizer_s": 19.053665161132812,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "center100",
+      "input": "center100_F50.csv",
+      "seed": 14,
+      "iters": 5000,
+      "B": 26896,
+      "P": 155.58684633835622,
+      "P_reported": 155.58684633835622,
+      "mean": 199.99689190488405,
+      "alloc": "alloc/pso_center100_s14_it5000.csv",
+      "history": "history/pso_center100_s14_it5000.csv",
+      "alloc_sha256": "c48aec2bcf1a41ff3f81bb459efd05abdbf282535e91ad65e8e105ba6e4fb9f2",
+      "history_sha256": "f06842048dd799002de4342dfaa543cbd28694af703436aa221ae654709ec168",
+      "elapsed_s": 18.77186325599905,
+      "optimizer_s": 18.729446411132812,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "center100",
+      "input": "center100_F50.csv",
+      "seed": 15,
+      "iters": 5000,
+      "B": 26897,
+      "P": 163.02393608623782,
+      "P_reported": 163.02393608623782,
+      "mean": 200.00394711353607,
+      "alloc": "alloc/pso_center100_s15_it5000.csv",
+      "history": "history/pso_center100_s15_it5000.csv",
+      "alloc_sha256": "ebf766c8354428ed901e32cb0f277b0abb952135004fd5846e6dc54b72d00f52",
+      "history_sha256": "4a825b093d794395980f5511bf43339f6c03bdf1f9157cc8260749acd3fca264",
+      "elapsed_s": 18.970541590999346,
+      "optimizer_s": 18.928128719329834,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "center100",
+      "input": "center100_F50.csv",
+      "seed": 16,
+      "iters": 5000,
+      "B": 26896,
+      "P": 159.40682137340266,
+      "P_reported": 159.40682137340266,
+      "mean": 199.99689190488405,
+      "alloc": "alloc/pso_center100_s16_it5000.csv",
+      "history": "history/pso_center100_s16_it5000.csv",
+      "alloc_sha256": "03eb59f790d1afd4e4d885409f584a8d41de5b0c33f9205231843eeea6d20f04",
+      "history_sha256": "383a0b0ff4b2ef27447f3aae2d2e1e3446652ebac4ce7ef64b091cd50b2a4ef0",
+      "elapsed_s": 18.600364780053496,
+      "optimizer_s": 18.55806040763855,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "center100",
+      "input": "center100_F50.csv",
+      "seed": 17,
+      "iters": 5000,
+      "B": 26896,
+      "P": 146.5176318277446,
+      "P_reported": 146.5176318277446,
+      "mean": 199.99689190488405,
+      "alloc": "alloc/pso_center100_s17_it5000.csv",
+      "history": "history/pso_center100_s17_it5000.csv",
+      "alloc_sha256": "ca718fd934736a8ffd8d8be053b4a4fa9cbb00b30b5a55c1f8787264eaedf290",
+      "history_sha256": "504fd59a84f6da2bf7cf0cea3f0e7f0d9785edf566653c3b006ba07a44aef9f9",
+      "elapsed_s": 18.59210523904767,
+      "optimizer_s": 18.54788613319397,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "center100",
+      "input": "center100_F50.csv",
+      "seed": 18,
+      "iters": 5000,
+      "B": 26896,
+      "P": 152.13908153297396,
+      "P_reported": 152.13908153297396,
+      "mean": 199.99689190488405,
+      "alloc": "alloc/pso_center100_s18_it5000.csv",
+      "history": "history/pso_center100_s18_it5000.csv",
+      "alloc_sha256": "d8669178476ba8faa7297656993a78e67ccf3aa28c378a2c9a284533b0477fc2",
+      "history_sha256": "f5baa9bd894ca9be0e8bc899fc69edb13b9fdbe214a73a51790190d439f30179",
+      "elapsed_s": 19.281152232026216,
+      "optimizer_s": 19.237969398498535,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "center100",
+      "input": "center100_F50.csv",
+      "seed": 19,
+      "iters": 5000,
+      "B": 26896,
+      "P": 155.69051621042402,
+      "P_reported": 155.69051621042402,
+      "mean": 199.99689190488405,
+      "alloc": "alloc/pso_center100_s19_it5000.csv",
+      "history": "history/pso_center100_s19_it5000.csv",
+      "alloc_sha256": "c005386e0df22ad6230b65179bec726f49803677c1e9e6cc89517392aed5c6a9",
+      "history_sha256": "707e415167fb7515d792aaefb89c8721ef7c8d03727971e79aa9305e5f2f4cb0",
+      "elapsed_s": 19.5459842790151,
+      "optimizer_s": 19.504019498825073,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "center100",
+      "input": "center100_F50.csv",
+      "seed": 2,
+      "iters": 5000,
+      "B": 26896,
+      "P": 167.46541440641312,
+      "P_reported": 167.46541440641312,
+      "mean": 199.99689190488405,
+      "alloc": "alloc/pso_center100_s2_it5000.csv",
+      "history": "history/pso_center100_s2_it5000.csv",
+      "alloc_sha256": "e16f74267ba601f7098a2a671980e334c6f75f39571d152cb3b83a22893e0f68",
+      "history_sha256": "5a427b76f6efd2b9384fc683abc27b2414d23b5a820b0a7c1431d0029ec4487a",
+      "elapsed_s": 22.615668364975136,
+      "optimizer_s": 22.56326413154602,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "center100",
+      "input": "center100_F50.csv",
+      "seed": 20,
+      "iters": 5000,
+      "B": 26897,
+      "P": 154.94643570554956,
+      "P_reported": 154.94643570554956,
+      "mean": 200.00394711353607,
+      "alloc": "alloc/pso_center100_s20_it5000.csv",
+      "history": "history/pso_center100_s20_it5000.csv",
+      "alloc_sha256": "2469c11018ebeae15f75d342e45c76c2666fc817f47f24146253561c5c7f82d2",
+      "history_sha256": "b50cca10aabc32e8cd36d1c853361fa2597e9d566ec648f4719861a959722e56",
+      "elapsed_s": 18.00977030803915,
+      "optimizer_s": 17.96738362312317,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "center100",
+      "input": "center100_F50.csv",
+      "seed": 21,
+      "iters": 5000,
+      "B": 26896,
+      "P": 161.8123174363329,
+      "P_reported": 161.8123174363329,
+      "mean": 199.99689190488405,
+      "alloc": "alloc/pso_center100_s21_it5000.csv",
+      "history": "history/pso_center100_s21_it5000.csv",
+      "alloc_sha256": "1bd36ed1262219f609c56f0ef85cfd565b5e325c4712aa31e018ab0f03e17d13",
+      "history_sha256": "8fdf2108f44c578a5f7439b4e8edd5800273be52711c4f52366a846e4a84ef00",
+      "elapsed_s": 18.610503112024162,
+      "optimizer_s": 18.56246042251587,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "center100",
+      "input": "center100_F50.csv",
+      "seed": 22,
+      "iters": 5000,
+      "B": 26896,
+      "P": 167.32543265702387,
+      "P_reported": 167.32543265702387,
+      "mean": 199.99689190488405,
+      "alloc": "alloc/pso_center100_s22_it5000.csv",
+      "history": "history/pso_center100_s22_it5000.csv",
+      "alloc_sha256": "0284d8b3e463ea7840327bbe446ba71afff5f8e37a9d8b089cf4e4562c730767",
+      "history_sha256": "85b8f89f70ab4a330c6fc1ede740fb0840a80b87145f9ee4754c89651e5e4b36",
+      "elapsed_s": 19.209054274018854,
+      "optimizer_s": 19.167091131210327,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "center100",
+      "input": "center100_F50.csv",
+      "seed": 23,
+      "iters": 5000,
+      "B": 26896,
+      "P": 167.01460621365985,
+      "P_reported": 167.01460621365985,
+      "mean": 199.99689190488405,
+      "alloc": "alloc/pso_center100_s23_it5000.csv",
+      "history": "history/pso_center100_s23_it5000.csv",
+      "alloc_sha256": "6f80ea66abfe392138583b3051b02f93c067f6bbbcf39adfda8496ec9a6dcf00",
+      "history_sha256": "a1aeffd8c86e3a629d887f30d72e3a0d1e550d975c7dcf535eb8a5c904306dbe",
+      "elapsed_s": 19.61889801803045,
+      "optimizer_s": 19.577397108078003,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "center100",
+      "input": "center100_F50.csv",
+      "seed": 24,
+      "iters": 5000,
+      "B": 26896,
+      "P": 147.42261803497377,
+      "P_reported": 147.42261803497377,
+      "mean": 199.99689190488405,
+      "alloc": "alloc/pso_center100_s24_it5000.csv",
+      "history": "history/pso_center100_s24_it5000.csv",
+      "alloc_sha256": "f387fe6d44fb6c6b60526931b818eacaa259ecc138bed4bee3a3d8307d2c2aae",
+      "history_sha256": "0609e1af14988a3012fb625a1b78ceb23d0273a11d2a38a833454c393932892c",
+      "elapsed_s": 19.477295111049898,
+      "optimizer_s": 19.432055234909058,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "center100",
+      "input": "center100_F50.csv",
+      "seed": 25,
+      "iters": 5000,
+      "B": 26896,
+      "P": 166.65465923476316,
+      "P_reported": 166.65465923476316,
+      "mean": 199.99689190488405,
+      "alloc": "alloc/pso_center100_s25_it5000.csv",
+      "history": "history/pso_center100_s25_it5000.csv",
+      "alloc_sha256": "a1efde0b0980c302dcae2120221f7e4f293bb107a2f461992ca51461d562e8ff",
+      "history_sha256": "7984b1c0d2fa7dd20273f85a6a39d115f52654576f9f8d1dee1112765eced3c3",
+      "elapsed_s": 19.340995200909674,
+      "optimizer_s": 19.28741145133972,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "center100",
+      "input": "center100_F50.csv",
+      "seed": 3,
+      "iters": 5000,
+      "B": 26897,
+      "P": 156.26755559979892,
+      "P_reported": 156.26755559979892,
+      "mean": 200.00394711353607,
+      "alloc": "alloc/pso_center100_s3_it5000.csv",
+      "history": "history/pso_center100_s3_it5000.csv",
+      "alloc_sha256": "a27596a2dff07f7c7fecd06e257603ac535590a1295f21eed6452a755b2feee3",
+      "history_sha256": "781ac2d11dc99afffd70bcd15cf13f968fddbace4bf84d1704ba05713353f3f1",
+      "elapsed_s": 18.45585688902065,
+      "optimizer_s": 18.40482449531555,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "center100",
+      "input": "center100_F50.csv",
+      "seed": 4,
+      "iters": 5000,
+      "B": 26897,
+      "P": 152.3246700542485,
+      "P_reported": 152.3246700542485,
+      "mean": 200.0039471135361,
+      "alloc": "alloc/pso_center100_s4_it5000.csv",
+      "history": "history/pso_center100_s4_it5000.csv",
+      "alloc_sha256": "2deecb24621afa91125851db6210c2c3f1bb6b5a60606a954e05a395e1cef0a5",
+      "history_sha256": "75d9473c41e9783181aaca7418c08e87651ff35146911fc2f6866f7e573c8cd7",
+      "elapsed_s": 16.568657938041724,
+      "optimizer_s": 16.527998685836792,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "center100",
+      "input": "center100_F50.csv",
+      "seed": 5,
+      "iters": 5000,
+      "B": 26896,
+      "P": 159.07117789266636,
+      "P_reported": 159.07117789266636,
+      "mean": 199.99689190488405,
+      "alloc": "alloc/pso_center100_s5_it5000.csv",
+      "history": "history/pso_center100_s5_it5000.csv",
+      "alloc_sha256": "fe13f9e16b5f7661a647c6f45ead629d10f832e89652616560cb445618d90895",
+      "history_sha256": "651fcde8555613a5a2f12c7170e388a942b99365ca6f38320e3fb19b106d6aa7",
+      "elapsed_s": 17.705449229979422,
+      "optimizer_s": 17.665475845336914,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "center100",
+      "input": "center100_F50.csv",
+      "seed": 6,
+      "iters": 5000,
+      "B": 26897,
+      "P": 171.05264331961953,
+      "P_reported": 171.05264331961953,
+      "mean": 200.00394711353607,
+      "alloc": "alloc/pso_center100_s6_it5000.csv",
+      "history": "history/pso_center100_s6_it5000.csv",
+      "alloc_sha256": "24ca62785eae536b837521d419e5f1fee4abcdbf5efeab3748f1c6db88872a14",
+      "history_sha256": "5c68a2d07a9a90430c72b5b73089e043ff26f826957b92b2f05e24ae14ed3a38",
+      "elapsed_s": 18.007149077020586,
+      "optimizer_s": 17.96884822845459,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "center100",
+      "input": "center100_F50.csv",
+      "seed": 7,
+      "iters": 5000,
+      "B": 26896,
+      "P": 158.59813662341224,
+      "P_reported": 158.59813662341224,
+      "mean": 199.99689190488405,
+      "alloc": "alloc/pso_center100_s7_it5000.csv",
+      "history": "history/pso_center100_s7_it5000.csv",
+      "alloc_sha256": "a1eeea8fb9569281c5c4d512e67a7bc0780c553b42164f6e38afc041dedec0a0",
+      "history_sha256": "dc721106798c36c7d228db43401d353ef9e8f3ddcc981a103424f63aaba261c5",
+      "elapsed_s": 16.916173383011483,
+      "optimizer_s": 16.87649130821228,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "center100",
+      "input": "center100_F50.csv",
+      "seed": 8,
+      "iters": 5000,
+      "B": 26896,
+      "P": 151.73345715031184,
+      "P_reported": 151.73345715031184,
+      "mean": 199.99689190488405,
+      "alloc": "alloc/pso_center100_s8_it5000.csv",
+      "history": "history/pso_center100_s8_it5000.csv",
+      "alloc_sha256": "11b13ac0776a040c2c943b023e9f4b253e0a9bf3167b4780a72ccd0c9a8543f4",
+      "history_sha256": "0a849a48d2d282a7480c2ff7006cccd0dc4c8a9553a02ae8e1a3d9321f3cfc5a",
+      "elapsed_s": 17.329327134997584,
+      "optimizer_s": 17.287495374679565,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "center100",
+      "input": "center100_F50.csv",
+      "seed": 9,
+      "iters": 5000,
+      "B": 26896,
+      "P": 141.51161338200512,
+      "P_reported": 141.51161338200512,
+      "mean": 199.99689190488405,
+      "alloc": "alloc/pso_center100_s9_it5000.csv",
+      "history": "history/pso_center100_s9_it5000.csv",
+      "alloc_sha256": "db2b6a589ca0ec287328cdef5919eb203c90991b32da5431f1e1a5a1c76651e5",
+      "history_sha256": "dc5d75018652219ac49655b859e4142bbdbd389b70700bc6bb99100251368044",
+      "elapsed_s": 17.740970354003366,
+      "optimizer_s": 17.690367460250854,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "center30",
+      "input": "center30_F50.csv",
+      "seed": 1,
+      "iters": 5000,
+      "B": 27912,
+      "P": 81.33389002999151,
+      "alloc": "alloc/pso_center30_s1_it5000.csv",
+      "history": "history/pso_center30_s1_it5000.csv",
+      "alloc_sha256": "d625c56ab3d012ea0c2fc3c075860c9ffa851cff9109bd013f3a87f41d395b0a",
+      "history_sha256": "7a464073bd8c3002b8763aeb892c6734c834e6ec90fd5a7828124a4eee409230",
+      "source": "preserved Stage 5 seed-1 run",
+      "elapsed_s": null
+    },
+    {
+      "field": "center30",
+      "input": "center30_F50.csv",
+      "seed": 10,
+      "iters": 5000,
+      "B": 27912,
+      "P": 82.38241918066912,
+      "P_reported": 82.38241918066912,
+      "mean": 199.9969838953422,
+      "alloc": "alloc/pso_center30_s10_it5000.csv",
+      "history": "history/pso_center30_s10_it5000.csv",
+      "alloc_sha256": "4b4d07942dd723a4a24b3d9f682f40ee399b39bcf6ac2c1187fd90030e79da16",
+      "history_sha256": "489e71e03e56926994b323fd02a52bf70acbbad58f368c7063d9d7f45c15db94",
+      "elapsed_s": 19.80522048199782,
+      "optimizer_s": 19.766029834747314,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "center30",
+      "input": "center30_F50.csv",
+      "seed": 11,
+      "iters": 5000,
+      "B": 27912,
+      "P": 85.61750218267476,
+      "P_reported": 85.61750218267476,
+      "mean": 199.9969838953422,
+      "alloc": "alloc/pso_center30_s11_it5000.csv",
+      "history": "history/pso_center30_s11_it5000.csv",
+      "alloc_sha256": "52b7b0e6d30d32ce67f31cf5bef12028f40f9c36977636c3af71f602024e2c71",
+      "history_sha256": "9bf3af237724570cdb14880c10500b22d3c8607b0fc837bc0ee01ffe16fa5142",
+      "elapsed_s": 19.121178594010416,
+      "optimizer_s": 19.065242052078247,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "center30",
+      "input": "center30_F50.csv",
+      "seed": 12,
+      "iters": 5000,
+      "B": 27912,
+      "P": 83.28119774023804,
+      "P_reported": 83.28119774023804,
+      "mean": 199.9969838953422,
+      "alloc": "alloc/pso_center30_s12_it5000.csv",
+      "history": "history/pso_center30_s12_it5000.csv",
+      "alloc_sha256": "45157851802508b909999f8b30189b8139e9bca727f348418589aa1348949d3e",
+      "history_sha256": "39e0871fff97b941c21a38077c7d813ad5abd7e9347dcddbfd4d2da4d31014a3",
+      "elapsed_s": 18.72652026999276,
+      "optimizer_s": 18.68114948272705,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "center30",
+      "input": "center30_F50.csv",
+      "seed": 13,
+      "iters": 5000,
+      "B": 27912,
+      "P": 82.9567383346373,
+      "P_reported": 82.9567383346373,
+      "mean": 199.9969838953422,
+      "alloc": "alloc/pso_center30_s13_it5000.csv",
+      "history": "history/pso_center30_s13_it5000.csv",
+      "alloc_sha256": "7d6cfb946ec88000bafce26c4784f92ea34b1d2302d554579b5ac0c457eb8ab2",
+      "history_sha256": "a332fc65697515e2e06103eb0f0679e91c7e77edd53a4ccd873b0be7a87bd705",
+      "elapsed_s": 19.735561694018543,
+      "optimizer_s": 19.696463108062744,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "center30",
+      "input": "center30_F50.csv",
+      "seed": 14,
+      "iters": 5000,
+      "B": 27912,
+      "P": 78.66471740894426,
+      "P_reported": 78.66471740894426,
+      "mean": 199.9969838953422,
+      "alloc": "alloc/pso_center30_s14_it5000.csv",
+      "history": "history/pso_center30_s14_it5000.csv",
+      "alloc_sha256": "f8aac4039f4efbc34fa6584a0144bbd4377ede79856c4cd24f436744d0d2cd88",
+      "history_sha256": "d0aa41b4a94eb12afdf5ada0bbd1ca369640031569ef9de8220b762978882fff",
+      "elapsed_s": 19.73502288997406,
+      "optimizer_s": 19.692287921905518,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "center30",
+      "input": "center30_F50.csv",
+      "seed": 15,
+      "iters": 5000,
+      "B": 27912,
+      "P": 81.37673338428067,
+      "P_reported": 81.37673338428067,
+      "mean": 199.9969838953422,
+      "alloc": "alloc/pso_center30_s15_it5000.csv",
+      "history": "history/pso_center30_s15_it5000.csv",
+      "alloc_sha256": "a4628a0c1b3e85205a3e6eb4a1ed2992dd819bbe1fd02bcf59828a1290d52f3e",
+      "history_sha256": "b752b8dbf4884f0a0dbfce225e9e912855c3d837de7af79c70ecbac0cc0feded",
+      "elapsed_s": 19.555940249993,
+      "optimizer_s": 19.512171268463135,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "center30",
+      "input": "center30_F50.csv",
+      "seed": 16,
+      "iters": 5000,
+      "B": 27912,
+      "P": 78.92056038265898,
+      "P_reported": 78.92056038265898,
+      "mean": 199.9969838953422,
+      "alloc": "alloc/pso_center30_s16_it5000.csv",
+      "history": "history/pso_center30_s16_it5000.csv",
+      "alloc_sha256": "2bffc1bac98cebd398680cee4ea4366886670e479859893cdcee80544f8bcdc4",
+      "history_sha256": "42a247b933aa250f0e42e367272a39d1769e11fbfd9074699ffbd620b1955053",
+      "elapsed_s": 20.00246796500869,
+      "optimizer_s": 19.95600438117981,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "center30",
+      "input": "center30_F50.csv",
+      "seed": 17,
+      "iters": 5000,
+      "B": 27912,
+      "P": 85.38538962381256,
+      "P_reported": 85.38538962381256,
+      "mean": 199.9969838953422,
+      "alloc": "alloc/pso_center30_s17_it5000.csv",
+      "history": "history/pso_center30_s17_it5000.csv",
+      "alloc_sha256": "61805b5db27d332855dadcd23b0390870e6dd8775c766aacd3eb6dbcebb71970",
+      "history_sha256": "8f2afdc5fa6fb14d4c3bbeb4afd7409750a0195a9192cdefdd35c053e42106b8",
+      "elapsed_s": 19.992731552978512,
+      "optimizer_s": 19.946431398391724,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "center30",
+      "input": "center30_F50.csv",
+      "seed": 18,
+      "iters": 5000,
+      "B": 27912,
+      "P": 81.4597224122324,
+      "P_reported": 81.4597224122324,
+      "mean": 199.9969838953422,
+      "alloc": "alloc/pso_center30_s18_it5000.csv",
+      "history": "history/pso_center30_s18_it5000.csv",
+      "alloc_sha256": "d4f2b3d49bf5342c81eca5a4c96740c4d489a5811d79d19bbe5b0ffa37ac699b",
+      "history_sha256": "fb9c507decc171f84faf5f02780a089a39860978e4382176ab67efbd2f5e636a",
+      "elapsed_s": 19.344556662952527,
+      "optimizer_s": 19.303558826446533,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "center30",
+      "input": "center30_F50.csv",
+      "seed": 19,
+      "iters": 5000,
+      "B": 27912,
+      "P": 81.36828343401628,
+      "P_reported": 81.36828343401628,
+      "mean": 199.9969838953422,
+      "alloc": "alloc/pso_center30_s19_it5000.csv",
+      "history": "history/pso_center30_s19_it5000.csv",
+      "alloc_sha256": "a2f47b4badfd0c89b47059cc550f108e6608783ff789a9f0e09d2708b032e5a1",
+      "history_sha256": "4cedf286b91ee7999b5900eafe21f21d42ff2420eeff57150f55e87db58729cf",
+      "elapsed_s": 20.02637080202112,
+      "optimizer_s": 19.986377954483032,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "center30",
+      "input": "center30_F50.csv",
+      "seed": 2,
+      "iters": 5000,
+      "B": 27912,
+      "P": 85.63862459491034,
+      "P_reported": 85.63862459491034,
+      "mean": 199.99698389534223,
+      "alloc": "alloc/pso_center30_s2_it5000.csv",
+      "history": "history/pso_center30_s2_it5000.csv",
+      "alloc_sha256": "9f635648ec4a8f89dc1edaafec7d98104f2f9027f552f5cfc9ecbc37b0a9bc59",
+      "history_sha256": "c5f9ffdcac7d48ce574f04327ac6a6514943be0ebca4367d408f68c27275be6f",
+      "elapsed_s": 19.234526700980496,
+      "optimizer_s": 19.179229974746704,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "center30",
+      "input": "center30_F50.csv",
+      "seed": 20,
+      "iters": 5000,
+      "B": 27912,
+      "P": 79.37160451363975,
+      "P_reported": 79.37160451363975,
+      "mean": 199.9969838953422,
+      "alloc": "alloc/pso_center30_s20_it5000.csv",
+      "history": "history/pso_center30_s20_it5000.csv",
+      "alloc_sha256": "d2b0fd311042d2cbbf49291e9c3d107c4ad569858accc98266400f3b4e517854",
+      "history_sha256": "9a04b6e8e1782d7cee6ca15a402716e9c2fcbbe265fff2f5778778b419f8db61",
+      "elapsed_s": 20.595943750988226,
+      "optimizer_s": 20.55228567123413,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "center30",
+      "input": "center30_F50.csv",
+      "seed": 21,
+      "iters": 5000,
+      "B": 27912,
+      "P": 82.52548771681327,
+      "P_reported": 82.52548771681327,
+      "mean": 199.9969838953422,
+      "alloc": "alloc/pso_center30_s21_it5000.csv",
+      "history": "history/pso_center30_s21_it5000.csv",
+      "alloc_sha256": "6493fe188acb8435c68b8b054841cbd46a96604978b6376433cd05ad817363c4",
+      "history_sha256": "68eb3fcb540abcf92b7f51fec7bb0c9842d4ac62a9c23e761adfdbfee51d657b",
+      "elapsed_s": 19.953158425050788,
+      "optimizer_s": 19.90973734855652,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "center30",
+      "input": "center30_F50.csv",
+      "seed": 22,
+      "iters": 5000,
+      "B": 27912,
+      "P": 87.22858123623223,
+      "P_reported": 87.22858123623223,
+      "mean": 199.9969838953422,
+      "alloc": "alloc/pso_center30_s22_it5000.csv",
+      "history": "history/pso_center30_s22_it5000.csv",
+      "alloc_sha256": "2c7812f09ca9bbc639edf9be6f2bbbb1dcd27c93d2210d0acaad81c3d5c2235e",
+      "history_sha256": "7a9d4eb14c29b0d29b98053210d51d373017718fdfd4d9d0a51f3a8f8cfa1356",
+      "elapsed_s": 20.15892477601301,
+      "optimizer_s": 20.11704444885254,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "center30",
+      "input": "center30_F50.csv",
+      "seed": 23,
+      "iters": 5000,
+      "B": 27912,
+      "P": 78.97410983537969,
+      "P_reported": 78.97410983537969,
+      "mean": 199.9969838953422,
+      "alloc": "alloc/pso_center30_s23_it5000.csv",
+      "history": "history/pso_center30_s23_it5000.csv",
+      "alloc_sha256": "0723602147a37d8d0653c4abea0130d71b8131cef9f0687f6218361bdec5feda",
+      "history_sha256": "9d533b73a239f175ce9b5f777ffb2b460661da126f8dedbee3e2e4a5ad3ab98c",
+      "elapsed_s": 18.800835971022025,
+      "optimizer_s": 18.7570538520813,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "center30",
+      "input": "center30_F50.csv",
+      "seed": 24,
+      "iters": 5000,
+      "B": 27912,
+      "P": 86.38788151378779,
+      "P_reported": 86.38788151378779,
+      "mean": 199.9969838953422,
+      "alloc": "alloc/pso_center30_s24_it5000.csv",
+      "history": "history/pso_center30_s24_it5000.csv",
+      "alloc_sha256": "4f37e2a7789582b9e91e8e1de4fa462bcf4f3ed131bbcecd58bd8414f334abd1",
+      "history_sha256": "66a8d8fec0f501b219f98f136ee82e8654e731e2f604e7e570b0990352bb166b",
+      "elapsed_s": 20.181461340980604,
+      "optimizer_s": 20.134549856185913,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "center30",
+      "input": "center30_F50.csv",
+      "seed": 25,
+      "iters": 5000,
+      "B": 27912,
+      "P": 80.37748912457769,
+      "P_reported": 80.37748912457769,
+      "mean": 199.9969838953422,
+      "alloc": "alloc/pso_center30_s25_it5000.csv",
+      "history": "history/pso_center30_s25_it5000.csv",
+      "alloc_sha256": "4127304ad8b96589c2107f15d40b52bf47449ff2d2793bb24199687bd82952b9",
+      "history_sha256": "5629d7ecbf274584d8a339846e052b9c8f1f5d7ba5adb4592d7bbb5874619032",
+      "elapsed_s": 22.821852676104754,
+      "optimizer_s": 22.77931261062622,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "center30",
+      "input": "center30_F50.csv",
+      "seed": 3,
+      "iters": 5000,
+      "B": 27912,
+      "P": 80.68213081339532,
+      "P_reported": 80.68213081339532,
+      "mean": 199.9969838953422,
+      "alloc": "alloc/pso_center30_s3_it5000.csv",
+      "history": "history/pso_center30_s3_it5000.csv",
+      "alloc_sha256": "d194719a1cb026e688ee2060d873301bf7421f589a77858b6deb3cf114781c8d",
+      "history_sha256": "282557a0ab45c1e620d703b1338a8ba79b78c14543548f526013b592cabad151",
+      "elapsed_s": 18.941720000992063,
+      "optimizer_s": 18.881526231765747,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "center30",
+      "input": "center30_F50.csv",
+      "seed": 4,
+      "iters": 5000,
+      "B": 27912,
+      "P": 79.45538595913602,
+      "P_reported": 79.45538595913602,
+      "mean": 199.9969838953422,
+      "alloc": "alloc/pso_center30_s4_it5000.csv",
+      "history": "history/pso_center30_s4_it5000.csv",
+      "alloc_sha256": "c81566eb93dbdffb93feccdb1b7cc62792acf3bdd09264bbcfb043b00562d632",
+      "history_sha256": "4f1a9e79c60badac8604050b2ca76915eabf630320395b2cb3cc8d022b6aaffa",
+      "elapsed_s": 17.67667335801525,
+      "optimizer_s": 17.630361557006836,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "center30",
+      "input": "center30_F50.csv",
+      "seed": 5,
+      "iters": 5000,
+      "B": 27912,
+      "P": 83.57884622445893,
+      "P_reported": 83.57884622445893,
+      "mean": 199.9969838953422,
+      "alloc": "alloc/pso_center30_s5_it5000.csv",
+      "history": "history/pso_center30_s5_it5000.csv",
+      "alloc_sha256": "165440adbed41e866e8453dea48f8a8ab8406bbe4d54f2a7becf413b08eab89a",
+      "history_sha256": "b4cda3bd6f16c2eae3e8afb4cb4dadbf4a218d08804e130ef0ca7bba22fbb132",
+      "elapsed_s": 17.606763044022955,
+      "optimizer_s": 17.565011501312256,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "center30",
+      "input": "center30_F50.csv",
+      "seed": 6,
+      "iters": 5000,
+      "B": 27912,
+      "P": 81.88844656575921,
+      "P_reported": 81.88844656575921,
+      "mean": 199.9969838953422,
+      "alloc": "alloc/pso_center30_s6_it5000.csv",
+      "history": "history/pso_center30_s6_it5000.csv",
+      "alloc_sha256": "389470674e7801d8cbb2c809c6208b2e6ab562c6f0024961ed2572bd41a99d51",
+      "history_sha256": "dd147cb755acbeca74e612c4bc354744f06be16c69752d40b930a4b6878b6f16",
+      "elapsed_s": 17.827325954975095,
+      "optimizer_s": 17.78668451309204,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "center30",
+      "input": "center30_F50.csv",
+      "seed": 7,
+      "iters": 5000,
+      "B": 27912,
+      "P": 81.83518061814064,
+      "P_reported": 81.83518061814064,
+      "mean": 199.9969838953422,
+      "alloc": "alloc/pso_center30_s7_it5000.csv",
+      "history": "history/pso_center30_s7_it5000.csv",
+      "alloc_sha256": "1709494038ab32fce4dd56327c06c0aa4d46777e85ff8d843ea8e5e684cafa5e",
+      "history_sha256": "0121fe2374ae22309ebbd7125090e72c32a10af0ef6ce2104a74c3c7107c3b11",
+      "elapsed_s": 18.13598386704689,
+      "optimizer_s": 18.095333337783813,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "center30",
+      "input": "center30_F50.csv",
+      "seed": 8,
+      "iters": 5000,
+      "B": 27913,
+      "P": 80.99515343997946,
+      "P_reported": 80.99515343997946,
+      "mean": 200.00403910399422,
+      "alloc": "alloc/pso_center30_s8_it5000.csv",
+      "history": "history/pso_center30_s8_it5000.csv",
+      "alloc_sha256": "6494d6ab16e379a5c123f60abc8d4835a1c8051067c615de83f9fa485e5737b6",
+      "history_sha256": "c716eb8ac7c856788e099d11245d424d50346861a2d32494c3590946b3b5664e",
+      "elapsed_s": 18.388610786001664,
+      "optimizer_s": 18.34813094139099,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "center30",
+      "input": "center30_F50.csv",
+      "seed": 9,
+      "iters": 5000,
+      "B": 27912,
+      "P": 77.07249000941452,
+      "P_reported": 77.07249000941452,
+      "mean": 199.9969838953422,
+      "alloc": "alloc/pso_center30_s9_it5000.csv",
+      "history": "history/pso_center30_s9_it5000.csv",
+      "alloc_sha256": "273f291d652fa362b6aa0b4c78529b7fd318112e518ec30b53496d1742fe1a5d",
+      "history_sha256": "ea01148595b5c75d1d7bcb3556b88fcf1f7c47ddb1828943d81061db0f68d464",
+      "elapsed_s": 18.77466686000116,
+      "optimizer_s": 18.734219074249268,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "random_1_30_seed7",
+      "input": "random_u1_30_seed7_F50.csv",
+      "seed": 1,
+      "iters": 5000,
+      "B": 26120,
+      "P": 131.55757731906036,
+      "alloc": "alloc/pso_random_1_30_seed7_s1_it5000.csv",
+      "history": "history/pso_random_1_30_seed7_s1_it5000.csv",
+      "alloc_sha256": "6692cf8ccff0a85f788f36c841bc50fff01380c4c7380aa3236abd8724cd2dd6",
+      "history_sha256": "ffe79bb1cabb31e6877e43f0a35017fa6a9ca6f6fae7d6a3ff0ddb4d1485d061",
+      "source": "preserved Stage 5 seed-1 run",
+      "elapsed_s": null
+    },
+    {
+      "field": "random_1_30_seed7",
+      "input": "random_u1_30_seed7_F50.csv",
+      "seed": 10,
+      "iters": 5000,
+      "B": 26120,
+      "P": 130.58444299657566,
+      "P_reported": 130.58444299657566,
+      "mean": 199.997215993236,
+      "alloc": "alloc/pso_random_1_30_seed7_s10_it5000.csv",
+      "history": "history/pso_random_1_30_seed7_s10_it5000.csv",
+      "alloc_sha256": "3c51bbe0690ee78e09e8523c18f817eb67d78a71378c969127d5c32bc073ec7d",
+      "history_sha256": "bc95b8812ba4c77c22bc3aec22db47430485926fa071f9ee4cba5a62ef24e3bb",
+      "elapsed_s": 19.08730007399572,
+      "optimizer_s": 19.046551942825317,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "random_1_30_seed7",
+      "input": "random_u1_30_seed7_F50.csv",
+      "seed": 11,
+      "iters": 5000,
+      "B": 26120,
+      "P": 130.05913806543902,
+      "P_reported": 130.05913806543902,
+      "mean": 199.997215993236,
+      "alloc": "alloc/pso_random_1_30_seed7_s11_it5000.csv",
+      "history": "history/pso_random_1_30_seed7_s11_it5000.csv",
+      "alloc_sha256": "a95cce57848c0757a03bd7d251393d8aca76bc24d4b08282065194dbaf1557f5",
+      "history_sha256": "8389f4de3961fca8bbaae92204da589f9c8a3725e705cde67fa30a7559b9ba05",
+      "elapsed_s": 19.996450025995728,
+      "optimizer_s": 19.956130743026733,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "random_1_30_seed7",
+      "input": "random_u1_30_seed7_F50.csv",
+      "seed": 12,
+      "iters": 5000,
+      "B": 26120,
+      "P": 128.68727136596436,
+      "P_reported": 128.68727136596436,
+      "mean": 199.99721599323604,
+      "alloc": "alloc/pso_random_1_30_seed7_s12_it5000.csv",
+      "history": "history/pso_random_1_30_seed7_s12_it5000.csv",
+      "alloc_sha256": "03a0a419be58cf595b5b17b61a35a1a7edd6603ee1560dee88e5536a7ab27e06",
+      "history_sha256": "929dd457aed5e391a88dcf2fd73da524109d0d481d7e0793f6de8b3173f6c255",
+      "elapsed_s": 18.73049925098894,
+      "optimizer_s": 18.68631625175476,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "random_1_30_seed7",
+      "input": "random_u1_30_seed7_F50.csv",
+      "seed": 13,
+      "iters": 5000,
+      "B": 26120,
+      "P": 133.71591567795497,
+      "P_reported": 133.71591567795497,
+      "mean": 199.99721599323604,
+      "alloc": "alloc/pso_random_1_30_seed7_s13_it5000.csv",
+      "history": "history/pso_random_1_30_seed7_s13_it5000.csv",
+      "alloc_sha256": "d08bcb07436655797e16c5a787b99ebdafa6bcfe84559c392ff14f5d67de83e0",
+      "history_sha256": "8dda56f5a143bfdfea6843644de66427f072c9e8907c44110930150103f1fd7e",
+      "elapsed_s": 19.126181066036224,
+      "optimizer_s": 19.085984230041504,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "random_1_30_seed7",
+      "input": "random_u1_30_seed7_F50.csv",
+      "seed": 14,
+      "iters": 5000,
+      "B": 26121,
+      "P": 130.85610806726515,
+      "P_reported": 130.85610806726515,
+      "mean": 200.00427120188806,
+      "alloc": "alloc/pso_random_1_30_seed7_s14_it5000.csv",
+      "history": "history/pso_random_1_30_seed7_s14_it5000.csv",
+      "alloc_sha256": "768328f6922a120484d44c060e2c10605ebda4f1511360cca6284047618001c9",
+      "history_sha256": "8bb094ea74014fffc981be004e7d0c2b296fa73e17baa35a5b2d7c3dbe8997dd",
+      "elapsed_s": 19.1985885190079,
+      "optimizer_s": 19.153384685516357,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "random_1_30_seed7",
+      "input": "random_u1_30_seed7_F50.csv",
+      "seed": 15,
+      "iters": 5000,
+      "B": 26120,
+      "P": 131.77706817718976,
+      "P_reported": 131.77706817718976,
+      "mean": 199.997215993236,
+      "alloc": "alloc/pso_random_1_30_seed7_s15_it5000.csv",
+      "history": "history/pso_random_1_30_seed7_s15_it5000.csv",
+      "alloc_sha256": "2c30f6f1095d4c5f92952d08a1de860d326274cc7b9f30c124e1974a63faedea",
+      "history_sha256": "afc36a708183be31a127a4df8e3f3bd8371db1fea087028ec69e711a9e8c3b3f",
+      "elapsed_s": 19.231322982988786,
+      "optimizer_s": 19.189160585403442,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "random_1_30_seed7",
+      "input": "random_u1_30_seed7_F50.csv",
+      "seed": 16,
+      "iters": 5000,
+      "B": 26120,
+      "P": 128.94307665587172,
+      "P_reported": 128.94307665587172,
+      "mean": 199.99721599323604,
+      "alloc": "alloc/pso_random_1_30_seed7_s16_it5000.csv",
+      "history": "history/pso_random_1_30_seed7_s16_it5000.csv",
+      "alloc_sha256": "9b6c06d061674e2a752294826e6ec728eb7535450bcef7920e3398c7e81d9774",
+      "history_sha256": "c5464b76b8d7580d3bd34035e8fdf82f4963e4ff2dab59e5e233735d42cf74e0",
+      "elapsed_s": 18.896173449989874,
+      "optimizer_s": 18.852407455444336,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "random_1_30_seed7",
+      "input": "random_u1_30_seed7_F50.csv",
+      "seed": 17,
+      "iters": 5000,
+      "B": 26120,
+      "P": 129.37620274349297,
+      "P_reported": 129.37620274349297,
+      "mean": 199.997215993236,
+      "alloc": "alloc/pso_random_1_30_seed7_s17_it5000.csv",
+      "history": "history/pso_random_1_30_seed7_s17_it5000.csv",
+      "alloc_sha256": "1cfd8f9bd170a01335eca1b07d3bf90db8c6a17f4a85e6f53d097ee13c5278d3",
+      "history_sha256": "96c5eda6e6dd16ca4e1a3887b1a94d4936b663d4e6590195a71ac6e76ede828f",
+      "elapsed_s": 19.695373813039623,
+      "optimizer_s": 19.65009355545044,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "random_1_30_seed7",
+      "input": "random_u1_30_seed7_F50.csv",
+      "seed": 18,
+      "iters": 5000,
+      "B": 26121,
+      "P": 126.91957927378398,
+      "P_reported": 126.91957927378398,
+      "mean": 200.00427120188806,
+      "alloc": "alloc/pso_random_1_30_seed7_s18_it5000.csv",
+      "history": "history/pso_random_1_30_seed7_s18_it5000.csv",
+      "alloc_sha256": "bb050cafabc3208a8ac61ac354099fa1b7840f277d78bd73301bae3baace9832",
+      "history_sha256": "c5f0bcd334ae722a7e91983350afc2ec081f70a62c361fb7bf41efc7da7fd3cd",
+      "elapsed_s": 18.83361386496108,
+      "optimizer_s": 18.791994094848633,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "random_1_30_seed7",
+      "input": "random_u1_30_seed7_F50.csv",
+      "seed": 19,
+      "iters": 5000,
+      "B": 26120,
+      "P": 130.18278338425412,
+      "P_reported": 130.18278338425412,
+      "mean": 199.997215993236,
+      "alloc": "alloc/pso_random_1_30_seed7_s19_it5000.csv",
+      "history": "history/pso_random_1_30_seed7_s19_it5000.csv",
+      "alloc_sha256": "78562a638ddda4ae76c7392efd77b028e7cce4bc2d1f5382ae9f5191ec65e071",
+      "history_sha256": "b5c350fedee221579292b2005d2f14d15e6e2a4ca53ee84d8586b0f62725c9e2",
+      "elapsed_s": 19.528279997000936,
+      "optimizer_s": 19.48234796524048,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "random_1_30_seed7",
+      "input": "random_u1_30_seed7_F50.csv",
+      "seed": 2,
+      "iters": 5000,
+      "B": 26120,
+      "P": 128.31158562986403,
+      "P_reported": 128.31158562986403,
+      "mean": 199.997215993236,
+      "alloc": "alloc/pso_random_1_30_seed7_s2_it5000.csv",
+      "history": "history/pso_random_1_30_seed7_s2_it5000.csv",
+      "alloc_sha256": "c6e643304da0bb589028b42d68116e486a548b8c9dc7a5f32f72338ef6645d72",
+      "history_sha256": "41b0e44c2c95b46af705ca66e74a03857fb12f2baa1c85a194be39a3a33a6cc1",
+      "elapsed_s": 20.85655907698674,
+      "optimizer_s": 20.799543619155884,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "random_1_30_seed7",
+      "input": "random_u1_30_seed7_F50.csv",
+      "seed": 20,
+      "iters": 5000,
+      "B": 26120,
+      "P": 130.24944031626066,
+      "P_reported": 130.24944031626066,
+      "mean": 199.997215993236,
+      "alloc": "alloc/pso_random_1_30_seed7_s20_it5000.csv",
+      "history": "history/pso_random_1_30_seed7_s20_it5000.csv",
+      "alloc_sha256": "41b0678d9308c50ee4c770f9b7f07df3560af33fecf4c869c061dcbe3655bc95",
+      "history_sha256": "9e14251bcee3b71622fd5f088ff45055a1b2d6767b3525fc83d49033690921f8",
+      "elapsed_s": 20.248506675940007,
+      "optimizer_s": 20.20533514022827,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "random_1_30_seed7",
+      "input": "random_u1_30_seed7_F50.csv",
+      "seed": 21,
+      "iters": 5000,
+      "B": 26121,
+      "P": 130.25751834160909,
+      "P_reported": 130.25751834160909,
+      "mean": 200.00427120188806,
+      "alloc": "alloc/pso_random_1_30_seed7_s21_it5000.csv",
+      "history": "history/pso_random_1_30_seed7_s21_it5000.csv",
+      "alloc_sha256": "28cac9a1d51c530c2c3c34ae07fc26b60f8a9820a9a0a6488f42f2a2a81b021e",
+      "history_sha256": "1e889314d8f650fc4f2387f09136e08d55774c8eac70b8327db0c008c960337e",
+      "elapsed_s": 19.84350080502918,
+      "optimizer_s": 19.80186128616333,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "random_1_30_seed7",
+      "input": "random_u1_30_seed7_F50.csv",
+      "seed": 22,
+      "iters": 5000,
+      "B": 26120,
+      "P": 129.19061816659382,
+      "P_reported": 129.19061816659382,
+      "mean": 199.99721599323604,
+      "alloc": "alloc/pso_random_1_30_seed7_s22_it5000.csv",
+      "history": "history/pso_random_1_30_seed7_s22_it5000.csv",
+      "alloc_sha256": "c21ad1bf689f6afb1c0b355297564bbec2724292f6d0d2f4ce4821e65f62a1f6",
+      "history_sha256": "1f4ac4de5daa07ecfff0bd5aac2e4aaaee91ae6cfeeb3822adc430340bd698d3",
+      "elapsed_s": 20.273151291999966,
+      "optimizer_s": 20.227510929107666,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "random_1_30_seed7",
+      "input": "random_u1_30_seed7_F50.csv",
+      "seed": 23,
+      "iters": 5000,
+      "B": 26120,
+      "P": 132.6181731578135,
+      "P_reported": 132.6181731578135,
+      "mean": 199.99721599323604,
+      "alloc": "alloc/pso_random_1_30_seed7_s23_it5000.csv",
+      "history": "history/pso_random_1_30_seed7_s23_it5000.csv",
+      "alloc_sha256": "ff6b2cde9bdcda361ee302ace1aab1049751425132e87a53005efc229c86ca93",
+      "history_sha256": "4ac2054f51d2bff171ef9fbbc035c5019c928e513e6d06be1d0cea9019dea706",
+      "elapsed_s": 20.017847834038548,
+      "optimizer_s": 19.973982572555542,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "random_1_30_seed7",
+      "input": "random_u1_30_seed7_F50.csv",
+      "seed": 24,
+      "iters": 5000,
+      "B": 26120,
+      "P": 130.23508399354006,
+      "P_reported": 130.23508399354006,
+      "mean": 199.997215993236,
+      "alloc": "alloc/pso_random_1_30_seed7_s24_it5000.csv",
+      "history": "history/pso_random_1_30_seed7_s24_it5000.csv",
+      "alloc_sha256": "5370d95d1c7af1233177079382a89c83ba9edc004927ded24cd423e81ccc447c",
+      "history_sha256": "adb8ac24e89d40fbd481aa9d66472118efd26403913cc24a894b59f6659de764",
+      "elapsed_s": 19.613402263028547,
+      "optimizer_s": 19.570867776870728,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "random_1_30_seed7",
+      "input": "random_u1_30_seed7_F50.csv",
+      "seed": 25,
+      "iters": 5000,
+      "B": 26120,
+      "P": 131.9465556241484,
+      "P_reported": 131.9465556241484,
+      "mean": 199.99721599323604,
+      "alloc": "alloc/pso_random_1_30_seed7_s25_it5000.csv",
+      "history": "history/pso_random_1_30_seed7_s25_it5000.csv",
+      "alloc_sha256": "36f750904b92982e0cd0cfdf99e7ea5d3a9a764a4cf751134a9225fff21ede25",
+      "history_sha256": "bf584214ef7084efc835f2265dc3859e8bdc9d4071dd3cf6c86bb38d5ebf2006",
+      "elapsed_s": 20.12171188602224,
+      "optimizer_s": 20.078753232955933,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "random_1_30_seed7",
+      "input": "random_u1_30_seed7_F50.csv",
+      "seed": 3,
+      "iters": 5000,
+      "B": 26120,
+      "P": 130.48200038840858,
+      "P_reported": 130.48200038840858,
+      "mean": 199.997215993236,
+      "alloc": "alloc/pso_random_1_30_seed7_s3_it5000.csv",
+      "history": "history/pso_random_1_30_seed7_s3_it5000.csv",
+      "alloc_sha256": "21c73ea72b8bd1c72447c5d044a70a16dbbd3de17fff2ed597c0f595b2c678b0",
+      "history_sha256": "2c1f1f733f20e093bf1373a17d489a350879af13b00738dc477d25a975cddfa2",
+      "elapsed_s": 19.244429606013,
+      "optimizer_s": 19.191253185272217,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "random_1_30_seed7",
+      "input": "random_u1_30_seed7_F50.csv",
+      "seed": 4,
+      "iters": 5000,
+      "B": 26120,
+      "P": 133.07733988479504,
+      "P_reported": 133.07733988479504,
+      "mean": 199.997215993236,
+      "alloc": "alloc/pso_random_1_30_seed7_s4_it5000.csv",
+      "history": "history/pso_random_1_30_seed7_s4_it5000.csv",
+      "alloc_sha256": "8f037c0e20867b3b27dc7c445b60457dddde0b16a78514c5a714bec82f767918",
+      "history_sha256": "5741bce23bc17bef3bbf37083c2e8813b57a70d1fe977391870ee7b6b326e591",
+      "elapsed_s": 19.053776015003677,
+      "optimizer_s": 19.012280702590942,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "random_1_30_seed7",
+      "input": "random_u1_30_seed7_F50.csv",
+      "seed": 5,
+      "iters": 5000,
+      "B": 26120,
+      "P": 129.5346882531629,
+      "P_reported": 129.5346882531629,
+      "mean": 199.997215993236,
+      "alloc": "alloc/pso_random_1_30_seed7_s5_it5000.csv",
+      "history": "history/pso_random_1_30_seed7_s5_it5000.csv",
+      "alloc_sha256": "8cf51344fffd254243d12c24c7d72ef983fe0bafde49cfa970997d0f308ded10",
+      "history_sha256": "3a37a4569f24917d4b1146fcb4d7060720bacaaa51684ae7329fb8106f26b7e0",
+      "elapsed_s": 19.166118717985228,
+      "optimizer_s": 19.123316049575806,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "random_1_30_seed7",
+      "input": "random_u1_30_seed7_F50.csv",
+      "seed": 6,
+      "iters": 5000,
+      "B": 26120,
+      "P": 130.60799519700095,
+      "P_reported": 130.60799519700095,
+      "mean": 199.997215993236,
+      "alloc": "alloc/pso_random_1_30_seed7_s6_it5000.csv",
+      "history": "history/pso_random_1_30_seed7_s6_it5000.csv",
+      "alloc_sha256": "a0ed8272871e750f86fed30d7ad4bc05672dfa8e6bff6b555b7df7462572dccb",
+      "history_sha256": "6e10bf84d2497c2a86d25c91d47179f4c9960062bd2532c2a764dc9bbaeac7fa",
+      "elapsed_s": 19.07208900200203,
+      "optimizer_s": 19.033345222473145,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "random_1_30_seed7",
+      "input": "random_u1_30_seed7_F50.csv",
+      "seed": 7,
+      "iters": 5000,
+      "B": 26120,
+      "P": 136.19166643601383,
+      "P_reported": 136.19166643601383,
+      "mean": 199.99721599323604,
+      "alloc": "alloc/pso_random_1_30_seed7_s7_it5000.csv",
+      "history": "history/pso_random_1_30_seed7_s7_it5000.csv",
+      "alloc_sha256": "cb6425010a5821e221c0d73af74419fec8a6ef73a7524113b28b204cdc2e14f9",
+      "history_sha256": "6bc04d3420b0e2a08d54c3f2f1c3c395fdd20ca51e32fa7daa51d10f4bbfd28b",
+      "elapsed_s": 19.246286369976588,
+      "optimizer_s": 19.206085443496704,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "random_1_30_seed7",
+      "input": "random_u1_30_seed7_F50.csv",
+      "seed": 8,
+      "iters": 5000,
+      "B": 26120,
+      "P": 129.33408309942217,
+      "P_reported": 129.33408309942217,
+      "mean": 199.99721599323604,
+      "alloc": "alloc/pso_random_1_30_seed7_s8_it5000.csv",
+      "history": "history/pso_random_1_30_seed7_s8_it5000.csv",
+      "alloc_sha256": "bd1bc507eac1ebc0218696732d57e89af865637ff52edb0c7945e81594c719d8",
+      "history_sha256": "98c42ace0829894afe75af01f00c4ff518da01993b5d8702ba0f63d77d563f53",
+      "elapsed_s": 18.978015366999898,
+      "optimizer_s": 18.936797857284546,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "random_1_30_seed7",
+      "input": "random_u1_30_seed7_F50.csv",
+      "seed": 9,
+      "iters": 5000,
+      "B": 26120,
+      "P": 131.5074634986204,
+      "P_reported": 131.5074634986204,
+      "mean": 199.997215993236,
+      "alloc": "alloc/pso_random_1_30_seed7_s9_it5000.csv",
+      "history": "history/pso_random_1_30_seed7_s9_it5000.csv",
+      "alloc_sha256": "a5b57e8cb0c2c17ea17a50b6508c715b061abb2ab111c4519cbbcf1d4cf720ba",
+      "history_sha256": "27ccaede46b210259e69e7fb2acf78edb32a9560be2788719b3d00a72cc313a1",
+      "elapsed_s": 18.215413553989492,
+      "optimizer_s": 18.170653820037842,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "zero",
+      "input": "zero_F50.csv",
+      "seed": 1,
+      "iters": 5000,
+      "B": 28348,
+      "P": 74.1792985611882,
+      "alloc": "alloc/pso_zero_s1_it5000.csv",
+      "history": "history/pso_zero_s1_it5000.csv",
+      "alloc_sha256": "2c3fd36c80d8389a7573d7ca186fede2dfbc54dbcd7152c260a242b9f7476a74",
+      "history_sha256": "8723cc738c2470f0d5edd0a782e509fb8376a1ffc60a4edbd8eb83218eed22ee",
+      "source": "preserved Stage 5 seed-1 run",
+      "elapsed_s": null
+    },
+    {
+      "field": "zero",
+      "input": "zero_F50.csv",
+      "seed": 10,
+      "iters": 5000,
+      "B": 28348,
+      "P": 74.81099192977292,
+      "P_reported": 74.81099192977292,
+      "mean": 200.0010548676254,
+      "alloc": "alloc/pso_zero_s10_it5000.csv",
+      "history": "history/pso_zero_s10_it5000.csv",
+      "alloc_sha256": "a4369a786b997eed85c55889c8db38d9b827852a0c367b0def97db8de5c8b505",
+      "history_sha256": "8002eaef8486394a38f1af6e17226c03447228348da947c54b0253803a73a493",
+      "elapsed_s": 20.02641955303261,
+      "optimizer_s": 19.97200345993042,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "zero",
+      "input": "zero_F50.csv",
+      "seed": 11,
+      "iters": 5000,
+      "B": 28348,
+      "P": 71.00862982815904,
+      "P_reported": 71.00862982815904,
+      "mean": 200.0010548676254,
+      "alloc": "alloc/pso_zero_s11_it5000.csv",
+      "history": "history/pso_zero_s11_it5000.csv",
+      "alloc_sha256": "013492857632efcb9bad4da871c45607a93df37581a495e223f38bc7656ab39f",
+      "history_sha256": "43aec4a638b47a0c5de5e1997e0be0537b3ca40bd4ea2343f7623066fc22ed73",
+      "elapsed_s": 19.31958663801197,
+      "optimizer_s": 19.27901816368103,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "zero",
+      "input": "zero_F50.csv",
+      "seed": 12,
+      "iters": 5000,
+      "B": 28348,
+      "P": 70.24137014229817,
+      "P_reported": 70.24137014229817,
+      "mean": 200.0010548676254,
+      "alloc": "alloc/pso_zero_s12_it5000.csv",
+      "history": "history/pso_zero_s12_it5000.csv",
+      "alloc_sha256": "8d683713bb5baddcacb2cb0c7eeb5479806ef53a1e6ed1c013ec0e62a61d5841",
+      "history_sha256": "77922c531c205f9a8a9a894af241a322372f5f2c2aa128c5b61ccf6f2ee85467",
+      "elapsed_s": 20.913800848997198,
+      "optimizer_s": 20.87335729598999,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "zero",
+      "input": "zero_F50.csv",
+      "seed": 13,
+      "iters": 5000,
+      "B": 28348,
+      "P": 74.98827352984006,
+      "P_reported": 74.98827352984006,
+      "mean": 200.0010548676254,
+      "alloc": "alloc/pso_zero_s13_it5000.csv",
+      "history": "history/pso_zero_s13_it5000.csv",
+      "alloc_sha256": "c36f6500ca70e374ba7fb5c3d387f2d494d7d2ab4fae53dcef0a16cd1b717a76",
+      "history_sha256": "bb562bdd8a63020b5c4ab8ba72c82f80487e8027e9c8d6a8b2bbaa62bc39baa0",
+      "elapsed_s": 19.476946422015317,
+      "optimizer_s": 19.409741401672363,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "zero",
+      "input": "zero_F50.csv",
+      "seed": 14,
+      "iters": 5000,
+      "B": 28348,
+      "P": 76.22143940125234,
+      "P_reported": 76.22143940125234,
+      "mean": 200.0010548676254,
+      "alloc": "alloc/pso_zero_s14_it5000.csv",
+      "history": "history/pso_zero_s14_it5000.csv",
+      "alloc_sha256": "411a0becfdd693ddedc7d7fecc31c6f11fda482b9096946a9ae99cd09a72e2f3",
+      "history_sha256": "436417b9b02cae43e084c7c24225f03ea3f86b28b786c4b2b3a1d2dcdfb6a45b",
+      "elapsed_s": 20.940887214033864,
+      "optimizer_s": 20.897427082061768,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "zero",
+      "input": "zero_F50.csv",
+      "seed": 15,
+      "iters": 5000,
+      "B": 28348,
+      "P": 77.99485258370667,
+      "P_reported": 77.99485258370667,
+      "mean": 200.0010548676254,
+      "alloc": "alloc/pso_zero_s15_it5000.csv",
+      "history": "history/pso_zero_s15_it5000.csv",
+      "alloc_sha256": "d8220efec7501173e47a7a709b27945c7390fcbc47a2a421d6e04afa772484a6",
+      "history_sha256": "25fd252c2b1331a05e3871bd30ad009031a2740b672f7e9767549fdde39a9b94",
+      "elapsed_s": 21.06170998304151,
+      "optimizer_s": 21.01844334602356,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "zero",
+      "input": "zero_F50.csv",
+      "seed": 16,
+      "iters": 5000,
+      "B": 28348,
+      "P": 73.80873683390536,
+      "P_reported": 73.80873683390536,
+      "mean": 200.0010548676254,
+      "alloc": "alloc/pso_zero_s16_it5000.csv",
+      "history": "history/pso_zero_s16_it5000.csv",
+      "alloc_sha256": "5692c11cc0da209a4bbf0ac472bc27372ac93ddf7fe12cf4d5d30e6696f0b7ba",
+      "history_sha256": "e9901c67900ab66af656e664d979d595b607a27e0443f78150be0e44f57cf9fd",
+      "elapsed_s": 20.094892894965596,
+      "optimizer_s": 20.050479650497437,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "zero",
+      "input": "zero_F50.csv",
+      "seed": 17,
+      "iters": 5000,
+      "B": 28348,
+      "P": 74.9493204650242,
+      "P_reported": 74.9493204650242,
+      "mean": 200.0010548676254,
+      "alloc": "alloc/pso_zero_s17_it5000.csv",
+      "history": "history/pso_zero_s17_it5000.csv",
+      "alloc_sha256": "4b0e88f0264f65b031ffb1921ec015a7f9f16de292b22db5f292db0e18dbbfef",
+      "history_sha256": "05b06748aab4e8e4be668e42d761d49b82ff784a47cc268b629cf40f5af7ca93",
+      "elapsed_s": 20.11840255104471,
+      "optimizer_s": 20.076576948165894,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "zero",
+      "input": "zero_F50.csv",
+      "seed": 18,
+      "iters": 5000,
+      "B": 28348,
+      "P": 75.1464730099976,
+      "P_reported": 75.1464730099976,
+      "mean": 200.0010548676254,
+      "alloc": "alloc/pso_zero_s18_it5000.csv",
+      "history": "history/pso_zero_s18_it5000.csv",
+      "alloc_sha256": "5ee31458eaf5e6677df86d3c5d113a59a1a6804e625fe911482c0d6ed0a7d84f",
+      "history_sha256": "46bed69325948dde86d7cf669dea1216f44a0039b9ed593b0113d66fedf30949",
+      "elapsed_s": 20.508632725977805,
+      "optimizer_s": 20.443145990371704,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "zero",
+      "input": "zero_F50.csv",
+      "seed": 19,
+      "iters": 5000,
+      "B": 28348,
+      "P": 72.51127882994952,
+      "P_reported": 72.51127882994952,
+      "mean": 200.0010548676254,
+      "alloc": "alloc/pso_zero_s19_it5000.csv",
+      "history": "history/pso_zero_s19_it5000.csv",
+      "alloc_sha256": "3c4b2567573bbc0ffce8149f7e6b4654ca4ee5d35ed892e5e7e513892bb3a3c8",
+      "history_sha256": "40f9e655a2b4e022e0842fed35ed28e9e23e31934a3c3d305c59f9933530466e",
+      "elapsed_s": 19.96811955102021,
+      "optimizer_s": 19.92655348777771,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "zero",
+      "input": "zero_F50.csv",
+      "seed": 2,
+      "iters": 5000,
+      "B": 28348,
+      "P": 74.21444456242807,
+      "P_reported": 74.21444456242807,
+      "mean": 200.0010548676254,
+      "alloc": "alloc/pso_zero_s2_it5000.csv",
+      "history": "history/pso_zero_s2_it5000.csv",
+      "alloc_sha256": "08ed02ab5bdf5709a3139c19f238861e8601d56ae0e6d9fee68a7dea7d04eda3",
+      "history_sha256": "6e9dff1887d45b0b6c6acc7a7f29816b01fa72455acc71b92b9ae622c8c13499",
+      "elapsed_s": 21.68768001999706,
+      "optimizer_s": 21.632244348526,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "zero",
+      "input": "zero_F50.csv",
+      "seed": 20,
+      "iters": 5000,
+      "B": 28348,
+      "P": 78.20155316045441,
+      "P_reported": 78.20155316045441,
+      "mean": 200.0010548676254,
+      "alloc": "alloc/pso_zero_s20_it5000.csv",
+      "history": "history/pso_zero_s20_it5000.csv",
+      "alloc_sha256": "03d639f5574bbfbd8fc12d7c3da8b17de3d91ae7c00cb6084e9507501ada599e",
+      "history_sha256": "708ba8db30bfa85872118c1e8732eaec8a01c5e0992cff02a3df3ca460ee6196",
+      "elapsed_s": 22.77619078796124,
+      "optimizer_s": 22.73244619369507,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "zero",
+      "input": "zero_F50.csv",
+      "seed": 21,
+      "iters": 5000,
+      "B": 28348,
+      "P": 73.41532408228422,
+      "P_reported": 73.41532408228422,
+      "mean": 200.0010548676254,
+      "alloc": "alloc/pso_zero_s21_it5000.csv",
+      "history": "history/pso_zero_s21_it5000.csv",
+      "alloc_sha256": "d8c4648a968ebc3837517b3813fbcee1e4c6f865f587740d6806dddb03360db0",
+      "history_sha256": "a1d8625ac80420e9ae62076cb6eb3f0e506c49735d2898aebcf85d831f786b2c",
+      "elapsed_s": 19.675623018993065,
+      "optimizer_s": 19.62925148010254,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "zero",
+      "input": "zero_F50.csv",
+      "seed": 22,
+      "iters": 5000,
+      "B": 28348,
+      "P": 73.29412375699384,
+      "P_reported": 73.29412375699384,
+      "mean": 200.0010548676254,
+      "alloc": "alloc/pso_zero_s22_it5000.csv",
+      "history": "history/pso_zero_s22_it5000.csv",
+      "alloc_sha256": "c4f3670fd5e710a274ce7317ceffb252b5aeb8d8569fbcb99761a7784fe8715d",
+      "history_sha256": "0a8d3b9245f0306c0d64d6dd30d7bc9052fa40e63434fb1fd57de9c9fc1f0b68",
+      "elapsed_s": 20.83200132404454,
+      "optimizer_s": 20.786082983016968,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "zero",
+      "input": "zero_F50.csv",
+      "seed": 23,
+      "iters": 5000,
+      "B": 28348,
+      "P": 76.67315310431262,
+      "P_reported": 76.67315310431262,
+      "mean": 200.0010548676254,
+      "alloc": "alloc/pso_zero_s23_it5000.csv",
+      "history": "history/pso_zero_s23_it5000.csv",
+      "alloc_sha256": "f2fa4583297cc6a3d11a1318acd764c939b6c324341856fa9210d80225548ea4",
+      "history_sha256": "62e82adfd56b2bce6a0735f3e81472db5e85aa81f8238e4d05b485b96dccd18b",
+      "elapsed_s": 20.27154600492213,
+      "optimizer_s": 20.23055911064148,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "zero",
+      "input": "zero_F50.csv",
+      "seed": 24,
+      "iters": 5000,
+      "B": 28349,
+      "P": 77.39535731847216,
+      "P_reported": 77.39535731847216,
+      "mean": 200.00811007627746,
+      "alloc": "alloc/pso_zero_s24_it5000.csv",
+      "history": "history/pso_zero_s24_it5000.csv",
+      "alloc_sha256": "78a9b2711595077b6a8c8c6c84918c514a87b397fa8b60bfeff547875c759f0d",
+      "history_sha256": "6841254a922b7e1fbd75741bcd944c773fe12b6d3aadefc809ce08bd6f86aefb",
+      "elapsed_s": 20.634023063001223,
+      "optimizer_s": 20.589919567108154,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "zero",
+      "input": "zero_F50.csv",
+      "seed": 25,
+      "iters": 5000,
+      "B": 28348,
+      "P": 77.84279189163458,
+      "P_reported": 77.84279189163458,
+      "mean": 200.0010548676254,
+      "alloc": "alloc/pso_zero_s25_it5000.csv",
+      "history": "history/pso_zero_s25_it5000.csv",
+      "alloc_sha256": "69264fa6b8a42636ba4210fb74d26f0875c917089a5b14608c0b2237db22641e",
+      "history_sha256": "8fdbc9be22f35f702dbcdad9e8aa07e89040bf59715532c0ee34143511948d18",
+      "elapsed_s": 20.692002833005972,
+      "optimizer_s": 20.64315938949585,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "zero",
+      "input": "zero_F50.csv",
+      "seed": 3,
+      "iters": 5000,
+      "B": 28348,
+      "P": 72.1771773138882,
+      "P_reported": 72.1771773138882,
+      "mean": 200.0010548676254,
+      "alloc": "alloc/pso_zero_s3_it5000.csv",
+      "history": "history/pso_zero_s3_it5000.csv",
+      "alloc_sha256": "0ae8d520b2d8aae5c60f52a3be56be355bb8f57dc2ea48aed89ebce4c7493fc7",
+      "history_sha256": "dea18cece05e92509b3eaa9934d44e1207bd111cd4e0535a85960c801036e98f",
+      "elapsed_s": 21.345532371953595,
+      "optimizer_s": 21.294015884399414,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "zero",
+      "input": "zero_F50.csv",
+      "seed": 4,
+      "iters": 5000,
+      "B": 28348,
+      "P": 74.96625199300875,
+      "P_reported": 74.96625199300875,
+      "mean": 200.0010548676254,
+      "alloc": "alloc/pso_zero_s4_it5000.csv",
+      "history": "history/pso_zero_s4_it5000.csv",
+      "alloc_sha256": "bb44539ef6871d82dbcfe12f93cf17cee96d4db38599d3ff5d319405976e6353",
+      "history_sha256": "b2515c2fba9565341465af4f04e6acb046dfb7f3b52851d9595f5d870b657237",
+      "elapsed_s": 19.108276813989505,
+      "optimizer_s": 19.068995714187622,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "zero",
+      "input": "zero_F50.csv",
+      "seed": 5,
+      "iters": 5000,
+      "B": 28348,
+      "P": 74.05190094436297,
+      "P_reported": 74.05190094436297,
+      "mean": 200.0010548676254,
+      "alloc": "alloc/pso_zero_s5_it5000.csv",
+      "history": "history/pso_zero_s5_it5000.csv",
+      "alloc_sha256": "7647f50aa1ac0dad15f09e491329cad591b70ece71e6ed94325b294b1038f007",
+      "history_sha256": "8f93807d472eb55c551018584c03da7e9590ca15eec428c3360128f2a855c06d",
+      "elapsed_s": 19.426250215037726,
+      "optimizer_s": 19.383418560028076,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "zero",
+      "input": "zero_F50.csv",
+      "seed": 6,
+      "iters": 5000,
+      "B": 28348,
+      "P": 77.58781177670285,
+      "P_reported": 77.58781177670285,
+      "mean": 200.0010548676254,
+      "alloc": "alloc/pso_zero_s6_it5000.csv",
+      "history": "history/pso_zero_s6_it5000.csv",
+      "alloc_sha256": "b46d72f2ffc734b7f8a4b6a4845309786abc5c3f0515395df65bba361722369c",
+      "history_sha256": "56cc772080296abd39786698e5699fd3a5d74b27b2da17ba1fe2fcf9739f897f",
+      "elapsed_s": 19.679053663974628,
+      "optimizer_s": 19.641154289245605,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "zero",
+      "input": "zero_F50.csv",
+      "seed": 7,
+      "iters": 5000,
+      "B": 28348,
+      "P": 72.05841379164033,
+      "P_reported": 72.05841379164033,
+      "mean": 200.0010548676254,
+      "alloc": "alloc/pso_zero_s7_it5000.csv",
+      "history": "history/pso_zero_s7_it5000.csv",
+      "alloc_sha256": "a9a1cf6be08f48a7ac00e9f4d142e758f0d3aab79c663b511af83724f5ae38d9",
+      "history_sha256": "1926750df2e21d46a44a3d62730d040894af4ad5c63aaff2c65b2deefa656bf4",
+      "elapsed_s": 19.958794597012457,
+      "optimizer_s": 19.91543483734131,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "zero",
+      "input": "zero_F50.csv",
+      "seed": 8,
+      "iters": 5000,
+      "B": 28348,
+      "P": 75.43631893534402,
+      "P_reported": 75.43631893534402,
+      "mean": 200.0010548676254,
+      "alloc": "alloc/pso_zero_s8_it5000.csv",
+      "history": "history/pso_zero_s8_it5000.csv",
+      "alloc_sha256": "4c9cc9a0baf036e255d4d78c25a13b0133e8520304f7d94736713ec5e0fa4c72",
+      "history_sha256": "f3e5bf2c3be4dd6302efc73ef172c61d7c1103b501e39b7150e77a6ee258e820",
+      "elapsed_s": 19.18014668399701,
+      "optimizer_s": 19.141294956207275,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    },
+    {
+      "field": "zero",
+      "input": "zero_F50.csv",
+      "seed": 9,
+      "iters": 5000,
+      "B": 28348,
+      "P": 76.8739441349775,
+      "P_reported": 76.8739441349775,
+      "mean": 200.0010548676254,
+      "alloc": "alloc/pso_zero_s9_it5000.csv",
+      "history": "history/pso_zero_s9_it5000.csv",
+      "alloc_sha256": "6f71c370012df667bc258cd9ec72badc0115b7845afb595a3b512122f7de0117",
+      "history_sha256": "ad8c93c2fbaba0988b6cb4a7352b704b65a914cdb2a49c4c0fda9879638e581b",
+      "elapsed_s": 19.6192042939947,
+      "optimizer_s": 19.578118085861206,
+      "source": "new execution",
+      "threads": {
+        "env_before": {
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "MKL_NUM_THREADS": null,
+          "BLIS_NUM_THREADS": null,
+          "VECLIB_MAXIMUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null
+        },
+        "env_forced": {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "BLIS_NUM_THREADS": "1",
+          "VECLIB_MAXIMUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        },
+        "threadpools": [
+          {
+            "user_api": "blas",
+            "internal_api": "openblas",
+            "num_threads": 1,
+            "version": "0.3.31.188.0"
+          }
+        ]
+      }
+    }
+  ],
+  "failures": [],
+  "session_wall_s": 237.074511688028
+}

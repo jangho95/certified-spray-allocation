@@ -1,0 +1,13 @@
+Claim or diagnostic,Location in the manuscript and supplement
+Target-budget certificates,The main target-budget table compares the two- and three-candidate rules and reports verified widths for the latter.
+Budget-swept certificate profiles,The main sampled-envelope figure and target-budget certificate table report the sampled lower and upper envelopes and maximum swept gap near the target region.
+Full sampled budget sweep,"Supplementary Table~S9 reports all 21 sampled budgets for each field, including $V_{\mathrm{round}}$, $V_{\mathrm{GE}}$, $V_{\mathrm{UB}}$, and the relative gap."
+Lower-bound residual diagnostics,"Supplementary Table~S8 reports solver status, residuals, use of the zero bound, adjustment to the reported range and feasibility of the selected allocation for the target and low-count rows."
+Low-count stress test,The main low-count stress-test table and Supplementary Table~S6 report the numerical certificate width and the corresponding analytic lower-bound ratios.
+Budget-direction analytic lower bound,"Supplementary Table~S6 reports $\lambda_{\max}(Q)$, $\gamma$, $\phi(B)$, the approximate primal value, and the numerical width, rounding-only, and spectral ratios."
+Reduced exact-MIQP validation,The main reduced exact-MIQP table reports $\underline V_{\mathrm{dual}}\le V_{\mathrm{QP}}^\star\le V_{\mathbb Z}^\star \le V_{\mathrm{UB}}$ on reduced instances.
+Random-field variability,"Supplementary Table~S5 gives the ten development fields. Table~S11 gives the 59 independent fields, including post hoc verified widths."
+Waypoint-spacing ablation,"The main waypoint-spacing table reports the target-budget values and full-precision absolute gaps for $s=1,2,3$."
+Kernel-support and anisotropy ablation,Supplementary Table~S4 reports $V_{\mathrm{UB}}/\underline V_{\mathrm{dual}}$ and the full-precision relative gap range across the four fields.
+PSO comparison,Supplementary Table~S7 reports verified excess intervals at matching budgets and a descriptive comparison with prior aggregate variances.
+"Target thickness, distribution and grid series","The main sensitivity-series table summarizes verified widths; Supplementary Tables~S13--S15 list the target cases, family quartiles and grid comparisons."

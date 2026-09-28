@@ -1,0 +1,27 @@
+{
+ "id": "N64_zero_rho45",
+ "series": "N=64",
+ "field": "zero",
+ "input": "zero_F16.csv",
+ "F": 16,
+ "s": 2,
+ "rows": 8,
+ "cmax": 200,
+ "B": 2880,
+ "rho": 45,
+ "N": 64,
+ "L": 34.124597656851435,
+ "V_QP": 34.12459937056701,
+ "cands": {
+  "\ubc18\uc62c\ub9bc(\uc6d0\uace0 \uaddc\uce59)": 34.581746050855486,
+  "greedy+repair": 34.265436094158126,
+  "\ubc18\uc62c\ub9bc\u2192repair": 34.184079468454456
+ },
+ "U_pipeline": 34.184079468454456,
+ "U_pipeline_method": "\ubc18\uc62c\ub9bc\u2192repair",
+ "warm_alloc": "/home/user/experiments/work/stage6/N64_zero_rho45_rr_allocation.csv",
+ "input_path": "/home/user/experiments/inputs/zero_F16.csv",
+ "time_limit": 300,
+ "mem_limit": 3000,
+ "qp_status": "solved"
+}

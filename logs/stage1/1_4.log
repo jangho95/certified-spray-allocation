@@ -1,0 +1,47 @@
+$ /home/user/experiments/.venv/bin/python kappa_violation.py
+==============================================================================
+Column masses kappa = A^T 1
+==============================================================================
+  reflect   min=17.638022 max=17.638022 spread=7.105e-15 relative=4.028e-16 distinct=1
+  truncate  min=6.759388 max=17.638022 spread=1.088e+01 relative=6.482e-01 distinct=10
+
+==============================================================================
+Layer 1 (operator): does truncation break convexity?
+==============================================================================
+  reflect   lambda_min(2 A^T L A / M) = +9.737e-10 (|H|_max = 2.787e-02, relative +3.494e-08)
+  truncate  lambda_min(2 A^T L A / M) = +1.548e-09 (|H|_max = 7.541e-03, relative +2.053e-07)
+  -> convexity does not depend on common column mass
+
+==============================================================================
+Layer 2 (index): one-unit interior <-> edge move at constant budget
+==============================================================================
+  interior waypoint j=52 at (4, 4)  kappa=17.638022
+  edge     waypoint j=0 at (0, 0)  kappa=6.759388
+  move size k=100 shots, budget held at B=725
+
+  simulator mean, interior-loaded : 4.900942891579
+  simulator mean, edge-loaded     : 4.465797532140
+  measured  delta-mu              : -4.351453594386e-01
+  predicted k(kappa_e-kappa_i)/M  : -4.351453594386e-01
+  |measured - predicted|          : 1.943e-15
+
+  control (reflect) delta-mu      : -1.776e-15   <- budget still fixes the mean
+
+==============================================================================
+Spread of achievable means over one budget slice (B=28348)
+==============================================================================
+  reflect   mean in [200.001055, 200.001055]  width=5.684342e-14
+  truncate  mean in [157.314239, 199.786971]  width=4.247273e+01
+  -> under truncation a single budget spans a range of means,
+     so the bi-objective problem no longer decomposes by budget
+
+==============================================================================
+Recovery: does kappa^T x fix the mean under truncation?
+==============================================================================
+  interior-loaded  mu0 + kappa^T x / M = 4.900942891579  simulator = 4.900942891579  diff=4.530e-14
+  edge-loaded      mu0 + kappa^T x / M = 4.465797532140  simulator = 4.465797532140  diff=4.530e-14
+  -> the mass level, not the shot budget, is the correct index
+
+
+# compare
+{"ok": 11, "warn": 0, "fail": 0}

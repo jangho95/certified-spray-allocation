@@ -1,0 +1,167 @@
+{
+  "overview": {
+    "budget": 26896,
+    "variance_from_saved_field": 94.26198070946288,
+    "allocation_rows": 625,
+    "initial_patch": [
+      17,
+      33,
+      100
+    ]
+  },
+  "kernel_shapes": [
+    {
+      "label": "iso-7",
+      "size": 7,
+      "mass": 17.63802163006433,
+      "sigma_x": 1.75,
+      "sigma_y": 1.75
+    },
+    {
+      "label": "iso-11",
+      "size": 11,
+      "mass": 19.186708716647484,
+      "sigma_x": 1.75,
+      "sigma_y": 1.75
+    },
+    {
+      "label": "x7 raw",
+      "size": 7,
+      "mass": 16.134786346163114,
+      "sigma_x": 2.5,
+      "sigma_y": 1.225
+    },
+    {
+      "label": "y7 raw",
+      "size": 7,
+      "mass": 16.134786346163114,
+      "sigma_x": 1.225,
+      "sigma_y": 2.5
+    },
+    {
+      "label": "x7 norm",
+      "size": 7,
+      "mass": 17.638021630064323,
+      "sigma_x": 2.5,
+      "sigma_y": 1.225
+    },
+    {
+      "label": "y7 norm",
+      "size": 7,
+      "mass": 17.638021630064323,
+      "sigma_x": 1.225,
+      "sigma_y": 2.5
+    }
+  ],
+  "low_count": [
+    {
+      "cmax": 3.0,
+      "budget": 938.0,
+      "avg_count": 1.5008,
+      "mean": 6.617786,
+      "var_repair": 0.092736,
+      "var_round": 0.3621831809938698,
+      "var_upper": 0.092736,
+      "var_lower": 0.05903857607082266,
+      "abs_gap": 0.033697423929177336,
+      "gap_pct": 36.33693919209081,
+      "round_gap_pct": 83.6992496700663,
+      "dual_gap": 2.731763007746135e-07,
+      "time_s": 0.045958044988452455
+    },
+    {
+      "cmax": 5.0,
+      "budget": 1250.0,
+      "avg_count": 2.0,
+      "mean": 8.819011,
+      "var_repair": 0.160596,
+      "var_round": 0.16527869683186455,
+      "var_upper": 0.160596,
+      "var_lower": 0.10478988588343585,
+      "abs_gap": 0.05580611411656414,
+      "gap_pct": 34.7493798827892,
+      "round_gap_pct": 36.598068660937614,
+      "dual_gap": 1.0906686664924337e-10,
+      "time_s": 0.028518692011828533
+    },
+    {
+      "cmax": 8.0,
+      "budget": 1875.0,
+      "avg_count": 3.0,
+      "mean": 13.228516,
+      "var_repair": 0.289467,
+      "var_round": 0.36583206978794935,
+      "var_upper": 0.289467,
+      "var_lower": 0.23577724323794735,
+      "abs_gap": 0.05368975676205262,
+      "gap_pct": 18.547798803336,
+      "round_gap_pct": 35.55041706031592,
+      "dual_gap": 4.2797443366993093e-10,
+      "time_s": 0.033628162006265484
+    },
+    {
+      "cmax": 20.0,
+      "budget": 5000.0,
+      "avg_count": 8.0,
+      "mean": 35.276043,
+      "var_repair": 1.751229,
+      "var_round": 1.8815342058480382,
+      "var_upper": 1.751229,
+      "var_lower": 1.6766381741350522,
+      "abs_gap": 0.0745908258649477,
+      "gap_pct": 4.259341631788173,
+      "round_gap_pct": 10.889838254130277,
+      "dual_gap": 9.46000167090233e-10,
+      "time_s": 0.0375543500065105
+    },
+    {
+      "cmax": 50.0,
+      "budget": 12500.0,
+      "avg_count": 20.0,
+      "mean": 88.190108,
+      "var_repair": 10.593384,
+      "var_round": 10.664093449069656,
+      "var_upper": 10.593384,
+      "var_lower": 10.478988588346883,
+      "abs_gap": 0.11439541165311695,
+      "gap_pct": 1.0798760023531382,
+      "round_gap_pct": 1.7357768065969152,
+      "dual_gap": 2.0445977355620926e-08,
+      "time_s": 0.04863863299391232
+    },
+    {
+      "cmax": 200.0,
+      "budget": 28348.0,
+      "avg_count": 45.3568,
+      "mean": 200.001055,
+      "var_repair": 54.077695,
+      "var_round": 54.168277214978296,
+      "var_upper": 54.077695,
+      "var_lower": 53.894468033925506,
+      "abs_gap": 0.18322696607449274,
+      "gap_pct": 0.33882170102570525,
+      "round_gap_pct": 0.5054788432095056,
+      "dual_gap": 3.129398180590215e-07,
+      "time_s": 0.04185056300123688
+    }
+  ],
+  "optimization_rerun": false,
+  "inputs": {
+    "center100_field.csv": {
+      "source": "JAMC/solver_cpp/center100_field.csv",
+      "sha256": "5db50297caed8b0c5979481ca530719123b17da9ea4d5338b4b5c999e091562f"
+    },
+    "center100_allocation.csv": {
+      "source": "JAMC/solver_cpp/center100_allocation.csv",
+      "sha256": "5f0e7755e7e0b962da19846c41511950b1f00832f88a3908ef28eba4d1ecb449"
+    },
+    "gaussian_distortion_ablation.csv": {
+      "source": "JAMC/solver_cpp/gaussian_distortion_ablation.csv",
+      "sha256": "7e3ba2210b485cc8d407ac6109312978a8f49cb5d0d6e6acb08b929259a53ea2"
+    },
+    "cmax_count_ablation.csv": {
+      "source": "JAMC/solver_cpp/cmax_count_ablation.csv",
+      "sha256": "4716f5848f4fc2aa1bea7b2531fb129a997856cac2280d58bcbb05c7771c57f5"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+$ /home/user/experiments/.venv/bin/python cmax_count_ablation.py
+{'cmax': 3, 'budget': 938, 'avg_count': 1.5008, 'mean': 6.617786, 'var_repair': 0.092736, 'var_round': 0.3621831809938698, 'var_upper': 0.092736, 'var_lower': 0.05903857607081982, 'abs_gap': 0.03369742392918018, 'gap_pct': 36.33693919209388, 'round_gap_pct': 83.69924967006708, 'dual_gap': 2.731762254598591e-07, 'time_s': 0.04519655401073396}
+{'cmax': 5, 'budget': 1250, 'avg_count': 2.0, 'mean': 8.819011, 'var_repair': 0.160596, 'var_round': 0.16527869683186455, 'var_upper': 0.160596, 'var_lower': 0.10478988588360627, 'abs_gap': 0.05580611411639372, 'gap_pct': 34.74937988268308, 'round_gap_pct': 36.5980686608345, 'dual_gap': 1.0919487536398265e-10, 'time_s': 0.025847176991868764}
+{'cmax': 8, 'budget': 1875, 'avg_count': 3.0, 'mean': 13.228516, 'var_repair': 0.289467, 'var_round': 0.36583206978794935, 'var_upper': 0.289467, 'var_lower': 0.23577724323812937, 'abs_gap': 0.0536897567618706, 'gap_pct': 18.54779880327312, 'round_gap_pct': 35.55041706026616, 'dual_gap': 4.276218823484612e-10, 'time_s': 0.0320707530034706}
+{'cmax': 20, 'budget': 5000, 'avg_count': 8.0, 'mean': 35.276043, 'var_repair': 1.751229, 'var_round': 1.8815342058480387, 'var_upper': 1.751229, 'var_lower': 1.6766381741374885, 'abs_gap': 0.07459082586251142, 'gap_pct': 4.259341631649055, 'round_gap_pct': 10.889838254000814, 'dual_gap': 9.49020861895633e-10, 'time_s': 0.03802469595894217}
+{'cmax': 50, 'budget': 12500, 'avg_count': 20.0, 'mean': 88.190108, 'var_repair': 10.593384, 'var_round': 10.664093449069654, 'var_upper': 10.593384, 'var_lower': 10.478988588355755, 'abs_gap': 0.11439541164424583, 'gap_pct': 1.0798760022693958, 'round_gap_pct': 1.735776806513712, 'dual_gap': 2.044892966068801e-08, 'time_s': 0.04295763601874933}
+{'cmax': 200, 'budget': 28348, 'avg_count': 45.3568, 'mean': 200.001055, 'var_repair': 54.077695, 'var_round': 54.168277214978296, 'var_upper': 54.077695, 'var_lower': 53.89446803390608, 'abs_gap': 0.18322696609391897, 'gap_pct': 0.33882170106162807, 'round_gap_pct': 0.5054788432453684, 'dual_gap': 3.1292286450934625e-07, 'time_s': 0.05231030802894383}
+wrote cmax_count_ablation.csv and cmax_count_ablation.png
+
+# compare
+{"ok": 96, "warn": 0, "fail": 0}

@@ -1,0 +1,99 @@
+{
+ "columns": [
+  {
+   "key": "scenario",
+   "label": "시나리오"
+  },
+  {
+   "key": "kappa_min",
+   "label": "κ 최소"
+  },
+  {
+   "key": "kappa_max",
+   "label": "κ 최대"
+  },
+  {
+   "key": "kappa_mean",
+   "label": "κ 평균"
+  },
+  {
+   "key": "rel_spread",
+   "label": "상대 범위"
+  },
+  {
+   "key": "distinct",
+   "label": "고유값 수"
+  },
+  {
+   "key": "common_mass",
+   "label": "공통 질량"
+  },
+  {
+   "key": "flag",
+   "label": "판정"
+  }
+ ],
+ "rows": [
+  {
+   "scenario": "reflect",
+   "kappa_min": 17.638021630064323,
+   "kappa_max": 17.63802163006433,
+   "kappa_mean": 17.63802163006433,
+   "rel_spread": 4.028471847142806e-16,
+   "distinct": 1,
+   "common_mass": true,
+   "flag": "ok"
+  },
+  {
+   "scenario": "truncate",
+   "kappa_min": 6.759387644098905,
+   "kappa_max": 17.638021630064326,
+   "kappa_mean": 16.781688105504326,
+   "rel_spread": 0.6482443194971115,
+   "distinct": 10,
+   "common_mass": false,
+   "flag": "ok"
+  },
+  {
+   "scenario": "uniform loss ×0.8",
+   "kappa_min": 14.110417304051458,
+   "kappa_max": 14.110417304051463,
+   "kappa_mean": 14.110417304051458,
+   "rel_spread": 3.7766923566963826e-16,
+   "distinct": 1,
+   "common_mass": true,
+   "flag": "ok"
+  },
+  {
+   "scenario": "efficiency −1%",
+   "kappa_min": 17.46164141376369,
+   "kappa_max": 17.637948168916342,
+   "kappa_mean": 17.576828493796754,
+   "rel_spread": 0.010030635231769731,
+   "distinct": 251,
+   "common_mass": false,
+   "flag": "ok"
+  },
+  {
+   "scenario": "efficiency −5%",
+   "kappa_min": 16.75612054856111,
+   "kappa_max": 17.637654324324423,
+   "kappa_mean": 17.332055948726474,
+   "rel_spread": 0.05086146608175966,
+   "distinct": 251,
+   "common_mass": false,
+   "flag": "ok"
+  },
+  {
+   "scenario": "efficiency −20%",
+   "kappa_min": 14.11041730405146,
+   "kappa_max": 17.636552407104734,
+   "kappa_mean": 16.414158904712924,
+   "rel_spread": 0.21482277121374954,
+   "distinct": 251,
+   "common_mass": false,
+   "flag": "ok"
+  }
+ ],
+ "note": "F=50, s=2, 7×7, σ=1.75. 효율 시나리오 e_j = 1 − a(d_j/d_max)², d_j = 중심까지 거리. 균일 손실은 공통 질량을 유지(κ만 0.8배). truncation 값은 원고 Table 4와 대조."
+}

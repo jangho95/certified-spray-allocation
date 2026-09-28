@@ -1,0 +1,85 @@
+{
+ "run_id": "stage4_reuse_integer_check-20260928T001303-3386842",
+ "threads": {
+  "env_before": {
+   "OMP_NUM_THREADS": null,
+   "OPENBLAS_NUM_THREADS": null,
+   "MKL_NUM_THREADS": null,
+   "BLIS_NUM_THREADS": null,
+   "VECLIB_MAXIMUM_THREADS": null,
+   "NUMEXPR_NUM_THREADS": null
+  },
+  "env_forced": {
+   "OMP_NUM_THREADS": "1",
+   "OPENBLAS_NUM_THREADS": "1",
+   "MKL_NUM_THREADS": "1",
+   "BLIS_NUM_THREADS": "1",
+   "VECLIB_MAXIMUM_THREADS": "1",
+   "NUMEXPR_NUM_THREADS": "1"
+  },
+  "threadpools": [
+   {
+    "user_api": "blas",
+    "internal_api": "openblas",
+    "num_threads": 1,
+    "version": "0.3.31.188.0"
+   },
+   {
+    "user_api": "blas",
+    "internal_api": "openblas",
+    "num_threads": 1,
+    "version": "0.3.31.dev"
+   }
+  ]
+ },
+ "rows": [
+  {
+   "F": 25,
+   "N": 169,
+   "budgets": 21,
+   "rounding_diff_paper": 20,
+   "rounding_diff_indexed": 20,
+   "rho_updates_max": 2,
+   "B_target": 7087,
+   "V 반올림(재사용 QP)→repair": 42.23652334076909,
+   "V greedy+repair (Stage 4)": 43.050033662282935,
+   "V 반올림→repair (Stage 4, 현재 구현 QP)": 42.25065202622947,
+   "best_method": "반올림(재사용 QP)→repair",
+   "best_V": 42.23652334076909,
+   "reuse_moves": 17,
+   "flag": "warn"
+  },
+  {
+   "F": 50,
+   "N": 625,
+   "budgets": 21,
+   "rounding_diff_paper": 20,
+   "rounding_diff_indexed": 20,
+   "rho_updates_max": 2,
+   "B_target": 28348,
+   "V 반올림(재사용 QP)→repair": 53.931021811743896,
+   "V greedy+repair (Stage 4)": 54.07769475815948,
+   "V 반올림→repair (Stage 4, 현재 구현 QP)": 53.93035586652192,
+   "best_method": "반올림→repair",
+   "best_V": 53.93035586652192,
+   "reuse_moves": 66,
+   "flag": "warn"
+  },
+  {
+   "F": 100,
+   "N": 2500,
+   "budgets": 21,
+   "rounding_diff_paper": 20,
+   "rounding_diff_indexed": 20,
+   "rho_updates_max": 2,
+   "B_target": 113391,
+   "V 반올림(재사용 QP)→repair": 58.55296171124117,
+   "V greedy+repair (Stage 4)": 58.62731409235187,
+   "V 반올림→repair (Stage 4, 현재 구현 QP)": 58.554724691190906,
+   "best_method": "반올림(재사용 QP)→repair",
+   "best_V": 58.55296171124117,
+   "reuse_moves": 267,
+   "flag": "warn"
+  }
+ ]
+}

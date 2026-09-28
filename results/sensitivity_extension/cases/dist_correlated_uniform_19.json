@@ -1,0 +1,85 @@
+{
+ "id": "dist_correlated_uniform_19",
+ "group": "distribution",
+ "field": "correlated_uniform",
+ "rep": 19,
+ "T": 200,
+ "F": 50,
+ "input": "inputs/sensitivity_extension/dist_correlated_uniform_19.csv",
+ "kind": "benchmark",
+ "input_sha256": "f2d008fb38b34377857ad43c98911aea3ead9401481fb6d66baadc62f260996f",
+ "B": 26224,
+ "BN": 41.9584,
+ "N": 625,
+ "M": 2500,
+ "mass": 17.63802163006433,
+ "physical_mass": 17.63802163006433,
+ "budget_clipped": false,
+ "mean_initial": 14.984318464986334,
+ "sd_initial": 8.364420088080932,
+ "initial_neighbor_corr": 0.92758995374827,
+ "mean_final": 200.00011015570908,
+ "target_error": 0.0001101557090805727,
+ "L": 46.45232766384347,
+ "U": 46.492580559356576,
+ "width_pct": 0.08657918108397533,
+ "abs_width": 0.04025289551309844,
+ "L_exact": "15287503373806473175953317933371088321170163605702683494658592965482248213/329100911464241208430993836511470100996547173126715972669721804800000000",
+ "U_exact": "188596312487128531698144113875853182424983/4056481920730334084789450257203200000000",
+ "Vfeas_exact": "1020933225669669351985385219542232676821897340112584705890231896380438033/20568806966515075526937114781966881312284198320419748291857612800000000",
+ "continuous_interval_width": 3.182696250362849,
+ "bound_refine_relative_gap": 0.06845600334658851,
+ "L_float": 46.45232131525101,
+ "osqp_status": "solved",
+ "osqp_primal_residual": 0.0001639970855598083,
+ "L_float_above_feasible_exact": false,
+ "extra_reference": false,
+ "selected": "round_exchange",
+ "candidate_U": {
+  "round": 46.659892234325746,
+  "greedy_exchange": 46.65259871538212,
+  "round_exchange": 46.492580559356576
+ },
+ "lower_active": 0,
+ "upper_active": 0,
+ "allocation_cap_active": 0,
+ "allocation_min": 1,
+ "allocation_max": 92,
+ "column_mass_spread": 7.105427357601002e-15,
+ "solver_details": {},
+ "witness": "witness/dist_correlated_uniform_19.npz",
+ "elapsed_s": 1.463554195011966,
+ "failed": false,
+ "threads": {
+  "env_before": {
+   "OMP_NUM_THREADS": null,
+   "OPENBLAS_NUM_THREADS": null,
+   "MKL_NUM_THREADS": null,
+   "BLIS_NUM_THREADS": null,
+   "VECLIB_MAXIMUM_THREADS": null,
+   "NUMEXPR_NUM_THREADS": null
+  },
+  "env_forced": {
+   "OMP_NUM_THREADS": "1",
+   "OPENBLAS_NUM_THREADS": "1",
+   "MKL_NUM_THREADS": "1",
+   "BLIS_NUM_THREADS": "1",
+   "VECLIB_MAXIMUM_THREADS": "1",
+   "NUMEXPR_NUM_THREADS": "1"
+  },
+  "threadpools": [
+   {
+    "user_api": "blas",
+    "internal_api": "openblas",
+    "num_threads": 1,
+    "version": "0.3.31.188.0"
+   },
+   {
+    "user_api": "blas",
+    "internal_api": "openblas",
+    "num_threads": 1,
+    "version": "0.3.31.dev"
+   }
+  ]
+ }
+}

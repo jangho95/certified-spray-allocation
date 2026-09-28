@@ -1,0 +1,3 @@
+final: mean=200.00259165986063 variance=83.766071333640852 min=172.65214795313176 max=226.23164381112494 total_shots=26165
+exchange_moves=53 gram_ms=1 repair_ms=20 total_ms=24 peak_rss_kb=7312
+wrote /home/user/experiments/work/sensitivity_extension/dist_trunc_normal_27_round_exchange_allocation.csv and /home/user/experiments/work/sensitivity_extension/dist_trunc_normal_27_round_exchange_field.csv

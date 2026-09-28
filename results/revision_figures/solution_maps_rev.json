@@ -1,0 +1,46 @@
+[
+ {
+  "field": "zero",
+  "B": 28348,
+  "method": "반올림→repair",
+  "V": 53.93035586652192,
+  "witness": "results/bench_sweep/witness/zero.npz",
+  "witness_sha256": "473278861a81207ca1151cb2a03ebb491ac55e8610f79d82b42cae50dda7e5ea",
+  "operator_sha256": "fdd0c18e65c24bbf932145f0fca70eafcc3201f271257a560d512221570fedf8",
+  "mean": 200.0010548676254,
+  "var": 53.93035586652192
+ },
+ {
+  "field": "random s7",
+  "B": 26120,
+  "method": "반올림→repair",
+  "V": 102.81260883104933,
+  "witness": "results/bench_sweep/witness/random s7.npz",
+  "witness_sha256": "d26b43ae3f83a354cff21c9d49de8f2c4858ad4277e821cff2a8ffa39cf15824",
+  "operator_sha256": "fdd0c18e65c24bbf932145f0fca70eafcc3201f271257a560d512221570fedf8",
+  "mean": 199.997215993236,
+  "var": 102.81260883104933
+ },
+ {
+  "field": "center-30",
+  "B": 27912,
+  "method": "반올림→repair",
+  "V": 55.70507666058474,
+  "witness": "results/bench_sweep/witness/center-30.npz",
+  "witness_sha256": "5686d1645c34a78269e475f5f76e31772b82f08ad141e7b04008345d8c9a3a32",
+  "operator_sha256": "fdd0c18e65c24bbf932145f0fca70eafcc3201f271257a560d512221570fedf8",
+  "mean": 199.9969838953422,
+  "var": 55.70507666058474
+ },
+ {
+  "field": "center-100",
+  "B": 26896,
+  "method": "반올림→repair",
+  "V": 93.63396315695948,
+  "witness": "results/bench_sweep/witness/center-100.npz",
+  "witness_sha256": "28640746e95139a554566bdabe8be58e1ab1475972af17d9d667945d7d6ee7c8",
+  "operator_sha256": "fdd0c18e65c24bbf932145f0fca70eafcc3201f271257a560d512221570fedf8",
+  "mean": 199.99689190488405,
+  "var": 93.63396315695948
+ }
+]

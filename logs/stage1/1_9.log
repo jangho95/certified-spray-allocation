@@ -1,0 +1,8 @@
+$ /home/user/experiments/.venv/bin/python random_seed_robustness.py
+wrote /home/user/experiments/work/stage1/random_seed_robustness.csv
+gap mean=0.1744% std=0.0159% min=0.1555% max=0.2063%
+QP time mean=0.0575s max=0.0661s
+int time mean=0.0596s max=0.0710s
+
+# compare
+{"ok": 132, "warn": 1, "fail": 0}

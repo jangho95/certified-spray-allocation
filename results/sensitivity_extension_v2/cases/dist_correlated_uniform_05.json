@@ -1,0 +1,101 @@
+{
+ "id": "dist_correlated_uniform_05",
+ "group": "distribution",
+ "field": "correlated_uniform",
+ "rep": 5,
+ "T": 200,
+ "F": 50,
+ "input": "inputs/sensitivity_extension/dist_correlated_uniform_05.csv",
+ "kind": "benchmark",
+ "input_sha256": "fb427870764a45d8a784640637f0f9355cc93a9ed34ff8d86bf8987869be6197",
+ "B": 26320,
+ "BN": 42.112,
+ "N": 625,
+ "M": 2500,
+ "mass": 17.63802163006433,
+ "physical_mass": 17.63802163006433,
+ "budget_clipped": false,
+ "mean_initial": 14.308617599246956,
+ "sd_initial": 8.535748134371401,
+ "initial_neighbor_corr": 0.9264748721899783,
+ "mean_final": 200.0017093205642,
+ "target_error": 0.0017093205642026987,
+ "L": 46.58890860216068,
+ "U": 46.62883580663958,
+ "width_pct": 0.08562771038174403,
+ "abs_width": 0.03992720447888829,
+ "L_exact": "9582782678184568110169268076185805359273165659353310416582010747498473/205688069665150755269371147819668813122841983204197482918576128000000",
+ "U_exact": "1513192235474693359965129450500058717673259/32451855365842672678315602057625600000000",
+ "Vfeas_exact": "239569566954620406974989697639180925532109228075851424538329353425636687/5142201741628768881734278695491720328071049580104937072964403200000000",
+ "continuous_interval_width": 1.2065300176322091e-12,
+ "bound_refine_relative_gap": 2.5875190678906223e-14,
+ "L_float": 46.588903299354726,
+ "osqp_status": "solved",
+ "osqp_primal_residual": 0.0002575421346453499,
+ "L_float_above_feasible_exact": false,
+ "extra_reference": false,
+ "selected": "round_exchange",
+ "candidate_U": {
+  "round": 46.829391656909536,
+  "greedy_exchange": 46.784091608161525,
+  "round_exchange": 46.62883580663958
+ },
+ "lower_active": 1,
+ "upper_active": 0,
+ "allocation_cap_active": 0,
+ "allocation_min": 1,
+ "allocation_max": 89,
+ "column_mass_spread": 7.105427357601002e-15,
+ "solver_details": {},
+ "witness": "witness/dist_correlated_uniform_05.npz",
+ "elapsed_s": 1.2453764559468254,
+ "failed": false,
+ "threads": {
+  "env_before": {
+   "OMP_NUM_THREADS": null,
+   "OPENBLAS_NUM_THREADS": null,
+   "MKL_NUM_THREADS": null,
+   "BLIS_NUM_THREADS": null,
+   "VECLIB_MAXIMUM_THREADS": null,
+   "NUMEXPR_NUM_THREADS": null
+  },
+  "env_forced": {
+   "OMP_NUM_THREADS": "1",
+   "OPENBLAS_NUM_THREADS": "1",
+   "MKL_NUM_THREADS": "1",
+   "BLIS_NUM_THREADS": "1",
+   "VECLIB_MAXIMUM_THREADS": "1",
+   "NUMEXPR_NUM_THREADS": "1"
+  },
+  "threadpools": [
+   {
+    "user_api": "blas",
+    "internal_api": "openblas",
+    "num_threads": 1,
+    "version": "0.3.31.188.0"
+   },
+   {
+    "user_api": "blas",
+    "internal_api": "openblas",
+    "num_threads": 1,
+    "version": "0.3.31.dev"
+   }
+  ]
+ },
+ "version": 2,
+ "lower_reference_source": "v1",
+ "feasible_source": "v1",
+ "feasible_gap_before_extra": 2.5875190678906223e-14,
+ "extra_solver_status": {},
+ "lower_reference_box_violation": 0.0,
+ "v1_width_pct": 0.08562771038174403,
+ "v1_relative_interval": 2.5875190678906223e-14,
+ "v1_L_exact": "9582782678184568110169268076185805359273165659353310416582010747498473/205688069665150755269371147819668813122841983204197482918576128000000",
+ "v1_Vfeas_exact": "239569566954620406974989697639180925532109228075851424538329353425636687/5142201741628768881734278695491720328071049580104937072964403200000000",
+ "float_lower_reproduced": true,
+ "projection_checks": {
+  "budget": true,
+  "box": true
+ },
+ "elapsed_v2_s": 1.351864181999872
+}

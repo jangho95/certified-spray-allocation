@@ -1,0 +1,27 @@
+{
+ "id": "N16_center-30",
+ "series": "N16 (Table 6)",
+ "field": "center-30",
+ "input": "small_center30_c4_F12.csv",
+ "F": 12,
+ "s": 3,
+ "rows": 4,
+ "cmax": 8,
+ "B": 64,
+ "rho": null,
+ "N": 16,
+ "L": 70.12710314953674,
+ "V_QP": 70.12710314953675,
+ "cands": {
+  "\ubc18\uc62c\ub9bc(\uc6d0\uace0 \uaddc\uce59)": 70.20558220317827,
+  "greedy+repair": 70.20558220317827,
+  "\ubc18\uc62c\ub9bc\u2192repair": 70.20558220317827
+ },
+ "U_pipeline": 70.20558220317827,
+ "U_pipeline_method": "\ubc18\uc62c\ub9bc(\uc6d0\uace0 \uaddc\uce59)",
+ "warm_alloc": "/home/user/experiments/work/stage6/N16_center-30_round_paper.csv",
+ "input_path": "/home/user/experiments/inputs/small_center30_c4_F12.csv",
+ "time_limit": 300,
+ "mem_limit": 3000,
+ "qp_status": "solved"
+}

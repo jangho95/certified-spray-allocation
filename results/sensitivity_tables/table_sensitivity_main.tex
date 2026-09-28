@@ -1,0 +1,40 @@
+\begin{table}[!tbp]\centering\footnotesize\setlength{\tabcolsep}{3pt}
+\caption{Verified relative certificate width $(\overline V-\underline V)/\overline V$ in percent
+(three-candidate rule, exact-arithmetic verification; individual widths and maxima rounded up,
+minima down, medians to nearest). A: benchmark kernel and fields, six targets. B: $30$ fields per
+family at $T=200$; s.d.\ and horizontal adjacent-cell correlation of the initial fields are family
+means, $\overline V$ the median exact variance of the selected allocation. C: cell-average Gaussian
+model with cells of side $h$, each grid certified as its own discrete problem;
+$\delta_{\mathrm{own}}=1-V_h(\mathbf{x}_h)/V_c(\mathbf{x}_h)$ is the shortfall of the grid objective
+$V_h$ of the selected allocation below its analytic-integral variance $V_c$, a numerical
+comparison that the certificate does not bound.}
+\label{tab:sensitivity-ext}
+\begin{tabular}{lrrrrrr}
+\toprule
+\multicolumn{7}{l}{A. Target thickness $T$ (widths in \%)}\\
+Field & 50 & 100 & 150 & 200 & 300 & 400\\
+\midrule
+Zero        & 1.1447 & 0.2877 & 0.1279 & 0.0666 & 0.0320 & 0.0191\\
+Random      & 0.0723 & 0.0625 & 0.0486 & 0.0394 & 0.0239 & 0.0149\\
+Center-30   & 0.5661 & 0.2395 & 0.1193 & 0.0731 & 0.0323 & 0.0186\\
+Center-100  & 0.0090 & 0.0456 & 0.0511 & 0.0449 & 0.0257 & 0.0172\\
+$B/N$ (range) & 7.8--11.3 & 19.1--22.7 & 30.5--34.0 & 41.8--45.4 & 64.5--68.0 & 87.1--90.7\\
+\midrule
+\multicolumn{7}{l}{B. Initial-field distribution, $T=200$, $30$ fields each}\\
+Family & s.d. & corr. & $\overline V$ med. & width med. & min--max & abs.\ max\\
+\midrule
+Uniform & 8.38 & 0.00 & 100.1 & 0.0401 & 0.0362--0.0459 & 0.0446\\
+Beta$(\tfrac12,\tfrac12)$ & 10.26 & 0.00 & 127.7 & 0.0319 & 0.0273--0.0341 & 0.0447\\
+Trunc.\ normal & 6.83 & -0.01 & 82.1 & 0.0490 & 0.0447--0.0546 & 0.0447\\
+Correlated & 8.40 & 0.93 & 46.5 & 0.0847 & 0.0769--0.0890 & 0.0417\\
+\midrule
+\multicolumn{7}{l}{C. Grid resolution, cell-average model, $T=200$}\\
+Field & $h{=}1$ & $0.5$ & $0.25$ & $\delta_{\mathrm{own}}$, $h{=}1$ & $0.5$ & $0.25$\\
+\midrule
+Zero        & 0.0615 & 0.0694 & 0.0654 & 4.26 & 1.78 & 0.50\\
+Random      & 0.0381 & 0.0353 & 0.0370 & 5.64 & 1.39 & 0.36\\
+Center-30   & 0.0588 & 0.0628 & 0.0641 & 9.86 & 2.14 & 0.57\\
+Center-100  & 0.0380 & 0.0370 & 0.0346 & 14.04 & 3.52 & 0.88\\
+\bottomrule
+\end{tabular}
+\end{table}

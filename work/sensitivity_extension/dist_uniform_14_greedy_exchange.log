@@ -1,0 +1,3 @@
+final: mean=200.00290841575793 variance=99.126907285642673 min=170.20527533479253 max=226.95173643056359 total_shots=26131
+exchange_moves=116 gram_ms=1 repair_ms=49 total_ms=74 peak_rss_kb=7188
+wrote /home/user/experiments/work/sensitivity_extension/dist_uniform_14_greedy_exchange_allocation.csv and /home/user/experiments/work/sensitivity_extension/dist_uniform_14_greedy_exchange_field.csv

@@ -1,0 +1,3 @@
+final: mean=199.99929106546099 variance=58.554724691190195 min=185.60425713099895 max=213.14054895916911 total_shots=113391
+exchange_moves=275 gram_ms=15 repair_ms=5227 total_ms=5263 peak_rss_kb=56800
+wrote /home/user/experiments/work/stage4/single_F100_zero_r2_rr_allocation.csv and /home/user/experiments/work/stage4/single_F100_zero_r2_rr_field.csv

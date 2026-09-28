@@ -1,0 +1,57 @@
+{
+ "mode": "pso",
+ "F": 100,
+ "field": "zero",
+ "rep": 3,
+ "input": "zero_F100.csv",
+ "t_import": 0.1311332500190474,
+ "threads": {
+  "env_before": {
+   "OMP_NUM_THREADS": null,
+   "OPENBLAS_NUM_THREADS": null,
+   "MKL_NUM_THREADS": null,
+   "BLIS_NUM_THREADS": null,
+   "VECLIB_MAXIMUM_THREADS": null,
+   "NUMEXPR_NUM_THREADS": null
+  },
+  "env_forced": {
+   "OMP_NUM_THREADS": "1",
+   "OPENBLAS_NUM_THREADS": "1",
+   "MKL_NUM_THREADS": "1",
+   "BLIS_NUM_THREADS": "1",
+   "VECLIB_MAXIMUM_THREADS": "1",
+   "NUMEXPR_NUM_THREADS": "1"
+  },
+  "threadpools": [
+   {
+    "user_api": "blas",
+    "internal_api": "openblas",
+    "num_threads": 1,
+    "version": "0.3.31.188.0"
+   },
+   {
+    "user_api": "blas",
+    "internal_api": "openblas",
+    "num_threads": 1,
+    "version": "0.3.31.dev"
+   }
+  ]
+ },
+ "pid": 3378431,
+ "N": 2500,
+ "M": 10000,
+ "B": 113396,
+ "t_total": 13.684187126986217,
+ "t_opt": 12.720818042755127,
+ "t_model": 0.9633690842310898,
+ "variance": 141.29313522393787,
+ "mean": 200.00811007627746,
+ "rss_python_peak": 334.22265625,
+ "P_bytes": 50000000,
+ "A_bytes": 200000000,
+ "times": {},
+ "rss_python_after": {
+  "import": 62.20703125
+ },
+ "t_wall_main": 13.818538944993634
+}

@@ -1,0 +1,1024 @@
+[
+ {
+  "table": "Table 5",
+  "row": "Zero",
+  "column": "B*",
+  "manuscript": "28348",
+  "reproduced": 28348,
+  "basis": "원고",
+  "reproduced_display": "28348",
+  "flag": "ok"
+ },
+ {
+  "table": "Table 5",
+  "row": "Zero",
+  "column": "V_dual",
+  "manuscript": "53.8945",
+  "reproduced": 53.89446803390608,
+  "basis": "원고",
+  "reproduced_display": "53.8945",
+  "flag": "ok"
+ },
+ {
+  "table": "Table 5",
+  "row": "Zero",
+  "column": "V_round",
+  "manuscript": "54.1683",
+  "reproduced": 54.168277214978296,
+  "basis": "원고",
+  "reproduced_display": "54.1683",
+  "flag": "ok"
+ },
+ {
+  "table": "Table 5",
+  "row": "Zero",
+  "column": "V_repair",
+  "manuscript": "54.0777",
+  "reproduced": 54.07769475815953,
+  "basis": "원고",
+  "reproduced_display": "54.0777",
+  "flag": "ok"
+ },
+ {
+  "table": "Table 5",
+  "row": "Zero",
+  "column": "V_UB",
+  "manuscript": "54.0777",
+  "reproduced": 54.07769475815953,
+  "basis": "원고",
+  "reproduced_display": "54.0777",
+  "flag": "ok"
+ },
+ {
+  "table": "Table 5",
+  "row": "Zero",
+  "column": "Gap at B* (%)",
+  "manuscript": "0.339",
+  "reproduced": 0.33882125536759333,
+  "basis": "원고",
+  "reproduced_display": "0.339",
+  "flag": "ok"
+ },
+ {
+  "table": "Table 5",
+  "row": "Random",
+  "column": "B*",
+  "manuscript": "26120",
+  "reproduced": 26120,
+  "basis": "원고",
+  "reproduced_display": "26120",
+  "flag": "ok"
+ },
+ {
+  "table": "Table 5",
+  "row": "Random",
+  "column": "V_dual",
+  "manuscript": "102.7721",
+  "reproduced": 102.77212541173198,
+  "basis": "원고",
+  "reproduced_display": "102.7721",
+  "flag": "ok"
+ },
+ {
+  "table": "Table 5",
+  "row": "Random",
+  "column": "V_round",
+  "manuscript": "102.9337",
+  "reproduced": 102.93372028976046,
+  "basis": "원고",
+  "reproduced_display": "102.9337",
+  "flag": "ok"
+ },
+ {
+  "table": "Table 5",
+  "row": "Random",
+  "column": "V_repair",
+  "manuscript": "103.5613",
+  "reproduced": 103.5613157264778,
+  "basis": "원고",
+  "reproduced_display": "103.5613",
+  "flag": "ok"
+ },
+ {
+  "table": "Table 5",
+  "row": "Random",
+  "column": "V_UB",
+  "manuscript": "102.9337",
+  "reproduced": 102.93372028976046,
+  "basis": "원고",
+  "reproduced_display": "102.9337",
+  "flag": "ok"
+ },
+ {
+  "table": "Table 5",
+  "row": "Random",
+  "column": "Gap at B* (%)",
+  "manuscript": "0.157",
+  "reproduced": 0.15698925247585366,
+  "basis": "원고",
+  "reproduced_display": "0.157",
+  "flag": "ok"
+ },
+ {
+  "table": "Table 5",
+  "row": "Center-30",
+  "column": "B*",
+  "manuscript": "27912",
+  "reproduced": 27912,
+  "basis": "원고",
+  "reproduced_display": "27912",
+  "flag": "ok"
+ },
+ {
+  "table": "Table 5",
+  "row": "Center-30",
+  "column": "V_dual",
+  "manuscript": "55.6644",
+  "reproduced": 55.66437664832962,
+  "basis": "원고",
+  "reproduced_display": "55.6644",
+  "flag": "ok"
+ },
+ {
+  "table": "Table 5",
+  "row": "Center-30",
+  "column": "V_round",
+  "manuscript": "55.9182",
+  "reproduced": 55.9181665415562,
+  "basis": "원고",
+  "reproduced_display": "55.9182",
+  "flag": "ok"
+ },
+ {
+  "table": "Table 5",
+  "row": "Center-30",
+  "column": "V_repair",
+  "manuscript": "55.8648",
+  "reproduced": 55.86483043888768,
+  "basis": "원고",
+  "reproduced_display": "55.8648",
+  "flag": "ok"
+ },
+ {
+  "table": "Table 5",
+  "row": "Center-30",
+  "column": "V_UB",
+  "manuscript": "55.8648",
+  "reproduced": 55.86483043888768,
+  "basis": "원고",
+  "reproduced_display": "55.8648",
+  "flag": "ok"
+ },
+ {
+  "table": "Table 5",
+  "row": "Center-30",
+  "column": "Gap at B* (%)",
+  "manuscript": "0.359",
+  "reproduced": 0.3588192946854828,
+  "basis": "원고",
+  "reproduced_display": "0.359",
+  "flag": "ok"
+ },
+ {
+  "table": "Table 5",
+  "row": "Center-100",
+  "column": "B*",
+  "manuscript": "26896",
+  "reproduced": 26896,
+  "basis": "원고",
+  "reproduced_display": "26896",
+  "flag": "ok"
+ },
+ {
+  "table": "Table 5",
+  "row": "Center-100",
+  "column": "V_dual",
+  "manuscript": "93.5920",
+  "reproduced": 93.59201013387637,
+  "basis": "원고",
+  "reproduced_display": "93.5920",
+  "flag": "ok"
+ },
+ {
+  "table": "Table 5",
+  "row": "Center-100",
+  "column": "V_round",
+  "manuscript": "93.7808",
+  "reproduced": 93.78075563984258,
+  "basis": "원고",
+  "reproduced_display": "93.7808",
+  "flag": "ok"
+ },
+ {
+  "table": "Table 5",
+  "row": "Center-100",
+  "column": "V_repair",
+  "manuscript": "94.2620",
+  "reproduced": 94.26198071839524,
+  "basis": "원고",
+  "reproduced_display": "94.2620",
+  "flag": "ok"
+ },
+ {
+  "table": "Table 5",
+  "row": "Center-100",
+  "column": "V_UB",
+  "manuscript": "93.7808",
+  "reproduced": 93.78075563984258,
+  "basis": "원고",
+  "reproduced_display": "93.7808",
+  "flag": "ok"
+ },
+ {
+  "table": "Table 5",
+  "row": "Center-100",
+  "column": "Gap at B* (%)",
+  "manuscript": "0.201",
+  "reproduced": 0.20126251348525284,
+  "basis": "원고",
+  "reproduced_display": "0.201",
+  "flag": "ok"
+ },
+ {
+  "table": "Table S8",
+  "row": "Zero",
+  "column": "Status",
+  "manuscript": "solved",
+  "reproduced": "solved",
+  "flag": "ok",
+  "basis": "원고"
+ },
+ {
+  "table": "Table S8",
+  "row": "Zero",
+  "column": "V_QP",
+  "manuscript": "53.894468",
+  "reproduced": 53.894468346828944,
+  "basis": "원고",
+  "reproduced_display": "53.894468",
+  "flag": "ok"
+ },
+ {
+  "table": "Table S8",
+  "row": "Zero",
+  "column": "V_dual",
+  "manuscript": "53.894468",
+  "reproduced": 53.89446803390608,
+  "basis": "원고",
+  "reproduced_display": "53.894468",
+  "flag": "ok"
+ },
+ {
+  "table": "Table S8",
+  "row": "Zero",
+  "column": "Prim. res.",
+  "manuscript": "5.8{\\times}10^{-10}",
+  "reproduced": 5.929905455559492e-10,
+  "basis": "원고",
+  "reproduced_display": "5.9e-10",
+  "flag": "ok",
+  "detail": "기계 정밀도 근처 잔차: 크기 수준 비교 (비율 1.02, 기준 1/3–3)"
+ },
+ {
+  "table": "Table S8",
+  "row": "Zero",
+  "column": "Dual res.",
+  "manuscript": "3.0{\\times}10^{-8}",
+  "reproduced": 3.0131477462674135e-08,
+  "basis": "원고",
+  "reproduced_display": "3.0e-8",
+  "flag": "ok"
+ },
+ {
+  "table": "Table S8",
+  "row": "Zero",
+  "column": "Hz=v",
+  "manuscript": "1.9{\\times}10^{-16}",
+  "reproduced": 2.069695754129513e-16,
+  "basis": "원고",
+  "reproduced_display": "2.1e-16",
+  "flag": "ok",
+  "detail": "기계 정밀도 근처 잔차: 크기 수준 비교 (비율 1.09, 기준 1/3–3)"
+ },
+ {
+  "table": "Table S8",
+  "row": "Zero",
+  "column": "Fallback, clip",
+  "manuscript": "no, no",
+  "reproduced": "no, no",
+  "flag": "ok",
+  "basis": "원고"
+ },
+ {
+  "table": "Table S8",
+  "row": "Zero",
+  "column": "Inc. viol.",
+  "manuscript": "0",
+  "reproduced": 0,
+  "flag": "ok",
+  "basis": "원고"
+ },
+ {
+  "table": "Table S8",
+  "row": "Random",
+  "column": "Status",
+  "manuscript": "solved",
+  "reproduced": "solved",
+  "flag": "ok",
+  "basis": "원고"
+ },
+ {
+  "table": "Table S8",
+  "row": "Random",
+  "column": "V_QP",
+  "manuscript": "102.772126",
+  "reproduced": 102.77212562032219,
+  "basis": "원고",
+  "reproduced_display": "102.772126",
+  "flag": "ok"
+ },
+ {
+  "table": "Table S8",
+  "row": "Random",
+  "column": "V_dual",
+  "manuscript": "102.772125",
+  "reproduced": 102.77212541173198,
+  "basis": "원고",
+  "reproduced_display": "102.772125",
+  "flag": "ok"
+ },
+ {
+  "table": "Table S8",
+  "row": "Random",
+  "column": "Prim. res.",
+  "manuscript": "1.6{\\times}10^{-5}",
+  "reproduced": 1.5816377552546612e-05,
+  "basis": "원고",
+  "reproduced_display": "1.6e-5",
+  "flag": "ok"
+ },
+ {
+  "table": "Table S8",
+  "row": "Random",
+  "column": "Dual res.",
+  "manuscript": "3.0{\\times}10^{-8}",
+  "reproduced": 2.985521514568107e-08,
+  "basis": "원고",
+  "reproduced_display": "3.0e-8",
+  "flag": "ok"
+ },
+ {
+  "table": "Table S8",
+  "row": "Random",
+  "column": "Hz=v",
+  "manuscript": "2.1{\\times}10^{-16}",
+  "reproduced": 2.0807322516854219e-16,
+  "basis": "원고",
+  "reproduced_display": "2.1e-16",
+  "flag": "ok"
+ },
+ {
+  "table": "Table S8",
+  "row": "Random",
+  "column": "Fallback, clip",
+  "manuscript": "no, no",
+  "reproduced": "no, no",
+  "flag": "ok",
+  "basis": "원고"
+ },
+ {
+  "table": "Table S8",
+  "row": "Random",
+  "column": "Inc. viol.",
+  "manuscript": "0",
+  "reproduced": 0,
+  "flag": "ok",
+  "basis": "원고"
+ },
+ {
+  "table": "Table S8",
+  "row": "Center-30",
+  "column": "Status",
+  "manuscript": "solved",
+  "reproduced": "solved",
+  "flag": "ok",
+  "basis": "원고"
+ },
+ {
+  "table": "Table S8",
+  "row": "Center-30",
+  "column": "V_QP",
+  "manuscript": "55.664384",
+  "reproduced": 55.66438354888669,
+  "basis": "원고",
+  "reproduced_display": "55.664384",
+  "flag": "ok"
+ },
+ {
+  "table": "Table S8",
+  "row": "Center-30",
+  "column": "V_dual",
+  "manuscript": "55.664377",
+  "reproduced": 55.66437664832962,
+  "basis": "원고",
+  "reproduced_display": "55.664377",
+  "flag": "ok"
+ },
+ {
+  "table": "Table S8",
+  "row": "Center-30",
+  "column": "Prim. res.",
+  "manuscript": "2.5{\\times}10^{-5}",
+  "reproduced": 2.4623073843099696e-05,
+  "basis": "원고",
+  "reproduced_display": "2.5e-5",
+  "flag": "ok"
+ },
+ {
+  "table": "Table S8",
+  "row": "Center-30",
+  "column": "Dual res.",
+  "manuscript": "3.8{\\times}10^{-8}",
+  "reproduced": 3.7956206946880045e-08,
+  "basis": "원고",
+  "reproduced_display": "3.8e-8",
+  "flag": "ok"
+ },
+ {
+  "table": "Table S8",
+  "row": "Center-30",
+  "column": "Hz=v",
+  "manuscript": "2.1{\\times}10^{-16}",
+  "reproduced": 2.0172672548043567e-16,
+  "basis": "원고",
+  "reproduced_display": "2.0e-16",
+  "flag": "ok",
+  "detail": "기계 정밀도 근처 잔차: 크기 수준 비교 (비율 0.96, 기준 1/3–3)"
+ },
+ {
+  "table": "Table S8",
+  "row": "Center-30",
+  "column": "Fallback, clip",
+  "manuscript": "no, no",
+  "reproduced": "no, no",
+  "flag": "ok",
+  "basis": "원고"
+ },
+ {
+  "table": "Table S8",
+  "row": "Center-30",
+  "column": "Inc. viol.",
+  "manuscript": "0",
+  "reproduced": 0,
+  "flag": "ok",
+  "basis": "원고"
+ },
+ {
+  "table": "Table S8",
+  "row": "Center-100",
+  "column": "Status",
+  "manuscript": "solved",
+  "reproduced": "solved",
+  "flag": "ok",
+  "basis": "원고"
+ },
+ {
+  "table": "Table S8",
+  "row": "Center-100",
+  "column": "V_QP",
+  "manuscript": "93.592018",
+  "reproduced": 93.59201756311086,
+  "basis": "원고",
+  "reproduced_display": "93.592018",
+  "flag": "ok"
+ },
+ {
+  "table": "Table S8",
+  "row": "Center-100",
+  "column": "V_dual",
+  "manuscript": "93.592010",
+  "reproduced": 93.59201013387637,
+  "basis": "원고",
+  "reproduced_display": "93.592010",
+  "flag": "ok"
+ },
+ {
+  "table": "Table S8",
+  "row": "Center-100",
+  "column": "Prim. res.",
+  "manuscript": "1.5{\\times}10^{-4}",
+  "reproduced": 0.0001538488183920883,
+  "basis": "원고",
+  "reproduced_display": "1.5e-4",
+  "flag": "ok"
+ },
+ {
+  "table": "Table S8",
+  "row": "Center-100",
+  "column": "Dual res.",
+  "manuscript": "3.8{\\times}10^{-8}",
+  "reproduced": 3.807573220559312e-08,
+  "basis": "원고",
+  "reproduced_display": "3.8e-8",
+  "flag": "ok"
+ },
+ {
+  "table": "Table S8",
+  "row": "Center-100",
+  "column": "Hz=v",
+  "manuscript": "2.1{\\times}10^{-16}",
+  "reproduced": 2.0388270083260093e-16,
+  "basis": "원고",
+  "reproduced_display": "2.0e-16",
+  "flag": "ok",
+  "detail": "기계 정밀도 근처 잔차: 크기 수준 비교 (비율 0.97, 기준 1/3–3)"
+ },
+ {
+  "table": "Table S8",
+  "row": "Center-100",
+  "column": "Fallback, clip",
+  "manuscript": "no, no",
+  "reproduced": "no, no",
+  "flag": "ok",
+  "basis": "원고"
+ },
+ {
+  "table": "Table S8",
+  "row": "Center-100",
+  "column": "Inc. viol.",
+  "manuscript": "0",
+  "reproduced": 0,
+  "flag": "ok",
+  "basis": "원고"
+ },
+ {
+  "table": "Table S8",
+  "row": "Cmax=3",
+  "column": "Status",
+  "manuscript": "solved",
+  "reproduced": "solved",
+  "flag": "ok",
+  "basis": "원고"
+ },
+ {
+  "table": "Table S8",
+  "row": "Cmax=3",
+  "column": "V_QP",
+  "manuscript": "0.059039",
+  "reproduced": 0.05903884924704528,
+  "basis": "원고",
+  "reproduced_display": "0.059039",
+  "flag": "ok"
+ },
+ {
+  "table": "Table S8",
+  "row": "Cmax=3",
+  "column": "V_dual",
+  "manuscript": "0.059039",
+  "reproduced": 0.05903857607081982,
+  "basis": "원고",
+  "reproduced_display": "0.059039",
+  "flag": "ok"
+ },
+ {
+  "table": "Table S8",
+  "row": "Cmax=3",
+  "column": "Prim. res.",
+  "manuscript": "9.3{\\times}10^{-6}",
+  "reproduced": 9.320629346887266e-06,
+  "basis": "원고",
+  "reproduced_display": "9.3e-6",
+  "flag": "ok"
+ },
+ {
+  "table": "Table S8",
+  "row": "Cmax=3",
+  "column": "Dual res.",
+  "manuscript": "7.5{\\times}10^{-9}",
+  "reproduced": 7.497886108753227e-09,
+  "basis": "원고",
+  "reproduced_display": "7.5e-9",
+  "flag": "ok"
+ },
+ {
+  "table": "Table S8",
+  "row": "Cmax=3",
+  "column": "Hz=v",
+  "manuscript": "1.4{\\times}10^{-16}",
+  "reproduced": 1.3370238928783535e-16,
+  "basis": "원고",
+  "reproduced_display": "1.3e-16",
+  "flag": "ok",
+  "detail": "기계 정밀도 근처 잔차: 크기 수준 비교 (비율 0.96, 기준 1/3–3)"
+ },
+ {
+  "table": "Table S8",
+  "row": "Cmax=3",
+  "column": "Fallback, clip",
+  "manuscript": "no, no",
+  "reproduced": "no, no",
+  "flag": "ok",
+  "basis": "원고"
+ },
+ {
+  "table": "Table S8",
+  "row": "Cmax=3",
+  "column": "Inc. viol.",
+  "manuscript": "0",
+  "reproduced": 0,
+  "flag": "ok",
+  "basis": "원고"
+ },
+ {
+  "table": "Table S8",
+  "row": "Cmax=5",
+  "column": "Status",
+  "manuscript": "solved",
+  "reproduced": "solved",
+  "flag": "ok",
+  "basis": "원고"
+ },
+ {
+  "table": "Table S8",
+  "row": "Cmax=5",
+  "column": "V_QP",
+  "manuscript": "0.104790",
+  "reproduced": 0.10478988599280115,
+  "basis": "원고",
+  "reproduced_display": "0.104790",
+  "flag": "ok"
+ },
+ {
+  "table": "Table S8",
+  "row": "Cmax=5",
+  "column": "V_dual",
+  "manuscript": "0.104790",
+  "reproduced": 0.10478988588360627,
+  "basis": "원고",
+  "reproduced_display": "0.104790",
+  "flag": "ok"
+ },
+ {
+  "table": "Table S8",
+  "row": "Cmax=5",
+  "column": "Prim. res.",
+  "manuscript": "0.0",
+  "reproduced": 1.1368683772161603e-12,
+  "basis": "원고",
+  "reproduced_display": "0.0",
+  "flag": "ok"
+ },
+ {
+  "table": "Table S8",
+  "row": "Cmax=5",
+  "column": "Dual res.",
+  "manuscript": "3.5{\\times}10^{-10}",
+  "reproduced": 3.4856837996741533e-10,
+  "basis": "원고",
+  "reproduced_display": "3.5e-10",
+  "flag": "ok"
+ },
+ {
+  "table": "Table S8",
+  "row": "Cmax=5",
+  "column": "Hz=v",
+  "manuscript": "1.5{\\times}10^{-16}",
+  "reproduced": 1.3400513837551345e-16,
+  "basis": "원고",
+  "reproduced_display": "1.3e-16",
+  "flag": "ok",
+  "detail": "기계 정밀도 근처 잔차: 크기 수준 비교 (비율 0.89, 기준 1/3–3)"
+ },
+ {
+  "table": "Table S8",
+  "row": "Cmax=5",
+  "column": "Fallback, clip",
+  "manuscript": "no, no",
+  "reproduced": "no, no",
+  "flag": "ok",
+  "basis": "원고"
+ },
+ {
+  "table": "Table S8",
+  "row": "Cmax=5",
+  "column": "Inc. viol.",
+  "manuscript": "0",
+  "reproduced": 0,
+  "flag": "ok",
+  "basis": "원고"
+ },
+ {
+  "table": "Table S8",
+  "row": "Cmax=8",
+  "column": "Status",
+  "manuscript": "solved",
+  "reproduced": "solved",
+  "flag": "ok",
+  "basis": "원고"
+ },
+ {
+  "table": "Table S8",
+  "row": "Cmax=8",
+  "column": "V_QP",
+  "manuscript": "0.235777",
+  "reproduced": 0.23577724366575126,
+  "basis": "원고",
+  "reproduced_display": "0.235777",
+  "flag": "ok"
+ },
+ {
+  "table": "Table S8",
+  "row": "Cmax=8",
+  "column": "V_dual",
+  "manuscript": "0.235777",
+  "reproduced": 0.23577724323812937,
+  "basis": "원고",
+  "reproduced_display": "0.235777",
+  "flag": "ok"
+ },
+ {
+  "table": "Table S8",
+  "row": "Cmax=8",
+  "column": "Prim. res.",
+  "manuscript": "2.3{\\times}10^{-13}",
+  "reproduced": 6.821210263296962e-13,
+  "basis": "원고",
+  "reproduced_display": "6.8e-13",
+  "flag": "ok",
+  "detail": "기계 정밀도 근처 잔차: 크기 수준 비교 (비율 2.97, 기준 1/3–3)"
+ },
+ {
+  "table": "Table S8",
+  "row": "Cmax=8",
+  "column": "Dual res.",
+  "manuscript": "8.6{\\times}10^{-10}",
+  "reproduced": 8.550262249787968e-10,
+  "basis": "원고",
+  "reproduced_display": "8.6e-10",
+  "flag": "ok"
+ },
+ {
+  "table": "Table S8",
+  "row": "Cmax=8",
+  "column": "Hz=v",
+  "manuscript": "1.6{\\times}10^{-16}",
+  "reproduced": 1.7312353737290242e-16,
+  "basis": "원고",
+  "reproduced_display": "1.7e-16",
+  "flag": "ok",
+  "detail": "기계 정밀도 근처 잔차: 크기 수준 비교 (비율 1.08, 기준 1/3–3)"
+ },
+ {
+  "table": "Table S8",
+  "row": "Cmax=8",
+  "column": "Fallback, clip",
+  "manuscript": "no, no",
+  "reproduced": "no, no",
+  "flag": "ok",
+  "basis": "원고"
+ },
+ {
+  "table": "Table S8",
+  "row": "Cmax=8",
+  "column": "Inc. viol.",
+  "manuscript": "0",
+  "reproduced": 0,
+  "flag": "ok",
+  "basis": "원고"
+ },
+ {
+  "table": "Table S8",
+  "row": "Cmax=20",
+  "column": "Status",
+  "manuscript": "solved",
+  "reproduced": "solved",
+  "flag": "ok",
+  "basis": "원고"
+ },
+ {
+  "table": "Table S8",
+  "row": "Cmax=20",
+  "column": "V_QP",
+  "manuscript": "1.676638",
+  "reproduced": 1.6766381750865094,
+  "basis": "원고",
+  "reproduced_display": "1.676638",
+  "flag": "ok"
+ },
+ {
+  "table": "Table S8",
+  "row": "Cmax=20",
+  "column": "V_dual",
+  "manuscript": "1.676638",
+  "reproduced": 1.6766381741374885,
+  "basis": "원고",
+  "reproduced_display": "1.676638",
+  "flag": "ok"
+ },
+ {
+  "table": "Table S8",
+  "row": "Cmax=20",
+  "column": "Prim. res.",
+  "manuscript": "7.8{\\times}10^{-11}",
+  "reproduced": 7.366907084360719e-11,
+  "basis": "원고",
+  "reproduced_display": "7.4e-11",
+  "flag": "ok",
+  "detail": "기계 정밀도 근처 잔차: 크기 수준 비교 (비율 0.94, 기준 1/3–3)"
+ },
+ {
+  "table": "Table S8",
+  "row": "Cmax=20",
+  "column": "Dual res.",
+  "manuscript": "7.1{\\times}10^{-10}",
+  "reproduced": 7.088810579559378e-10,
+  "basis": "원고",
+  "reproduced_display": "7.1e-10",
+  "flag": "ok"
+ },
+ {
+  "table": "Table S8",
+  "row": "Cmax=20",
+  "column": "Hz=v",
+  "manuscript": "1.7{\\times}10^{-16}",
+  "reproduced": 1.6588226431371215e-16,
+  "basis": "원고",
+  "reproduced_display": "1.7e-16",
+  "flag": "ok"
+ },
+ {
+  "table": "Table S8",
+  "row": "Cmax=20",
+  "column": "Fallback, clip",
+  "manuscript": "no, no",
+  "reproduced": "no, no",
+  "flag": "ok",
+  "basis": "원고"
+ },
+ {
+  "table": "Table S8",
+  "row": "Cmax=20",
+  "column": "Inc. viol.",
+  "manuscript": "0",
+  "reproduced": 0,
+  "flag": "ok",
+  "basis": "원고"
+ },
+ {
+  "table": "Table S8",
+  "row": "Cmax=50",
+  "column": "Status",
+  "manuscript": "solved",
+  "reproduced": "solved",
+  "flag": "ok",
+  "basis": "원고"
+ },
+ {
+  "table": "Table S8",
+  "row": "Cmax=50",
+  "column": "V_QP",
+  "manuscript": "10.478989",
+  "reproduced": 10.478988608804684,
+  "basis": "원고",
+  "reproduced_display": "10.478989",
+  "flag": "ok"
+ },
+ {
+  "table": "Table S8",
+  "row": "Cmax=50",
+  "column": "V_dual",
+  "manuscript": "10.478989",
+  "reproduced": 10.478988588355755,
+  "basis": "원고",
+  "reproduced_display": "10.478989",
+  "flag": "ok"
+ },
+ {
+  "table": "Table S8",
+  "row": "Cmax=50",
+  "column": "Prim. res.",
+  "manuscript": "2.3{\\times}10^{-10}",
+  "reproduced": 2.3283064365386963e-10,
+  "basis": "원고",
+  "reproduced_display": "2.3e-10",
+  "flag": "ok"
+ },
+ {
+  "table": "Table S8",
+  "row": "Cmax=50",
+  "column": "Dual res.",
+  "manuscript": "5.4{\\times}10^{-9}",
+  "reproduced": 5.355808820264343e-09,
+  "basis": "원고",
+  "reproduced_display": "5.4e-9",
+  "flag": "ok"
+ },
+ {
+  "table": "Table S8",
+  "row": "Cmax=50",
+  "column": "Hz=v",
+  "manuscript": "2.0{\\times}10^{-16}",
+  "reproduced": 2.1475677089567433e-16,
+  "basis": "원고",
+  "reproduced_display": "2.1e-16",
+  "flag": "ok",
+  "detail": "기계 정밀도 근처 잔차: 크기 수준 비교 (비율 1.07, 기준 1/3–3)"
+ },
+ {
+  "table": "Table S8",
+  "row": "Cmax=50",
+  "column": "Fallback, clip",
+  "manuscript": "no, no",
+  "reproduced": "no, no",
+  "flag": "ok",
+  "basis": "원고"
+ },
+ {
+  "table": "Table S8",
+  "row": "Cmax=50",
+  "column": "Inc. viol.",
+  "manuscript": "0",
+  "reproduced": 0,
+  "flag": "ok",
+  "basis": "원고"
+ },
+ {
+  "table": "Table S8",
+  "row": "Cmax=200",
+  "column": "Status",
+  "manuscript": "solved",
+  "reproduced": "solved",
+  "flag": "ok",
+  "basis": "원고"
+ },
+ {
+  "table": "Table S8",
+  "row": "Cmax=200",
+  "column": "V_QP",
+  "manuscript": "53.894468",
+  "reproduced": 53.894468346828944,
+  "basis": "원고",
+  "reproduced_display": "53.894468",
+  "flag": "ok"
+ },
+ {
+  "table": "Table S8",
+  "row": "Cmax=200",
+  "column": "V_dual",
+  "manuscript": "53.894468",
+  "reproduced": 53.89446803390608,
+  "basis": "원고",
+  "reproduced_display": "53.894468",
+  "flag": "ok"
+ },
+ {
+  "table": "Table S8",
+  "row": "Cmax=200",
+  "column": "Prim. res.",
+  "manuscript": "5.8{\\times}10^{-10}",
+  "reproduced": 5.929905455559492e-10,
+  "basis": "원고",
+  "reproduced_display": "5.9e-10",
+  "flag": "ok",
+  "detail": "기계 정밀도 근처 잔차: 크기 수준 비교 (비율 1.02, 기준 1/3–3)"
+ },
+ {
+  "table": "Table S8",
+  "row": "Cmax=200",
+  "column": "Dual res.",
+  "manuscript": "3.0{\\times}10^{-8}",
+  "reproduced": 3.0131477462674135e-08,
+  "basis": "원고",
+  "reproduced_display": "3.0e-8",
+  "flag": "ok"
+ },
+ {
+  "table": "Table S8",
+  "row": "Cmax=200",
+  "column": "Hz=v",
+  "manuscript": "1.9{\\times}10^{-16}",
+  "reproduced": 2.069695754129513e-16,
+  "basis": "원고",
+  "reproduced_display": "2.1e-16",
+  "flag": "ok",
+  "detail": "기계 정밀도 근처 잔차: 크기 수준 비교 (비율 1.09, 기준 1/3–3)"
+ },
+ {
+  "table": "Table S8",
+  "row": "Cmax=200",
+  "column": "Fallback, clip",
+  "manuscript": "no, no",
+  "reproduced": "no, no",
+  "flag": "ok",
+  "basis": "원고"
+ },
+ {
+  "table": "Table S8",
+  "row": "Cmax=200",
+  "column": "Inc. viol.",
+  "manuscript": "0",
+  "reproduced": 0,
+  "flag": "ok",
+  "basis": "원고"
+ }
+]

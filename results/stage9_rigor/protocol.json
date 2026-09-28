@@ -1,0 +1,21 @@
+{
+ "status": "post hoc additional analysis of the preregistered E4 sample; the preregistered results are unchanged",
+ "guarantee": "fixed float64 data: A from build_stamps (F=50, s=2, 7x7, sigma 1.75, reflect), s0 as stored; ideal Gaussian (same support and folding) through eps",
+ "lower_bound": "max over points xb of V(xb) + min_X grad V(xb)^T (x - xb), exact integer arithmetic, rounded down",
+ "points": "OSQP 1e-8 point of qp_audit (recomputed) and the active-set refinement started from it; if the best (V(xb) - L)/U > 1e-09, add OSQP 1e-10 and Clarabel points and refine from the best of them",
+ "upper_bound": "stored U_rev allocation of e4_runs.json after integrality/budget/box checks, exact V, rounded up",
+ "widths": "100 (U - L)/U from exact rationals, rounded up; T1_rig at B*, T2_rig = max over the 21-budget grid",
+ "summary": "same statistics as the preregistered report; sample maxima rounded up to 4 decimals",
+ "reproducibility": "L_osqp recomputed must equal the stored value bit for bit (recorded otherwise)",
+ "code_sha256": {
+  "stage9_rigor": "33ca130695926d2e23c4494b81f0352afcda4141da11e19bfb85e035211c4959",
+  "rigor_pilot": "46344593a6d9341b4f6e16474270de29deb91d643b455465ef5f0a1939eb425a"
+ },
+ "environment": {
+  "python": "3.12.14",
+  "numpy": "2.4.6",
+  "scipy": "1.18.0",
+  "osqp": "1.1.3",
+  "clarabel": "0.11.1"
+ }
+}

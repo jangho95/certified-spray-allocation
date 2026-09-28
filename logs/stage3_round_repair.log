@@ -1,0 +1,10 @@
+zero       B=   938 C=  3 gap 36.3372% -> 36.3372%  removed 0.0%  feasible=True  |V_py-V_cpp|=5.1e-16  near_ties=2  paper==idx=True
+zero       B=  1250 C=  5 gap 34.7495% -> 17.9792%  removed 58.8%  feasible=True  |V_py-V_cpp|=2.6e-15  near_ties=2  paper==idx=True
+zero       B=  1875 C=  8 gap 18.5478% -> 13.1703%  removed 33.4%  feasible=True  |V_py-V_cpp|=6.1e-16  near_ties=2  paper==idx=True
+zero       B=  5000 C= 20 gap 4.2593% -> 2.2955%  removed 47.2%  feasible=True  |V_py-V_cpp|=7.5e-14  near_ties=2  paper==idx=True
+zero       B= 12500 C= 50 gap 1.0799% -> 0.3694%  removed 66.0%  feasible=True  |V_py-V_cpp|=3.0e-13  near_ties=2  paper==idx=True
+zero       B= 28348 C=200 gap 0.3388% -> 0.0665%  removed 80.4%  feasible=True  |V_py-V_cpp|=5.5e-13  near_ties=1  paper==idx=True
+zero       B= 28348 C=200 gap 0.3388% -> 0.0665%  removed 80.4%  feasible=True  |V_py-V_cpp|=5.5e-13  near_ties=1  paper==idx=True
+random s7  B= 26120 C=200 gap 0.1570% -> 0.0394%  removed 74.9%  feasible=True  |V_py-V_cpp|=3.2e-12  near_ties=1  paper==idx=True
+center-30  B= 27912 C=200 gap 0.3588% -> 0.0731%  removed 79.7%  feasible=True  |V_py-V_cpp|=1.3e-12  near_ties=2  paper==idx=True
+center-100 B= 26896 C=200 gap 0.2013% -> 0.0448%  removed 77.8%  feasible=True  |V_py-V_cpp|=1.8e-12  near_ties=2  paper==idx=True

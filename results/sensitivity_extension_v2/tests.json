@@ -1,0 +1,28 @@
+{
+ "projection_cases": 180,
+ "projection_kkt_max_error": 6.366462912410498e-12,
+ "known_qp_upper_cases": 41,
+ "infeasible_reference_trigger_regression": true,
+ "legacy": {
+  "rigor_pilot": {
+   "n": 6,
+   "strict_box_violations": 0,
+   "max_box_violation": 0.0
+  },
+  "stage5_rigor": {
+   "n": 40,
+   "strict_box_violations": 0,
+   "max_box_violation": 0.0
+  },
+  "stage9_rigor": {
+   "n": 1239,
+   "strict_box_violations": 0,
+   "max_box_violation": 0.0
+  },
+  "bench_sweep": {
+   "n": 84,
+   "strict_box_violations": 0,
+   "max_box_violation": 0.0
+  }
+ }
+}

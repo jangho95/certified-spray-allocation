@@ -1,0 +1,266 @@
+{
+ "A": [
+  {
+   "field": "zero",
+   "rho_1pct": 20,
+   "rho_5pct": 8,
+   "width_at_min_rho": 36.3372046538279,
+   "width_at_max_rho": 0.07338769489174084,
+   "width_max": 36.3372046538279,
+   "monotone_in_rho": true,
+   "flag": "ok"
+  },
+  {
+   "field": "random s7",
+   "rho_1pct": 1.5,
+   "rho_5pct": 1.5,
+   "width_at_min_rho": 0.049551214283737224,
+   "width_at_max_rho": 0.03801979508858904,
+   "width_max": 0.07477364390355733,
+   "monotone_in_rho": false,
+   "flag": "warn"
+  },
+  {
+   "field": "center-30",
+   "rho_1pct": 1.5,
+   "rho_5pct": 1.5,
+   "width_at_min_rho": 0.05913491279541602,
+   "width_at_max_rho": 0.06183116736170051,
+   "width_max": 0.5844231463039855,
+   "monotone_in_rho": false,
+   "flag": "warn"
+  },
+  {
+   "field": "center-100",
+   "rho_1pct": 1.5,
+   "rho_5pct": 1.5,
+   "width_at_min_rho": 0.004495027825166323,
+   "width_at_max_rho": 0.03925511887090664,
+   "width_max": 0.043588424657857824,
+   "monotone_in_rho": false,
+   "flag": "warn"
+  }
+ ],
+ "B": [
+  {
+   "field": "zero",
+   "sigma": 1.0,
+   "rho_1pct": 45,
+   "rho_5pct": 8,
+   "width_at_min_rho": 62.39532954113548,
+   "width_at_max_rho": 0.2838091476391312,
+   "width_max": 62.39532954113548,
+   "monotone_in_rho": true,
+   "flag": "ok"
+  },
+  {
+   "field": "zero",
+   "sigma": 1.25,
+   "rho_1pct": 45,
+   "rho_5pct": 45,
+   "width_at_min_rho": 77.42399327419834,
+   "width_at_max_rho": 0.4154490458359577,
+   "width_max": 77.42399327419834,
+   "monotone_in_rho": true,
+   "flag": "ok"
+  },
+  {
+   "field": "zero",
+   "sigma": 1.75,
+   "rho_1pct": null,
+   "rho_5pct": 45,
+   "width_at_min_rho": 96.7070973744884,
+   "width_at_max_rho": 3.9821640795450084,
+   "width_max": 96.7070973744884,
+   "monotone_in_rho": true,
+   "flag": "ok"
+  },
+  {
+   "field": "zero",
+   "sigma": 2.5,
+   "rho_1pct": null,
+   "rho_5pct": null,
+   "width_at_min_rho": 99.95922055559188,
+   "width_at_max_rho": 35.388784319880635,
+   "width_max": 99.95922055559188,
+   "monotone_in_rho": true,
+   "flag": "ok"
+  },
+  {
+   "field": "zero",
+   "sigma": 3.5,
+   "rho_1pct": null,
+   "rho_5pct": null,
+   "width_at_min_rho": 98.96392644900588,
+   "width_at_max_rho": 7.270745826540431,
+   "width_max": 98.96392644900588,
+   "monotone_in_rho": true,
+   "flag": "ok"
+  },
+  {
+   "field": "random s7",
+   "sigma": 1.0,
+   "rho_1pct": 1.5,
+   "rho_5pct": 1.5,
+   "width_at_min_rho": 0.017652311136806438,
+   "width_at_max_rho": 0.06684533804844714,
+   "width_max": 0.08326368602387944,
+   "monotone_in_rho": false,
+   "flag": "warn"
+  },
+  {
+   "field": "random s7",
+   "sigma": 1.25,
+   "rho_1pct": 1.5,
+   "rho_5pct": 1.5,
+   "width_at_min_rho": 0.029582411107018803,
+   "width_at_max_rho": 0.07800253710381995,
+   "width_max": 0.08598138833814464,
+   "monotone_in_rho": false,
+   "flag": "warn"
+  },
+  {
+   "field": "random s7",
+   "sigma": 1.75,
+   "rho_1pct": 1.5,
+   "rho_5pct": 1.5,
+   "width_at_min_rho": 0.04677470222288798,
+   "width_at_max_rho": 0.06535779883651886,
+   "width_max": 0.07376101637005567,
+   "monotone_in_rho": false,
+   "flag": "warn"
+  },
+  {
+   "field": "random s7",
+   "sigma": 2.5,
+   "rho_1pct": 1.5,
+   "rho_5pct": 1.5,
+   "width_at_min_rho": 0.04575441684174849,
+   "width_at_max_rho": 0.04425282147032,
+   "width_max": 0.0574593070912535,
+   "monotone_in_rho": false,
+   "flag": "warn"
+  },
+  {
+   "field": "random s7",
+   "sigma": 3.5,
+   "rho_1pct": 1.5,
+   "rho_5pct": 1.5,
+   "width_at_min_rho": 0.037713053097035834,
+   "width_at_max_rho": 0.027207879243324698,
+   "width_max": 0.037713053097035834,
+   "monotone_in_rho": true,
+   "flag": "ok"
+  },
+  {
+   "field": "center-30",
+   "sigma": 1.0,
+   "rho_1pct": 1.5,
+   "rho_5pct": 1.5,
+   "width_at_min_rho": 0.057667882472714115,
+   "width_at_max_rho": 0.18078475740585098,
+   "width_max": 0.18078475740585098,
+   "monotone_in_rho": false,
+   "flag": "warn"
+  },
+  {
+   "field": "center-30",
+   "sigma": 1.25,
+   "rho_1pct": 1.5,
+   "rho_5pct": 1.5,
+   "width_at_min_rho": 0.06327969698789271,
+   "width_at_max_rho": 0.35006784738649716,
+   "width_max": 0.35006784738649716,
+   "monotone_in_rho": false,
+   "flag": "warn"
+  },
+  {
+   "field": "center-30",
+   "sigma": 1.75,
+   "rho_1pct": 1.5,
+   "rho_5pct": 1.5,
+   "width_at_min_rho": 0.0496430569657354,
+   "width_at_max_rho": 0.8540939696393128,
+   "width_max": 0.8540939696393128,
+   "monotone_in_rho": false,
+   "flag": "warn"
+  },
+  {
+   "field": "center-30",
+   "sigma": 2.5,
+   "rho_1pct": 1.5,
+   "rho_5pct": 1.5,
+   "width_at_min_rho": 0.03625400620686178,
+   "width_at_max_rho": 0.5689445322910587,
+   "width_max": 0.5689445322910587,
+   "monotone_in_rho": false,
+   "flag": "warn"
+  },
+  {
+   "field": "center-30",
+   "sigma": 3.5,
+   "rho_1pct": 1.5,
+   "rho_5pct": 1.5,
+   "width_at_min_rho": 0.04821214822383954,
+   "width_at_max_rho": 0.2818737144139452,
+   "width_max": 0.2818737144139452,
+   "monotone_in_rho": false,
+   "flag": "warn"
+  },
+  {
+   "field": "center-100",
+   "sigma": 1.0,
+   "rho_1pct": 1.5,
+   "rho_5pct": 1.5,
+   "width_at_min_rho": 0.0049862267777884325,
+   "width_at_max_rho": 0.038197762317140914,
+   "width_max": 0.038197762317140914,
+   "monotone_in_rho": false,
+   "flag": "warn"
+  },
+  {
+   "field": "center-100",
+   "sigma": 1.25,
+   "rho_1pct": 1.5,
+   "rho_5pct": 1.5,
+   "width_at_min_rho": 0.005401491224668239,
+   "width_at_max_rho": 0.0874203371503351,
+   "width_max": 0.0874203371503351,
+   "monotone_in_rho": false,
+   "flag": "warn"
+  },
+  {
+   "field": "center-100",
+   "sigma": 1.75,
+   "rho_1pct": 1.5,
+   "rho_5pct": 1.5,
+   "width_at_min_rho": 0.0036722469886696653,
+   "width_at_max_rho": 0.08768179859382823,
+   "width_max": 0.08768179859382823,
+   "monotone_in_rho": false,
+   "flag": "warn"
+  },
+  {
+   "field": "center-100",
+   "sigma": 2.5,
+   "rho_1pct": 1.5,
+   "rho_5pct": 1.5,
+   "width_at_min_rho": 0.0033576727763297014,
+   "width_at_max_rho": 0.04635145095779198,
+   "width_max": 0.04635145095779198,
+   "monotone_in_rho": false,
+   "flag": "warn"
+  },
+  {
+   "field": "center-100",
+   "sigma": 3.5,
+   "rho_1pct": 1.5,
+   "rho_5pct": 1.5,
+   "width_at_min_rho": 0.003595736953967432,
+   "width_at_max_rho": 0.020914477636767608,
+   "width_max": 0.02130900685575204,
+   "monotone_in_rho": false,
+   "flag": "warn"
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "instance": "N36_zero_rho1.5",
+ "form": "soc_cont",
+ "time_limit": 300,
+ "mem_limit": 3000,
+ "build_s": 0.004736399976536632,
+ "status": "optimal",
+ "solve_wall_s": 0.15858200000366196,
+ "scip_time_s": 0.158476,
+ "primal_bound": 0.029435251163961736,
+ "dual_bound": 0.029435251163961736,
+ "gap": 0.0,
+ "nodes": 1,
+ "nsols": 5
+}

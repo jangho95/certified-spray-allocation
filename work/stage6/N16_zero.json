@@ -1,0 +1,27 @@
+{
+ "id": "N16_zero",
+ "series": "N16 (Table 6)",
+ "field": "zero",
+ "input": "small_zero_F12.csv",
+ "F": 12,
+ "s": 3,
+ "rows": 4,
+ "cmax": 8,
+ "B": 64,
+ "rho": null,
+ "N": 16,
+ "L": 1.390940044149458,
+ "V_QP": 1.390940044149474,
+ "cands": {
+  "\ubc18\uc62c\ub9bc(\uc6d0\uace0 \uaddc\uce59)": 1.5080748103244292,
+  "greedy+repair": 1.5708192981212528,
+  "\ubc18\uc62c\ub9bc\u2192repair": 1.5080748103244292
+ },
+ "U_pipeline": 1.5080748103244292,
+ "U_pipeline_method": "\ubc18\uc62c\ub9bc(\uc6d0\uace0 \uaddc\uce59)",
+ "warm_alloc": "/home/user/experiments/work/stage6/N16_zero_round_paper.csv",
+ "input_path": "/home/user/experiments/inputs/small_zero_F12.csv",
+ "time_limit": 300,
+ "mem_limit": 3000,
+ "qp_status": "solved"
+}

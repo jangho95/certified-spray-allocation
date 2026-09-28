@@ -1,0 +1,16 @@
+$ /home/user/experiments/.venv/bin/python pareto_sweep.py
+zero                 B*= 28348  gap@target=0.339%  max_gap=0.415%
+random_1_30_seed7    B*= 26120  gap@target=0.157%  max_gap=0.237%
+center30             B*= 27912  gap@target=0.359%  max_gap=0.553%
+center100            B*= 26896  gap@target=0.201%  max_gap=0.272%
+wrote pareto_fronts.png and pareto_<instance>.csv
+
+# compare
+Traceback (most recent call last):
+  File "/home/user/experiments/pipeline/s1_compare.py", line 399, in <module>
+    rows = TASKS[tid]()
+           ^^^^^^^^^^^^
+  File "/home/user/experiments/pipeline/s1_compare.py", line 329, in c_1_12
+    g = max(float(r["gap"]) for r in new[label].values())
+                                     ~~~^^^^^^^
+KeyError: 'Random $[1,30]$ s7'

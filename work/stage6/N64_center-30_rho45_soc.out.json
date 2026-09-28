@@ -1,0 +1,21 @@
+{
+ "instance": "N64_center-30_rho45",
+ "form": "soc",
+ "time_limit": 300,
+ "mem_limit": 3000,
+ "build_s": 0.01036502601346001,
+ "warm_checksol": true,
+ "warm_accepted": true,
+ "status": "timelimit",
+ "solve_wall_s": 300.0002461069962,
+ "scip_time_s": 300.00006,
+ "primal_bound": 61.695089731765925,
+ "dual_bound": 61.65634700624633,
+ "gap": 0.00062836556819807,
+ "nodes": 1959,
+ "nsols": 1,
+ "V_eval": 61.69508973176592,
+ "feasible": true,
+ "same_as_warm": true,
+ "alloc": "/home/user/experiments/work/stage6/N64_center-30_rho45_soc.out.alloc.csv"
+}

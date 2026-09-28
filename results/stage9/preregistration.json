@@ -1,0 +1,86 @@
+{
+ "stage": 9,
+ "experiment": "E4",
+ "created": "2026-09-27T18:29:02+00:00",
+ "population": "i.i.d. Uniform[1, 30] per cell on the F=50 grid (M=2500), row-major",
+ "generator": "numpy.random.Generator(PCG64(child)).uniform(1.0, 30.0, 2500) for child in SeedSequence(ENTROPY).spawn(59)",
+ "entropy": {
+  "value": "16607498802698493863187215274244358790",
+  "rule": "int.from_bytes(sha256(ENTROPY_TAG).digest()[:16], 'big')",
+  "tag": "withheld in the public release; the entropy value above is unchanged"
+ },
+ "n_samples": 59,
+ "development_inputs": "random_u1_30_seed1..10_F50 (C++ std::mt19937, used in Stages 1-7) are excluded from the sample; run with the same pipeline beforehand as a pilot and reported separately",
+ "model": {
+  "F": 50,
+  "spacing": 2,
+  "waypoints": "25x25",
+  "N": 625,
+  "kernel": 7,
+  "sigma": 1.75,
+  "boundary": "reflect",
+  "stamp_mass": "raw",
+  "Cmax": 200,
+  "target_mean": 200.0
+ },
+ "budgets": {
+  "target": "B* = clamp(round((200 - mean(s0)) M / kappa), N, N Cmax); the C++ choice at B* is recorded and compared",
+  "grid": "sorted(set(int(round(b)) for b in linspace(0.85 B*, 1.05 B*, 21))) (manuscript sweep)"
+ },
+ "lower_bound": {
+  "primary": "qp_audit: OSQP eps_abs = eps_rel = 1e-8 (manuscript setting), Lagrangian dual bound, range test 1e-10, fallback L = 0",
+  "check": "Clarabel tol 1e-10 on every instance: relaxation objective P_c and Lagrangian bound L_c from its multipliers",
+  "sensitivity": "L_best = max(L_osqp, L_c)",
+  "refinement": "none per sample"
+ },
+ "upper_bound": {
+  "candidates": [
+   "paper largest-remainder rounding of the OSQP solution",
+   "C++ greedy+repair",
+   "C++ round->repair from the index-tie rounding"
+  ],
+  "primary": "U_rev = min over the feasible candidates of this run",
+  "paper": "U_paper = min(greedy+repair, paper rounding) (manuscript Table S5 rule)",
+  "evaluator": "V(x) = mean((A x + s0 - mean)^2) in Python for every candidate"
+ },
+ "statistics": {
+  "T1": "100 (U_rev - L_osqp) / U_rev at B* (primary)",
+  "T2": "max over the 21-budget grid of 100 (U_rev - L_osqp) / U_rev (primary for budget-set claims)",
+  "secondary": [
+   "T1_paper, T2_paper with U_paper",
+   "T1_best, T2_best with L_best",
+   "abs_T1 = U_rev - L_osqp at B*"
+  ],
+  "summary": "n, mean, median, Q1, Q3 (linear interpolation of order statistics), IQR, min, max"
+ },
+ "claim": "For this population, model, budget grid and procedure, the sample maximum of T over 59 independent fields is a one-sided upper confidence bound at level 1 - 0.95^59 = 0.9515 for the population 95th percentile of T. It is not a worst-case guarantee over all fields, budgets or kernels and does not replace the numerical validity of each L.",
+ "reference_check": "The manuscript abstract reports sampled sweep widths below 0.6% (4 fields). max T2_paper and max T2 are compared with 0.6% as an observation only; the procedure does not depend on it.",
+ "failure_rules": [
+  "OSQP status other than solved, or the range test / fallback of qp_audit: L_osqp = 0 for that instance (width as computed, 100% when L = 0); the instance is kept.",
+  "Clarabel status other than Solved or its range test failing: L_c = 0 and no validity check for that instance.",
+  "C++ non-zero exit or missing allocation: rerun once; if it fails again the candidate is missing and U uses the remaining feasible candidates (paper rounding always exists).",
+  "Candidate with sum != B or outside [1, C_max]: discarded and recorded.",
+  "U <= 0: relative width undefined, recorded as +inf (worst) in order statistics; absolute width reported.",
+  "Validity flag: L_osqp or L_c > P_c + 1e-9 max(1, |P_c|) (P_c = Clarabel relaxation objective): counted and reported; L is not replaced.",
+  "Worker exception for a field: the whole field is rerun once; if it fails again T1 = T2 = +inf for it. The reported sample size is always 59.",
+  "No field, budget or instance is excluded; changes after registration are listed as deviations in the report."
+ ],
+ "threads": "single-thread BLAS forced by determinism.py; 8 worker processes, one field each",
+ "code_sha256": {
+  "pipeline/stage9_e4.py": "ba9b1fcd5df7c0eb15fe16d1625ca827450901063515d042a8742debe3be7cdd",
+  "pipeline/qp_audit.py": "e9e814fb9be85a0581619897aa62affab2fe55e3e0f566884c1a2692b31d36fe",
+  "pipeline/rounding.py": "c03020ff565f8d0d7415f35c3428a44bc3008b3ea32faa9541f59766afa617f7",
+  "pipeline/stage2_e1.py": "94180776f539248d26dc0ee5b053be7e37db53ec461c23d57b9bcb58f84e2806",
+  "pipeline/determinism.py": "d4511941362aa16e686fa35e803711dd57ac0ef1d83d3e39f27613a5f75a9441",
+  "work/stage1/convex_qp_tools.py": "9f6952a0face53ce7446b7f57c9d9fd6072f82d443f07b7b627233a9e9266c69",
+  "work/stage1/scip_compare.py": "7d68a6382ca68c9fba2c2f487e2c5c62b431d55a803348be0b21db5e07c4ec98",
+  "build/pufoam_solver": "73764dee2d4bddb34e807ed67f216cd52cbf23c6b77835309f4252e779efc080"
+ },
+ "inputs_manifest_sha256": "bbe02e4a75c9a4190519b47c131bbf73ba47e4a0d17fd6320cbaa4c296f538cf",
+ "outputs": [
+  "results/stage9/e4_runs.json",
+  "e4_fields.json",
+  "e4_summary.json",
+  "records.jsonl"
+ ]
+}

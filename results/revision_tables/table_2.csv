@@ -1,0 +1,12 @@
+Symbol,Meaning
+$M=F^2$,Number of thickness-field cells ($F\times F$ grid)
+$N$,Number of spray waypoints
+$\xv\in\Z^N$,Integer shot-count vector; $1\le x_j\le C_{\max}$
+$\bm s_0\in\R^M$,Initial thickness field; $T$ target mean
+$\bm a_j\in\R^M$,Folded one-shot stamp of waypoint $j$; $A=[\bm a_1\cdots\bm a_N]$
+$\kappa$,Common column mass $\one_M^\top\bm a_j$
+$\bm\kappa=A^\top\one_M$,"Vector of column masses, uniform or nonuniform"
+$\bm f(\xv)=A\xv+\bm s_0$,"Deposited field; $\mu(\xv),V(\xv)$ its mean and variance"
+$L=I_M-\tfrac1M\one_M\one_M^\top$,Centering projector
+$B=\one_N^\top\xv$,Total shot budget; $\mu_B$ the induced fixed mean
+"$Q=\tfrac1M A^\top A,\ \bm d,\ c_0$","Quadratic, linear, constant terms of $V$ on a slice"

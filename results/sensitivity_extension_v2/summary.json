@@ -1,0 +1,30 @@
+{
+ "n": 156,
+ "failed": 0,
+ "extra_reference_count": 17,
+ "max_continuous_interval_width": 3.5669119147994212e-12,
+ "max_relative_interval": 3.114684296978361e-14,
+ "n_above_relative_tolerance": 0,
+ "lower_reference_outside_box": 0,
+ "n_float_exceedance": 4,
+ "all_float_lower_reproduced": true,
+ "max_width_change_pp": 0.0001726962876127669,
+ "n_width_changed": 17,
+ "groups": {
+  "target": {
+   "n": 24,
+   "width_min": 0.00897854078070004,
+   "width_max": 1.1446615306353711
+  },
+  "distribution": {
+   "n": 120,
+   "width_min": 0.027387497065665626,
+   "width_max": 0.08898534137357351
+  },
+  "mesh": {
+   "n": 12,
+   "width_min": 0.034517915604384844,
+   "width_max": 0.06930741935765802
+  }
+ }
+}

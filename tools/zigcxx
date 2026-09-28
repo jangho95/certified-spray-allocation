@@ -1,0 +1,2 @@
+#!/bin/sh
+exec "${SPRAY_PYTHON:-python3}" -m ziglang c++ "$@"

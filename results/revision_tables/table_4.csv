@@ -1,0 +1,13 @@
+Quantity,Reflective fold,Truncation
+Distinct column masses,$1$,$10$
+Column-mass range,$17.638022$,$6.759388$--$17.638022$
+Relative column-mass spread,$4.0\times10^{-16}$,$6.48\times10^{-1}$
+"Consistency check, supports matched",$625/625$,$625/625$
+Largest absolute column discrepancy,$1.8\times10^{-15}$,$1.3\times10^{-15}$
+Worst measured-to-allowed ratio,$0.050$,$0.051$
+$\lambda_{\min}(2A^\top LA/M)$,$+9.7\times10^{-10}$,$+1.5\times10^{-9}$
+"$\Delta\mu$, $k=100$ interior$\to$corner at fixed $B$",$-1.8\times10^{-15}$,$-4.351454\times10^{-1}$
+Predicted $k(\kappa_{\mathrm{edge}}-\kappa_{\mathrm{interior}})/M$,$0$,$-4.351454\times10^{-1}$
+Attainable-mean envelope at $B=28348$,$200.001055$,$157.314239$--$199.786971$
+Envelope width,$0$,$4.247\times10^{1}$
+$|\mu_0+\bm\kappa^\top\xv/M-\text{simulated mean}|$,N/A,$\le4.4\times10^{-14}$

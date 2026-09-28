@@ -1,0 +1,8 @@
+{
+ "cpu": "12th Gen Intel(R) Core(TM) i9-12900K",
+ "logical_cpus": 24,
+ "mem_total": "16254648 kB",
+ "kernel": "6.18.33.2-microsoft-standard-WSL2",
+ "python": "3.12.14",
+ "note": "WSL2; measurements run one at a time, BLAS forced to 1 thread"
+}

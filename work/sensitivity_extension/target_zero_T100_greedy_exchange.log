@@ -1,0 +1,3 @@
+final: mean=100.00052743381283 variance=13.587769051777315 min=92.407724830201033 max=106.80932850984063 total_shots=14174
+exchange_moves=46 gram_ms=1 repair_ms=20 total_ms=35 peak_rss_kb=7332
+wrote /home/user/experiments/work/sensitivity_extension/target_zero_T100_greedy_exchange_allocation.csv and /home/user/experiments/work/sensitivity_extension/target_zero_T100_greedy_exchange_field.csv

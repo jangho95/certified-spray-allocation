@@ -1,0 +1,21 @@
+{
+ "instance": "N36_zero_rho45",
+ "form": "soc",
+ "time_limit": 300,
+ "mem_limit": 3000,
+ "build_s": 0.006191281019710004,
+ "warm_checksol": true,
+ "warm_accepted": true,
+ "status": "timelimit",
+ "solve_wall_s": 300.00027989502996,
+ "scip_time_s": 300.000098,
+ "primal_bound": 24.80419155172776,
+ "dual_bound": 24.740973443863265,
+ "gap": 0.0025551988893216917,
+ "nodes": 4471,
+ "nsols": 7,
+ "V_eval": 24.804191551727783,
+ "feasible": true,
+ "same_as_warm": false,
+ "alloc": "/home/user/experiments/work/stage6/N36_zero_rho45_soc.out.alloc.csv"
+}

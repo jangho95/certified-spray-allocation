@@ -1,0 +1,14 @@
+$ /home/user/experiments/.venv/bin/python /home/user/experiments/pipeline/s1_certificates.py table5
+Zero        B= 28348 L=53.894468 Vqp=53.894468 U=54.077695 gap=0.339% prim=5.9e-10 dual=3.0e-08 Hz=2.1e-16
+Random      B= 26120 L=102.772125 Vqp=102.772126 U=102.933720 gap=0.157% prim=1.6e-05 dual=3.0e-08 Hz=2.1e-16
+Center-30   B= 27912 L=55.664377 Vqp=55.664384 U=55.864830 gap=0.359% prim=2.5e-05 dual=3.8e-08 Hz=2.0e-16
+Center-100  B= 26896 L=93.592010 Vqp=93.592018 U=93.780756 gap=0.201% prim=1.5e-04 dual=3.8e-08 Hz=2.0e-16
+Cmax=3      B=   938 L=0.059039 Vqp=0.059039 U=0.092736 gap=36.337% prim=9.3e-06 dual=7.5e-09 Hz=1.3e-16
+Cmax=5      B=  1250 L=0.104790 Vqp=0.104790 U=0.160596 gap=34.749% prim=1.1e-12 dual=3.5e-10 Hz=1.3e-16
+Cmax=8      B=  1875 L=0.235777 Vqp=0.235777 U=0.289467 gap=18.548% prim=6.8e-13 dual=8.6e-10 Hz=1.7e-16
+Cmax=20     B=  5000 L=1.676638 Vqp=1.676638 U=1.751229 gap=4.259% prim=7.4e-11 dual=7.1e-10 Hz=1.7e-16
+Cmax=50     B= 12500 L=10.478989 Vqp=10.478989 U=10.593384 gap=1.080% prim=2.3e-10 dual=5.4e-09 Hz=2.1e-16
+Cmax=200    B= 28348 L=53.894468 Vqp=53.894468 U=54.077695 gap=0.339% prim=5.9e-10 dual=3.0e-08 Hz=2.1e-16
+
+# compare
+{"ok": 92, "warn": 12, "fail": 0}

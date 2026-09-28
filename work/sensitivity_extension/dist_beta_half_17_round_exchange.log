@@ -1,0 +1,3 @@
+final: mean=200.00180317482639 variance=131.93997079146291 min=167.6592771116043 max=230.66451066457179 total_shots=26110
+exchange_moves=51 gram_ms=1 repair_ms=18 total_ms=23 peak_rss_kb=7244
+wrote /home/user/experiments/work/sensitivity_extension/dist_beta_half_17_round_exchange_allocation.csv and /home/user/experiments/work/sensitivity_extension/dist_beta_half_17_round_exchange_field.csv

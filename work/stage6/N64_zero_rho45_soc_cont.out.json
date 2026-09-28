@@ -1,0 +1,15 @@
+{
+ "instance": "N64_zero_rho45",
+ "form": "soc_cont",
+ "time_limit": 300,
+ "mem_limit": 3000,
+ "build_s": 0.00824098801240325,
+ "status": "optimal",
+ "solve_wall_s": 1.072979134041816,
+ "scip_time_s": 1.072823,
+ "primal_bound": 34.12459744491106,
+ "dual_bound": 34.12459744491106,
+ "gap": 0.0,
+ "nodes": 1,
+ "nsols": 5
+}

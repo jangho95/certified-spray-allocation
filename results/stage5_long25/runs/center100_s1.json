@@ -1,0 +1,14 @@
+{
+  "field": "center100",
+  "input": "center100_F50.csv",
+  "seed": 1,
+  "iters": 5000,
+  "B": 26896,
+  "P": 144.71077131260108,
+  "alloc": "alloc/pso_center100_s1_it5000.csv",
+  "history": "history/pso_center100_s1_it5000.csv",
+  "alloc_sha256": "27e9c2d60bd396d7ef2d6efd46b3211e0cd4ed10a7321346538f587142cff6ec",
+  "history_sha256": "14280213cca1dcf7659f887ebf35431d5a0918ffce8c82143ba2979f5f8c72c4",
+  "source": "preserved Stage 5 seed-1 run",
+  "elapsed_s": null
+}

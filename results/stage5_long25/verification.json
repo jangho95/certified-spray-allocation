@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "implementation": "standard-library exact-integer checker; no imports from analysis/solver modules",
+  "instances": 40,
+  "pso_allocations": 200,
+  "checks": "input fields; supporting-plane L; integer/box/budget constraints; exact U/P; outward-rounded per-run endpoints",
+  "elapsed_s": 4.752808410907164
+}

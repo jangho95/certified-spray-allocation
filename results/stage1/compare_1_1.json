@@ -1,0 +1,50 @@
+[
+ {
+  "table": "1.1 incumbent",
+  "row": "zero",
+  "column": "할당·V_repair",
+  "archived": 54.07769475815953,
+  "reproduced": 54.07769475815953,
+  "abs_diff": 0.0,
+  "rel_diff": 0.0,
+  "flag": "ok",
+  "basis": "아카이브",
+  "detail": "서로 다른 waypoint 0개, B 28348→28348"
+ },
+ {
+  "table": "1.1 incumbent",
+  "row": "random_1_30_seed7_sync",
+  "column": "할당·V_repair",
+  "archived": 103.5613157264778,
+  "reproduced": 103.5613157264778,
+  "abs_diff": 0.0,
+  "rel_diff": 0.0,
+  "flag": "ok",
+  "basis": "아카이브",
+  "detail": "서로 다른 waypoint 0개, B 26120→26120"
+ },
+ {
+  "table": "1.1 incumbent",
+  "row": "center30",
+  "column": "할당·V_repair",
+  "archived": 55.86483043888768,
+  "reproduced": 55.86483043888768,
+  "abs_diff": 0.0,
+  "rel_diff": 0.0,
+  "flag": "ok",
+  "basis": "아카이브",
+  "detail": "서로 다른 waypoint 0개, B 27912→27912"
+ },
+ {
+  "table": "1.1 incumbent",
+  "row": "center100",
+  "column": "할당·V_repair",
+  "archived": 94.26198071839524,
+  "reproduced": 94.26198071839524,
+  "abs_diff": 0.0,
+  "rel_diff": 0.0,
+  "flag": "ok",
+  "basis": "아카이브",
+  "detail": "서로 다른 waypoint 0개, B 26896→26896"
+ }
+]

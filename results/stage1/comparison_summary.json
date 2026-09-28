@@ -1,0 +1,282 @@
+[
+ {
+  "table": "1.1 incumbent",
+  "task": "1.1",
+  "ok": 4,
+  "warn": 0,
+  "fail": 0,
+  "flag": "ok",
+  "cause": "",
+  "action": ""
+ },
+ {
+  "table": "Table 5",
+  "task": "1.2",
+  "ok": 28,
+  "warn": 0,
+  "fail": 0,
+  "flag": "ok",
+  "cause": "",
+  "action": ""
+ },
+ {
+  "table": "Table S8",
+  "task": "1.2",
+  "ok": 80,
+  "warn": 0,
+  "fail": 0,
+  "flag": "ok",
+  "cause": "",
+  "action": ""
+ },
+ {
+  "table": "Table 3 (CSV)",
+  "task": "1.3",
+  "ok": 60,
+  "warn": 0,
+  "fail": 0,
+  "flag": "ok",
+  "cause": "",
+  "action": ""
+ },
+ {
+  "table": "Table 3",
+  "task": "1.3",
+  "ok": 36,
+  "warn": 0,
+  "fail": 0,
+  "flag": "ok",
+  "cause": "",
+  "action": ""
+ },
+ {
+  "table": "Table 4",
+  "task": "1.4",
+  "ok": 11,
+  "warn": 0,
+  "fail": 0,
+  "flag": "ok",
+  "cause": "",
+  "action": ""
+ },
+ {
+  "table": "§6.1 audit",
+  "task": "1.5",
+  "ok": 9,
+  "warn": 0,
+  "fail": 0,
+  "flag": "ok",
+  "cause": "",
+  "action": ""
+ },
+ {
+  "table": "Table 6 (CSV)",
+  "task": "1.6",
+  "ok": 31,
+  "warn": 2,
+  "fail": 0,
+  "flag": "warn",
+  "cause": "random 축소 사례: SCIP 목적값 t 허용오차(6.4e-7). 같은 정수해·같은 V(x*)",
+  "action": "원고 표시값 영향 없음. V_Z*는 V(x*) 평가값으로 보고 권장"
+ },
+ {
+  "table": "Table 6",
+  "task": "1.6",
+  "ok": 18,
+  "warn": 0,
+  "fail": 0,
+  "flag": "ok",
+  "cause": "",
+  "action": ""
+ },
+ {
+  "table": "Table 7 (CSV)",
+  "task": "1.7",
+  "ok": 107,
+  "warn": 13,
+  "fail": 0,
+  "flag": "warn",
+  "cause": "위 Table 7과 동일: repair 휴리스틱의 빌드 의존 경로(s=3), s=1 반올림 incumbent 민감도",
+  "action": "위와 동일"
+ },
+ {
+  "table": "Table 7 (아카이브 할당 검증)",
+  "task": "1.7",
+  "ok": 12,
+  "warn": 0,
+  "fail": 0,
+  "flag": "ok",
+  "cause": "",
+  "action": ""
+ },
+ {
+  "table": "Table 7",
+  "task": "1.7",
+  "ok": 30,
+  "warn": 6,
+  "fail": 0,
+  "flag": "warn",
+  "cause": "s=3 세 초기장: 1-exchange repair 재실행 경로가 빌드에 따라 갈림(FMA 허용 -march=native 빌드는 zero s=3 아카이브 값 68.084873을 정확히 재현). 아카이브 할당 12개는 현재 모델에서 모두 원고 값으로 검증됨. s=1 zero V_round 차이는 조건수 약 4e11 연속해의 반올림 민감도(V_UB 무관)",
+  "action": "원고 값 유지 가능(할당 파일로 검증됨). 수정본: incumbent 할당 파일을 공개하고, 휴리스틱 재실행 값이 빌드에 따라 상대 1e-5 수준으로 달라질 수 있음을 명시"
+ },
+ {
+  "table": "Table S4 (CSV)",
+  "task": "1.8",
+  "ok": 479,
+  "warn": 1,
+  "fail": 0,
+  "flag": "warn",
+  "cause": "center-30 y7-norm V_round: 반올림 동점 민감도(V_UB는 repair로 무관)",
+  "action": "수정 불필요"
+ },
+ {
+  "table": "Table S4",
+  "task": "1.8",
+  "ok": 79,
+  "warn": 1,
+  "fail": 0,
+  "flag": "warn",
+  "cause": "y7 norm Random V_UB: 원고 표기 오류(212.3846→212.38을 212.39로 표기)",
+  "action": "원고 수정 필요: S4 212.39 → 212.38"
+ },
+ {
+  "table": "Table S5 (CSV)",
+  "task": "1.9",
+  "ok": 90,
+  "warn": 0,
+  "fail": 0,
+  "flag": "ok",
+  "cause": "",
+  "action": ""
+ },
+ {
+  "table": "Table S5",
+  "task": "1.9",
+  "ok": 42,
+  "warn": 1,
+  "fail": 0,
+  "flag": "warn",
+  "cause": "seed 10 gap: 원고 표기 오류(0.187490→0.187을 0.188로 표기)",
+  "action": "원고 수정 필요: S5 seed 10 0.188 → 0.187"
+ },
+ {
+  "table": "Table S6 (CSV)",
+  "task": "1.10",
+  "ok": 58,
+  "warn": 0,
+  "fail": 0,
+  "flag": "ok",
+  "cause": "",
+  "action": ""
+ },
+ {
+  "table": "본문 §6.2",
+  "task": "1.10",
+  "ok": 2,
+  "warn": 0,
+  "fail": 0,
+  "flag": "ok",
+  "cause": "",
+  "action": ""
+ },
+ {
+  "table": "Table S6",
+  "task": "1.10",
+  "ok": 48,
+  "warn": 0,
+  "fail": 0,
+  "flag": "ok",
+  "cause": "",
+  "action": ""
+ },
+ {
+  "table": "Table S7 runs (CSV)",
+  "task": "1.11",
+  "ok": 600,
+  "warn": 0,
+  "fail": 0,
+  "flag": "ok",
+  "cause": "",
+  "action": ""
+ },
+ {
+  "table": "Table S7 summary (CSV)",
+  "task": "1.11",
+  "ok": 44,
+  "warn": 0,
+  "fail": 0,
+  "flag": "ok",
+  "cause": "",
+  "action": ""
+ },
+ {
+  "table": "PSO points (CSV)",
+  "task": "1.11",
+  "ok": 8,
+  "warn": 0,
+  "fail": 0,
+  "flag": "ok",
+  "cause": "",
+  "action": ""
+ },
+ {
+  "table": "Table S7",
+  "task": "1.11",
+  "ok": 24,
+  "warn": 0,
+  "fail": 0,
+  "flag": "ok",
+  "cause": "",
+  "action": ""
+ },
+ {
+  "table": "Table S9 Zero (CSV)",
+  "task": "1.12",
+  "ok": 189,
+  "warn": 0,
+  "fail": 0,
+  "flag": "ok",
+  "cause": "",
+  "action": ""
+ },
+ {
+  "table": "Table S9 Random (CSV)",
+  "task": "1.12",
+  "ok": 189,
+  "warn": 0,
+  "fail": 0,
+  "flag": "ok",
+  "cause": "",
+  "action": ""
+ },
+ {
+  "table": "Table S9 Center-30 (CSV)",
+  "task": "1.12",
+  "ok": 188,
+  "warn": 1,
+  "fail": 0,
+  "flag": "warn",
+  "cause": "OSQP primal−dual 차이(1.565e-5)의 1.3e-9 변화: 1차 solver 수치 잔차(BLAS·CPU 의존), 하한·상한 값은 일치",
+  "action": "수정 불필요"
+ },
+ {
+  "table": "Table S9 Center-100 (CSV)",
+  "task": "1.12",
+  "ok": 189,
+  "warn": 0,
+  "fail": 0,
+  "flag": "ok",
+  "cause": "",
+  "action": ""
+ },
+ {
+  "table": "Table S9",
+  "task": "1.12",
+  "ok": 504,
+  "warn": 0,
+  "fail": 0,
+  "flag": "ok",
+  "cause": "",
+  "action": ""
+ }
+]

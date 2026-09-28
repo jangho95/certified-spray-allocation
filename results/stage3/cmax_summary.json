@@ -1,0 +1,117 @@
+{
+ "meta": {
+  "run_id": "stage3_cmax-20260927T231842-3371954",
+  "threads": {
+   "env_before": {
+    "OMP_NUM_THREADS": "8",
+    "OPENBLAS_NUM_THREADS": "8",
+    "MKL_NUM_THREADS": null,
+    "BLIS_NUM_THREADS": null,
+    "VECLIB_MAXIMUM_THREADS": null,
+    "NUMEXPR_NUM_THREADS": null
+   },
+   "env_forced": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "BLIS_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+   },
+   "threadpools": [
+    {
+     "user_api": "blas",
+     "internal_api": "openblas",
+     "num_threads": 1,
+     "version": "0.3.31.188.0"
+    }
+   ]
+  }
+ },
+ "rows": [
+  {
+   "B": 938,
+   "BN": 1.5008,
+   "C_orig": 3,
+   "relax_diff": -4.553442067845026e-10,
+   "relax_xmax": 2.976743101591619,
+   "relax_upper_active": 0,
+   "L_orig": 0.05903857607081982,
+   "L_200": 0.05903859106634412,
+   "U_old": 0.09273641024607314,
+   "U_orig": 0.09273641024607314,
+   "U_200": 0.09273641024607314,
+   "U_orig_method": "greedy+repair(상한 3)",
+   "U_200_method": "greedy+repair(상한 3)",
+   "cap_effect": 0.0,
+   "start_effect": 0.0,
+   "rr_orig": 0.09497734574312935,
+   "rr_200": 0.09739765280118004,
+   "cross": "0.094977 / 0.097398",
+   "gap_old_pct": 36.337220823878326,
+   "gap_orig_pct": 36.337220823878326,
+   "gap_200_pct": 36.3372046538279,
+   "ties_orig": 2,
+   "paper_eq_idx": true,
+   "warm_moves": 0,
+   "attribution": "변화 없음",
+   "flag": "ok"
+  },
+  {
+   "B": 1250,
+   "BN": 2.0,
+   "C_orig": 5,
+   "relax_diff": 0.0,
+   "relax_xmax": 3.9373943699434304,
+   "relax_upper_active": 0,
+   "L_orig": 0.10478988588360627,
+   "L_200": 0.10478988588360627,
+   "U_old": 0.16059627575759206,
+   "U_orig": 0.1277602085754773,
+   "U_200": 0.1277602085754773,
+   "U_orig_method": "반올림→repair(상한 5)",
+   "U_200_method": "반올림→repair(상한 5)",
+   "cap_effect": 0.0,
+   "start_effect": -0.032836067182114764,
+   "rr_orig": 0.1277602085754773,
+   "rr_200": 0.1277602085754773,
+   "cross": "0.127760 / 0.127760",
+   "gap_old_pct": 34.749491923599344,
+   "gap_orig_pct": 17.97924639290235,
+   "gap_200_pct": 17.97924639290235,
+   "ties_orig": 2,
+   "paper_eq_idx": true,
+   "warm_moves": 0,
+   "attribution": "시작점 효과(기존 상한에서 같은 개선), 선택된 U의 상한 완화 이득 없음",
+   "flag": "warn"
+  },
+  {
+   "B": 1875,
+   "BN": 3.0,
+   "C_orig": 8,
+   "relax_diff": 0.0,
+   "relax_xmax": 5.90610144429699,
+   "relax_upper_active": 0,
+   "L_orig": 0.23577724323812937,
+   "L_200": 0.23577724323812937,
+   "U_old": 0.289467160630414,
+   "U_orig": 0.271539881732651,
+   "U_200": 0.271539881732651,
+   "U_orig_method": "반올림→repair(상한 8)",
+   "U_200_method": "반올림→repair(상한 8)",
+   "cap_effect": 0.0,
+   "start_effect": -0.01792727889776302,
+   "rr_orig": 0.271539881732651,
+   "rr_200": 0.271539881732651,
+   "cross": "0.271540 / 0.271540",
+   "gap_old_pct": 18.547844002530866,
+   "gap_orig_pct": 13.170307899644845,
+   "gap_200_pct": 13.170307899644845,
+   "ties_orig": 2,
+   "paper_eq_idx": true,
+   "warm_moves": 0,
+   "attribution": "시작점 효과(기존 상한에서 같은 개선), 선택된 U의 상한 완화 이득 없음",
+   "flag": "warn"
+  }
+ ]
+}

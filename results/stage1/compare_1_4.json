@@ -1,0 +1,112 @@
+[
+ {
+  "table": "Table 4",
+  "row": "κ 위반",
+  "column": "Distinct column masses (trunc.)",
+  "manuscript": "10",
+  "reproduced": 10.0,
+  "basis": "원고",
+  "reproduced_display": "10",
+  "flag": "ok"
+ },
+ {
+  "table": "Table 4",
+  "row": "κ 위반",
+  "column": "Relative column-mass spread (trunc.)",
+  "manuscript": "6.48{\\times}10^{-1}",
+  "reproduced": 0.6482,
+  "basis": "원고",
+  "reproduced_display": "6.48e-1",
+  "flag": "ok"
+ },
+ {
+  "table": "Table 4",
+  "row": "κ 위반",
+  "column": "Column-mass min (trunc.)",
+  "manuscript": "6.759388",
+  "reproduced": 6.759388,
+  "basis": "원고",
+  "reproduced_display": "6.759388",
+  "flag": "ok"
+ },
+ {
+  "table": "Table 4",
+  "row": "κ 위반",
+  "column": "Column-mass max (trunc.)",
+  "manuscript": "17.638022",
+  "reproduced": 17.638022,
+  "basis": "원고",
+  "reproduced_display": "17.638022",
+  "flag": "ok"
+ },
+ {
+  "table": "Table 4",
+  "row": "κ 위반",
+  "column": "Distinct column masses (refl.)",
+  "manuscript": "1",
+  "reproduced": 1.0,
+  "basis": "원고",
+  "reproduced_display": "1",
+  "flag": "ok"
+ },
+ {
+  "table": "Table 4",
+  "row": "κ 위반",
+  "column": "lambda_min(2A^TLA/M) (reflect)",
+  "manuscript": "9.7{\\times}10^{-10}",
+  "reproduced": 9.737e-10,
+  "basis": "원고",
+  "reproduced_display": "9.7e-10",
+  "flag": "ok"
+ },
+ {
+  "table": "Table 4",
+  "row": "κ 위반",
+  "column": "lambda_min(2A^TLA/M) (truncate)",
+  "manuscript": "1.5{\\times}10^{-9}",
+  "reproduced": 1.548e-09,
+  "basis": "원고",
+  "reproduced_display": "1.5e-9",
+  "flag": "ok"
+ },
+ {
+  "table": "Table 4",
+  "row": "κ 위반",
+  "column": "Δμ interior→corner (trunc.)",
+  "manuscript": "-4.351454{\\times}10^{-1}",
+  "reproduced": -0.4351453594386,
+  "basis": "원고",
+  "reproduced_display": "-4.351454e-1",
+  "flag": "ok"
+ },
+ {
+  "table": "Table 4",
+  "row": "κ 위반",
+  "column": "predicted k(κe−κi)/M",
+  "manuscript": "-4.351454{\\times}10^{-1}",
+  "reproduced": -0.4351453594386,
+  "basis": "원고",
+  "reproduced_display": "-4.351454e-1",
+  "flag": "ok"
+ },
+ {
+  "table": "Table 4",
+  "row": "κ 위반",
+  "column": "attainable-mean lower (trunc.)",
+  "manuscript": "157.314239",
+  "reproduced": 157.314239,
+  "basis": "원고",
+  "reproduced_display": "157.314239",
+  "flag": "ok"
+ },
+ {
+  "table": "Table 4",
+  "row": "κ 위반",
+  "column": "attainable-mean upper (trunc.)",
+  "manuscript": "199.786971",
+  "reproduced": 199.786971,
+  "basis": "원고",
+  "reproduced_display": "199.786971",
+  "flag": "ok"
+ }
+]

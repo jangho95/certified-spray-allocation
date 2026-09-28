@@ -1,0 +1,15 @@
+{
+ "instance": "N16_zero",
+ "form": "soc_cont",
+ "time_limit": 300,
+ "mem_limit": 3000,
+ "build_s": 0.004423154983669519,
+ "status": "optimal",
+ "solve_wall_s": 0.10777391499141231,
+ "scip_time_s": 0.10768599999999999,
+ "primal_bound": 1.3909398491990466,
+ "dual_bound": 1.3909398491990466,
+ "gap": 0.0,
+ "nodes": 1,
+ "nsols": 5
+}

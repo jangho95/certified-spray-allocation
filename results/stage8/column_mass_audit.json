@@ -1,0 +1,59 @@
+{
+  "aggregation": "float64 column sums; own-mean and reflective-reference deviations are distinguished",
+  "rows": [
+    {
+      "scenario": "reflect",
+      "kappa_reference": 17.638021630064326,
+      "kappa_mean": 17.63802163006433,
+      "mean_abs_from_own_mean": 3.4162894735345617e-15,
+      "max_abs_from_own_mean": 7.105427357601002e-15,
+      "mean_abs_from_reflective_reference": 4.092726157978177e-16,
+      "max_abs_from_reflective_reference": 3.552713678800501e-15
+    },
+    {
+      "scenario": "truncate",
+      "kappa_reference": 17.638021630064326,
+      "kappa_mean": 16.781688105504326,
+      "mean_abs_from_own_mean": 1.326289362838527,
+      "max_abs_from_own_mean": 10.022300461405422,
+      "mean_abs_from_reflective_reference": 0.856333524559999,
+      "max_abs_from_reflective_reference": 10.878633985965422
+    },
+    {
+      "scenario": "uniform loss ×0.8",
+      "kappa_reference": 17.638021630064326,
+      "kappa_mean": 14.110417304051458,
+      "mean_abs_from_own_mean": 5.456968210637569e-16,
+      "max_abs_from_own_mean": 5.329070518200751e-15,
+      "mean_abs_from_reflective_reference": 3.527604326012869,
+      "max_abs_from_reflective_reference": 3.5276043260128684
+    },
+    {
+      "scenario": "efficiency −1%",
+      "kappa_reference": 17.638021630064326,
+      "kappa_mean": 17.576828493796754,
+      "mean_abs_from_own_mean": 0.032026709762665174,
+      "max_abs_from_own_mean": 0.11518708003306344,
+      "mean_abs_from_reflective_reference": 0.061193136267569864,
+      "max_abs_from_reflective_reference": 0.17638021630063605
+    },
+    {
+      "scenario": "efficiency −5%",
+      "kappa_reference": 17.638021630064326,
+      "kappa_mean": 17.332055948726474,
+      "mean_abs_from_own_mean": 0.16013354881332575,
+      "max_abs_from_own_mean": 0.5759354001653634,
+      "mean_abs_from_reflective_reference": 0.3059656813378505,
+      "max_abs_from_reflective_reference": 0.8819010815032158
+    },
+    {
+      "scenario": "efficiency −20%",
+      "kappa_reference": 17.638021630064326,
+      "kappa_mean": 16.414158904712924,
+      "mean_abs_from_own_mean": 0.6405341952533016,
+      "max_abs_from_own_mean": 2.303741600661464,
+      "mean_abs_from_reflective_reference": 1.2238627253514023,
+      "max_abs_from_reflective_reference": 3.5276043260128667
+    }
+  ]
+}

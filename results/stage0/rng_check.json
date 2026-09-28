@@ -1,0 +1,93 @@
+{
+ "per_seed": [
+  {
+   "seed": 1,
+   "n": 2500,
+   "text_equal_10sig": 2500,
+   "max_abs_diff": 4.998987890303397e-09,
+   "max_rel_diff": 4.890564249072805e-10
+  },
+  {
+   "seed": 2,
+   "n": 2500,
+   "text_equal_10sig": 2500,
+   "max_abs_diff": 4.996682179125855e-09,
+   "max_rel_diff": 4.822657622301659e-10
+  },
+  {
+   "seed": 3,
+   "n": 2500,
+   "text_equal_10sig": 2500,
+   "max_abs_diff": 4.9989505868097694e-09,
+   "max_rel_diff": 4.868101688479343e-10
+  },
+  {
+   "seed": 4,
+   "n": 2500,
+   "text_equal_10sig": 2500,
+   "max_abs_diff": 4.997161795472493e-09,
+   "max_rel_diff": 4.669527676931142e-10
+  },
+  {
+   "seed": 5,
+   "n": 2500,
+   "text_equal_10sig": 2500,
+   "max_abs_diff": 4.998604197226086e-09,
+   "max_rel_diff": 4.824425577328529e-10
+  },
+  {
+   "seed": 6,
+   "n": 2500,
+   "text_equal_10sig": 2500,
+   "max_abs_diff": 4.999780145453769e-09,
+   "max_rel_diff": 4.543973899657187e-10
+  },
+  {
+   "seed": 7,
+   "n": 2500,
+   "text_equal_10sig": 2500,
+   "max_abs_diff": 4.998767622055311e-09,
+   "max_rel_diff": 4.84535178748087e-10
+  },
+  {
+   "seed": 8,
+   "n": 2500,
+   "text_equal_10sig": 2500,
+   "max_abs_diff": 4.997698255237992e-09,
+   "max_rel_diff": 4.767166268733625e-10
+  },
+  {
+   "seed": 9,
+   "n": 2500,
+   "text_equal_10sig": 2500,
+   "max_abs_diff": 4.9987818329100264e-09,
+   "max_rel_diff": 4.911741159050636e-10
+  },
+  {
+   "seed": 10,
+   "n": 2500,
+   "text_equal_10sig": 2500,
+   "max_abs_diff": 4.999989755560819e-09,
+   "max_rel_diff": 4.958749036405839e-10
+  }
+ ],
+ "archived_seed7_copies_identical": {
+  "ablation_random_s1_initial.csv": true,
+  "ablation_random_s2_initial.csv": true,
+  "ablation_random_s3_initial.csv": true,
+  "kernel_random_isotropic-11_initial.csv": true,
+  "kernel_random_isotropic-7_initial.csv": true,
+  "kernel_random_isotropic_initial.csv": true,
+  "kernel_random_x-elongated_initial.csv": true,
+  "kernel_random_x-long-11-raw_initial.csv": true,
+  "kernel_random_x-long-7-norm_initial.csv": true,
+  "kernel_random_x-long-7-raw_initial.csv": true,
+  "kernel_random_y-elongated_initial.csv": true,
+  "kernel_random_y-long-11-raw_initial.csv": true,
+  "kernel_random_y-long-7-norm_initial.csv": true,
+  "kernel_random_y-long-7-raw_initial.csv": true,
+  "random_1_30_seed7_initial.csv": true,
+  "robust_random_seed7_initial.csv": true
+ },
+ "all_text_equal": true
+}

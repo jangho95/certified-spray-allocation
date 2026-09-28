@@ -1,0 +1,7 @@
+Scenario,Column-mass range,Distinct,Envelope,Error (tested),Error (all)
+Reflective fold,$17.638022$,1,$0$,$2\times10^{-14}$,$2\times10^{-14}$
+Uniform loss $\times0.8$,$14.110418$,1,$0$,$3\times10^{-14}$,$3\times10^{-14}$
+"Efficiency, $a=1\%$",$17.4616$--$17.6379$,251,$1.14$,$0.0034$,$0.61$
+"Efficiency, $a=5\%$",$16.7561$--$17.6377$,251,$5.72$,$0.017$,$3.05$
+"Efficiency, $a=20\%$",$14.1104$--$17.6366$,251,$22.9$,$0.068$,$12.2$
+Truncation,$6.759388$--$17.638022$,10,$42.5$,$0.63$,$33.0$

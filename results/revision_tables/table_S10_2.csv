@@ -1,0 +1,13 @@
+Case,$B$,Clarabel $-$ OSQP,\shortstack{Refinement
+succeeded},\shortstack{Bound
+adjustment}
+"Target, zero",28348,$-1.0\times10^{-7}$,1/3,no
+"Target, random",26120,$+9.2\times10^{-8}$,0/3,no
+"Target, center-30",27912,$+3.2\times10^{-6}$,0/3,no
+"Target, center-100",26896,$+3.0\times10^{-6}$,0/3,no
+"Low count, $C_{\max}=3$",938,$+2.4\times10^{-7}$,0/3,no
+"Low count, $C_{\max}=5$",1250,$-1.0\times10^{-9}$,3/3,no
+"Low count, $C_{\max}=8$",1875,$-6.3\times10^{-9}$,3/3,no
+"$11\times11$, zero",26060,$-4.7\times10^{-8}$,1/3,yes
+"$s=1$, center-30",27912,$+9.7\times10^{-4}$,0/3,yes
+"$s=1$, zero",28348,$0$,3/3,yes

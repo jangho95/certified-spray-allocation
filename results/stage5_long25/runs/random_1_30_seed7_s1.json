@@ -1,0 +1,14 @@
+{
+  "field": "random_1_30_seed7",
+  "input": "random_u1_30_seed7_F50.csv",
+  "seed": 1,
+  "iters": 5000,
+  "B": 26120,
+  "P": 131.55757731906036,
+  "alloc": "alloc/pso_random_1_30_seed7_s1_it5000.csv",
+  "history": "history/pso_random_1_30_seed7_s1_it5000.csv",
+  "alloc_sha256": "6692cf8ccff0a85f788f36c841bc50fff01380c4c7380aa3236abd8724cd2dd6",
+  "history_sha256": "ffe79bb1cabb31e6877e43f0a35017fa6a9ca6f6fae7d6a3ff0ddb4d1485d061",
+  "source": "preserved Stage 5 seed-1 run",
+  "elapsed_s": null
+}

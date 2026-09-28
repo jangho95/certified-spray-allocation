@@ -1,0 +1,18 @@
+{
+  "center100_field.csv": {
+    "source": "JAMC/solver_cpp/center100_field.csv",
+    "sha256": "5db50297caed8b0c5979481ca530719123b17da9ea4d5338b4b5c999e091562f"
+  },
+  "center100_allocation.csv": {
+    "source": "JAMC/solver_cpp/center100_allocation.csv",
+    "sha256": "5f0e7755e7e0b962da19846c41511950b1f00832f88a3908ef28eba4d1ecb449"
+  },
+  "gaussian_distortion_ablation.csv": {
+    "source": "JAMC/solver_cpp/gaussian_distortion_ablation.csv",
+    "sha256": "7e3ba2210b485cc8d407ac6109312978a8f49cb5d0d6e6acb08b929259a53ea2"
+  },
+  "cmax_count_ablation.csv": {
+    "source": "JAMC/solver_cpp/cmax_count_ablation.csv",
+    "sha256": "4716f5848f4fc2aa1bea7b2531fb129a997856cac2280d58bcbb05c7771c57f5"
+  }
+}

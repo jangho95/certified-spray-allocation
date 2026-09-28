@@ -1,0 +1,3 @@
+final: mean=195.99369635327452 variance=41.329291818486581 min=183.87262141735863 max=208.20286638096076 total_shots=6945
+exchange_moves=15 gram_ms=0 repair_ms=0 total_ms=2 peak_rss_kb=3548
+wrote /home/user/experiments/work/stage4/sweep_F25_zero_r3_b6945_greedy_allocation.csv and /home/user/experiments/work/stage4/sweep_F25_zero_r3_b6945_greedy_field.csv

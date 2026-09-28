@@ -1,0 +1,10 @@
+{
+  "status": "post hoc extension analysis; run list fixed before execution",
+  "lower_bounds": "Re-evaluate the stored supporting-plane witness exactly for every reached budget. Preserve the original rigorous lower bound only after equality is checked.",
+  "upper_bounds": "Use the saved incumbent registry snapshot. Check integer allocations, budget and box; evaluate exact variance. Include each PSO allocation when checking whether the incumbent is best.",
+  "uncertainty": "Separate exact optimization brackets from seed-sampling uncertainty. For each fixed field and iteration count, a marginal distribution-free median confidence interval uses lower-end order statistic 8 and upper-end order statistic 18 of n=25. Coverage >=1-2*sum(comb(25,j),j=0..7)/2**25 under independent-run sampling; no simultaneous coverage claim.",
+  "quantiles": "Descriptive sample median and IQR use exact linear interpolation, with interval endpoints rounded outward.",
+  "n_instances": 40,
+  "n_runs": 200,
+  "code_sha256": "4aee2263015c203601ad4d440aca131011e47cb5787e0b2114fe3e6e2d54bae9"
+}
