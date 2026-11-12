@@ -1,14 +1,21 @@
 # Fixed-kernel stop-and-spray allocation: code and data
 
-Reproducibility package for **Separating operator, index, and certificate structure in fixed-kernel stop-and-spray allocation**, JangHo Seo and Joonwoo Lee.
+This repository holds the code, inputs and stored results for the manuscript
+"Separating operator, index, and certificate structure in fixed-kernel
+stop-and-spray allocation" by JangHo Seo and Joonwoo Lee.
 
-This package contains the submitted-result archive, revision experiments (Stages 0–9 and the 156-case sensitivity extension), canonical inputs, integer allocations, PSO histories, and exact-arithmetic verification witnesses. The optimization model uses a fixed additive kernel and a fixed boundary rule.
+The problem is to choose an integer number of spray shots at each waypoint so
+that the final foam thickness is as even as possible for a given total number
+of shots. The repository contains the simulator, the relaxation and rounding
+code, the re-implemented PSO baseline, every allocation reported in the
+manuscript, and the data needed to recheck the reported bounds in exact
+arithmetic.
 
-[한국어 안내](README_ko.md) · [Execution guide](docs/REPRODUCING.md) · [Data guide](docs/DATA.md) · [Provenance and interpretation](docs/PROVENANCE.md)
+한국어 안내는 [README_ko.md](README_ko.md)에 있습니다.
 
-## Quick verification
+## Check the stored results
 
-The tested platform is Linux/WSL with Python **3.12.14**. Run these commands from this directory, using a Python 3.12 installation:
+The checks were run on Linux (WSL) with Python 3.12.14.
 
 ```bash
 python3.12 -m venv .venv
@@ -18,92 +25,93 @@ python tools/verify_integrity.py
 python verification/verify_certificates.py --workers 4
 ```
 
-The certificate verifier uses NumPy and the Python standard library; it does not run an optimizer. Its six suites check the pilot's 6 cases, Stage 5's 40 field/budget pairs and 104 PSO allocations, Stage 9's 1,239 cases, the 84-case deterministic benchmark sweep, the expanded PSO comparison's 200 allocations (100 at each iteration limit), and the 156 sensitivity cases in both their original and final verification versions. These groups overlap. It also evaluates the two-candidate rule on the 59-field sample. Use ordinary Python, without `-O`, because verification uses assertions.
+The first script compares the files listed in `MANIFEST.json` with their
+recorded hashes. The second recomputes the lower bounds and the variances of
+the stored allocations in integer and rational arithmetic. It uses NumPy and
+the Python standard library and runs no optimizer. Both scripts print a JSON
+summary and stop with an error if a check fails. Do not run them with
+`python -O`, because the checks are assertions.
 
-The expected Stage 9 maximum verified width is approximately **0.05144377935685342%**, rounded upward to **0.0515%**. Stage 5 has five recorded floating-point lower-bound violations; the verifier checks this finding rather than treating the old floating-point bounds as rigorous certificates.
+`--suite NAME` runs one group of checks.
 
-## Build and rerun
+| Suite | What it rechecks |
+|---|---|
+| `pilot` | the four target-budget cases and the two cases with a waypoint at every cell |
+| `stage5` | the first PSO comparison: 40 field–budget pairs and 104 allocations |
+| `stage5_long25` | the PSO comparison in the manuscript: 200 allocations, 25 seeds per field at 500 and at 5000 iterations |
+| `benchmark` | the budget sweep: 4 fields at 21 budgets each |
+| `stage9` | 59 random fields at 21 budgets each (1,239 cases) |
+| `sensitivity` | the 156 cases of the target-thickness, field-distribution and grid series |
 
-Create a separate working copy to preserve the distributed results:
+For the 59 random fields, the largest verified width is 0.0515% after rounding up.
+
+Two further checks were added with the second revision. Both stop with an
+error if a value differs.
+
+```bash
+python verification/kernel_width/replay_kernel_witnesses.py
+python verification/second_revision_numbers.py
+```
+
+The first rechecks the 11 kernel-width cases of Supplementary Table S22 and
+needs NumPy. Its folder is the same as the supplementary archive of the
+manuscript. The second recomputes, from the stored files, the counts and
+timings quoted in the text of the revised manuscript. It uses the standard
+library only.
+
+## Rerun an experiment
+
+Make a working copy first, so that the distributed results stay unchanged.
 
 ```bash
 python tools/new_run.py ../stop-spray-stage3 --build --stage 3
 ```
 
-This builds the C++ solver and reruns the low-count upper-bound comparison and rounding/repair experiments in the new directory. The build uses C++17, the pinned Zig/Clang compiler, and `-ffp-contract=off`, without `-march=native`.
+This command builds the C++ solver and reruns the low-shot-count experiments
+in the new directory. The build uses C++17 and the Zig/Clang compiler pinned
+in the requirements, with `-ffp-contract=off` and without `-march=native`.
 
-To regenerate selected tables and figures from stored results:
+Tables and figures can be rebuilt from the stored results in the same way.
 
 ```bash
 python tools/new_run.py ../stop-spray-tables --stage tables
 python tools/new_run.py ../stop-spray-figures --stage figures
 ```
 
-Generated summaries are written to `reports/data/` and the relevant `results/stage*/` directories of that working copy. The private research dashboard is not required. See [the execution guide](docs/REPRODUCING.md) for other stages and the Stage 9 replay procedure.
+[docs/REPRODUCING.md](docs/REPRODUCING.md) describes the other stages. Run
+times depend on the machine.
 
-## Contents
+## Layout
 
 | Directory | Contents |
 |---|---|
-| `src/` | C++ simulator/repair solver and Python model, QP, PSO, and comparison code |
-| `pipeline/` | Revision experiment drivers, report generation, and exact-bound generation |
-| `inputs/` | Canonical initial fields, including the 59 Stage 9 fields, with manifests |
-| `results/` | Recorded outputs, summaries, candidate registry, and exact certificates |
-| `work/` | Per-run allocations, final fields, histories, and supporting Stage 1 modules |
-| `reference/` | Original CSV archive and extracted submitted table text used in comparisons |
-| `verification/` | Separate integer/rational arithmetic verifier for saved certificates |
-| `tools/` | Portable build, working-copy creation, and integrity verification |
-| `provenance/` | Source mapping and package validation results |
+| `src/` | C++ simulator and exchange search; Python model, QP, PSO and comparison code |
+| `pipeline/` | scripts that ran the experiments and built the tables and figures |
+| `inputs/` | initial thickness fields, including the 59 random fields |
+| `results/` | stored outputs and the data used by the exact checks |
+| `work/` | allocations, final fields and PSO histories of the individual runs |
+| `reference/` | CSV files and table text of the first submission, used for comparison |
+| `verification/` | the exact-arithmetic checker |
+| `tools/` | build, working-copy and integrity scripts |
+| `provenance/` | where each file came from and how the package was tested |
+| `docs/` | guides to the data, the reruns and the manuscript tables |
 
-Keep `work/` and `reference/`: they are required for verification and reproduction. Historical copies named `pre_review*`, `*_v1*`, `*_before_*`, or `*backup*` are retained for audit and are not the final summaries.
+The experiments were run in numbered stages, and the directory names keep
+those numbers (`results/stage3`, `work/stage7`). [docs/PAPER_MAP.md](docs/PAPER_MAP.md)
+lists the directory behind each table of the manuscript.
+[docs/DATA.md](docs/DATA.md) explains the file formats.
 
-## Validation of this package
+Files and folders named `pre_review*`, `*_v1*`, `*_before_*` or `*backup*`
+are earlier versions kept for the record. The checks need `work/` and
+`reference/`, so keep both.
 
-The package was tested from a different directory using a newly installed environment:
+## Notes
 
-- C++ compilation succeeded.
-- Seven representative C++/Python model comparisons passed.
-- All 3,184 stored-result comparisons were checked: 3,159 `ok`, 25 explained `warn`, zero `fail`.
-- Ten rounding/repair cases were rerun; their reported widths agree with the recorded results.
-- Five table/figure generation scripts completed.
-- Saved exact-arithmetic certificates passed the separate verifier for the original three suites. The revision update also passes the new benchmark suite and regenerates the frozen figures; see `provenance/revision_validation.json`.
-
-Details are in [provenance/validation.json](provenance/validation.json). This packaging check did not rerun every optimization experiment in Stages 0–9. Timing measurements depend on hardware and process configuration.
-
-## Scientific and provenance notes
-
-The PSO implementation (`paper_pso.py`) is a **same-simulator reimplementation from the prior publication's algorithm description**. The prior paper's original PSO source and allocations are not included. Comparisons against this implementation must be identified accordingly.
-
-Historical inputs, results, and preregistration records are preserved. Public code has been adapted for relative paths, and all explanatory code comments and Python docstrings have been removed. Thus historical source hashes identify the earlier experiment code, not these public source files. `MANIFEST.json` identifies the distributed files; [provenance/source_mapping.json](provenance/source_mapping.json) records their source and changes.
-
-Exact certification covers the stored float64 model and inputs for the pilot, Stage 5, Stage 9, the benchmark sweep, and the sensitivity extension. The pilot and Stage 9 also include a Gaussian-value correction for the same finite support and boundary folding. It is not a guarantee about physical model error. The sensitivity grid study certifies each stored discrete model; its analytic continuous-model comparisons remain numerical. Other stages retain their stated numerical guarantees.
-
-See [NOTICE.md](NOTICE.md) for attribution and the current license status. Repository: [jangho95/certified-spray-allocation](https://github.com/jangho95/certified-spray-allocation). No release DOI has been assigned.
-
-## Revision update
-
-`results/bench_sweep/` contains the four benchmark fields at 21 budgets each, the stored operator and exact witnesses. The three candidate allocations per budget are in `work/stage9/bench/` (252 files). `pipeline/figures_revised.py` recreates the revised front and solution maps from these frozen witnesses, without optimization or a mutable registry lookup. Outputs are in `results/revision_figures/`.
-
-```bash
-python verification/verify_certificates.py --suite benchmark
-python pipeline/figures_revised.py --output-dir /tmp/stop-spray-figures
-```
-
-The four maximum verified sweep widths are 0.10868866966488258%, 0.045443828341176475%, 0.10007512578728987%, and 0.051176733270915764% (zero, random s7, center-30, center-100). Ten zero-field budgets have floating-point dual values above independently computed feasible continuous objectives; the verified bounds are used for rigorous claims.
-
-`results/stage9_rigor/two_candidate_check.json` records the post hoc verified widths for the submitted incumbent rule, with maximum 0.27791023119151836%. `pipeline/column_mass_audit.py` regenerates mean and maximum column-mass departures for both the reflective reference and each scenario's own mean. These additions do not modify the historical preregistration.
-
-The latest update also contains `results/stage5_long25/`: all 100 long PSO runs, the corresponding 100 short runs, histories, allocations, exact witnesses and analysis. `python verification/verify_certificates.py --suite stage5_long25` independently checks all 200 allocations. The `figures` working-copy command regenerates all nine figure panels/files used in the revised main text and supplement. Their PNG outputs match the manuscript images byte for byte in the tested environment.
-
-`results/revision_tables/` contains CSV snapshots of the displayed tables, with TeX notation preserved in cells. They retain display rounding; unrounded observations remain in the experiment result directories. See [the revision inventory](docs/REVISION_UPDATE.md) for data sources, figure scripts and long-run replay instructions.
-
-## Target thickness, initial fields and grid resolution
-
-The sensitivity extension adds 24 target-thickness cases, 120 fields from four distributions, and 12 grid-resolution cases. Final verified results are in `results/sensitivity_extension_v2/`; the first verification pass is preserved in `results/sensitivity_extension/`. Inputs, all three integer candidates, exact lower and upper values, and feasible continuous points are included.
-
-```bash
-python verification/verify_certificates.py --suite sensitivity --workers 4
-python pipeline/make_sensitivity_tables.py --output-dir /tmp/spray-sensitivity-tables
-```
-
-The first command independently checks both versions, including all 936 candidate evaluations and the four recorded numerical-bound exceedances. The second regenerates main Table 15 and supplementary Tables S13–S15 from exact saved values, with the manuscript's rounding rules. See [the sensitivity guide](docs/SENSITIVITY.md) for data formats, build instructions and a separate-copy replay. Packaging validation is recorded in `provenance/sensitivity_20260929_validation.json`.
+- The PSO code (`src/paper_pso.py`) was re-implemented from the description
+  in the authors' earlier article. It is not the code used in that article.
+- The exact checks apply to the stored double-precision operators and
+  initial fields. They do not address how well the model matches a physical
+  coating process.
+- The public source files carry no comments. The guides in `docs/` describe
+  the entry points and the data formats.
+- [NOTICE.md](NOTICE.md) gives the citation and the license status.

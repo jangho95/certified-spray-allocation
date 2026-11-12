@@ -1,0 +1,29 @@
+{
+  "id": "center-100_k23_sigma3.5_B1875",
+  "field": "center-100",
+  "kernel": 23,
+  "sigma": 3.5,
+  "B": 1875,
+  "rho": 3,
+  "U_exact_float": 397.5569802367868,
+  "L_verified_down": 397.53818345323845,
+  "continuous_upper_up": 397.5381834532386,
+  "width_verified_pct_up": 0.004728072825466915,
+  "old_width_pct": 0.0047280935485119815,
+  "old_L": 397.53818337085266,
+  "width_change_pp": -2.0723045066409207e-08,
+  "old_L_minus_verified_lower": -8.238581563640219e-08,
+  "old_L_exceeds_verified_continuous_upper": false,
+  "quality_criterion_met": true,
+  "continuous_enclosure_scaled_width": 2.5492708075518213e-16,
+  "checks": {
+    "lower": true,
+    "upper": true,
+    "continuous_upper": true,
+    "allocation": true,
+    "sandwich": true,
+    "width": true
+  },
+  "seconds": 4.509115923021454,
+  "witness": "witness/center-100_k23_sigma3.5_B1875"
+}

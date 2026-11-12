@@ -1,52 +1,94 @@
-# Provenance and interpretation
+# Where the files come from
 
-## Sources and package changes
+## What was changed for the public copy
 
-This package was assembled from the revision experiment workspace. `provenance/source_mapping.json` records each copied file's relative source, original SHA-256, distributed SHA-256, and whether its bytes are unchanged. Its omission list identifies internal drafts/scripts and other excluded material.
+The inputs, allocations, verification data and numerical results are the
+files produced by the experiments, byte for byte. In logs and result
+records, the workspace prefix of the absolute paths was shortened to
+`/home/user/experiments`, and nothing else in those files was changed.
+`provenance/source_mapping.json` lists every file with its original and
+distributed hash and marks each file whose bytes differ with
+`bytes_identical: false`. In the protocol record of the 59-field study the
+entropy tag is withheld. The recorded entropy value is unchanged.
 
-Inputs, saved allocations, witnesses, and numerical results were copied without changing their bytes. In logs and result records, the workspace prefix of historical absolute paths was shortened to `/home/user/experiments` for the public release; no other bytes of those files changed. `source_mapping.json` keeps their original SHA-256 and marks them `bytes_identical: false`. The Stage 9 entropy tag is withheld in the preregistration record; the recorded entropy value is unchanged. The public source code differs through:
+The source code differs from the code that ran the experiments in six ways.
 
-1. Removal of explanatory Python/C++/CMake comments and Python docstrings. Preprocessor directives and the shell interpreter directive remain executable syntax.
-2. Replacement of machine-specific source/input/interpreter locations with package-relative paths and the active Python interpreter.
-3. A path loader that maps historical absolute paths into this package at read time. Apart from the path-prefix change above, historical JSON/JSONL is not rewritten.
-4. A local report writer replacing dependence on the private plan/dashboard, and report paths under `reports/`.
-5. Build, independent-run, integrity, Stage 9 replay, and certificate-verification entry points added for this distribution.
-6. `pipeline/stage9_e4.py` uses the recorded Stage 9 entropy value directly.
+1. Comments and docstrings were removed.
+2. Machine-specific paths were replaced with paths relative to the repository.
+3. A loader maps the absolute paths stored in old JSON files to the
+   repository when they are read. Apart from the shortened prefix, the old
+   files are not rewritten.
+4. Reports are written under `reports/` by a small local writer.
+5. Entry points for building, rerunning, checking integrity and verifying
+   certificates were added.
+6. `pipeline/stage9_e4.py` uses the recorded entropy value of the 59-field
+   study directly.
 
-The table fragments in `reference/` were extracted from the submitted main/supplementary TeX sources for numerical comparison. Full manuscripts, reviewer correspondence, internal analysis drafts, virtual environments, binaries, and caches are outside this distribution.
+Manuscripts, correspondence with reviewers, drafts, virtual environments,
+binaries and caches are not included. The table text in `reference/` was
+taken from the first submission for numerical comparison. `work/stage1`
+contains modules that later scripts import, so it must stay complete.
 
-There is no external file dependency on the original experiment workspace. Historical logs and metadata retain absolute paths (with the shortened prefix); the runtime loader relocates relevant references. `work/stage1` includes supporting modules intentionally, since later experiment drivers import them.
+## Hashes
 
-## Hashes and historical claims
+`MANIFEST.json` covers the files in this repository. Hashes of code and
+binaries stored in older run records and in `original_sources.sha256` refer
+to the code as it was when the experiments ran. Because comments were
+removed, the public source files have different hashes even where the
+computations are the same.
 
-`MANIFEST.json` covers the current distributed files. The earlier code/binary hashes in preregistration, run records, and `original_sources.sha256` refer to the code used in those recorded experiments. Removing comments changes hashes even when the numerical expressions are unchanged. A newly built binary also has its own hash.
+For the 59-field study, the order of work was a development pilot, the
+generation of the 59 fields, a record of the input hashes, code hashes and
+evaluation rules, and then the runs, each checked against the recorded
+hashes. That record is local and was not registered externally. The exact
+verification was added afterwards and has its own protocol.
+`replay_stage9.py` reruns the study with the current code and marks the
+result as a rerun.
 
-Do not replace historical hashes with public-package hashes or present public source as byte-identical preregistered source. The saved numerical inputs/results remain verifiable through the current manifest and their individual input/allocation hashes. `replay_stage9.py` explicitly records a retrospective rerun with the current code.
+## PSO
 
-The Stage 9 sequence was: development pilot; generation of the 59 inputs; recording of input/code hashes and evaluation rules; hash-checked execution. This is a local record, not independent proof of its timestamp or prior access. The subsequent exact-certificate analysis was post hoc and has its own protocol.
+`src/paper_pso.py` and the copy used in stage 1 were written from the
+algorithm description in the authors' earlier article. The original code and
+allocations of that article are not in this repository. Stage 5 compares this
+re-implementation, on the same simulator, with verified bounds at the budget
+each run reached.
 
-## PSO provenance
+## What the exact checks cover
 
-`src/paper_pso.py` and its Stage 1 counterpart implement a PSO-style procedure reconstructed from the prior paper's published algorithm description. They are not the prior paper's original source. The original source and allocations are unavailable in this package.
+The checker treats the stored double-precision operator entries and initial
+fields as exact rational numbers. It minimizes a supporting-plane lower bound
+over the box and budget constraints in exact arithmetic, checks that each
+allocation is integer and feasible, and evaluates its variance exactly.
+Reported floating-point endpoints are rounded outward.
 
-Stage 5 compares this reimplementation on the same simulator against certified bounds at each run's actual budget. It does not establish the exact optimality gap of the prior publication's unavailable allocations. Lower mean variance than a published table does not by itself prove that a same-budget optimality-gap comparison is conservative for those unavailable runs. The random initial field must also be matched before making an implementation-level numerical comparison.
+Exact checks exist for the six target-budget and dense-waypoint cases, the
+PSO comparisons, the 59-field study, the budget sweep, the 156 sensitivity
+cases and the 11 kernel-width cases. These sets overlap. The other results
+keep numerical bounds, and the integer solves by SCIP are optimal within
+SCIP's tolerances.
 
-## Numerical and exact guarantees
+For the six cases and the 59-field study, the checker also bounds the
+difference from ideal Gaussian kernel values on the same support and with the
+same boundary rule. The choice of kernel model and the match to a physical
+process are outside these checks.
 
-The exact verifier treats the saved float64 operator entries and initial fields as exact rational numbers. A supporting-plane lower bound is minimized over the continuous box/budget constraint set using exact arithmetic. Integer feasibility is checked before evaluating the upper bound. Reported floating-point endpoints are rounded outward.
+In the 59-field study the sampling unit is the field, so the sample size is
+59, not 1,239. The population is independent Uniform[1,30] cells with the
+stated geometry, allocation procedure and 21-budget grid. The largest
+verified width in the sample, rounded up, bounds the population 95th
+percentile of the largest gap over that grid with confidence at least
+1 − 0.95^59.
 
-The pilot and Stage 9 additionally bound the difference from ideal Gaussian values on the same finite support with the same folding rule. This correction does not cover kernel-model choice, discretization of a physical process, uncertain measurements, or nonlinear physics absent from the additive model.
+## Tests of this copy
 
-Rigorous verification is supplied for the pilot's 6 cases, Stage 5's 40 field/budget pairs with 104 PSO allocations, Stage 9's 1,239 cases, and the 84-case benchmark sweep. These groups overlap and should not be summed as unique instances. This does not turn every numerical bound in Stages 1–8 into a rigorous one. The SCIP pilot's `optimal` status is subject to SCIP's stated numerical tolerances.
+`provenance/validation.json` records a fresh installation, a build in a
+different directory, model consistency checks, comparisons with the submitted
+tables, a rerun of ten stage 3 cases, the regeneration of tables and figures,
+and the certificate checks. The long experiments were not all repeated.
 
-For Stage 9, the sample unit is one initial field, so `n=59`, not 1,239. The population is the specified independent Uniform[1,30] cell model, with the specified geometry, procedure, and 21-budget grid. If `G2` is the maximum actual relative optimality gap of the fixed allocation procedure over that grid, the verified sample widths bound the corresponding observed `G2` values. Their upward-rounded maximum can therefore bound the population 95th percentile of `G2` with confidence at least `1 - 0.95^59`. This is neither a worst-case guarantee nor a claim about the distribution of an adaptively selected post hoc certification procedure.
-
-## Validation performed for packaging
-
-`provenance/validation.json` records a new dependency installation, a build from a relocated directory, model consistency checks, submitted-table comparisons, a 10-case Stage 3 rerun, table/figure regeneration, and separate certificate verification. The tests used a disposable working copy so distributed historical data stayed unchanged.
-
-These checks establish that the packaged entry points and saved evidence used in those checks work without the original directory tree. They are not a claim that all long-running stages were repeated or that arbitrary platforms produce identical heuristic trajectories.
-
-## Revision update
-
-The benchmark witnesses and 252 candidate CSVs are copied without changing their bytes; the benchmark run record differs only in the shortened path prefix. Figure generation reads the saved witness/operator rather than a changing best-candidate registry and records hashes. `provenance/revision_update.json` records added/changed sources and the package baseline. The new Stage 9 two-candidate check and column-mass audit are additional analyses, not changes to the historical preregistration. The independent verifier has been extended to check these benchmark certificates and the submitted-rule Stage 9 values.
+`provenance/revision_update.json` lists the files added with the first
+revision. The verification data and candidate allocations of the budget
+sweep are unchanged copies, and its run record differs only in the shortened
+path prefix. Figures are generated from the stored verification data. The
+two-candidate check on the 59 fields and the column-mass audit were added
+later and do not change the protocol record.

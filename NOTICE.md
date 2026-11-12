@@ -1,17 +1,24 @@
-# Attribution and release status
+# Citation and license
 
-## Associated manuscript
+## Manuscript
 
-JangHo Seo and Joonwoo Lee. *Separating operator, index, and certificate structure in fixed-kernel stop-and-spray allocation*.
+JangHo Seo and Joonwoo Lee, "Separating operator, index, and certificate
+structure in fixed-kernel stop-and-spray allocation."
 
-This local package supports the submitted results and revision experiments. A publication DOI, repository URL, and archival release DOI have not been assigned here. Add those identifiers when they exist; this document does not claim publication or online release.
+Repository: https://github.com/jangho95/certified-spray-allocation
 
-## Prior study
+## Earlier article
 
-JangHo Seo and Joonwoo Lee. *PSO-based optimal spray allocation for robotic polyurethane foam coating*. Journal of Computational Science 97 (2026), 102875. DOI: 10.1016/j.jocs.2026.102875. Bibliographic information is taken from the manuscript's reference file.
+JangHo Seo and Joonwoo Lee, "PSO-based optimal spray allocation for robotic
+polyurethane foam coating," Journal of Computational Science 97 (2026),
+102875. https://doi.org/10.1016/j.jocs.2026.102875
 
-The included PSO code is a reimplementation from the published description, not the original implementation used in that prior study. See [docs/PROVENANCE.md](docs/PROVENANCE.md).
+The PSO code in this repository was re-implemented from the description in
+that article. It is not the code used there. See
+[docs/PROVENANCE.md](docs/PROVENANCE.md).
 
 ## License
 
-The authors have not selected a reuse license for this local release candidate. No MIT, BSD, Creative Commons, or other license is assigned by this packaging step. The repository owner should supply the intended code and data license terms when preparing the external release. Dependencies are installed separately and retain their own licenses.
+No license has been chosen yet. Until one is added, the authors keep all
+rights; please contact them before reusing the code or data. The
+dependencies listed in `requirements.lock.txt` keep their own licenses.

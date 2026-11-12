@@ -1,0 +1,78 @@
+{
+  "archived refined numerical point": [
+    {
+      "tau": 1e-09,
+      "round": 0,
+      "free": 529,
+      "L": 56.39755923163672
+    },
+    {
+      "tau": 1e-09,
+      "round": 1,
+      "free": 83,
+      "L": -224520.31787828516
+    },
+    {
+      "tau": 1e-09,
+      "round": 2,
+      "free": 0,
+      "L": null,
+      "error": "Factor is exactly singular"
+    },
+    {
+      "tau": 1e-07,
+      "round": 0,
+      "free": 459,
+      "L": 56.39755308626887
+    },
+    {
+      "tau": 1e-07,
+      "round": 1,
+      "free": 200,
+      "L": -26541.76360135174
+    },
+    {
+      "tau": 1e-07,
+      "round": 2,
+      "free": 51,
+      "L": -116517.58995614013
+    },
+    {
+      "tau": 1e-07,
+      "round": 3,
+      "free": 16,
+      "L": -125471.74609550377
+    },
+    {
+      "tau": 1e-07,
+      "round": 4,
+      "free": 0,
+      "L": null,
+      "error": "Factor is exactly singular"
+    },
+    {
+      "tau": 1e-06,
+      "round": 0,
+      "free": 436,
+      "L": 56.39767398220266
+    },
+    {
+      "tau": 1e-05,
+      "round": 0,
+      "free": 436,
+      "L": 56.39767398220266
+    },
+    {
+      "tau": 0.0001,
+      "round": 0,
+      "free": 436,
+      "L": 56.39767398220266
+    },
+    {
+      "tau": 0.001,
+      "round": 0,
+      "free": 436,
+      "L": 56.39767398220266
+    }
+  ]
+}

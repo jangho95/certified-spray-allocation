@@ -1,0 +1,29 @@
+{
+  "id": "random_s7_k17_sigma2.5_B28125",
+  "field": "random s7",
+  "kernel": 17,
+  "sigma": 2.5,
+  "B": 28125,
+  "rho": 45,
+  "U_exact_float": 58.44333306157933,
+  "L_verified_down": 58.417470604388285,
+  "continuous_upper_up": 58.4174706043928,
+  "width_verified_pct_up": 0.044252194110476,
+  "old_width_pct": 0.04425282147032,
+  "old_L": 58.4174702377383,
+  "width_change_pp": -6.2735984400486e-07,
+  "old_L_minus_verified_lower": -3.6664998637826836e-07,
+  "old_L_exceeds_verified_continuous_upper": false,
+  "quality_criterion_met": true,
+  "continuous_enclosure_scaled_width": 7.717235715663767e-14,
+  "checks": {
+    "lower": true,
+    "upper": true,
+    "continuous_upper": true,
+    "allocation": true,
+    "sandwich": true,
+    "width": true
+  },
+  "seconds": 2.3039687419950496,
+  "witness": "witness/random_s7_k17_sigma2.5_B28125"
+}
