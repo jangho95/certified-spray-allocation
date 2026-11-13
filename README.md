@@ -54,8 +54,7 @@ python verification/second_revision_numbers.py
 ```
 
 The first rechecks the 11 kernel-width cases of Supplementary Table S22 and
-needs NumPy. Its folder is the same as the supplementary archive of the
-manuscript. The second recomputes, from the stored files, the counts and
+needs NumPy. The second recomputes, from the stored files, the counts and
 timings quoted in the text of the revised manuscript. It uses the standard
 library only.
 

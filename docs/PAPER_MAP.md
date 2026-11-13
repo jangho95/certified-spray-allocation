@@ -23,7 +23,7 @@ Paths are relative to the repository root. "Exact check" names the suite of
 | Table 15; SI Tables S16, S19 and S20 | integer solves on reduced instances | `results/stage6/`, `work/stage6/` | none |
 | SI Table S10 | solver tolerance | `results/stage2/` | none |
 | Section 6.6.3; SI Table S21 | computational cost | `results/stage4/`, `work/stage4/` | none |
-| SI Table S22; SI Section 10 | exact checks of 11 kernel-width cases | `verification/kernel_width/` (same content as the supplementary archive of the manuscript) | `python verification/kernel_width/replay_kernel_witnesses.py` |
+| SI Table S22; SI Section 10 | exact checks of 11 kernel-width cases | `verification/kernel_width/` | `python verification/kernel_width/replay_kernel_witnesses.py` |
 | counts and timings quoted in the text (Sections 6.1.1, 6.1.3, 6.2.2, 6.3.1, 6.4.2, 6.6.3; SI Sections 2 and 3) | PSO runs still improving at 5000 iterations, PSO wall times, clipped dual values, exchange-move counts, phase timings, fitness formula | computed from the files above | `python verification/second_revision_numbers.py` |
 
 ## Individual files named in the text

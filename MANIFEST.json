@@ -1,6 +1,6 @@
 {
  "format_version": 1,
- "created_utc": "2026-11-13T04:28:46.298071+00:00",
+ "created_utc": "2026-11-13T11:23:25.210460+00:00",
  "hash": "sha256",
  "note": "Manifest excludes itself, ZIP archives, environments, builds and runtime caches. Historical experiment hashes are preserved separately.",
  "files": {
@@ -17,12 +17,12 @@
    "sha256": "82bb8964334edd97d4ee764918794d1a6cf9bde32887abc9e2a8535ece00567d"
   },
   "README.md": {
-   "bytes": 5626,
-   "sha256": "bea6d03087798b7d6092428c134776b39f335cab8b774fd1cd36b1ee3c96f995"
+   "bytes": 5555,
+   "sha256": "1afe6752f7ad80524f811a5eba66b23ceb7d97cdbacf6a95001d25e7e6de3b6c"
   },
   "README_ko.md": {
-   "bytes": 5245,
-   "sha256": "c4ccdbf284bc3adc7f26b75a342597938a69d537c6c609b360762bdd1ca56bd8"
+   "bytes": 5177,
+   "sha256": "c110cc646c5a9d11254bf44ce45af274f48bd4fd31a3599f19059224de0d7173"
   },
   "docs/DATA.md": {
    "bytes": 7906,
@@ -82941,8 +82941,8 @@
    "sha256": "174c675eed78613ea33d3d40b4170dc46cb4cbd9fb4f49b03c2e4dfd49996085"
   },
   "docs/PAPER_MAP.md": {
-   "bytes": 4417,
-   "sha256": "80537d95ea871785a65a6114971a7b2a1fcbbc04519c7be0da557a7060ba4697"
+   "bytes": 4355,
+   "sha256": "ab3195ee5b8cf32e951fc34a7e5cf67a77e0d8854575c385bb868d1b5d383f44"
   },
   "verification/kernel_width/README.md": {
    "bytes": 1341,

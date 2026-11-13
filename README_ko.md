@@ -49,8 +49,7 @@ python verification/kernel_width/replay_kernel_witnesses.py
 python verification/second_revision_numbers.py
 ```
 
-첫 번째는 보충자료 표 S22의 커널 폭 11건을 다시 확인하며 NumPy가 필요합니다. 이
-폴더는 논문의 보충자료 압축 파일과 같습니다. 두 번째는 수정 원고 본문에 인용한
+첫 번째는 보충자료 표 S22의 커널 폭 11건을 다시 확인하며 NumPy가 필요합니다. 두 번째는 수정 원고 본문에 인용한
 횟수와 시간을 저장된 파일에서 다시 계산하며 표준 라이브러리만 씁니다.
 
 ## 실험 다시 실행
