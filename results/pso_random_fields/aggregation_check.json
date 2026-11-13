@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "all_fields_present": true,
+  "all_planned_seeds_present": true,
+  "field_medians_recomputed_from_CSV": true,
+  "aggregate_order_statistics_recomputed": true,
+  "outward_rounding_checked": true,
+  "population_confidence_recomputed": true,
+  "requested_counts_checked": true,
+  "records_use_portable_paths": true,
+  "checked_utc": "2026-11-12T16:02:16+00:00"
+}

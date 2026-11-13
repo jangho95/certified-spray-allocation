@@ -4,7 +4,7 @@ Table and section numbers follow the revised manuscript of November 2026.
 They may change in the published version. The older guides in this folder
 (`REVISION_UPDATE.md`, `SENSITIVITY.md`, `REPRODUCING.md`) and
 `results/revision_tables/` use the numbering of the first revision; for
-example, their Table 15 is now Table 9.
+example, their Table 15 is now Table 10.
 
 Paths are relative to the repository root. "Exact check" names the suite of
 `verification/verify_certificates.py` that recomputes the result.
@@ -15,11 +15,12 @@ Paths are relative to the repository root. "Exact check" names the suite of
 | Table 6; SI Tables S7 and S12; SI Section 3 | PSO comparison at 500 and 5000 iterations | `results/stage5_long25/` | `--suite stage5_long25` |
 | Table 7; SI Table S9; front and solution-map figures | budget sweep, 4 fields at 21 budgets | `results/bench_sweep/`, `work/stage9/bench/`, `results/revision_figures/` | `--suite benchmark` |
 | Table 8; SI Tables S5 and S11; SI Section 2 | 59 random fields | `results/stage9/`, `results/stage9_rigor/`, `inputs/stage9/` | `--suite stage9` |
-| Table 9; SI Tables S13–S15 | target thickness, field distributions and grid resolution | `results/sensitivity_extension_v2/` | `--suite sensitivity` |
-| Table 10 | low shot counts and the cap comparison | `results/stage3/`, `work/stage3/` | none |
-| Table 11; shot-count and kernel-width figure | series A and B | `results/stage7/`, `work/stage7/` | 11 cases, see the row for SI Table S22 |
-| Tables 12 and 13; SI Section 8 | nonuniform column mass | `results/stage8/` | none |
-| Table 14; SI Tables S16, S19 and S20 | integer solves on reduced instances | `results/stage6/`, `work/stage6/` | none |
+| Table 9; Section 6.3.1 | 59-field PSO follow-up, 25 distinct seeds per field at 5000 iterations; exact same-budget excesses | `results/pso_random_fields/` | `python verification/verify_pso_random_fields.py` |
+| Table 10; SI Tables S13–S15 | target thickness, field distributions and grid resolution | `results/sensitivity_extension_v2/` | `--suite sensitivity` |
+| Table 11 | low shot counts and the cap comparison | `results/stage3/`, `work/stage3/` | none |
+| Table 12; shot-count and kernel-width figure | series A and B | `results/stage7/`, `work/stage7/` | 11 cases, see the row for SI Table S22 |
+| Tables 13 and 14; SI Section 8 | nonuniform column mass | `results/stage8/` | none |
+| Table 15; SI Tables S16, S19 and S20 | integer solves on reduced instances | `results/stage6/`, `work/stage6/` | none |
 | SI Table S10 | solver tolerance | `results/stage2/` | none |
 | Section 6.6.3; SI Table S21 | computational cost | `results/stage4/`, `work/stage4/` | none |
 | SI Table S22; SI Section 10 | exact checks of 11 kernel-width cases | `verification/kernel_width/` (same content as the supplementary archive of the manuscript) | `python verification/kernel_width/replay_kernel_witnesses.py` |
@@ -41,3 +42,7 @@ Paths are relative to the repository root. "Exact check" names the suite of
 
 The file name `preregistration.json` is historical. The record is internal
 and was not registered with an external registry.
+
+## Random-field PSO follow-up
+
+The 59-field PSO extension uses the same stored fields as Table 8. Its protocol was fixed after their certificate results were available, before any new PSO run. `results/pso_random_fields/README.md` explains the public protocol copy, compressed histories, exact witnesses and recorded CSV-format correction. The new checker covers this extension; `second_revision_numbers.py` continues to check the earlier suites.

@@ -1,0 +1,29 @@
+{
+  "field": "e4_45",
+  "seed": 104418,
+  "attempt": 1,
+  "iterations": 5000,
+  "B": 26146,
+  "P_float": 128.1792707946937,
+  "P_reported": 128.1792707946937,
+  "feasible": true,
+  "allocation": "fields/e4_45/pso/seed_104418_allocation.csv",
+  "history": "fields/e4_45/pso/seed_104418_history.csv",
+  "allocation_sha256": "6b981748302c7bb470cd48f030a3c1b5cfaea3ed3ab5945130230ab02e7f4389",
+  "history_sha256": "443f5f723682691f0c4a2b5ffb0bd7c43e0607f46362d2e1c2194c506b777f4c",
+  "variance_4500": 128.70918297651224,
+  "variance_5000": 128.1792707946879,
+  "variance_lower_at_5000": true,
+  "started_utc": "2026-11-12T15:37:48+00:00",
+  "finished_utc": "2026-11-12T15:38:08+00:00",
+  "elapsed_s": 20.27528182097012,
+  "optimizer_s": 20.22880244255066,
+  "threadpools": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "version": "0.3.31.188.0"
+    }
+  ]
+}

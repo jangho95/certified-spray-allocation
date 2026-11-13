@@ -1,0 +1,166 @@
+{
+ "format_version": 1,
+ "updated_utc": "2026-11-13T04:28:31+00:00",
+ "note": "Original hashes refer to source files before this publication cleanup. Execution source hashes are additionally preserved in the public protocol. Comments and docstrings are removed without changing computational ASTs; the C++ executable location is the documented exception in the runner.",
+ "sources": [
+  {
+   "path": "results/pso_random_fields/code/convex_qp_tools.py",
+   "original_sha256": "9f6952a0face53ce7446b7f57c9d9fd6072f82d443f07b7b627233a9e9266c69",
+   "distributed_sha256": "a1f0c3fe81891deb383bc8401f7bb6457802b0f039f6c9c7d7fec62145905917",
+   "bytes_identical": false,
+   "comments_and_docstrings_removed": true,
+   "executable_AST_identical": true
+  },
+  {
+   "path": "results/pso_random_fields/code/paper_pso.py",
+   "original_sha256": "bec0eba57101177d6b0384e1dff8ca37b68218eddcd7f06bcee9d49b93629cde",
+   "distributed_sha256": "33549dbc5c7be86c0cb9c5bb867e88ca183c832873cbc0df39a15728b6b46b1c",
+   "bytes_identical": false,
+   "comments_and_docstrings_removed": true,
+   "executable_AST_identical": true
+  },
+  {
+   "path": "results/pso_random_fields/code/pso_repeated_runs.py",
+   "original_sha256": "eaa67a987086f78920e29975027d57bc77c13a9bcd3b06262d9880e31eb5b5cd",
+   "distributed_sha256": "b55cb33e6be4a3b17e4c49266bd51ddcc61c5141ffd0f51509c4e992c59c4f1c",
+   "bytes_identical": false,
+   "comments_and_docstrings_removed": true,
+   "executable_AST_identical": true
+  },
+  {
+   "path": "results/pso_random_fields/code/qp_audit.py",
+   "original_sha256": "e9e814fb9be85a0581619897aa62affab2fe55e3e0f566884c1a2692b31d36fe",
+   "distributed_sha256": "72247ddf67e0d595c1d6ea1edca0462bdabd35f2b1099c20a0d811116fc5d97f",
+   "bytes_identical": false,
+   "comments_and_docstrings_removed": true,
+   "executable_AST_identical": true
+  },
+  {
+   "path": "results/pso_random_fields/code/rigor_pilot.py",
+   "original_sha256": "100433e6c40b333ac940ae42083898f82157541c3bfffaf2f0ca0c7e1e74b2f3",
+   "distributed_sha256": "57b6b13e72d78c7aba081bab50054637e5a12241115e46ed7513ac3c6a399c7c",
+   "bytes_identical": false,
+   "comments_and_docstrings_removed": true,
+   "executable_AST_identical": true
+  },
+  {
+   "path": "results/pso_random_fields/code/rounding.py",
+   "original_sha256": "c03020ff565f8d0d7415f35c3428a44bc3008b3ea32faa9541f59766afa617f7",
+   "distributed_sha256": "761e2f6566c7910148f28363bc9266adf027a0f808b7e4883dca19d7243bcf7c",
+   "bytes_identical": false,
+   "comments_and_docstrings_removed": true,
+   "executable_AST_identical": true
+  },
+  {
+   "path": "results/pso_random_fields/code/scip_compare.py",
+   "original_sha256": "7d68a6382ca68c9fba2c2f487e2c5c62b431d55a803348be0b21db5e07c4ec98",
+   "distributed_sha256": "fc00023b7c75886772f3a5f95c738c160695903ac0ed439cf87c8c71829b3e30",
+   "bytes_identical": false,
+   "comments_and_docstrings_removed": true,
+   "executable_AST_identical": true
+  },
+  {
+   "path": "results/pso_random_fields/code/stage5_long_analyze.py",
+   "original_sha256": "4aee2263015c203601ad4d440aca131011e47cb5787e0b2114fe3e6e2d54bae9",
+   "distributed_sha256": "83e9bb4b9ec440dfbcde4b501d2d33b60a9a70a3155b0dfc53086cb19a749379",
+   "bytes_identical": false,
+   "comments_and_docstrings_removed": true,
+   "executable_AST_identical": true
+  },
+  {
+   "path": "results/pso_random_fields/code/stage5_long_runs.py",
+   "original_sha256": "da3c06401de5f07adc6afcc34f8b4d7b1f2ba9f8f9b6b47405fae6f834a007e3",
+   "distributed_sha256": "c7e2d86284a2c5edaada73b6a547dc6f81cc576769195b57e32998fb36501a4c",
+   "bytes_identical": false,
+   "comments_and_docstrings_removed": true,
+   "executable_AST_identical": true
+  },
+  {
+   "path": "results/pso_random_fields/code/stage5_rigor.py",
+   "original_sha256": "7ea3d1e89264b2c03350b43073a1cdc3570b4e3e38f2925a5dcd78571bcaaff5",
+   "distributed_sha256": "c787aa0626baaeda65baf2ce1fa11a08799273741361b850999db5a7be6d8187",
+   "bytes_identical": false,
+   "comments_and_docstrings_removed": true,
+   "executable_AST_identical": true
+  },
+  {
+   "path": "results/pso_random_fields/analyze.py",
+   "original_sha256": "f2343049d3ff6f7000e59fb05358f496ccb13a0c4277942b562f09f5db9e9736",
+   "distributed_sha256": "72b785445e59d33a5e37cb44840a4ac96e8200ce0771e0a913f4354ebfb64b93",
+   "bytes_identical": false,
+   "comments_and_docstrings_removed": true,
+   "executable_AST_identical": true
+  },
+  {
+   "path": "results/pso_random_fields/check_witnesses.py",
+   "original_sha256": "13a23d0167f9fc079ffe7e6327a3f8145f97ca2162da8c654f5e9aa6abf20ef5",
+   "distributed_sha256": "c832815181af2461e89b2afd78cd17d020f448ff3cad416bb14b961a46192621",
+   "bytes_identical": false,
+   "comments_and_docstrings_removed": true,
+   "executable_AST_identical": true
+  },
+  {
+   "path": "results/pso_random_fields/common.py",
+   "original_sha256": "8e81e7121f650a948c132ec77712dff9bbe886a7c77b7a4305bb363007c27879",
+   "distributed_sha256": "98df5e4f48a406d446ff356c45aea9565db5703fffac9697435b4240c13f7363",
+   "bytes_identical": false,
+   "comments_and_docstrings_removed": true,
+   "executable_AST_identical": true
+  },
+  {
+   "path": "results/pso_random_fields/reproduce_one.py",
+   "original_sha256": "ab59fe1613c784917f949d4b87416df5757ffa3d31b5d670b18fd9cb4b69975f",
+   "distributed_sha256": "01fbbe7445d551fb09d579a6ff5f7f3b982ae4ba71c1c8138be55f6534d0a264",
+   "bytes_identical": false,
+   "comments_and_docstrings_removed": true,
+   "executable_AST_identical": true
+  },
+  {
+   "path": "results/pso_random_fields/resume_verification.py",
+   "original_sha256": "df32cbcbc0bfded5f2fd28c23246f01111c046100b645441fa35d07a4f60c5d7",
+   "distributed_sha256": "45ca56d61d2d1182f7c1424560ae77d160911a68db9dfcda35f9c23df504d598",
+   "bytes_identical": false,
+   "comments_and_docstrings_removed": true,
+   "executable_AST_identical": true
+  },
+  {
+   "path": "results/pso_random_fields/run_experiment.py",
+   "original_sha256": "acc6e13e620699351221c5ebb7311e8edc463adb3672382108bb9c667dba2ead",
+   "distributed_sha256": "065c5b18f36f0f5b3fc24949be12ba1771ea3bec0cc39aa3c92d9b72e6999e75",
+   "bytes_identical": false,
+   "comments_and_docstrings_removed": true,
+   "executable_AST_identical": false,
+   "additional_change": "Only cpp_candidate resolves the source-built repository binary instead of a distributed executable.",
+   "all_other_functions_AST_identical": true
+  },
+  {
+   "path": "verification/verify_pso_random_fields.py",
+   "original_sha256": "fdbec5b589733764ababcb75074bf1db372835b4f63ff381ecce48e93ef2bb88",
+   "distributed_sha256": "f2dc53e52895f621d76e48517cc7b22135099c76706ad65dda8524d182dbe171",
+   "bytes_identical": false,
+   "comments_and_docstrings_removed": true,
+   "executable_AST_identical": true
+  }
+ ],
+ "reference_only_scripts": [
+  {
+   "path": "results/pso_random_fields/code/stage5_pso_same_budget.py",
+   "unchanged_from_main": true,
+   "sha256": "b7c0d9950eb952a75743df7b1d524e46bee8dc7f0a0f8040b9518933a409dc14",
+   "execution_sha256": "652e3bd8a48b53c8ce4e4654ce6d11f55aaf7aa5db31a6d5d68a7b2ae1091e26"
+  },
+  {
+   "path": "results/pso_random_fields/code/stage5_long_report.py",
+   "unchanged_from_main": true,
+   "sha256": "ea7cc849d65fa138bbe6cc98db22d48da873a5a5c4054bfea66209757f4e9da9",
+   "execution_sha256": "5ae802e013d30be49d43fb1c013ec75d49bbc3c0a101de156b7a76fb153645af"
+  }
+ ],
+ "binary": {
+  "distributed": false,
+  "execution_sha256": "73764dee2d4bddb34e807ed67f216cd52cbf23c6b77835309f4252e779efc080",
+  "source": "src/pufoam_solver.cpp",
+  "source_sha256": "4df5939547677e3013585c504c81e285c1bd30e5cde43149371da0d1af35e1a1",
+  "build_command": "python tools/build.py"
+ }
+}

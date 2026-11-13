@@ -1,0 +1,12 @@
+{
+  "checked_utc": "2026-11-12T14:52:57+00:00",
+  "protocol_sha256": "0458d8ebbb4a34705ea0033ac35a448e04685de61c499951241f8786c9423095",
+  "expected_B": 26120,
+  "reproduced_B": 26120,
+  "expected_P": 128.31158562986403,
+  "reproduced_P": 128.31158562986403,
+  "relative_P_difference": 0.0,
+  "P_tolerance": 1e-12,
+  "allocation_identical": true,
+  "passed": true
+}

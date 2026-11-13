@@ -1,0 +1,31 @@
+{
+ "execution_protocol_sha256": "0458d8ebbb4a34705ea0033ac35a448e04685de61c499951241f8786c9423095",
+ "public_protocol_sha256": "f80a443f77ca8afe7d3eaa5c4014286a9bc0d631e173b9bec94a9556a4023e17",
+ "source_path_rewrites": 13,
+ "settings_and_seed_schedule_unchanged": true,
+ "reference_only_source_adaptations": [
+  {
+   "path": "code/stage5_pso_same_budget.py",
+   "execution_sha256": "652e3bd8a48b53c8ce4e4654ce6d11f55aaf7aa5db31a6d5d68a7b2ae1091e26",
+   "public_sha256": "b7c0d9950eb952a75743df7b1d524e46bee8dc7f0a0f8040b9518933a409dc14"
+  },
+  {
+   "path": "code/stage5_long_report.py",
+   "execution_sha256": "5ae802e013d30be49d43fb1c013ec75d49bbc3c0a101de156b7a76fb153645af",
+   "public_sha256": "ea7cc849d65fa138bbe6cc98db22d48da873a5a5c4054bfea66209757f4e9da9"
+  }
+ ],
+ "history_archive": {
+  "path": "histories.tar.gz",
+  "files": 1475,
+  "uncompressed_bytes": 120885391,
+  "compressed_bytes": 23771194,
+  "sha256": "f9c491077185989cccbf0f1bd9b13ae3eca5c65ddb65680930b98a88a7485641"
+ },
+ "omitted": "Local working files that are not needed to check the results: file inventories, intermediate diagnostics, caches, temporary output and preparation scripts.",
+ "PSO_executable_AST_unchanged": true,
+ "public_source_comments_removed": true,
+ "execution_binary_distributed": false,
+ "execution_binary_sha256": "73764dee2d4bddb34e807ed67f216cd52cbf23c6b77835309f4252e779efc080",
+ "source_mapping": "provenance/pso_random_fields_sources.json"
+}

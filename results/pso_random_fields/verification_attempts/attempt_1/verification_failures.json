@@ -1,0 +1,442 @@
+[
+  {
+    "field": "e4_02",
+    "B": 26098,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_02",
+    "B": 26099,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_03",
+    "B": 26136,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_01",
+    "B": 26188,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_06",
+    "B": 26152,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_04",
+    "B": 26209,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_04",
+    "B": 26208,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_05",
+    "B": 26194,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_07",
+    "B": 26159,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_06",
+    "B": 26153,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_08",
+    "B": 26108,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_07",
+    "B": 26158,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_10",
+    "B": 26133,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_09",
+    "B": 26137,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_09",
+    "B": 26138,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_11",
+    "B": 26171,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_15",
+    "B": 26148,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_16",
+    "B": 26155,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_13",
+    "B": 26123,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_12",
+    "B": 26172,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_15",
+    "B": 26149,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_13",
+    "B": 26124,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_17",
+    "B": 26111,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_14",
+    "B": 26136,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_18",
+    "B": 26145,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_18",
+    "B": 26144,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_19",
+    "B": 26183,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_20",
+    "B": 26188,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_20",
+    "B": 26189,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_22",
+    "B": 26123,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_19",
+    "B": 26184,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_21",
+    "B": 26176,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_24",
+    "B": 26175,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_23",
+    "B": 26183,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_25",
+    "B": 26155,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_26",
+    "B": 26194,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_27",
+    "B": 26161,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_28",
+    "B": 26175,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_26",
+    "B": 26195,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_27",
+    "B": 26162,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_28",
+    "B": 26176,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_30",
+    "B": 26154,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_30",
+    "B": 26155,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_29",
+    "B": 26141,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_31",
+    "B": 26158,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_29",
+    "B": 26142,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_32",
+    "B": 26136,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_32",
+    "B": 26135,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_33",
+    "B": 26156,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_34",
+    "B": 26170,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_37",
+    "B": 26188,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_36",
+    "B": 26167,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_36",
+    "B": 26166,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_35",
+    "B": 26124,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_38",
+    "B": 26161,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_38",
+    "B": 26162,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_39",
+    "B": 26113,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_42",
+    "B": 26147,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_41",
+    "B": 26128,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_42",
+    "B": 26146,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_40",
+    "B": 26183,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_41",
+    "B": 26127,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_43",
+    "B": 26140,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_43",
+    "B": 26141,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_46",
+    "B": 26168,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_45",
+    "B": 26146,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_45",
+    "B": 26147,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_44",
+    "B": 26136,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_47",
+    "B": 26128,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_47",
+    "B": 26127,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_49",
+    "B": 26162,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_48",
+    "B": 26182,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_51",
+    "B": 26154,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_52",
+    "B": 26149,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_50",
+    "B": 26140,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_54",
+    "B": 26132,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_54",
+    "B": 26131,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_53",
+    "B": 26135,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_55",
+    "B": 26170,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_54",
+    "B": 26133,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_55",
+    "B": 26171,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_55",
+    "B": 26172,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_56",
+    "B": 26155,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_56",
+    "B": 26156,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_58",
+    "B": 26138,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_57",
+    "B": 26115,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_57",
+    "B": 26114,
+    "error": "Candidate executable failed: 1"
+  },
+  {
+    "field": "e4_59",
+    "B": 26150,
+    "error": "Candidate executable failed: 1"
+  }
+]

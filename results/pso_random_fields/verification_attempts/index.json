@@ -1,0 +1,18 @@
+{
+  "attempts": [
+    {
+      "attempt": 1,
+      "status": "failed before exact checks",
+      "jobs": 88,
+      "record": "attempt_1/verified_instances.json"
+    },
+    {
+      "attempt": 2,
+      "status": "complete",
+      "jobs": 88,
+      "failed_jobs": 0,
+      "record": "../verified_instances.json"
+    }
+  ],
+  "PSO_runs_reexecuted": 0
+}

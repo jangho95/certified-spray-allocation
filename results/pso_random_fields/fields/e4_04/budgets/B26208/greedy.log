@@ -1,0 +1,3 @@
+final: mean=199.99597731526399 variance=100.28685738630485 min=173.41810302023185 max=226.15394106200853 total_shots=26208
+exchange_moves=66 gram_ms=1 repair_ms=30 total_ms=56 peak_rss_kb=7400
+wrote fields/e4_04/budgets/B26208/greedy_allocation.csv and fields/e4_04/budgets/B26208/greedy_field.csv

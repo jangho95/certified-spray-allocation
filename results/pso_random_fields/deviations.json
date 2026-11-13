@@ -1,0 +1,14 @@
+[
+  {
+    "recorded_utc": "2026-11-12T15:59:40+00:00",
+    "type": "postprocessing implementation correction",
+    "description": "The local intermediate CSV writer used CRLF line endings. The unchanged C++ parser rejected the trailing carriage return in the rounded-start candidate. All 88 initial verification jobs stopped; no field was dropped and no aggregate analysis was performed. A wrapper now converts only the C++ input copy to LF and asserts that every allocation value is unchanged. Frozen protocol, PSO implementation, seeds, settings and statistical definitions are unchanged.",
+    "initial_failed_verification_jobs": 88,
+    "initial_verification_wall_s": 2.356935871008318,
+    "PSO_runs_reexecuted": 0,
+    "adapter": "resume_verification.py",
+    "adapter_sha256": "df32cbcbc0bfded5f2fd28c23246f01111c046100b645441fa35d07a4f60c5d7",
+    "frozen_protocol_sha256": "0458d8ebbb4a34705ea0033ac35a448e04685de61c499951241f8786c9423095",
+    "original_failed_records": "verification_attempts/attempt_1"
+  }
+]

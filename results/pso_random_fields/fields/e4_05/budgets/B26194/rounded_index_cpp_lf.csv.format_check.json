@@ -1,0 +1,8 @@
+{
+  "source": "fields/e4_05/budgets/B26194/rounded_index.csv",
+  "source_sha256": "8b81e35330baadb3579933139b66a636eed449377f28e766220c1b898cbe2bd4",
+  "cpp_input": "fields/e4_05/budgets/B26194/rounded_index_cpp_lf.csv",
+  "cpp_input_sha256": "68918d86ad6cb68ce1f7232b678ea489adeeb0e2bf0a6da13faf00fee1218ba6",
+  "allocation_values_unchanged": true,
+  "change": "CRLF to LF only"
+}

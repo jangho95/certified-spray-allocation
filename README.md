@@ -115,3 +115,7 @@ are earlier versions kept for the record. The checks need `work/` and
 - The public source files carry no comments. The guides in `docs/` describe
   the entry points and the data formats.
 - [NOTICE.md](NOTICE.md) gives the citation and the license status.
+
+## PSO follow-up on independent fields
+
+The comparison was extended to the existing 59 independent random fields with 25 new seeds per field and 5000 iterations (1475 runs). The follow-up protocol, allocations, exact witnesses, planned summaries and compressed histories are in [`results/pso_random_fields/`](results/pso_random_fields/README.md). Run `python verification/verify_pso_random_fields.py` for the solver-free check. The manuscript mapping is in [`docs/PAPER_MAP.md`](docs/PAPER_MAP.md).

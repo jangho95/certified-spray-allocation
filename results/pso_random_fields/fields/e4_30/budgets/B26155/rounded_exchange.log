@@ -1,0 +1,3 @@
+final: mean=200.00540047916053 variance=104.12355219174124 min=173.99170723196553 max=230.85397136723824 total_shots=26155
+exchange_moves=58 gram_ms=1 repair_ms=24 total_ms=30 peak_rss_kb=7212
+wrote fields/e4_30/budgets/B26155/rounded_exchange_allocation.csv and fields/e4_30/budgets/B26155/rounded_exchange_field.csv

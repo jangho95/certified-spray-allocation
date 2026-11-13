@@ -1,0 +1,93 @@
+{
+  "status": "complete",
+  "protocol_sha256": "0458d8ebbb4a34705ea0033ac35a448e04685de61c499951241f8786c9423095",
+  "n_fields": 59,
+  "n_planned_runs": 1475,
+  "n_completed_runs": 1475,
+  "failed_attempts": 0,
+  "retry_attempts": 0,
+  "infeasible_runs": 0,
+  "pso_wall_s": 3806.3418668140075,
+  "verification_wall_s": 16.732522937993053,
+  "independent_check_wall_s": 16.180249845958315,
+  "field_median_excess_summary": {
+    "minimum": {
+      "low_exact": "8567693409313494767655141197633271027335/34936242003038289109532874226492908339689",
+      "high_exact": "108775339385483842699399511017058102432616937538736044422783089740279533/442702558992094791149600427648546811859918633124564436458228265798930707",
+      "low_pct": "24.523797",
+      "high_pct": "24.570751"
+    },
+    "Q1": {
+      "low_exact": "699917721387215187199657567065440960875624207509308046787791929965435259823429657277/2627046282325067347954709433755814614547382168793353514935359800989149201508748677741",
+      "high_exact": "18016151051489438542579545219577071969287422371293787143752802851955811758128933972981314769719431087748911620830195799661106333165525223707799091/67487934078168343533910360415709574155005508271598196423483262248050731978790234322661807582001453466313582073297122245925014631663971931232899533",
+      "low_pct": "26.642763",
+      "high_pct": "26.695367"
+    },
+    "median": {
+      "low_exact": "230858644269214298485677709600140517424840/838350617241956674220321965843611053179131",
+      "high_exact": "1172277566421053004755095120788443063671016122129371894879534220023681333/4249257482075818115575987621194193126465087389645350464564456867872911051",
+      "low_pct": "27.537242",
+      "high_pct": "27.587822"
+    },
+    "Q3": {
+      "low_exact": "751123605237575362750116395089227338930992256409654567291816193604193445576621635067/2642388178097471569088782886917846892744590652782950765122685437991656081303052020400",
+      "high_exact": "483288966061007265529486508631106358274689924756184282314756371708213671361544026077441212870155934368064368484298142914774784526431132487120041/1697104995638050272050652538085192515228352185178778778291832165834379764142716040648868464012726372196966355678277042388483533610159465044511575",
+      "low_pct": "28.425937",
+      "high_pct": "28.477258"
+    },
+    "maximum": {
+      "low_exact": "975728492992264023057671770065261246397304/3108057076084459973056209869492524790363971",
+      "high_exact": "154812997253266174442960712852507540951903385849888905092579887840073591/492288656227170145054466031099801185585127176708738142017867069936003209",
+      "low_pct": "31.393519",
+      "high_pct": "31.447607"
+    }
+  },
+  "population_5th_percentile_lower_bound": {
+    "lower_bound_exact": "8567693409313494767655141197633271027335/34936242003038289109532874226492908339689",
+    "lower_bound_pct": "24.523797",
+    "confidence_exact": "54850556179554360283936241375888386167706795153279180449878283845821981571221/57646075230342348800000000000000000000000000000000000000000000000000000000000",
+    "confidence_decimal": 0.9515054747505768,
+    "estimand": "Population 5th percentile of the field-level 25-run sample-median relative excess, for the declared field and independent-seed procedure; not the population median over infinitely many PSO runs on each field.",
+    "statement": "The sample minimum is a one-sided lower confidence bound for the population 5th percentile; conservative optimization-interval lower endpoints are used."
+  },
+  "n_verified_pairs": 88,
+  "relative_certificate_width_range_pct": {
+    "minimum": "0.035572",
+    "maximum": "0.044613"
+  },
+  "n_PSO_runs_better_than_three": 0,
+  "n_pairs_PSO_better_than_three": 0,
+  "PSO_better_pairs": [],
+  "n_variance_lower_at_5000_than_4500": 1445,
+  "benchmark_random_position": {
+    "reference_interval_pct": [
+      "26.6",
+      "26.8"
+    ],
+    "n_fields_definitely_above": 43,
+    "n_fields_definitely_below": 13,
+    "n_fields_overlapping": 3
+  },
+  "deviations": [
+    {
+      "recorded_utc": "2026-11-12T15:59:40+00:00",
+      "type": "postprocessing implementation correction",
+      "description": "The local intermediate CSV writer used CRLF line endings. The unchanged C++ parser rejected the trailing carriage return in the rounded-start candidate. All 88 initial verification jobs stopped; no field was dropped and no aggregate analysis was performed. A wrapper now converts only the C++ input copy to LF and asserts that every allocation value is unchanged. Frozen protocol, PSO implementation, seeds, settings and statistical definitions are unchanged.",
+      "initial_failed_verification_jobs": 88,
+      "initial_verification_wall_s": 2.356935871008318,
+      "PSO_runs_reexecuted": 0,
+      "adapter": "resume_verification.py",
+      "adapter_sha256": "df32cbcbc0bfded5f2fd28c23246f01111c046100b645441fa35d07a4f60c5d7",
+      "frozen_protocol_sha256": "0458d8ebbb4a34705ea0033ac35a448e04685de61c499951241f8786c9423095",
+      "original_failed_records": "verification_attempts/attempt_1"
+    }
+  ],
+  "initial_failed_verification_jobs": 88,
+  "final_failed_verification_jobs": 0,
+  "timing": {
+    "PSO_started_utc": "2026-11-12T14:53:09+00:00",
+    "report_finalized_utc": "2026-11-12T16:02:58+00:00",
+    "total_wall_s": 4189.0,
+    "includes": "PSO, postprocessing diagnostics, exact verification, independent checks and reporting"
+  }
+}
