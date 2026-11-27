@@ -1,6 +1,6 @@
 {
  "format_version": 1,
- "created_utc": "2026-11-27T16:23:14.309247+00:00",
+ "created_utc": "2026-11-27T16:55:28.943043+00:00",
  "hash": "sha256",
  "note": "Manifest excludes itself, ZIP archives, environments, builds and runtime caches. Historical experiment hashes are preserved separately.",
  "files": {
@@ -17,28 +17,24 @@
    "sha256": "82bb8964334edd97d4ee764918794d1a6cf9bde32887abc9e2a8535ece00567d"
   },
   "README.md": {
-   "bytes": 5277,
-   "sha256": "113117361e14641f25719923d3eb072f3afe3d00a28c97ad49fc478582baab9f"
+   "bytes": 1555,
+   "sha256": "24e648cadd89169ff7c460989514a0e45cc79f91e5f7914ff9f6d455ff87d019"
   },
   "README_ko.md": {
-   "bytes": 4943,
-   "sha256": "71e7ad7dbc4d1b421a2ae9ec5213ff02a1084039548c5aa4258b7155f9fd6ee9"
+   "bytes": 1711,
+   "sha256": "14f644303e00353f9c76026ef117b80bab021ac768cd78da5df8f6a5ea7c42be"
   },
   "docs/DATA.md": {
-   "bytes": 7906,
-   "sha256": "99becbf3253ce8e1e5da89c66a8a9f62fd4808c1d0395179cfb064258b06894c"
+   "bytes": 7708,
+   "sha256": "da0d4891790dce93a0b65eccc46c13a6d586fa0ee76c2b7b779b433e1d708938"
   },
   "docs/PROVENANCE.md": {
-   "bytes": 4628,
-   "sha256": "027fb910e65a6a3470e8256575a56b6234854a0c615343e4d6e88ff6a11c1927"
+   "bytes": 4084,
+   "sha256": "535d1e08d93618a6df728302f51741b27f493ccd5ad620515b561538bea9ce8f"
   },
   "docs/REPRODUCING.md": {
-   "bytes": 9152,
-   "sha256": "8a65a6b28363d839de106a1d131408a4fc0bcf9687b3adef617c5c5ee6f44e16"
-  },
-  "docs/REVISION_UPDATE.md": {
-   "bytes": 4649,
-   "sha256": "bb04a817adbfba21a09d932cc86c8db80e1e15286e47a22e7190fa00cf0d1b3d"
+   "bytes": 9085,
+   "sha256": "0a39a86db0370891f3cb80c2b45065b52b6b37e4e09b4eb3de4c39b4749ea633"
   },
   "docs/SENSITIVITY.md": {
    "bytes": 4842,
@@ -1459,10 +1455,6 @@
   "provenance/revision_20260928_verification.json": {
    "bytes": 2192,
    "sha256": "1207c66bc9e89f612cf239a299e8014cf314d54dc69b8c683f50b7366ca08ce9"
-  },
-  "provenance/revision_update.json": {
-   "bytes": 16406,
-   "sha256": "9e033658a99759fc0458338262a18a3053c9696fc7ec32ee69b7334b68b6b90f"
   },
   "provenance/revision_validation.json": {
    "bytes": 2595,
@@ -82941,8 +82933,8 @@
    "sha256": "174c675eed78613ea33d3d40b4170dc46cb4cbd9fb4f49b03c2e4dfd49996085"
   },
   "docs/PAPER_MAP.md": {
-   "bytes": 5945,
-   "sha256": "17724cf6c7b2c6f01c5f80c9711f388e98d3de24b040bafe461eb3d488233985"
+   "bytes": 5841,
+   "sha256": "c1e4b8f515a51e4a098c579ae3d1a3a805fcd6acbb8d3d978d94b0e540ef9741"
   },
   "verification/kernel_width/README.md": {
    "bytes": 1341,

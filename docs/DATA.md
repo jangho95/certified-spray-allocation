@@ -14,7 +14,9 @@
 | `records.jsonl` | One run record per line, including settings, status, bounds, residuals, and provenance |
 | `*.log` | Captured process/solver output; timing and paths refer to the historical run |
 
-`reference/archive/` contains the original `JAMC/solver_cpp` CSV archive used for submitted-result comparisons. Some older values were stored with fewer digits. `reference/submitted_tables_*.tex` contains extracted table text needed by the comparison parser; these files are not standalone manuscripts.
+`reference/archive/` holds CSVs used for numerical comparisons. Some archive
+values have lower display precision. The comparison parser reads the table
+extracts in `reference/submitted_tables_*.tex`.
 
 ## Result index
 
@@ -23,7 +25,7 @@ Paths below are relative to the package root.
 | Study | Main result files | Underlying data |
 |---|---|---|
 | Stage 0: environment/model audit | `results/stage0/{inputs_check,rng_check,consistency,soc_check}.json` | `inputs/`, `work/stage0/`, solver logs |
-| Stage 1: submitted results | `results/stage1/comparison_full.csv`, `comparison_summary.json`, `compare_*.json` | `work/stage1/`, `reference/archive/`, submitted table fragments |
+| Stage 1: benchmark comparisons | `results/stage1/comparison_full.csv`, `comparison_summary.json`, `compare_*.json` | `work/stage1/`, `reference/archive/`, archived table extracts |
 | Stage 2: numerical sensitivity | `results/stage2/e1_runs.json`, `e1_clarabel.json`, `e1_summary.json` | Saved runs/settings and records in the same directory |
 | Stage 3: C_max and candidates | `results/stage3/cmax_rows.json`, `table3_round_repair.json`, `target_round_repair.json` | `work/stage3/`, candidate registry |
 | Stage 4: costs and reuse | `results/stage4/{single_summary,sweep_summary,pso_summary,reuse_integer_check}.json` | `work/stage4/`, `logs/`, per-run files in `results/stage4/` |
@@ -39,12 +41,12 @@ Paths below are relative to the package root.
 | Sensitivity extension, first pass | `results/sensitivity_extension/{protocol,rows,verification}.json` | Original operator and witness files; integer candidates are preserved in v2 |
 | Sensitivity tables | `results/sensitivity_tables/`, `results/revision_tables/` | Exact rows in the final sensitivity results; generator `pipeline/make_sensitivity_tables.py` |
 
-## Revision additions
+## Benchmark and verification files
 
 - `results/bench_sweep/{runs,rigor,summary}.json`, `operator.npz`, and `witness/`: 84 deterministic sweep cases and exact witnesses.
 - `work/stage9/bench/`: three saved candidate allocations for every sweep case. Historical absolute paths in JSON are relocated by the package reader.
-- `results/revision_figures/`: revised front and solution maps plus source-witness hashes.
-- `results/stage9_rigor/two_candidate_check.json`: verified maxima for the submitted two-candidate procedure on the 59-field sample, as an additional analysis.
+- `results/revision_figures/`: front and solution maps with hashes of the verification inputs.
+- `results/stage9_rigor/two_candidate_check.json`: verified maxima for the two-candidate procedure on the 59-field sample.
 - `results/stage8/column_mass_audit.json`: mean and maximum absolute column-mass departures from the reflective reference and from each scenario's own mean.
 
 ## Candidate registry
@@ -76,8 +78,11 @@ Stage 4 memory summaries report MiB. Some historical generic keys say `mb`; cons
 
 Some older JSON files use Python's nonstandard `Infinity`/`NaN` representation or string sentinels. Raw files are preserved. Public report output under `reports/` uses strict JSON with string representations for nonfinite values. Python's `json` reader handles the historical format used by these scripts.
 
-## Current versus historical results
+## Results used in the paper
 
-Use unversioned final summaries and the exact-verification directories for current conclusions. `pre_review_v1/`, `pilot_rows_v1.json`, `range_rows_before_refine.json`, `range_rows_refine_v1.json`, and files containing `backup` or `before_fix` record earlier analyses. They are supplied for provenance, not as additional independent observations.
+Use the [table-to-data index](PAPER_MAP.md) to identify the summaries and exact
+verification files used in the paper. `results/revision_tables/index.json`
+indexes archived table extracts. Treat each field as one observation when comparing
+archived analyses of the same inputs.
 
 In particular, Stage 5's numerical lower bounds have been superseded for rigorous claims by `stage5_rigor/`. Five zero-field budgets have tiny invalid numerical continuous lower bounds. Stage 9's preregistered numerical results and subsequent rigorous verification are separate analyses of the same 59 fields.

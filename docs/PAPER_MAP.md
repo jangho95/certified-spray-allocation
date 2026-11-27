@@ -1,12 +1,10 @@
 # Manuscript results and verification files
 
-This guide uses the revised manuscript’s table and section numbers.
-The [revision history](REVISION_UPDATE.md) and files in `results/revision_tables/`
-retain the numbering of the first revision.
+This guide connects the paper’s tables and figures to their data files and verification commands.
 
-Paths are relative to the repository root. The verification status follows
-Supplementary Table S3 and applies to the quantities displayed there. The
-`--suite` options belong to `verification/verify_certificates.py`.
+Paths are relative to the repository root. The verification labels follow
+Supplementary Table S3. Run `python verification/verify_certificates.py` with
+the listed `--suite` option to check a group of results.
 
 | Manuscript | Verification status | Files | Exact check |
 |---|---|---|---|

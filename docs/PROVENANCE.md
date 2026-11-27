@@ -23,10 +23,8 @@ The source code differs from the code that ran the experiments in six ways.
 6. `pipeline/stage9_e4.py` uses the recorded entropy value of the 59-field
    study directly.
 
-Manuscripts, correspondence with reviewers, drafts, virtual environments,
-binaries and caches are not included. The table text in `reference/` was
-taken from the first submission for numerical comparison. `work/stage1`
-contains modules that later scripts import, so it must stay complete.
+`reference/` contains the table extracts used for numerical comparisons.
+Some scripts import modules from `work/stage1`, so keep that directory intact.
 
 ## Hashes
 
@@ -81,13 +79,6 @@ percentile of the largest gap over that grid with confidence at least
 ## Tests of this copy
 
 `provenance/validation.json` records a fresh installation, a build in a
-different directory, model consistency checks, comparisons with the submitted
-tables, a rerun of ten stage 3 cases, the regeneration of tables and figures,
+different directory, model consistency checks, comparisons with the archived
+table extracts, a rerun of ten stage 3 cases, the regeneration of tables and figures,
 and the certificate checks. The long experiments were not all repeated.
-
-`provenance/revision_update.json` lists the files added with the first
-revision. The verification data and candidate allocations of the budget
-sweep are unchanged copies, and its run record differs only in the shortened
-path prefix. Figures are generated from the stored verification data. The
-two-candidate check on the 59 fields and the column-mass audit were added
-later and do not change the protocol record.
