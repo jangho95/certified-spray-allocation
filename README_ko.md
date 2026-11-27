@@ -42,7 +42,7 @@ Python 표준 라이브러리만 쓰고 최적화 프로그램은 돌리지 않�
 
 무작위 필드 59개에서 검증된 폭의 최댓값은 올림해서 0.0515%입니다.
 
-2차 수정에서 확인 두 가지를 추가했습니다. 둘 다 값이 다르면 오류로 멈춥니다.
+커널 폭 사례와 원고에 보고한 일부 수치를 확인하려면 다음 명령을 실행합니다.
 
 ```bash
 python verification/kernel_width/replay_kernel_witnesses.py
@@ -94,8 +94,7 @@ python tools/new_run.py ../stop-spray-figures --stage figures
 [docs/PAPER_MAP.md](docs/PAPER_MAP.md)에, 파일 형식은 [docs/DATA.md](docs/DATA.md)에
 있습니다.
 
-이름에 `pre_review`, `_v1`, `_before_`, `backup`이 들어간 파일과 폴더는 기록용으로
-남긴 이전 버전입니다. `work/`와 `reference/`는 확인에 필요하므로 지우지 마십시오.
+검증 스크립트는 `work/`의 실험 기록과 `reference/`의 참조 자료를 사용합니다.
 
 ## 참고
 
@@ -103,6 +102,4 @@ python tools/new_run.py ../stop-spray-figures --stage figures
   것이며, 그 논문에서 쓴 코드가 아닙니다.
 - 정확 검증의 대상은 저장된 배정밀도 연산자와 초기 필드입니다. 모델이 실제 코팅
   공정과 얼마나 맞는지는 다루지 않습니다.
-- 공개 소스 파일에는 주석이 없습니다. 진입점과 데이터 형식은 `docs/`의 안내에
-  적었습니다.
 - 인용과 라이선스 상태는 [NOTICE.md](NOTICE.md)에 있습니다.

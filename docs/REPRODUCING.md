@@ -78,7 +78,7 @@ Stages may overwrite baseline summaries or append registry records **in the work
 | figures | `figures_revised.py`, `initial_fields_3d.py`, `legacy_v5_figures.py`, `range_figures.py`, `stage5_long_report.py` | Recreate the nine figure files used in the revised paper and SI |
 | pso-long | `replay_stage5_long25.py` | Repeat the 96 extension runs, retaining the four archived long runs; write a separate replay analysis |
 | sensitivity | `replay_sensitivity.py` | Recompute 156 cases using archived inputs; write separate allocation and refined-certificate results |
-| sensitivity-tables | `make_sensitivity_tables.py` | Regenerate main Table 15 and SI S13–S15 without optimization |
+| sensitivity-tables | `make_sensitivity_tables.py` | Regenerate main Table 10 and SI Tables S13–S15 without optimization |
 
 Stages 1, 5, and 6 can be substantially longer than a smoke test. Stage 6 has 45 jobs with 300-second SCIP limits. The recorded Stage 0 large continuous SOC failure is solver-specific; the package does not claim that packaging repairs that solver issue.
 

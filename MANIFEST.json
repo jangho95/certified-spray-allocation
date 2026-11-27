@@ -1,6 +1,6 @@
 {
  "format_version": 1,
- "created_utc": "2026-11-13T11:23:25.210460+00:00",
+ "created_utc": "2026-11-27T16:08:19.291798+00:00",
  "hash": "sha256",
  "note": "Manifest excludes itself, ZIP archives, environments, builds and runtime caches. Historical experiment hashes are preserved separately.",
  "files": {
@@ -17,32 +17,32 @@
    "sha256": "82bb8964334edd97d4ee764918794d1a6cf9bde32887abc9e2a8535ece00567d"
   },
   "README.md": {
-   "bytes": 5555,
-   "sha256": "1afe6752f7ad80524f811a5eba66b23ceb7d97cdbacf6a95001d25e7e6de3b6c"
+   "bytes": 5277,
+   "sha256": "113117361e14641f25719923d3eb072f3afe3d00a28c97ad49fc478582baab9f"
   },
   "README_ko.md": {
-   "bytes": 5177,
-   "sha256": "c110cc646c5a9d11254bf44ce45af274f48bd4fd31a3599f19059224de0d7173"
+   "bytes": 4943,
+   "sha256": "71e7ad7dbc4d1b421a2ae9ec5213ff02a1084039548c5aa4258b7155f9fd6ee9"
   },
   "docs/DATA.md": {
    "bytes": 7906,
    "sha256": "99becbf3253ce8e1e5da89c66a8a9f62fd4808c1d0395179cfb064258b06894c"
   },
   "docs/PROVENANCE.md": {
-   "bytes": 4722,
-   "sha256": "a4b11a6cf82ff52b6a09de93a02ebaba3ef433894466a8d5dec3f2abecaaea78"
+   "bytes": 4628,
+   "sha256": "027fb910e65a6a3470e8256575a56b6234854a0c615343e4d6e88ff6a11c1927"
   },
   "docs/REPRODUCING.md": {
-   "bytes": 9145,
-   "sha256": "026be52c521aa201f9d538251bec4382d1b68202a484ee49c5b62333b1340a8d"
+   "bytes": 9152,
+   "sha256": "8a65a6b28363d839de106a1d131408a4fc0bcf9687b3adef617c5c5ee6f44e16"
   },
   "docs/REVISION_UPDATE.md": {
    "bytes": 4649,
    "sha256": "bb04a817adbfba21a09d932cc86c8db80e1e15286e47a22e7190fa00cf0d1b3d"
   },
   "docs/SENSITIVITY.md": {
-   "bytes": 4978,
-   "sha256": "25276a31a2dcf55a91a8e664db28db864d1d1e9657c10257987678d53738c2bb"
+   "bytes": 4842,
+   "sha256": "88175421fb54053cff51621d276292dda6d81fe2d5bf8fafc751545c4cadbd40"
   },
   "inputs/center100_F100.csv": {
    "bytes": 20512,
@@ -82941,8 +82941,8 @@
    "sha256": "174c675eed78613ea33d3d40b4170dc46cb4cbd9fb4f49b03c2e4dfd49996085"
   },
   "docs/PAPER_MAP.md": {
-   "bytes": 4355,
-   "sha256": "ab3195ee5b8cf32e951fc34a7e5cf67a77e0d8854575c385bb868d1b5d383f44"
+   "bytes": 5945,
+   "sha256": "17724cf6c7b2c6f01c5f80c9711f388e98d3de24b040bafe461eb3d488233985"
   },
   "verification/kernel_width/README.md": {
    "bytes": 1341,

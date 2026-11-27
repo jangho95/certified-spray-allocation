@@ -2,10 +2,9 @@
 
 ## What was changed for the public copy
 
-The inputs, allocations, verification data and numerical results are the
-files produced by the experiments, byte for byte. In logs and result
-records, the workspace prefix of the absolute paths was shortened to
-`/home/user/experiments`, and nothing else in those files was changed.
+The inputs, allocations, and verification data are distributed as produced
+by the experiments. Workspace path prefixes in archived logs and result
+records were shortened for distribution.
 `provenance/source_mapping.json` lists every file with its original and
 distributed hash and marks each file whose bytes differ with
 `bytes_identical: false`. In the protocol record of the 59-field study the

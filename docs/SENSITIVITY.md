@@ -10,7 +10,7 @@ The extension contains 156 cases: six target thicknesses on four benchmark field
 | `results/sensitivity_extension/` | First-pass protocol, results, operators and certificates |
 | `results/sensitivity_extension_v2/` | Final results and certificates, refinement records and summaries |
 | `work/sensitivity_extension/` | Per-run integer allocations and original solver outputs |
-| `results/sensitivity_tables/` | Main Table 15, SI S13–S15 and their numerical checks |
+| `results/sensitivity_tables/` | Main Table 10, SI Tables S13–S15, and their numerical checks |
 | `pipeline/sensitivity_extension.py` | Model construction, candidate generation and numerical mesh comparisons |
 | `pipeline/sensitivity_extension_v2.py` | Refined certificates with separate feasible continuous points |
 | `pipeline/rigor_pilot.py` | Production exact arithmetic and feasible-point routines |
@@ -36,7 +36,7 @@ The first pass has looser continuous upper values in some cases; those values ca
 ## Recreate the tables
 
 ```bash
-python pipeline/make_sensitivity_tables.py --output-dir /tmp/spray-sensitivity-tables
+python pipeline/make_sensitivity_tables.py --output-dir ../spray-sensitivity-tables
 ```
 
 The generator reads saved exact rational values. Individual upper endpoints and certificate widths round up, lower endpoints round down. Distribution minima round down, maxima up, and medians/quartiles to nearest. It reproduces the distributed four TeX tables and `sensitivity_tables_check.json` without solving an optimization problem.
@@ -57,4 +57,6 @@ python pipeline/replay_sensitivity.py --workers 2 --case target_zero_T50 --case 
 
 Use a fresh copy for each replay. A subset run is marked as such and is not a reproduction of the full 156-case series. Historical drivers retain their original source-hash checks; use this replay entry point rather than changing archived protocols to match the distributed sources.
 
-Public Python comments and docstrings have been removed, including the `source_before` and `source_after` snapshots. Historical source hashes in protocols identify the original experiment files; source-to-public mappings are recorded under `provenance/`. Raw inputs, result records and certificate arrays are unchanged by packaging.
+Historical source hashes identify the code used for the original runs. The
+[provenance guide](PROVENANCE.md) describes the distributed files and their
+relationship to the experiment records.

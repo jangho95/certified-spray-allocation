@@ -45,8 +45,8 @@ summary and stop with an error if a check fails. Do not run them with
 
 For the 59 random fields, the largest verified width is 0.0515% after rounding up.
 
-Two further checks were added with the second revision. Both stop with an
-error if a value differs.
+Run the following checks for the kernel-width cases and selected values
+reported in the manuscript.
 
 ```bash
 python verification/kernel_width/replay_kernel_witnesses.py
@@ -100,9 +100,8 @@ those numbers (`results/stage3`, `work/stage7`). [docs/PAPER_MAP.md](docs/PAPER_
 lists the directory behind each table of the manuscript.
 [docs/DATA.md](docs/DATA.md) explains the file formats.
 
-Files and folders named `pre_review*`, `*_v1*`, `*_before_*` or `*backup*`
-are earlier versions kept for the record. The checks need `work/` and
-`reference/`, so keep both.
+The verification scripts use the archived runs in `work/` and the reference
+files in `reference/`.
 
 ## Notes
 
@@ -111,10 +110,12 @@ are earlier versions kept for the record. The checks need `work/` and
 - The exact checks apply to the stored double-precision operators and
   initial fields. They do not address how well the model matches a physical
   coating process.
-- The public source files carry no comments. The guides in `docs/` describe
-  the entry points and the data formats.
 - [NOTICE.md](NOTICE.md) gives the citation and the license status.
 
 ## PSO follow-up on independent fields
 
-The comparison was extended to the existing 59 independent random fields with 25 new seeds per field and 5000 iterations (1475 runs). The follow-up protocol, allocations, exact witnesses, planned summaries and compressed histories are in [`results/pso_random_fields/`](results/pso_random_fields/README.md). Run `python verification/verify_pso_random_fields.py` for the solver-free check. The manuscript mapping is in [`docs/PAPER_MAP.md`](docs/PAPER_MAP.md).
+The follow-up ran PSO for 5,000 iterations on the 59 independent random
+fields, with 25 seeds per field (1,475 runs). The [follow-up documentation](results/pso_random_fields/README.md)
+links to the protocol, allocations, verification data, and run histories.
+To verify the saved results without running an optimizer, run
+`python verification/verify_pso_random_fields.py`.
