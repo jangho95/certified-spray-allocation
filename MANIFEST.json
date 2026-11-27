@@ -1,6 +1,6 @@
 {
  "format_version": 1,
- "created_utc": "2026-11-27T16:08:19.291798+00:00",
+ "created_utc": "2026-11-27T16:23:14.309247+00:00",
  "hash": "sha256",
  "note": "Manifest excludes itself, ZIP archives, environments, builds and runtime caches. Historical experiment hashes are preserved separately.",
  "files": {
@@ -24189,8 +24189,8 @@
    "sha256": "6787bdfad45472953418d9289500bf101852be2c1aea1789206f5bf7b9de4d2d"
   },
   "results/sensitivity_extension_v2/README.md": {
-   "bytes": 2842,
-   "sha256": "365982898d74fabf5e915be9a202792f0dd55bcc2601fa8a414278499d3bf206"
+   "bytes": 2622,
+   "sha256": "387490b5c9972970db215a15649fc7ad67a6a5b8ff7ad46c23933152a7b66624"
   },
   "results/sensitivity_extension_v2/cases/dist_beta_half_01.json": {
    "bytes": 3305,
@@ -26605,8 +26605,8 @@
    "sha256": "d29d775564b4f0c60285bb13ab12ad743b8e36ef91bccd9e35e26da079538fc5"
   },
   "results/stage5_long25/README_ko.md": {
-   "bytes": 3054,
-   "sha256": "64d6c8e5f9257e7ca5d7b456094d673fcd3a989b9a9b3dfcbbd4472e815ea488"
+   "bytes": 2975,
+   "sha256": "4677b9cd0162a0b77ab7df90a5940d819535b5ff6907ef19daa7a1fc982628ed"
   },
   "results/stage5_long25/VERIFY_FILES.json": {
    "bytes": 69130,
@@ -83265,8 +83265,8 @@
    "sha256": "763ca4d761319e7ccaa1baddb7321c97571d9c7c408716c2aeb57bfdcca6fd69"
   },
   "results/pso_random_fields/README.md": {
-   "bytes": 3699,
-   "sha256": "ab95ee366fee1cedccf18b055c6f21864a70977046f6b75bbc5ac613177e19c5"
+   "bytes": 3609,
+   "sha256": "b21cf9d869924eecc3f76c1d006018a7d5d60e6fc994cf90ae76234c98b1bfe5"
   },
   "results/pso_random_fields/aggregation_check.json": {
    "bytes": 382,

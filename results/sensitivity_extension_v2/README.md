@@ -19,24 +19,23 @@ the version 1 directory.
 - `mesh_comparison.json`: numerical analytic-integral comparisons. These values are distinct from the exact certificates for the stored discrete operators.
 - `source_before/`, `source_after/`: snapshots of the changed scripts.
 
-## Reproduce
+## Verify or replay
 
-From the experiments directory:
+Set up the [Python environment](../../README.md) and run from the repository root:
 
 ```sh
-.venv/bin/python pipeline/sensitivity_extension_v2.py test
-.venv/bin/python pipeline/sensitivity_extension_v2.py run --workers 4
-.venv/bin/python pipeline/sensitivity_extension_v2.py verify --workers 4
+python verification/verify_certificates.py --suite sensitivity --workers 4
 ```
 
-`run` resumes existing v2 case files. Fresh calculations require a separate copy
-with those v2 case files removed. The v1 results and inputs must be retained,
-because v2 preserves the original allocations. `verify` reconstructs certificates
-from saved operators and witnesses without optimizing allocations.
+The verifier reconstructs the certificates from saved operators and witnesses.
+To recompute the cases in a separate working copy, run:
 
-Version 1 scripts depend on the original shared routines. Their archived source
-is in `source_before/`; v1 code hashes are historical records and should not be
-rewritten to match the corrected routines.
+```sh
+python tools/new_run.py ../spray-sensitivity-replay --build --stage sensitivity
+```
+
+The [sensitivity guide](../../docs/SENSITIVITY.md) describes the archived
+versions, the replay output, and how to rebuild the tables.
 
 ## Guarantee and interpretation
 

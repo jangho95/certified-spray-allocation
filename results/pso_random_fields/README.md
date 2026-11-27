@@ -8,9 +8,8 @@ first PSO execution. The original execution protocol hash is preserved in
 `public_copy_provenance.json` and the result records.
 
 `protocol.json` is the publication copy, with repository-relative source
-locations and its separate hash in `protocol.sha256`. Comments and
-docstrings have been removed from the public Python sources. Original
-and distributed hashes and executable-AST checks are recorded in
+locations and its separate hash in `protocol.sha256`. Original and
+distributed hashes and executable-AST checks are recorded in
 `provenance/pso_random_fields_sources.json` at the repository root.
 The computational functions match the execution sources. The runner
 locates the repository build output instead of a bundled executable.
@@ -66,8 +65,8 @@ the archive from this directory with `tar -xzf histories.tar.gz`.
 ## Build the C++ candidate solver
 
 No compiled executable is distributed. The execution binary hash is retained
-in the protocol as historical provenance. Its C++ source has the same
-executable tokens as the execution source, with comments removed.
+in the protocol as historical provenance. The distributed C++ source
+matches the executable tokens used for that build.
 Before regenerating budget candidates, build from the repository root:
 
     python tools/build.py
